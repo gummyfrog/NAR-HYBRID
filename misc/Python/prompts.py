@@ -81,6 +81,7 @@ answer_template = ChatPromptTemplate.from_messages([
         "- 'X is it leads to Y is it' means 'If X then Y'\n\n"
         
         "Remember: All reasoning must be based EXCLUSIVELY on the provided knowledge.\n"
+        "Your answer must have a well-defined relationship to your reasoning.\n"
         "---------------------------\n"
         "Knowledge base:\n{context}\n"
     ),
