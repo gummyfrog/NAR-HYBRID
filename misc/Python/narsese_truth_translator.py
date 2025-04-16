@@ -2,7 +2,7 @@
 """
 Enhanced Narsese Translator for OpenNARS
 Translates Narsese statements and their truth values (frequency and confidence)
-into natural language descriptions.
+into natural language descriptions optimized for LLM consumption.
 """
 
 import re
@@ -18,7 +18,45 @@ BLUE = "\x1B[34m"
 RESET = "\x1B[0m"
 BOLD = "\x1B[1m"
 
-def translate_truth_value(frequency, confidence, with_colors=True):
+def get_frequency_descriptor(frequency):
+    """Get plain text descriptor for frequency without colors."""
+    if frequency < 0.01:
+        return "DEFINITELY FALSE"
+    elif frequency < 0.2:
+        return "VERY UNLIKELY"
+    elif frequency < 0.4:
+        return "SOMEWHAT UNLIKELY"
+    elif frequency < 0.45:
+        return "SLIGHTLY UNLIKELY"
+    elif frequency > 0.55 and frequency < 0.6:
+        return "SLIGHTLY LIKELY"
+    elif frequency >= 0.45 and frequency <= 0.55:
+        return "UNCERTAIN"
+    elif frequency < 0.8:
+        return "SOMEWHAT LIKELY"
+    elif frequency < 0.99:
+        return "VERY LIKELY"
+    else:
+        return "DEFINITELY TRUE"
+
+def get_confidence_descriptor(confidence):
+    """Get plain text descriptor for confidence without colors."""
+    if confidence < 0.05:
+        return "EXTREMELY UNCERTAIN"
+    elif confidence < 0.2:
+        return "VERY UNCERTAIN"
+    elif confidence < 0.4:
+        return "SOMEWHAT UNCERTAIN"
+    elif confidence < 0.6:
+        return "MODERATELY CONFIDENT"
+    elif confidence < 0.8:
+        return "CONFIDENT"
+    elif confidence < 0.95:
+        return "VERY CONFIDENT"
+    else:
+        return "EXTREMELY CONFIDENT"
+
+def translate_truth_value(frequency, confidence, with_colors=False):
     """
     Translate frequency and confidence values into natural language certainty descriptions.
     
@@ -36,7 +74,11 @@ def translate_truth_value(frequency, confidence, with_colors=True):
     if isinstance(confidence, str):
         confidence = float(confidence)
     
-    # Set up color scheme
+    # Get descriptors in plain text
+    frequency_desc = get_frequency_descriptor(frequency)
+    confidence_desc = get_confidence_descriptor(confidence)
+    
+    # Set up color scheme if colors are enabled
     if with_colors:
         color_blue = BLUE
         color_cyan = CYAN
@@ -45,88 +87,21 @@ def translate_truth_value(frequency, confidence, with_colors=True):
         color_red = RED
         color_reset = RESET
         color_bold = BOLD
-    else:
-        color_blue = color_cyan = color_green = color_yellow = color_red = color_reset = color_bold = ""
+        
+        # Add colors based on the descriptors
+        if "UNLIKELY" in frequency_desc or "FALSE" in frequency_desc:
+            frequency_desc = f"{color_red}{frequency_desc}{color_reset}"
+        elif "LIKELY" in frequency_desc or "TRUE" in frequency_desc:
+            frequency_desc = f"{color_green}{frequency_desc}{color_reset}"
+        else:
+            frequency_desc = f"{color_yellow}{frequency_desc}{color_reset}"
+            
+        if "UNCERTAIN" in confidence_desc:
+            confidence_desc = f"{color_blue}{confidence_desc}{color_reset}"
+        elif "CONFIDENT" in confidence_desc:
+            confidence_desc = f"{color_green}{confidence_desc}{color_reset}"
     
-    # Describe confidence level
-    if confidence < 0.05:
-        confidence_desc = f"{color_blue}extremely uncertain{color_reset}"
-    elif confidence < 0.2:
-        confidence_desc = f"{color_blue}very uncertain{color_reset}"
-    elif confidence < 0.4:
-        confidence_desc = f"{color_cyan}somewhat uncertain{color_reset}"
-    elif confidence < 0.6:
-        confidence_desc = f"{color_cyan}moderately confident{color_reset}"
-    elif confidence < 0.8:
-        confidence_desc = f"{color_green}confident{color_reset}"
-    elif confidence < 0.95:
-        confidence_desc = f"{color_green}very confident{color_reset}"
-    else:
-        confidence_desc = f"{color_bold}{color_green}extremely confident{color_reset}"
-    
-    # Describe frequency (truth value)
-    if frequency < 0.01:
-        frequency_desc = f"{color_red}definitely false{color_reset}"
-    elif frequency < 0.2:
-        frequency_desc = f"{color_red}very unlikely{color_reset}"
-    elif frequency < 0.4:
-        frequency_desc = f"{color_yellow}somewhat unlikely{color_reset}"
-    elif frequency < 0.45:
-        frequency_desc = f"{color_yellow}slightly unlikely{color_reset}"
-    elif frequency > 0.55 and frequency < 0.6:
-        frequency_desc = f"{color_yellow}slightly likely{color_reset}"
-    elif frequency >= 0.45 and frequency <= 0.55:
-        frequency_desc = f"{color_yellow}uncertain{color_reset}"
-    elif frequency < 0.8:
-        frequency_desc = f"{color_green}somewhat likely{color_reset}"
-    elif frequency < 0.99:
-        frequency_desc = f"{color_green}very likely{color_reset}"
-    else:
-        frequency_desc = f"{color_bold}{color_green}definitely true{color_reset}"
-    
-    return f"{frequency_desc} ({confidence_desc})"
-
-def translate_priority(priority, with_colors=True):
-    """
-    Translate priority/usefulness value into natural language.
-    
-    Args:
-        priority: Priority value from NARS (typically between 0.0 and 1.0)
-        with_colors: Whether to include ANSI color codes
-    
-    Returns:
-        Natural language description of the priority
-    """
-    # Convert string value to float if necessary
-    if isinstance(priority, str):
-        priority = float(priority)
-    
-    # Set up color scheme
-    if with_colors:
-        color_blue = BLUE
-        color_cyan = CYAN
-        color_green = GREEN
-        color_yellow = YELLOW
-        color_red = RED
-        color_reset = RESET
-    else:
-        color_blue = color_cyan = color_green = color_yellow = color_red = color_reset = ""
-    
-    # Describe priority level
-    if priority < 0.01:
-        return f"{color_blue}completely irrelevant{color_reset}"
-    elif priority < 0.2:
-        return f"{color_blue}very low importance{color_reset}"
-    elif priority < 0.4:
-        return f"{color_cyan}low importance{color_reset}"
-    elif priority < 0.6:
-        return f"{color_yellow}moderate importance{color_reset}"
-    elif priority < 0.8:
-        return f"{color_green}high importance{color_reset}"
-    elif priority < 0.95:
-        return f"{color_green}very high importance{color_reset}"
-    else:
-        return f"{color_red}critically important{color_reset}"
+    return f"({frequency_desc} | {confidence_desc})"
 
 def parse_narsese_truth(line):
     """
@@ -152,53 +127,48 @@ def parse_narsese_truth(line):
         confidence = float(brace_match.group(2))
         return frequency, confidence
     
+    # Try to match raw numbers pattern (e.g., "swan is penguin. 1.000000 0.393204")
+    raw_match = re.search(r"([0-9.]+) ([0-9.]+)$", line)
+    if raw_match:
+        frequency = float(raw_match.group(1))
+        confidence = float(raw_match.group(2))
+        return frequency, confidence
+    
     return None, None
 
-def parse_narsese_priority(line):
-    """
-    Extract priority value from a Narsese statement.
-    
-    Args:
-        line: A line of NARS output potentially containing priority
-        
-    Returns:
-        Priority value if found, otherwise None
-    """
-    priority_match = re.search(r"Priority=([0-9.]+)", line)
-    if priority_match:
-        return float(priority_match.group(1))
-    return None
-
 def enhanced_narsese_translation(line, with_colors=True):
-    """
-    Translate a line of Narsese output to natural language, including
-    statement content and truth/priority values.
+    # Skip comment lines (starting with //)
+    if line.strip().startswith("//"):
+        return None
     
-    Args:
-        line: A line of NARS output
-        with_colors: Whether to include ANSI color codes
-    
-    Returns:
-        Natural language translation with belief strength description
-    """
     # Get the basic English translation
-    translation = narseseToEnglish(line) if with_colors else narseseToEnglish(line)
+    translation = narseseToEnglish(line)
     
-    # If no translation was produced, return the original line
+    # If no translation was produced, return None
     if not translation:
-        return line
+        return None
     
-    # Extract truth values and priority
+    # Extract truth values
     frequency, confidence = parse_narsese_truth(line)
-    priority = parse_narsese_priority(line)
     
-    # Add belief strength description if truth values were found
+    # Format the result with truth descriptors at the beginning
     if frequency is not None and confidence is not None:
-        translation += f" - {translate_truth_value(frequency, confidence, with_colors)}"
+        # Remove any numeric patterns that look like truth values from the translation
+        # This matches patterns like: "0.900000 0.418605" at the end of a string
+        translation = re.sub(r"\s+[0-9]+\.[0-9]+\s+[0-9]+\.[0-9]+\s*$", "", translation)
+        # Also match any other stray decimal numbers at the end
+        translation = re.sub(r"\s+[0-9]+\.[0-9]+\s*$", "", translation)
+        
+        # Capitalize the first letter of the statement
+        if translation and len(translation) > 0:
+            translation = translation[0].upper() + translation[1:]
+        
+        # Add truth descriptor at the beginning
+        return f"{translate_truth_value(frequency, confidence, with_colors)} {translation}"
     
-    # Add priority description if found
-    if priority is not None:
-        translation += f" [Relevance: {translate_priority(priority, with_colors)}]"
+    # If no truth values found, just return the capitalized translation
+    if translation and len(translation) > 0:
+        return translation[0].upper() + translation[1:]
     
     return translation
 
@@ -216,29 +186,21 @@ def process_nars_output(output, with_colors=True):
     # Handle dictionary output (from AddInput function)
     if isinstance(output, dict) and "raw" in output:
         lines = output["raw"].split("\n")
-        translated_lines = []
-        
-        for line in lines:
-            if line.strip():
-                translation = enhanced_narsese_translation(line, with_colors)
-                translated_lines.append(translation)
-        
-        return "\n".join(translated_lines)
-    
     # Handle string output
     elif isinstance(output, str):
         lines = output.split("\n")
-        translated_lines = []
+    else:
+        return str(output)
         
-        for line in lines:
-            if line.strip():
-                translation = enhanced_narsese_translation(line, with_colors)
-                translated_lines.append(translation)
-        
-        return "\n".join(translated_lines)
+    translated_lines = []
     
-    # Return the original output if it's not a processable type
-    return str(output)
+    for line in lines:
+        if line.strip():
+            translation = enhanced_narsese_translation(line, with_colors)
+            if translation:  # Only add non-None translations
+                translated_lines.append(translation)
+    
+    return "\n".join(translated_lines)
 
 # Example usage in a standalone script
 if __name__ == "__main__":

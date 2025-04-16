@@ -45,8 +45,7 @@ def narseseToEnglish_noColors():
     RESET = ""
     BOLD = ""
     
-if "noColors" in sys.argv:
-    narseseToEnglish_noColors()
+narseseToEnglish_noColors()
 
 def narseseToEnglish(line):
     COLOR = GREEN

@@ -86,19 +86,20 @@ class EnglishToNarsese:
         self.thinkcycles = None
         self.acquired_grammar = []
         
+        quiet = True;
         # * This only needs to be done once per machine, afterwards it can stay commented out
         # * Download required NLTK data
         # if nltk_data_path:
         #     nltk.data.path.append(nltk_data_path)
         
         # quiet = not verbose
-        # nltk.download('punkt', quiet=quiet)
-        # nltk.download('averaged_perceptron_tagger', quiet=quiet)
-        # nltk.download('universal_tagset', quiet=quiet)
-        # nltk.download('wordnet', quiet=quiet)
-        # nltk.download('omw-1.4', quiet=quiet)
-        # nltk.download('punkt_tab', quiet=quiet)
-        # nltk.download('averaged_perceptron_tagger_eng', quiet=quiet)
+        nltk.download('punkt', quiet=quiet)
+        nltk.download('averaged_perceptron_tagger', quiet=quiet)
+        nltk.download('universal_tagset', quiet=quiet)
+        nltk.download('wordnet', quiet=quiet)
+        nltk.download('omw-1.4', quiet=quiet)
+        nltk.download('punkt_tab', quiet=quiet)
+        nltk.download('averaged_perceptron_tagger_eng', quiet=quiet)
     
     # Convert universal tag set to the wordnet word types
     def wordnet_tag(self, tag):
