@@ -93,7 +93,7 @@ class NarsOllamaPipeline:
     
     def process_input(self, user_input: str) -> str:
         """Process user input through the complete pipeline.
-        
+
         Args:
             user_input: User input text
             
@@ -103,20 +103,49 @@ class NarsOllamaPipeline:
         if self.verbose:
             print("\n=== PROCESSING USER INPUT ===")
             print(f"User input: {user_input}")
-        
+
         try:
-            # Stage 1: Extract facts using Ollama
-            facts = self.llm_client.extract_facts(user_input)
+            # Stage 1: Extract simple statements using LLM
+            simple_statements = self.llm_client.extract_facts(user_input)
             
-            # Stage 2: Convert facts to Narsese and add to NARS
+            if self.verbose:
+                print("\n=== EXTRACTED SIMPLE STATEMENTS ===")
+                for stmt in simple_statements:
+                    print(f"- {stmt}")
+            
+            # Stage 2: Convert simple statements to Narsese and add to NARS
             if self.verbose:
                 print("\n=== ADDING FACTS TO NARS ===")
+            
+            # Process and add each simple statement
+            for statement in simple_statements:
+                if not statement.strip():  # Skip empty statements
+                    continue
+                    
+                # Convert the simple statement to Narsese
+                narsese = self.convert_to_narsese(statement.strip())
                 
-            for fact in facts:
-                narsese = self.convert_to_narsese(fact.strip())
                 if narsese:
+                    if self.verbose:
+                        print(f"Simple: '{statement}' → Narsese: '{narsese}'")
+                    
+                    # Add the Narsese statement to NARS
                     self.nars_client.add_input(narsese)
+                    
                     # Run inference cycles after each fact
+                    self.nars_client.run_cycles(300)
+                else:
+                    if self.verbose:
+                        print(f"Failed to convert: '{statement}'")
+            
+            # Process the original input if it's a question
+            if "?" in user_input:
+                # Try to convert the question directly
+                question_narsese = self.convert_to_narsese(user_input.strip())
+                if question_narsese:
+                    if self.verbose:
+                        print(f"Question → Narsese: '{question_narsese}'")
+                    self.nars_client.add_input(question_narsese)
                     self.nars_client.run_cycles(300)
             
             # Stage 3: Extract NARS knowledge
