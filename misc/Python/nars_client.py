@@ -57,15 +57,19 @@ class NarsClient:
             # Handle save knowledge command
             if narsese.startswith("*save"):
                 parts = narsese.split(maxsplit=1)
-                filename = parts[1].strip() if len(parts) > 1 else "nars_knowledge.narse"
+                filename = parts[1].strip() if len(parts) > 1 else "nars_knowledge.nal"
                 return self.save_knowledge(filename)
                     
             # Handle load knowledge command
             elif narsese.startswith("*load"):
                 parts = narsese.split(maxsplit=1)
-                filename = parts[1].strip() if len(parts) > 1 else "nars_knowledge.narse"
+                filename = parts[1].strip() if len(parts) > 1 else "nars_knowledge.nal"
                 return self.load_knowledge(filename)
             
+            elif narsese.startswith("*dump"):
+                concepts_output = self.add_input("*concepts", print_raw=False)
+                return concepts_output
+
             # Normal NARS command processing
             if self.verbose:
                 print(f"Adding to NARS: '{narsese}'")
@@ -127,29 +131,9 @@ class NarsClient:
                     # Skip comments and empty lines
                     if line.startswith("//") or not line.strip():
                         continue
-                    
-                    # Find Narsese statements (pattern: <...>. {...})
-                    if re.match(r"<.+>\.(\s+\{.+\})?", line):
-                        # Convert to loadable format if needed
-                        if "{" in line and "}" in line:
-                            # Extract the statement and truth values
-                            statement = line.split("{")[0].strip()
-                            
-                            # Extract frequency and confidence
-                            match = re.search(r"\{([0-9.]+)\s+([0-9.]+)\}", line)
-                            if match:
-                                frequency = match.group(1)
-                                confidence = match.group(2)
-                                
-                                # Format in loadable syntax
-                                formatted_line = f"{statement} %{frequency};{confidence}%"
-                                knowledge_lines.append(formatted_line)
-                            else:
-                                # If we can't parse truth values, just use the statement as-is
-                                knowledge_lines.append(line)
-                        else:
-                            # Statement without truth values
-                            knowledge_lines.append(line)
+
+                    # try no need to match {}?
+                    knowledge_lines.append(line)
             
             # Write to file
             if knowledge_lines:

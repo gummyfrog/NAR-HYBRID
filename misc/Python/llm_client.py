@@ -38,22 +38,22 @@ class LlmClient:
             self.llm = None
     
     def extract_facts(self, user_input: str) -> List[str]:
-        """Use Ollama to extract facts from user input.
-        
+        """Use LLM to extract simple statements from user input.
+
         Args:
             user_input: User input text
             
         Returns:
-            List of extracted facts
+            List of simple statements
         """
         if self.verbose:
             print(f"Extracting facts from: '{user_input}'")
-        
+
         if not self.llm:
             if self.verbose:
                 print("LLM not initialized, cannot extract facts")
             return []
-        
+
         try:
             from prompts import fact_extraction_template
             
@@ -67,27 +67,30 @@ class LlmClient:
                 content = response
                 
             if content and content.strip():
-                # Remove the thinking section if present
-                if '<think>' in content and '</think>' in content:
-                    # Extract only the content after the </think> tag
-                    content = content.split('</think>')[1].strip()
+                # Filter out thinking sections
+                if "<think>" in content and "</think>" in content:
+                    thinking_part = content.split("<think>")[1].split("</think>")[0]
+                    content = content.replace(f"<think>{thinking_part}</think>", "")
                 
-                # Extract facts as separate lines
-                facts = [fact.strip() for fact in content.strip().split('\n') if fact.strip()]
+                # Split the response into lines and filter out empty ones
+                raw_facts = [line.strip() for line in content.strip().split('\n') if line.strip()]
                 
-                # Basic validation: ensure each fact has at least a subject and verb
-                validated_facts = []
-                for fact in facts:
-                    words = fact.split()
-                    if len(words) >= 2:  # At minimum "subject verb"
-                        validated_facts.append(fact)
-                    else:
-                        if self.verbose:
-                            print(f"Skipping invalid fact: '{fact}'")
+                # Filter out any lines that are clearly not facts
+                facts = []
+                for line in raw_facts:
+                    # Skip lines that are part of the thinking process or metadata
+                    if line.startswith('-') or line.startswith('*') or line.startswith('#') or \
+                        line.startswith('<') or line.startswith('>') or line.startswith('1.') or \
+                        "think" in line.lower():
+                        continue
+                    facts.append(line)
                 
                 if self.verbose:
-                    print(f"Extracted {len(validated_facts)} valid facts: {validated_facts}")
-                return validated_facts
+                    print(f"Extracted {len(facts)} facts:")
+                    for i, fact in enumerate(facts):
+                        print(f"  {i+1}. {fact}")
+                        
+                return facts
             else:
                 if self.verbose:
                     print("No facts extracted (empty response)")
@@ -98,7 +101,7 @@ class LlmClient:
                 print(f"Error extracting facts: {e}")
                 traceback.print_exc()
             return []
-    
+
     def generate_response(self, user_input: str, nars_knowledge: str) -> str:
         """Generate a response based on NARS knowledge.
         
