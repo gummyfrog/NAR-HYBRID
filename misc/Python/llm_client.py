@@ -67,10 +67,27 @@ class LlmClient:
                 content = response
                 
             if content and content.strip():
-                facts = [fact.strip() for fact in content.strip().split('|')]
+                # Remove the thinking section if present
+                if '<think>' in content and '</think>' in content:
+                    # Extract only the content after the </think> tag
+                    content = content.split('</think>')[1].strip()
+                
+                # Extract facts as separate lines
+                facts = [fact.strip() for fact in content.strip().split('\n') if fact.strip()]
+                
+                # Basic validation: ensure each fact has at least a subject and verb
+                validated_facts = []
+                for fact in facts:
+                    words = fact.split()
+                    if len(words) >= 2:  # At minimum "subject verb"
+                        validated_facts.append(fact)
+                    else:
+                        if self.verbose:
+                            print(f"Skipping invalid fact: '{fact}'")
+                
                 if self.verbose:
-                    print(f"Extracted facts: {facts}")
-                return facts
+                    print(f"Extracted {len(validated_facts)} valid facts: {validated_facts}")
+                return validated_facts
             else:
                 if self.verbose:
                     print("No facts extracted (empty response)")
@@ -121,8 +138,8 @@ class LlmClient:
                 print(content)
 
 
-            if '<REASONING>' in content and '</REASONING>' in content:
-                final_answer = content.split('</REASONING>')[1].strip()
+            if '<think>' in content and '</think>' in content:
+                final_answer = content.split('</think>')[1].strip()
             else:
                 final_answer = content
             

@@ -12,3 +12,6 @@ NAR.dSYM/
 # For Clangd
 .cache/
 compile_commands.json
+
+misc/Python/__pycache__/*
+*__pycache__

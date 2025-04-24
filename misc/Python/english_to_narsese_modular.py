@@ -200,6 +200,8 @@ class EnglishToNarsese:
 
     # Learn grammar pattern
     def grammar_learning(self, y="", forced=False):
+        return False; # TEMP OVERRIDE
+
         if forced or (not y.startswith("<") or not y.endswith(">") or (y.count("<") > 1 and not "=/>" in y)):  # Only if not fully encoded/valid Narsese
             print("//What? Tell \"" + self.sentence.strip() + "\" in simple sentences: (newline-separated)")
             L = []

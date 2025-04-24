@@ -2,8 +2,10 @@
 Interface to the NARS system
 """
 
+import os
+import re
 import traceback
-from typing import Dict, Any, Optional, Union
+from typing import Dict, Any, Optional, Union, List
 
 # Import the original NAR module functions
 try:
@@ -52,6 +54,19 @@ class NarsClient:
             return {"raw": ""}
         
         try:
+            # Handle save knowledge command
+            if narsese.startswith("*save"):
+                parts = narsese.split(maxsplit=1)
+                filename = parts[1].strip() if len(parts) > 1 else "nars_knowledge.narse"
+                return self.save_knowledge(filename)
+                    
+            # Handle load knowledge command
+            elif narsese.startswith("*load"):
+                parts = narsese.split(maxsplit=1)
+                filename = parts[1].strip() if len(parts) > 1 else "nars_knowledge.narse"
+                return self.load_knowledge(filename)
+            
+            # Normal NARS command processing
             if self.verbose:
                 print(f"Adding to NARS: '{narsese}'")
             
@@ -80,6 +95,150 @@ class NarsClient:
         """
         return self.add_input(str(cycles))
     
+    def save_knowledge(self, filename: str) -> Dict[str, Any]:
+        """Save NARS knowledge to a file.
+        
+        Args:
+            filename: Path to save the knowledge
+            
+        Returns:
+            Result of the operation
+        """
+        if self.verbose:
+            print(f"Saving NARS knowledge to {filename}...")
+        
+        try:
+            # Create the directory if it doesn't exist
+            directory = os.path.dirname(os.path.abspath(filename))
+            if directory and not os.path.exists(directory):
+                os.makedirs(directory, exist_ok=True)
+            
+            # Get all concepts from NARS
+            concepts_output = self.add_input("*concepts", print_raw=False)
+            
+            # Extract all valid Narsese statements
+            knowledge_lines = []
+            
+            if isinstance(concepts_output, dict) and "raw" in concepts_output:
+                raw_output = concepts_output["raw"]
+                
+                # Process each line of the output
+                for line in raw_output.split("\n"):
+                    # Skip comments and empty lines
+                    if line.startswith("//") or not line.strip():
+                        continue
+                    
+                    # Find Narsese statements (pattern: <...>. {...})
+                    if re.match(r"<.+>\.(\s+\{.+\})?", line):
+                        # Convert to loadable format if needed
+                        if "{" in line and "}" in line:
+                            # Extract the statement and truth values
+                            statement = line.split("{")[0].strip()
+                            
+                            # Extract frequency and confidence
+                            match = re.search(r"\{([0-9.]+)\s+([0-9.]+)\}", line)
+                            if match:
+                                frequency = match.group(1)
+                                confidence = match.group(2)
+                                
+                                # Format in loadable syntax
+                                formatted_line = f"{statement} %{frequency};{confidence}%"
+                                knowledge_lines.append(formatted_line)
+                            else:
+                                # If we can't parse truth values, just use the statement as-is
+                                knowledge_lines.append(line)
+                        else:
+                            # Statement without truth values
+                            knowledge_lines.append(line)
+            
+            # Write to file
+            if knowledge_lines:
+                with open(filename, 'w', encoding='utf-8') as f:
+                    for line in knowledge_lines:
+                        f.write(line + "\n")
+                
+                if self.verbose:
+                    print(f"Saved {len(knowledge_lines)} statements to {filename}")
+                return {"raw": f"Saved {len(knowledge_lines)} statements to {filename}"}
+            else:
+                error_msg = "No knowledge statements found to save"
+                if self.verbose:
+                    print(error_msg)
+                return {"raw": error_msg}
+                
+        except Exception as e:
+            error_msg = f"Error saving knowledge: {e}"
+            if self.verbose:
+                print(error_msg)
+                traceback.print_exc()
+            return {"raw": error_msg}
+    
+    def load_knowledge(self, filename: str) -> Dict[str, Any]:
+        """Load NARS knowledge from a file.
+        
+        Args:
+            filename: Path to load the knowledge from
+            
+        Returns:
+            Result of the operation
+        """
+        if not os.path.exists(filename):
+            error_msg = f"Knowledge file not found: {filename}"
+            if self.verbose:
+                print(error_msg)
+            return {"raw": error_msg}
+        
+        if self.verbose:
+            print(f"Loading knowledge from {filename}...")
+        
+        try:
+            # Read statements from file
+            with open(filename, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+            
+            # Process and add each statement
+            successful_loads = 0
+            
+            for line in lines:
+                line = line.strip()
+                
+                # Skip comments and empty lines
+                if not line or line.startswith("//"):
+                    continue
+                
+                # Convert from loadable format to NARS format if needed
+                if "%" in line:
+                    # Extract statement and truth values
+                    match = re.search(r"(.*)\s+%([0-9.]+);([0-9.]+)%", line)
+                    if match:
+                        statement = match.group(1)
+                        frequency = match.group(2)
+                        confidence = match.group(3)
+                        
+                        # Format for NARS
+                        narsese = f"{statement} {{{frequency} {confidence}}}"
+                    else:
+                        narsese = line
+                else:
+                    narsese = line
+                
+                # Add to NARS
+                result = self.add_input(narsese, print_raw=False)
+                if result and "error" not in result.get("raw", "").lower():
+                    successful_loads += 1
+            
+            result_msg = f"Loaded {successful_loads} statements from {filename}"
+            if self.verbose:
+                print(result_msg)
+            return {"raw": result_msg}
+                
+        except Exception as e:
+            error_msg = f"Error loading knowledge: {e}"
+            if self.verbose:
+                print(error_msg)
+                traceback.print_exc()
+            return {"raw": error_msg}
+    
     def extract_knowledge(self) -> str:
         """Extract all knowledge from NARS as context.
         
@@ -90,14 +249,13 @@ class NarsClient:
             print("Extracting knowledge from NARS...")
         
         try:
-            # This will get all concepts in NARS
+            # Get concepts from NARS
             concepts_output = self.add_input("*concepts", print_raw=False)
             
             from truth_translator import process_nars_output
             knowledge = process_nars_output(concepts_output, with_colors=False)
             
             if self.verbose:
-                print(knowledge)
                 print(f"Extracted {len(knowledge)} characters of knowledge")
                 
             return knowledge
