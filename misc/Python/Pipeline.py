@@ -224,7 +224,7 @@ class NarsOllamaPipeline:
                     self.nars_client.add_input(narsese)
                     
                     # Run inference cycles after each fact
-                    # self.nars_client.run_cycles(300)
+                    self.nars_client.run_cycles(3)
                 else:
                     if self.verbose:
                         print(f"Failed to convert: '{statement}'")

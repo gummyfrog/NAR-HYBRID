@@ -1,0 +1,59 @@
+-- After processing fable_2.txt -- 
+
+Q: What do you know about Edran?
+
+Response: 
+
+Here's what I know about **Edran**:
+
+- Edran is from **Dunmereth Sky**, as indicated by the entry: "Silence Edran is by and it sky is have." This suggests he has a strong connection to his origin or heritage.
+
+- Edran possesses multiple abilities, including but not limited to:
+    - Being a **glowlord sap** (a type of entity with unspecified powers).
+    - Using **frosthide**, which implies he can manipulate or utilize frost-related elements.
+    - Having **fire resistance**.
+
+- Edran is associated with **Dunmereth**, as seen in the context of his origin and abilities tied to the sky.
+- He has interactions with other characters such as:
+    - **Drayvern Slain East**
+    - **Bell**, who can be "tuned" (possibly implying some form of relationship or connection).
+    - **Glaive**, specifically a reference to it being "crawn-steel," which might indicate an elemental or combat-related connection.
+- Edran also interacts with **Tharn** and other entities, suggesting he plays a significant role in various contexts.
+
+- Edran is connected to a **shard-beast**
+- He has abilities related to **flames**, such as rising from flames and pouring flame into objects, indicating his versatility with fire.
+
+- Edran's name appears in the context of events like "Drayvern slain east is in"
+- He is involved in a **frosthide use**, which likely ties into his abilities tied to cold or snow.
+
+In summary, Edran appears to be a powerful and versatile character with deep connections to his origins (Dunmereth Sky) and multiple abilities that span various domains. His interactions with other characters and entities suggest he is a key figure in different aspects of the world.
+
+
+-- After processing both fable_1.txt and fable_2.txt -- 
+
+Q: What do you know about Edran and Beasts?
+
+Edran is a prominent character characterized by his ability to take on different forms, such as "frosthide" and "crawn-hide," each representing distinct states or abilities. His journey involves transformations that enhance his capabilities under various conditions.
+
+Beasts are associated with attributes like "mount" and "shard," suggesting they serve as companions or adversaries for Edran. Beasts may emerge from "fissure," a place of crack or break, indicating their connection to the environment's geological features. Each Beast might possess unique effects tied to these shards.
+
+Edran interacts with his environment through elements like "flame" and experiences different terrains such as "Drayvern east wind." His "home is walk" implies a comfortable resting spot where he can wander without effort, showcasing his versatility in movement and adaptability.
+
+In summary, Edran is a versatile character with multiple forms and connections to diverse environments, while Beasts are integral entities influenced by specific attributes, adding depth to the game's ecosystem.
+
+
+Q: What sorts of things are mentioned in the fables?
+
+The fables described consist of a richly detailed world with several key elements:
+
+1. **Central Places and Characters**: The setting involves places like "Edran flame" and "Drayvern east wind," suggesting characters or entities within a specific narrative universe.
+
+2. **Environmental Elements**: Terms such as "fissure," "fen," and "mount" denote aspects of the environment, indicating a world with varied landscapes and natural features.
+
+3. **Significant Objects**: Items like "flame," "frosthide," and "dome" are central to the story, serving as key elements that drive the narrative forward.
+
+4. **Relationships and Interactions**: The fables hint at relationships between characters, such as "mount groleplate is wear," suggesting character development and interactions within the story.
+
+5. **Structural Components**: The narrative appears to be structured into acts or scenes, with terms like "act" and "scene" implied through the repetition of certain words and their context.
+
+In summary, the fables depict a structured world with specific places, elements, and relationships that form the basis of its storytelling.
