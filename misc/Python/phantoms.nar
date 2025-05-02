@@ -1,0 +1,76 @@
+(<({Pytheas} * {#1}) --> explore> && <({#1} * location) --> 's>). {1.000000 0.747423}
+<({Isle} * ([local] & legend)) --> on>. {1.000000 0.762599}
+<{Island} --> [include]>. {1.000000 0.847332}
+<([{Actual}] & island) <-> ([{Geographical}] & error)>. {1.000000 0.427729}
+<([{Geographical}] & error) <-> ([{Actual}] & island)>. {1.000000 0.427729}
+<([{Hy-Brasil}] * {Ireland}) --> west_of>. {1.000000 0.435125}
+<<{$1} --> [include]> ==> <{$1} --> [{Hy-Brasil}]>>. {1.000000 0.427729}
+<({Pactolus} * ([former] & sand)) --> into>. {1.000000 0.747423}
+<({Cartographer} * map) --> on>. {1.000000 0.762599}
+<{Thule} --> [might]>. {1.000000 0.949247}
+<({Cartographer} * feature) --> include>. {1.000000 0.762599}
+6. {1.000000 0.927693}
+<(3 * ([volcanic] & explosion)) --> to>. {1.000000 0.762599}
+<2 --> [destroy]>. {1.000000 0.864536}
+3. {1.000000 0.909934}
+<(4 * earthquake) <-> (3 * ([volcanic] & explosion))>. {1.000000 0.367712}
+(<(({Maps} * {Sandy}) * {#1}) --> show> && <({#1} * {Ireland}) --> west_of>). {1.000000 0.725224}
+<([{Geographical}] & error) --> ([{Actual}] & island)>. {1.000000 0.427729}
+<([{Actual}] & island) --> ([{Geographical}] & error)>. {1.000000 0.427729}
+<(({Maps} * {Sandy}) * [{Hy-Brasil}]) --> show>. {1.000000 0.422816}
+<[might] --> [report]>. {1.000000 0.430191}
+<[report] <-> [might]>. {1.000000 0.430191}
+<[might] <-> [report]>. {1.000000 0.430191}
+(<({#1} * location) --> 's> && <({Pytheas} * {#1}) --> explore>). {1.000000 0.672681}
+<<{$1} --> [report]> ==> <{$1} --> [might]>>. {1.000000 0.430191}
+<<{$1} --> [might]> ==> <{$1} --> [report]>>. {1.000000 0.430191}
+<[{Hy-Brasil}] <-> [include]>. {1.000000 0.427729}
+<([include] * {Ireland}) --> west_of>. {1.000000 0.425271}
+<({Pytheas} * {Thule}) --> explore>. {1.000000 0.864536}
+<<{$1} --> [{Hy-Brasil}]> ==> <{$1} --> [include]>>. {1.000000 0.427729}
+{Demons}. {1.000000 0.864536}
+<({Pytheas} * [report]) --> explore>. {1.000000 0.430191}
+{Banks}. {1.000000 0.830470}
+{Isle}. {1.000000 0.950811}
+5. {1.000000 0.919932}
+{Baja}. {1.000000 0.847332}
+{Pactolus}. {1.000000 0.890888}
+<({Thule} * location) --> 's>. {1.000000 0.864536}
+<(([{Actual}] & island) * ([phantom] & island)) --> cause>. {1.000000 0.864536}
+<[report] --> [might]>. {1.000000 0.430191}
+<({Isle} * {Newfoundland}) --> near>. {1.000000 0.770302}
+place. {1.000000 0.747423}
+{Sandy}. {1.000000 0.855891}
+<(({Maps} * {Sandy}) * {Island}) --> show>. {1.000000 0.830470}
+{Chesterfield}. {1.000000 0.855891}
+<(place * {Chesterfield}) --> between>. {1.000000 0.747423}
+<($1 * place) --> false_that>. {1.000000 0.754973}
+<(({Maps} * {Sandy}) * [include]) --> show>. {1.000000 0.413037}
+(<({Pytheas} * [#1]) --> explore> && <([#1] * location) --> 's>). {1.000000 0.181900}
+<(3 * ([volcanic] & explosion)) --> (4 * earthquake)>. {1.000000 0.367712}
+<($1 * 1970s) --> in>. {1.000000 0.754973}
+<[{Hy-Brasil}] --> [include]>. {1.000000 0.427729}
+<[include] --> [{Hy-Brasil}]>. {1.000000 0.427729}
+<([might] * location) --> 's>. {1.000000 0.427729}
+<[include] <-> [{Hy-Brasil}]>. {1.000000 0.427729}
+{Map}. {1.000000 0.864536}
+<({Pytheas} * [might]) --> explore>. {1.000000 0.427729}
+<({Island} * {Ireland}) --> west_of>. {1.000000 0.873269}
+<{Island} --> [{Hy-Brasil}]>. {1.000000 0.882090}
+<{Thule} --> [report]>. {1.000000 0.873269}
+2. {1.000000 0.855891}
+{New}. {1.000000 0.909946}
+<(4 * earthquake) --> to>. {1.000000 0.762599}
+<report <-> might>. {1.000000 0.384956}
+<might <-> report>. {1.000000 0.384956}
+<(4 * earthquake) --> (3 * ([volcanic] & explosion))>. {1.000000 0.367712}
+<({Cartographer} * map) <-> ({Isle} * ([local] & legend))>. {1.000000 0.367712}
+7. {1.000000 0.864536}
+{Phantom}. {1.000000 0.950524}
+<(([{Geographical}] & error) * ([phantom] & island)) --> cause>. {1.000000 0.864536}
+4. {1.000000 0.905610}
+<(3 * ([volcanic] & explosion)) <-> (4 * earthquake)>. {1.000000 0.367712}
+<({Cartographer} * map) --> ({Isle} * ([local] & legend))>. {1.000000 0.367712}
+<([report] * location) --> 's>. {1.000000 0.430191}
+<({Isle} * ([local] & legend)) <-> ({Cartographer} * map)>. {1.000000 0.367712}
+<({Isle} * ([local] & legend)) --> ({Cartographer} * map)>. {1.000000 0.367712}

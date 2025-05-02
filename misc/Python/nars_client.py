@@ -74,6 +74,13 @@ class NarsClient:
             if self.verbose:
                 print(f"Adding to NARS: '{narsese}'")
             
+            narsese = narsese.strip()
+
+            if narsese.startswith("(") or narsese.startswith("["):
+                if self.verbose:
+                    print("Skipping statement starting with '(' or '['")
+                return {"raw": ""}
+
             # Send the input to NARS
             raw_output = AddInput(narsese, Print=print_raw)
             

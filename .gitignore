@@ -15,3 +15,4 @@ compile_commands.json
 
 misc/Python/__pycache__/*
 *__pycache__
+.vscode

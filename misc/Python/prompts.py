@@ -21,6 +21,8 @@ RULES:
 6. No explanations, no thinking out loud
 7. You are FORBIDDEN from including formatting beyond linebreaks.
 8. You are FORBIDDEN from explaining yourself.
+9. You MUST output extremely simple facts. Stick to the format: [subject] [relationship] [subject].
+10. If something is declared FALSE, note it as such: [subject] is not [subject].
 
 EXAMPLES:
 

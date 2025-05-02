@@ -1,0 +1,314 @@
+<[state] --> [state]>. {1.000000 0.043238}
+{Amdahl}. {1.000000 0.983829}
+{USL}. {1.000000 0.930653}
+<(law * {Gene}) --> 's>. {1.000000 0.043323}
+<({Law} * {Law}) --> 's>. {1.000000 0.327345}
+<{Gene} --> {Gene}>. {1.000000 0.043238}
+<(law * {Amdahl}) --> 's>. {1.000000 0.045807}
+<({Limitation} * parallelization) --> exist_in>. {1.000000 0.864536}
+{Task}. {1.000000 0.873269}
+<({Gustafson} * law) --> 's>. {1.000000 0.855891}
+(! <{Cost} --> ([parallel] & speedup)>). {1.000000 0.873269}
+<<({Amdahl} * $1) --> 's> ==> <({Gunther} * $1) --> 's>>. {1.000000 0.411618}
+<<({Gustafson} * $1) --> 's> ==> <({Gunther} * $1) --> 's>>. {1.000000 0.394930}
+<<($1 * {Law}) --> 's> ==> <({Gunther} * $1) --> 's>>. {1.000000 0.373194}
+<<({Gene} * $1) --> 's> ==> <({Gunther} * $1) --> 's>>. {1.000000 0.198382}
+<<([state] * $1) --> 's> ==> <({Gunther} * $1) --> 's>>. {1.000000 0.126543}
+<{Gene} <-> law>. {1.000000 0.365378}
+<(({Overhead} * data) * consistency) --> include>. {1.000000 0.855891}
+<(({Overhead} * conflict) * resolution) --> include>. {1.000000 0.855891}
+<({Gene} * [state]) --> 's>. {1.000000 0.082222}
+<({Gene} * {Gene}) --> 's>. {1.000000 0.118572}
+<([state] * {Gene}) --> 's>. {1.000000 0.069413}
+<({Amdahl} * {Gustafson}) --> 's>. {1.000000 0.143975}
+<{Gene} --> {Gustafson}>. {1.000000 0.217375}
+<([versioning] * synchronization) --> (({Overhead} * data) * consistency)>. {1.000000 0.269111}
+<({Gustafson} * {Gustafson}) --> 's>. {1.000000 0.063324}
+<(law * {Gustafson}) --> 's>. {1.000000 0.019580}
+<({Law} * law) --> 's>. {1.000000 0.134409}
+<{Gene} <-> {Law}>. {1.000000 0.202895}
+(<([state] * {#1}) --> name> && <({#1} * {Gene}) --> 's>). {1.000000 0.108827}
+(<([state] * {#1}) --> name> && <({#1} * task) --> of>). {1.000000 0.265382}
+<({Gunther} * {Gunther}) --> 's>. {1.000000 0.116856}
+<({Gene} * {Amdahl}) --> 's>. {1.000000 0.125369}
+<({Law} * {Gene}) --> 's>. {1.000000 0.066417}
+<<({$1} * synchronization) --> include> ==> <(({$1} * data) * consistency) --> include>>. {1.000000 0.425271}
+<<(({$1} * conflict) * resolution) --> include> ==> <(({$1} * data) * consistency) --> include>>. {1.000000 0.422816}
+<(law * {Amdahl}) --> name>. {1.000000 0.762599}
+<<({Gustafson} * $1) --> 's> ==> <({Amdahl} * $1) --> 's>>. {1.000000 0.439826}
+<<({Gunther} * $1) --> 's> ==> <({Amdahl} * $1) --> 's>>. {1.000000 0.411618}
+<<($1 * {Law}) --> 's> ==> <({Amdahl} * $1) --> 's>>. {1.000000 0.398150}
+<law --> {Gene}>. {1.000000 0.365378}
+(! <{Computer} --> [([significantly] & speedup)]> ADJ_2). {1.000000 0.770302}
+(! <{Complexity} --> ([parallel] & speedup)>). {1.000000 0.873269}
+<{Complexity} --> ([parallel] & speedup)>. {0.000000 0.873269}
+<(time * ([parallelizable] & part)) --> spend_on>. {1.000000 0.754973}
+<({Amdahl} * task) --> ([state] * time)>. {1.000000 0.202173}
+{Gene}. {1.000000 0.766666}
+{Scalability}. {1.000000 0.922351}
+<({Amdahl} * task) --> of>. {1.000000 0.754973}
+<({Amdahl} * {Law}) --> 's>. {1.000000 0.822166}
+<({Amdahl} * {Gene}) --> 's>. {1.000000 0.309597}
+<({Amdahl} * law) --> 's>. {1.000000 0.917358}
+<({Gene} * {Law}) --> 's>. {1.000000 0.754973}
+<law <-> {Law}>. {1.000000 0.410602}
+(<({Gunther} * {#1}) --> extend> && <({#1} * {Law}) --> 's>). {1.000000 0.626983}
+<({Law} * time) --> ({Amdahl} * task)>. {1.000000 0.143392}
+<({Gunther} * {Law}) --> 's>. {1.000000 0.313125}
+law. {1.000000 0.275851}
+<[state] --> {Amdahl}>. {1.000000 0.224206}
+<<({Amdahl} * {$1}) --> 's> ==> <({Gene} * {$1}) --> 's>>. {1.000000 0.382988}
+<<(law * {$1}) --> 's> ==> <({Gene} * {$1}) --> 's>>. {1.000000 0.365378}
+<<([state] * {$1}) --> 's> ==> <({Gene} * {$1}) --> 's>>. {1.000000 0.209725}
+<{Amdahl} --> [state]>. {1.000000 0.224206}
+(<([state] * {#1}) --> name> && <({#1} * task) --> (law * time)>). {1.000000 0.122757}
+<({Gunther} * {Gene}) --> extend>. {1.000000 0.292066}
+<law --> [state]>. {1.000000 0.710792}
+<{Processor} --> [homogeneous]>. {1.000000 0.882090}
+<({Gunther} * law) --> 's>. {1.000000 0.762599}
+<{Overhead} --> [versioning]>. {1.000000 0.873269}
+<({Overhead} * synchronization) --> include>. {1.000000 0.864536}
+<([state] * {Law}) --> 's>. {1.000000 0.351512}
+<({Amdahl} * task) <-> (law * time)>. {1.000000 0.349225}
+<([state] * [state]) --> 's>. {1.000000 0.052901}
+(<({Law} * #1) --> ({Amdahl} * task)> && <(#1 * ([serial] & work)) --> than>). {1.000000 0.100800}
+<([versioning] * synchronization) <-> (({Overhead} * data) * consistency)>. {1.000000 0.269111}
+<(({Overhead} * conflict) * resolution) --> ([versioning] * synchronization)>. {1.000000 0.269111}
+<(({Overhead} * data) * consistency) --> ([versioning] * synchronization)>. {1.000000 0.269111}
+(<([state] * #1) --> of> && <(#1 * ([parallelizable] & part)) --> spend_on>). {1.000000 0.253405}
+<(({Overhead} * conflict) * resolution) <-> ([versioning] * synchronization)>. {1.000000 0.269111}
+<(({Overhead} * data) * consistency) <-> ([versioning] * synchronization)>. {1.000000 0.269111}
+<([state] * {Gustafson}) --> 's>. {1.000000 0.032280}
+<([versioning] * synchronization) <-> (({Overhead} * conflict) * resolution)>. {1.000000 0.269111}
+(<({Law} * #1) --> of> && <(#1 * ([parallelizable] & part)) --> spend_on>). {1.000000 0.205163}
+(<({Gene} * #1) --> of> && <(#1 * ([serial] & work)) --> than>). {1.000000 0.196072}
+(<({Gene} * #1) --> ({Amdahl} * task)> && <(#1 * ([serial] & work)) --> than>). {1.000000 0.096334}
+<([versioning] * synchronization) --> include>. {1.000000 0.430191}
+<(task * ([serial] & work)) --> than>. {1.000000 0.191782}
+(<({Amdahl} * #1) --> 's> && <(#1 * {Law}) --> 's>). {1.000000 0.661544}
+(<({Gustafson} * #1) --> 's> && <(#1 * time) --> of>). {1.000000 0.608361}
+<{Gustafson} --> {Amdahl}>. {1.000000 0.439826}
+(<({Gustafson} * #1) --> 's> && <(#1 * {Law}) --> 's>). {1.000000 0.668226}
+<<$1 --> [state]> ==> <$1 --> {Gene}>>. {1.000000 0.206165}
+<({Gustafson} * {Amdahl}) --> 's>. {1.000000 0.329327}
+<({Amdahl} * {Amdahl}) --> 's>. {1.000000 0.327345}
+<{Gustafson} <-> [state]>. {1.000000 0.139858}
+(<([state] * {#1}) --> name> && <({#1} * {Law}) --> 's>). {1.000000 0.289001}
+<<$1 --> {Gene}> ==> <$1 --> [state]>>. {1.000000 0.206165}
+<{Gustafson} <-> {Gene}>. {1.000000 0.217375}
+<({Gene} * {Gustafson}) --> 's>. {1.000000 0.055141}
+(<({Gunther} * {#1}) --> extend> && <({#1} * task) --> of>). {1.000000 0.575742}
+<[state] --> {Law}>. {1.000000 0.236083}
+(<({Gunther} * {#1}) --> extend> && <({#1} * law) --> 's>). {1.000000 0.699576}
+<{Law} <-> [state]>. {1.000000 0.236083}
+<({Gene} * {Gunther}) --> 's>. {1.000000 0.047747}
+{Gustafson}. {1.000000 0.338017}
+<<({Gene} * {$1}) --> 's> ==> <(law * {$1}) --> 's>>. {1.000000 0.365378}
+<[state] <-> {Law}>. {1.000000 0.236083}
+<({Gunther} * {Law}) --> extend>. {1.000000 0.098416}
+<<({$1} * law) --> 's> ==> <({$1} * [state]) --> 's>>. {1.000000 0.241564}
+<<({$1} * {Law}) --> 's> ==> <({$1} * [state]) --> 's>>. {1.000000 0.236083}
+<<(({$1} * conflict) * resolution) --> include> ==> <({$1} * synchronization) --> include>>. {1.000000 0.425271}
+<<(({$1} * data) * consistency) --> include> ==> <({$1} * synchronization) --> include>>. {1.000000 0.425271}
+<{Gene} <-> [state]>. {1.000000 0.209725}
+<<({$1} * law) --> 's> ==> <({$1} * {Gene}) --> 's>>. {1.000000 0.207815}
+<<({$1} * {Law}) --> 's> ==> <({$1} * {Gene}) --> 's>>. {1.000000 0.202895}
+<{Amdahl} --> {Gunther}>. {1.000000 0.411618}
+<[state] --> {Gunther}>. {1.000000 0.126543}
+<{Gunther} --> [state]>. {1.000000 0.126543}
+(<({Gene} * {#1}) --> name> && <({#1} * {Law}) --> 's>). {1.000000 0.229086}
+<([state] * time) --> of>. {1.000000 0.335648}
+<<({$1} * synchronization) --> include> ==> <(({$1} * conflict) * resolution) --> include>>. {1.000000 0.425271}
+<<(({$1} * data) * consistency) --> include> ==> <(({$1} * conflict) * resolution) --> include>>. {1.000000 0.422816}
+<{Gustafson} --> {Gunther}>. {1.000000 0.394930}
+<{Gustafson} <-> {Gunther}>. {1.000000 0.394930}
+<extend --> 's>. {1.000000 0.154538}
+<[state] <-> {Gene}>. {1.000000 0.209725}
+<({Gunther} * {Gustafson}) --> 's>. {1.000000 0.059263}
+<({Amdahl} * {Gunther}) --> 's>. {1.000000 0.124671}
+<({Gustafson} * {Gunther}) --> 's>. {1.000000 0.125426}
+<(law * {Gunther}) --> 's>. {1.000000 0.017446}
+<({Law} * [state]) --> 's>. {1.000000 0.077281}
+<extend <-> 's>. {1.000000 0.154538}
+<[state] --> {Gene}>. {1.000000 0.209725}
+<([state] * {Amdahl}) --> 's>. {1.000000 0.073393}
+{Law}. {1.000000 0.113265}
+<[state] --> law>. {1.000000 0.241564}
+(<({Gene} * {#1}) --> name> && <({#1} * law) --> 's>). {1.000000 0.236098}
+<law <-> [state]>. {1.000000 0.241564}
+<({Parameters} * contention) <-> (({Overhead} * data) * consistency)>. {1.000000 0.425271}
+<([versioning] * synchronization) --> ({Parameters} * contention)>. {1.000000 0.271092}
+<<({$1} * coherency) --> include> ==> <({$1} * contention) --> include>>. {1.000000 0.427729}
+<({Computer} * ([certain] & point)) --> beyond>. {0.000000 0.770302}
+{Computing}. {1.000000 0.855891}
+<(({Overhead} * data) * consistency) --> ({Parameters} * coherency)>. {1.000000 0.425271}
+(<({Gunther} * {#1}) --> extend> && <({#1} * task) --> ({Gene} * time)>). {1.000000 0.097307}
+<({Parameters} * contention) <-> ([versioning] * synchronization)>. {1.000000 0.271092}
+<({Gene} * {Amdahl}) --> name>. {1.000000 0.278637}
+<({Amdahl} * [state]) --> 's>. {1.000000 0.375888}
+<({Parameters} * coherency) <-> (({Overhead} * data) * consistency)>. {1.000000 0.425271}
+(<(law * #1) --> of> && <(#1 * ([parallelizable] & part)) --> spend_on>). {1.000000 0.536629}
+(<(law * #1) --> ({Amdahl} * task)> && <(#1 * ([parallelizable] & part)) --> spend_on>). {1.000000 0.263655}
+<{Cost} --> ([parallel] & speedup)>. {0.000000 0.873269}
+<(law * time) <-> ({Amdahl} * task)>. {1.000000 0.349225}
+<({Parameters} * coherency) --> include>. {1.000000 0.864536}
+(! <({Computer} * ([certain] & point)) --> beyond>). {1.000000 0.770302}
+(<(law * #1) --> of> && <(#1 * ([serial] & work)) --> than>). {1.000000 0.536629}
+<<({Amdahl} * {$1}) --> 's> ==> <([state] * {$1}) --> 's>>. {1.000000 0.224206}
+<<({Gene} * {$1}) --> 's> ==> <([state] * {$1}) --> 's>>. {1.000000 0.209725}
+(<({Law} * #1) --> of> && <(#1 * ([serial] & work)) --> than>). {1.000000 0.205163}
+<<({$1} * contention) --> include> ==> <({$1} * coherency) --> include>>. {1.000000 0.427729}
+<([state] * time) --> ({Amdahl} * task)>. {1.000000 0.202173}
+(<([state] * #1) --> of> && <(#1 * ([serial] & work)) --> than>). {1.000000 0.253405}
+(<([state] * #1) --> ({Amdahl} * task)> && <(#1 * ([serial] & work)) --> than>). {1.000000 0.152635}
+(<(law * #1) --> ({Amdahl} * task)> && <(#1 * ([serial] & work)) --> than>). {1.000000 0.263655}
+(<({Amdahl} * #1) --> 's> && <(#1 * time) --> of>). {1.000000 0.602277}
+(<({Amdahl} * #1) --> 's> && <(#1 * time) --> ({Amdahl} * task)>). {1.000000 0.295909}
+(<([state] * {#1}) --> name> && <({#1} * law) --> 's>). {1.000000 0.297848}
+<(time * ([serial] & work)) --> than>. {1.000000 0.754973}
+<({Gustafson} * {Gene}) --> 's>. {1.000000 0.312724}
+<({Gustafson} * {Law}) --> 's>. {1.000000 0.361609}
+<([state] * time) <-> ({Amdahl} * task)>. {1.000000 0.202173}
+<({Gustafson} * [state]) --> 's>. {1.000000 0.378249}
+<law --> {Amdahl}>. {1.000000 0.314302}
+<({Amdahl} * task) --> (law * time)>. {1.000000 0.349225}
+<({Amdahl} * task) <-> ([state] * time)>. {1.000000 0.202173}
+(<({Gustafson} * #1) --> 's> && <(#1 * time) --> ({Amdahl} * task)>). {1.000000 0.298898}
+<<({Gustafson} * $1) --> 's> ==> <($1 * {Law}) --> 's>>. {1.000000 0.400561}
+<<({Amdahl} * $1) --> 's> ==> <($1 * {Law}) --> 's>>. {1.000000 0.398150}
+<<({Gunther} * $1) --> 's> ==> <($1 * {Law}) --> 's>>. {1.000000 0.373194}
+<<({Amdahl} * $1) --> 's> ==> <({Gustafson} * $1) --> 's>>. {1.000000 0.439826}
+<<($1 * {Law}) --> 's> ==> <({Gustafson} * $1) --> 's>>. {1.000000 0.400561}
+<<({Gunther} * $1) --> 's> ==> <({Gustafson} * $1) --> 's>>. {1.000000 0.394930}
+<<({Gene} * $1) --> 's> ==> <({Gustafson} * $1) --> 's>>. {1.000000 0.217375}
+<<([state] * $1) --> 's> ==> <({Gustafson} * $1) --> 's>>. {1.000000 0.139858}
+<{Amdahl} --> {Gustafson}>. {1.000000 0.439826}
+(<({Gustafson} * #1) --> 's> && <(#1 * {Amdahl}) --> name>). {1.000000 0.652702}
+(<(law * {#1}) --> name> && <({#1} * {Law}) --> 's>). {1.000000 0.626983}
+<{Gustafson} <-> {Amdahl}>. {1.000000 0.439826}
+<{Amdahl} <-> {Gustafson}>. {1.000000 0.439826}
+<[state] --> {Gustafson}>. {1.000000 0.139858}
+<law --> {Law}>. {1.000000 0.410602}
+<{Gustafson} --> [state]>. {1.000000 0.139858}
+<<({Gustafson} * $1) --> 's> ==> <([state] * $1) --> 's>>. {1.000000 0.139858}
+<<({Gunther} * $1) --> 's> ==> <([state] * $1) --> 's>>. {1.000000 0.126543}
+<[state] <-> {Gustafson}>. {1.000000 0.139858}
+<{Gene} <-> {Gustafson}>. {1.000000 0.217375}
+<<({$1} * {Law}) --> 's> ==> <({$1} * law) --> 's>>. {1.000000 0.410602}
+<<({$1} * [state]) --> 's> ==> <({$1} * law) --> 's>>. {1.000000 0.241564}
+<<({$1} * {Gene}) --> 's> ==> <({$1} * law) --> 's>>. {1.000000 0.207815}
+<{Gustafson} --> {Gene}>. {1.000000 0.217375}
+(<({Gunther} * {#1}) --> extend> && <({#1} * {Gene}) --> 's>). {1.000000 0.236098}
+<<({$1} * law) --> 's> ==> <({$1} * {Law}) --> 's>>. {1.000000 0.410602}
+<<({$1} * [state]) --> 's> ==> <({$1} * {Law}) --> 's>>. {1.000000 0.236083}
+<<({$1} * {Gene}) --> 's> ==> <({$1} * {Law}) --> 's>>. {1.000000 0.202895}
+<{Law} --> law>. {1.000000 0.410602}
+<{Gene} --> law>. {1.000000 0.365378}
+<({USL} * {Neil}) --> develop_by>. {1.000000 0.855891}
+<({Gene} * time) --> of>. {1.000000 0.259708}
+<({Gene} * time) --> ({Amdahl} * task)>. {1.000000 0.127599}
+<({Gunther} * {Amdahl}) --> extend>. {1.000000 0.762599}
+<{Law} <-> law>. {1.000000 0.410602}
+<({Amdahl} * task) --> ({Gene} * time)>. {1.000000 0.127599}
+(<({Gunther} * {#1}) --> extend> && <({#1} * task) --> (law * time)>). {1.000000 0.266318}
+(<({Gunther} * {#1}) --> extend> && <({#1} * [state]) --> 's>). {1.000000 0.286652}
+(<({Gunther} * {#1}) --> extend> && <({#1} * task) --> ([state] * time)>). {1.000000 0.154177}
+(<([state] * {#1}) --> name> && <({#1} * task) --> ({Gene} * time)>). {1.000000 0.044853}
+<'s <-> extend>. {1.000000 0.154538}
+<{Law} --> {Gene}>. {1.000000 0.202895}
+<{Gene} --> {Law}>. {1.000000 0.202895}
+<({Parameters} * contention) <-> ({Overhead} * synchronization)>. {1.000000 0.427729}
+<({Gunther} * law) --> extend>. {1.000000 0.239687}
+<({Gunther} * [state]) --> extend>. {1.000000 0.170979}
+<({Gunther} * {Gustafson}) --> extend>. {1.000000 0.335410}
+(<({Gunther} * #1) --> 's> && <(#1 * time) --> of>). {1.000000 0.542049}
+<({Gunther} * [state]) --> 's>. {1.000000 0.351512}
+<({Gunther} * {Gene}) --> 's>. {1.000000 0.278637}
+<({Law} * time) --> of>. {1.000000 0.291853}
+(<({Gunther} * #1) --> 's> && <(#1 * {Law}) --> 's>). {1.000000 0.595389}
+(<({Gunther} * #1) --> 's> && <(#1 * time) --> ({Amdahl} * task)>). {1.000000 0.266318}
+(<({Gunther} * #1) --> 's> && <(#1 * {Amdahl}) --> name>). {1.000000 0.581557}
+<([state] * law) --> 's>. {1.000000 0.189977}
+<{Gunther} --> {Amdahl}>. {1.000000 0.411618}
+<{Gunther} <-> {Amdahl}>. {1.000000 0.411618}
+<{Gene} --> {Amdahl}>. {1.000000 0.382988}
+<{Gunther} <-> {Gustafson}>. {1.000000 0.394930}
+<{Amdahl} <-> [state]>. {1.000000 0.224206}
+<({Gunther} * {Amdahl}) --> 's>. {1.000000 0.193344}
+<{Law} <-> {Gene}>. {1.000000 0.202895}
+<{Amdahl} <-> {Gunther}>. {1.000000 0.411618}
+<[state] <-> {Gunther}>. {1.000000 0.126543}
+<{Gene} --> {Gunther}>. {1.000000 0.198382}
+<{Gunther} --> {Gene}>. {1.000000 0.198382}
+<{Gunther} <-> [state]>. {1.000000 0.126543}
+<[state] <-> {Amdahl}>. {1.000000 0.224206}
+<{Gene} <-> {Gunther}>. {1.000000 0.198382}
+<{Gunther} --> {Gustafson}>. {1.000000 0.394930}
+<{Gunther} <-> {Gene}>. {1.000000 0.198382}
+<{Amdahl} --> {Gene}>. {1.000000 0.382988}
+[state]. {1.000000 0.108307}
+<{Gene} --> [state]>. {1.000000 0.259708}
+<({Amdahl} * task) --> ({Law} * time)>. {1.000000 0.143392}
+<{Amdahl} <-> {Gene}>. {1.000000 0.382988}
+(<(law * {#1}) --> name> && <({#1} * task) --> (law * time)>). {1.000000 0.266318}
+<law <-> {Gene}>. {1.000000 0.365378}
+<'s --> extend>. {1.000000 0.154538}
+<([state] * {Amdahl}) --> name>. {1.000000 0.351512}
+<<({Gene} * {$1}) --> 's> ==> <({Amdahl} * {$1}) --> 's>>. {1.000000 0.382988}
+<<([state] * {$1}) --> 's> ==> <({Amdahl} * {$1}) --> 's>>. {1.000000 0.224206}
+<([state] * {Gunther}) --> 's>. {1.000000 0.027952}
+{Merging}. {1.000000 0.855891}
+<{Gene} <-> {Amdahl}>. {1.000000 0.382988}
+{System}. {1.000000 0.847332}
+<(law * {Law}) --> 's>. {1.000000 0.780737}
+{Gunther}. {1.000000 0.855891}
+<[state] <-> law>. {1.000000 0.241564}
+<{Law} --> {Amdahl}>. {1.000000 0.129053}
+<({Law} * {Amdahl}) --> name>. {1.000000 0.313125}
+<({Overhead} * synchronization) <-> ({Parameters} * contention)>. {1.000000 0.427729}
+<({Parameters} * contention) --> (({Overhead} * conflict) * resolution)>. {1.000000 0.425271}
+(<(law * {#1}) --> name> && <({#1} * task) --> of>). {1.000000 0.575742}
+<({Parameters} * contention) --> include>. {1.000000 0.864536}
+<(({Overhead} * conflict) * resolution) --> ({Parameters} * contention)>. {1.000000 0.425271}
+<(({Overhead} * conflict) * resolution) <-> ({Parameters} * contention)>. {1.000000 0.425271}
+<({Parameters} * contention) <-> (({Overhead} * conflict) * resolution)>. {1.000000 0.425271}
+<(({Overhead} * data) * consistency) --> ({Parameters} * contention)>. {1.000000 0.425271}
+<({Parameters} * contention) --> (({Overhead} * data) * consistency)>. {1.000000 0.425271}
+<({Parameters} * contention) --> ({Overhead} * synchronization)>. {1.000000 0.427729}
+<(({Overhead} * data) * consistency) <-> ({Parameters} * contention)>. {1.000000 0.425271}
+<({Gene} * law) --> 's>. {1.000000 0.324518}
+<({Overhead} * synchronization) --> ({Parameters} * contention)>. {1.000000 0.427729}
+<(({Overhead} * conflict) * resolution) --> ({Parameters} * coherency)>. {1.000000 0.425271}
+<{Law} --> [state]>. {1.000000 0.291853}
+<time --> task>. {1.000000 0.314302}
+<({Parameters} * contention) --> ([versioning] * synchronization)>. {1.000000 0.271092}
+<<({Gustafson} * $1) --> 's> ==> <({Gene} * $1) --> 's>>. {1.000000 0.217375}
+<<({Gunther} * $1) --> 's> ==> <({Gene} * $1) --> 's>>. {1.000000 0.198382}
+<([versioning] * synchronization) <-> ({Parameters} * contention)>. {1.000000 0.271092}
+(<({Law} * #1) --> ({Amdahl} * task)> && <(#1 * ([parallelizable] & part)) --> spend_on>). {1.000000 0.100800}
+<(law * time) --> ({Amdahl} * task)>. {1.000000 0.349225}
+<(! <{Complexity} --> ([$2] & $1)>) ==> <{Cost} --> ([$2] & $1)>>. {0.000000 0.432656}
+<({Parameters} * coherency) --> (({Overhead} * data) * consistency)>. {1.000000 0.425271}
+<({Parameters} * coherency) --> (({Overhead} * conflict) * resolution)>. {1.000000 0.425271}
+<(({Overhead} * data) * consistency) <-> ({Parameters} * coherency)>. {1.000000 0.425271}
+<(({Overhead} * conflict) * resolution) <-> ({Parameters} * coherency)>. {1.000000 0.425271}
+<({Overhead} * synchronization) --> ({Parameters} * coherency)>. {1.000000 0.427729}
+<({Parameters} * coherency) <-> (({Overhead} * conflict) * resolution)>. {1.000000 0.425271}
+<({Overhead} * synchronization) <-> ({Parameters} * coherency)>. {1.000000 0.427729}
+<([versioning] * synchronization) --> ({Parameters} * coherency)>. {1.000000 0.271092}
+<({Parameters} * coherency) --> ([versioning] * synchronization)>. {1.000000 0.271092}
+(<([state] * #1) --> ({Amdahl} * task)> && <(#1 * ([parallelizable] & part)) --> spend_on>). {1.000000 0.152635}
+<([versioning] * synchronization) <-> ({Parameters} * coherency)>. {1.000000 0.271092}
+<({Parameters} * coherency) --> ({Overhead} * synchronization)>. {1.000000 0.427729}
+<contention --> coherency>. {1.000000 0.427729}
+<({Parameters} * coherency) <-> ({Overhead} * synchronization)>. {1.000000 0.427729}
+<coherency <-> contention>. {1.000000 0.427729}
+<coherency --> contention>. {1.000000 0.427729}
+<contention <-> coherency>. {1.000000 0.427729}
+<(task * ([parallelizable] & part)) --> spend_on>. {1.000000 0.191782}
+<({Parameters} * coherency) <-> ([versioning] * synchronization)>. {1.000000 0.271092}
+(<({Gene} * #1) --> of> && <(#1 * ([parallelizable] & part)) --> spend_on>). {1.000000 0.196072}
+<(law * time) --> of>. {1.000000 0.710792}
+(<({Gene} * #1) --> ({Amdahl} * task)> && <(#1 * ([parallelizable] & part)) --> spend_on>). {1.000000 0.096334}
+2. {1.000000 0.822166}
+<([versioning] * synchronization) --> (({Overhead} * conflict) * resolution)>. {1.000000 0.269111}

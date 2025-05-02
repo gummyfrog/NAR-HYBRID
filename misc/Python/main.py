@@ -6,10 +6,11 @@ This implements a natural language interface to the NARS (Non-Axiomatic Reasonin
 by using Ollama to translate between natural language and Narsese.
 
 Usage:
-  python main.py [--model MODEL] [--verbose] [--no-init] [--load FILE] [--save FILE]
+  python main.py [--model MODEL] [--fact-model FACT_MODEL] [--verbose] [--no-init] [--load FILE] [--save FILE]
 
 Options:
-  --model MODEL    Specify the Ollama model to use (default: llama3.2)
+  --model MODEL    Specify the Ollama model to use for response generation (default: llama3.2)
+  --fact-model MODEL  Specify the Ollama model to use for fact extraction (default: same as --model)
   --verbose        Enable verbose output
   --no-init        Don't initialize NARS with default knowledge
   --load FILE      Load NARS knowledge from a file at startup
@@ -30,7 +31,13 @@ def parse_args():
         "--model", 
         type=str, 
         default="llama3.2", 
-        help="Specify the Ollama model to use"
+        help="Specify the model to use for response generation"
+    )
+    
+    parser.add_argument(
+        "--fact-model", 
+        type=str, 
+        help="Specify the model to use for fact extraction (defaults to --model)"
     )
     
     parser.add_argument(
@@ -70,11 +77,13 @@ def main():
     args = parse_args()
     
     print(f"Initializing NARS-Ollama pipeline with model: {args.model}")
+    print(f"Fact extraction model: {args.fact_model or args.model}")
     print("This may take a moment...\n")
     
-    # Initialize the pipeline
+    # Initialize the pipeline - we need to modify the initialization to pass the fact_model
     pipeline = NarsOllamaPipeline(
         model_name=args.model,
+        fact_model=args.fact_model,
         verbose=args.verbose,
         init_nars=not args.no_init
     )
@@ -106,6 +115,7 @@ def main():
     print("  *load [FILE] - Load NARS knowledge from a file")
     print("  *run N - Run N inference cycles")
     print("  *concepts - Show all concepts in NARS")
+    print("  *process-file [FILE] - Process a text file without generating responses")
     
     # Main interaction loop
     while True:
@@ -122,6 +132,14 @@ def main():
                 if user_input.startswith("*save") or user_input.startswith("*load"):
                     result = pipeline.nars_client.add_input(user_input)
                     print(result.get("raw", "Command processed"))
+                elif user_input.startswith("*process-file"):
+                    # Handle file processing command
+                    parts = user_input.split(maxsplit=1)
+                    if len(parts) < 2:
+                        print("Usage: *process-file [FILE]")
+                    else:
+                        file_path = parts[1].strip()
+                        pipeline.process_file(file_path)
                 else:
                     # Other NARS commands
                     result = pipeline.nars_client.add_input(user_input)

@@ -16,26 +16,32 @@ except ImportError:
 class LlmClient:
     """Client for interacting with Ollama LLM."""
     
-    def __init__(self, model_name: str = "llama3.2", verbose: bool = False):
+    def __init__(self, model_name: str = "llama3.2", verbose: bool = False, fact_model: str = None):
         """Initialize LLM client.
         
         Args:
-            model_name: Name of the Ollama model to use
+            model_name: Name of the Ollama model to use for response generation
             verbose: Whether to print verbose output
+            fact_model: Optional separate model for fact extraction (defaults to model_name)
         """
         self.verbose = verbose
         self.model_name = model_name
+        self.fact_model = fact_model or model_name
         
         try:
             if self.verbose:
-                print(f"Initializing Ollama with model: {model_name}...")
+                print(f"Initializing main model: {model_name}")
+                print(f"Initializing fact extraction model: {self.fact_model}")
+            
             self.llm = OllamaLLM(model=model_name)
+            self.fact_llm = OllamaLLM(model=self.fact_model)
             self.chat_history = []
         except Exception as e:
             if self.verbose:
                 print(f"Error initializing Ollama: {e}")
                 traceback.print_exc()
             self.llm = None
+            self.fact_llm = None
     
     def extract_facts(self, user_input: str) -> List[str]:
         """Use LLM to extract simple statements from user input.
@@ -48,16 +54,17 @@ class LlmClient:
         """
         if self.verbose:
             print(f"Extracting facts from: '{user_input}'")
+            print(f"Using model: {self.fact_model}")
 
-        if not self.llm:
+        if not self.fact_llm:
             if self.verbose:
-                print("LLM not initialized, cannot extract facts")
+                print("Fact extraction LLM not initialized")
             return []
 
         try:
             from prompts import fact_extraction_template
             
-            chain = fact_extraction_template | self.llm
+            chain = fact_extraction_template | self.fact_llm
             response = chain.invoke({"input": user_input})
             
             # Handle both object with .content and direct string responses
@@ -114,6 +121,7 @@ class LlmClient:
         """
         if self.verbose:
             print("Generating response based on NARS knowledge...")
+            print(f"Using model: {self.model_name}")
         
         if not self.llm:
             if self.verbose:
@@ -139,7 +147,6 @@ class LlmClient:
             if self.verbose:
                 print("\n=== RAW RESPONSE ===")
                 print(content)
-
 
             if '<think>' in content and '</think>' in content:
                 final_answer = content.split('</think>')[1].strip()

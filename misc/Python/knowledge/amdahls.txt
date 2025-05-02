@@ -1,0 +1,29 @@
+In computer architecture, Amdahl's law (or Amdahl's argument) is a formula that shows how much faster a task can be completed when more resources are added to the system.
+
+The law can be stated as:
+
+    "the overall performance improvement gained by optimizing a single part of a system is limited by the fraction of time that the improved part is actually used"
+
+It is named after computer scientist Gene Amdahl, and was presented at the American Federation of Information Processing Societies (AFIPS) Spring Joint Computer Conference in 1967.
+
+Amdahl's law is often used in parallel computing to predict the theoretical speedup when using multiple processors.
+
+
+Followings are limitations of Amdahl's law:
+
+Assumption of Fixed Workload: Amdahl's Law assumes that the workload remains constant. It doesn't account for dynamic or increasing workloads, which can impact the effectiveness of parallel processing.
+Overhead Ignored: Amdahl's Law neglects overheads associated with concurrency, including coordination, synchronization, inter-process communication, and concurrency control. Notably, merging data from multiple threads or processes incurs significant overhead due to conflict resolution, data consistency, versioning, and synchronization.
+Neglecting extrinsic factors: Amdahl's Law addresses computational parallelism, neglecting extrinsic factors such as data persistence, I/O operations, and memory access overheads, and assumes idealized conditions.
+Scalability Issues: While it highlights the limits of parallel speedup, it doesn't address practical scalability issues, such as the cost and complexity of adding more processors.
+Non-Parallelizable Work: Amdahl's Law emphasizes the non-parallelizable portion of the task as a bottleneck but doesn’t provide solutions for reducing or optimizing this portion.
+Assumes Homogeneous Processors: It assumes that all processors are identical and contribute equally to speedup, which may not be the case in heterogeneous computing environments.
+
+Amdahl's law applies only to the cases where the problem size is fixed. In practice, as more computing resources become available, they tend to get used on larger problems (larger datasets), and the time spent in the parallelizable part often grows much faster than the inherently serial work. In this case, Gustafson's law gives a less pessimistic and more realistic assessment of the parallel performance.
+
+Universal Scalability Law (USL), developed by Neil J. Gunther, extends the Amdahl's law and accounts for the additional overhead due to inter-process communication. USL quantifies scalability based on parameters such as contention and coherency.
+
+
+Followings are implications of Amdahl's law:
+
+Diminishing Returns: Adding more processors gives diminishing returns. Beyond a certain point, adding more processors doesn't significantly increase speedup.
+Limited Speedup: Even with many processors, there's a limit to how much faster a task can be completed due to parts of the task that cannot be parallelized.
