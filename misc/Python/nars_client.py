@@ -66,6 +66,18 @@ class NarsClient:
                 filename = parts[1].strip() if len(parts) > 1 else "nars_knowledge.nal"
                 return self.load_knowledge(filename)
             
+            elif narsese.startswith("*run"):
+                parts = narsese.split(maxsplit=1)
+                cycles = parts[1].strip()
+                try:
+                    cycles = int(cycles)
+                    return self.run_cycles(cycles)
+                except ValueError:
+                    error_msg = f"Invalid number of cycles: {cycles}"
+                    if self.verbose:
+                        print(error_msg)
+                    return {"raw": error_msg}
+
             elif narsese.startswith("*dump"):
                 concepts_output = self.add_input("*concepts", print_raw=False)
                 return concepts_output
