@@ -1,0 +1,1738 @@
+<swan --> swan>. {0.899416 0.449785}
+<(<animal --> $1> && <animal --> $1>) ==> <tweety --> $1>>. {0.000000 0.011079}
+<(<swan --> $1> && <swan --> $1>) ==> <tweety --> $1>>. {0.000000 0.011079}
+<((<swan --> $1> && <animal --> $1>) && <penguin --> $1>) ==> <tweety --> $1>>. {0.000000 0.013362}
+<((<swan --> $1> && <animal --> $1>) || <penguin --> $1>) ==> <tweety --> $1>>. {0.000000 0.013362}
+<((<animal --> $1> && <swan --> $1>) && <penguin --> $1>) ==> <tweety --> $1>>. {0.000000 0.013362}
+<((<animal --> $1> && <swan --> $1>) || <penguin --> $1>) ==> <tweety --> $1>>. {0.000000 0.013362}
+<((<swan --> $1> || <animal --> $1>) && <penguin --> $1>) ==> <tweety --> $1>>. {0.000000 0.013362}
+<((<swan --> $1> || <animal --> $1>) || <penguin --> $1>) ==> <tweety --> $1>>. {0.000000 0.013362}
+<((<animal --> $1> || <swan --> $1>) && <penguin --> $1>) ==> <tweety --> $1>>. {0.000000 0.013362}
+<((<animal --> $1> || <swan --> $1>) || <penguin --> $1>) ==> <tweety --> $1>>. {0.000000 0.013362}
+<((<swan --> $1> && <animal --> $1>) && <bird --> $1>) ==> <tweety --> $1>>. {0.000000 0.017668}
+<((<swan --> $1> && <animal --> $1>) || <bird --> $1>) ==> <tweety --> $1>>. {0.000000 0.017668}
+<((<animal --> $1> && <swan --> $1>) && <bird --> $1>) ==> <tweety --> $1>>. {0.000000 0.017668}
+<((<animal --> $1> && <swan --> $1>) || <bird --> $1>) ==> <tweety --> $1>>. {0.000000 0.017668}
+<((<swan --> $1> || <animal --> $1>) && <bird --> $1>) ==> <tweety --> $1>>. {0.000000 0.017668}
+<((<swan --> $1> || <animal --> $1>) || <bird --> $1>) ==> <tweety --> $1>>. {0.000000 0.017668}
+<((<animal --> $1> || <swan --> $1>) && <bird --> $1>) ==> <tweety --> $1>>. {0.000000 0.017668}
+<((<animal --> $1> || <swan --> $1>) || <bird --> $1>) ==> <tweety --> $1>>. {0.000000 0.017668}
+<(<animal --> $1> && <bird --> $1>) ==> <tweety --> $1>>. {0.000000 0.021283}
+<((<swan --> $1> && <animal --> $1>) && <animal --> $1>) ==> <tweety --> $1>>. {0.000000 0.026354}
+<<penguin --> $1> ==> <swan --> $1>>. {0.996320 0.730337}
+<<bird --> $1> ==> <swan --> $1>>. {0.931470 0.462841}
+<<animal --> $1> ==> <swan --> $1>>. {0.945624 0.405544}
+<[domesticate] --> [domesticate]>. {1.000000 0.458739}
+(<tweety --> animal> && <penguin --> animal>). {0.000000 0.000000}
+<penguin --> penguin>. {0.898023 0.462444}
+<({Humans} * [({Humans} * [domesticate])]) --> domesticate>. {1.000000 0.041942}
+<({Humans} * horse) --> evolve>. {1.000000 0.379512}
+(<({Humans} * #1) --> evolve> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.250166}
+<<$1 --> [domesticate]> ==> <$1 --> [evolve]>>. {1.000000 0.677294}
+<<$1 --> hoofed> ==> <$1 --> [evolve]>>. {1.000000 0.596973}
+<<$1 --> [one-toed]> ==> <$1 --> [evolve]>>. {1.000000 0.549468}
+<<$1 --> 3000> ==> <$1 --> [evolve]>>. {1.000000 0.486296}
+<(<$1 --> [one-toed]> && <$1 --> hoofed>) ==> <$1 --> [evolve]>>. {1.000000 0.183955}
+<(<$1 --> hoofed> && <$1 --> [one-toed]>) ==> <$1 --> [evolve]>>. {1.000000 0.183955}
+<(<$1 --> [one-toed]> || <$1 --> hoofed>) ==> <$1 --> [evolve]>>. {1.000000 0.183955}
+<(<$1 --> hoofed> || <$1 --> [one-toed]>) ==> <$1 --> [evolve]>>. {1.000000 0.183955}
+<(<$1 --> [domesticate]> && <$1 --> hoofed>) ==> <$1 --> [evolve]>>. {1.000000 0.182889}
+<(<$1 --> hoofed> && <$1 --> [domesticate]>) ==> <$1 --> [evolve]>>. {1.000000 0.182889}
+<(<$1 --> [domesticate]> || <$1 --> hoofed>) ==> <$1 --> [evolve]>>. {1.000000 0.182889}
+<(<$1 --> hoofed> || <$1 --> [domesticate]>) ==> <$1 --> [evolve]>>. {1.000000 0.182889}
+<(<$1 --> [domesticate]> && <$1 --> [one-toed]>) ==> <$1 --> [evolve]>>. {1.000000 0.177737}
+<(<$1 --> [one-toed]> && <$1 --> [domesticate]>) ==> <$1 --> [evolve]>>. {1.000000 0.177737}
+<(<$1 --> [domesticate]> || <$1 --> [one-toed]>) ==> <$1 --> [evolve]>>. {1.000000 0.177737}
+<(<$1 --> [one-toed]> || <$1 --> [domesticate]>) ==> <$1 --> [evolve]>>. {1.000000 0.177737}
+<<$1 --> horse> ==> <$1 --> [evolve]>>. {1.000000 0.115936}
+<(<$1 --> 3000> && <$1 --> hoofed>) ==> <$1 --> [evolve]>>. {1.000000 0.093795}
+<(<$1 --> hoofed> && <$1 --> 3000>) ==> <$1 --> [evolve]>>. {1.000000 0.093795}
+<(<$1 --> 3000> || <$1 --> hoofed>) ==> <$1 --> [evolve]>>. {1.000000 0.093795}
+<<swan --> $1> ==> <tweety --> $1>>. {0.000000 0.548691}
+<3000 --> [evolve]>. {1.000000 0.521110}
+<<$1 --> hoofed> ==> <$1 --> 3000>>. {1.000000 0.522000}
+<<$1 --> [evolve]> ==> <$1 --> 3000>>. {1.000000 0.486296}
+<<$1 --> [domesticate]> ==> <$1 --> 3000>>. {1.000000 0.467234}
+<<$1 --> [one-toed]> ==> <$1 --> 3000>>. {1.000000 0.447367}
+<(<$1 --> [one-toed]> && <$1 --> hoofed>) ==> <$1 --> 3000>>. {1.000000 0.053061}
+<(<$1 --> hoofed> && <$1 --> [one-toed]>) ==> <$1 --> 3000>>. {1.000000 0.053061}
+<(<$1 --> [one-toed]> || <$1 --> hoofed>) ==> <$1 --> 3000>>. {1.000000 0.053061}
+<(<$1 --> hoofed> || <$1 --> [one-toed]>) ==> <$1 --> 3000>>. {1.000000 0.053061}
+<(<$1 --> [domesticate]> && <$1 --> hoofed>) ==> <$1 --> 3000>>. {1.000000 0.052650}
+<(<$1 --> hoofed> && <$1 --> [domesticate]>) ==> <$1 --> 3000>>. {1.000000 0.052650}
+<(<$1 --> [domesticate]> || <$1 --> hoofed>) ==> <$1 --> 3000>>. {1.000000 0.052650}
+<(<$1 --> hoofed> || <$1 --> [domesticate]>) ==> <$1 --> 3000>>. {1.000000 0.052650}
+<(<$1 --> [domesticate]> && <$1 --> [one-toed]>) ==> <$1 --> 3000>>. {1.000000 0.050661}
+<(<$1 --> [one-toed]> && <$1 --> [domesticate]>) ==> <$1 --> 3000>>. {1.000000 0.050661}
+<(<$1 --> [domesticate]> || <$1 --> [one-toed]>) ==> <$1 --> 3000>>. {1.000000 0.050661}
+<(<$1 --> [one-toed]> || <$1 --> [domesticate]>) ==> <$1 --> 3000>>. {1.000000 0.050661}
+<(<$1 --> [evolve]> && <$1 --> hoofed>) ==> <$1 --> 3000>>. {1.000000 0.050626}
+<(<$1 --> hoofed> && <$1 --> [evolve]>) ==> <$1 --> 3000>>. {1.000000 0.050626}
+<(<$1 --> [evolve]> || <$1 --> hoofed>) ==> <$1 --> 3000>>. {1.000000 0.050626}
+<(<$1 --> hoofed> || <$1 --> [evolve]>) ==> <$1 --> 3000>>. {1.000000 0.050626}
+<<$1 --> bird> ==> <$1 --> penguin>>. {0.992216 0.554026}
+<<$1 --> animal> ==> <$1 --> penguin>>. {1.000000 0.435565}
+<<$1 --> swan> ==> <$1 --> penguin>>. {1.000000 0.308203}
+<(<$1 --> animal> && <$1 --> bird>) ==> <$1 --> penguin>>. {1.000000 0.077425}
+<(<$1 --> bird> && <$1 --> animal>) ==> <$1 --> penguin>>. {1.000000 0.077425}
+<(<$1 --> animal> || <$1 --> bird>) ==> <$1 --> penguin>>. {1.000000 0.077425}
+<(<$1 --> bird> || <$1 --> animal>) ==> <$1 --> penguin>>. {1.000000 0.077425}
+<(<$1 --> swan> && <$1 --> bird>) ==> <$1 --> penguin>>. {1.000000 0.062325}
+<(<$1 --> bird> && <$1 --> swan>) ==> <$1 --> penguin>>. {1.000000 0.062325}
+<(<$1 --> swan> || <$1 --> bird>) ==> <$1 --> penguin>>. {1.000000 0.062325}
+<(<$1 --> bird> || <$1 --> swan>) ==> <$1 --> penguin>>. {1.000000 0.062325}
+<(<$1 --> swan> && <$1 --> animal>) ==> <$1 --> penguin>>. {1.000000 0.042521}
+<(<$1 --> animal> && <$1 --> swan>) ==> <$1 --> penguin>>. {1.000000 0.042521}
+<(<$1 --> swan> || <$1 --> animal>) ==> <$1 --> penguin>>. {1.000000 0.042521}
+<(<$1 --> animal> || <$1 --> swan>) ==> <$1 --> penguin>>. {1.000000 0.042521}
+<<swan --> $1> ==> <penguin --> $1>>. {0.901988 0.749473}
+<<animal --> $1> ==> <penguin --> $1>>. {0.902243 0.452565}
+<<bird --> $1> ==> <penguin --> $1>>. {0.837778 0.401288}
+<(<tweety --> $1> || <penguin --> $1>) ==> <penguin --> $1>>. {0.904097 0.055099}
+<(<penguin --> $1> || <tweety --> $1>) ==> <penguin --> $1>>. {0.904097 0.055099}
+<[one-toed] --> [one-toed]>. {1.000000 0.473879}
+<hoofed --> hoofed>. {1.000000 0.471097}
+<[evolve] --> [evolve]>. {1.000000 0.489064}
+(<[domesticate] --> [domesticate]> || <[domesticate] --> [one-toed]>). {1.000000 0.127396}
+(<animal --> swan> && <tweety --> swan>). {0.000000 0.000000}
+(<tweety --> swan> || <animal --> swan>). {0.899416 0.032236}
+((<tweety --> animal> && <penguin --> animal>) || <tweety --> animal>). {0.000000 0.000000}
+(<tweety --> bird> && <penguin --> bird>). {0.000000 0.000000}
+<({Humans} * [({Humans} * hoofed)]) --> domesticate>. {1.000000 0.033983}
+((<penguin --> swan> || <tweety --> swan>) || <bird --> swan>). {0.887329 0.012888}
+<domesticate --> domesticate>. {1.000000 0.041942}
+<({Humans} * [({Humans} * 3000)]) --> domesticate>. {1.000000 0.018080}
+<({Humans} * [({Humans} * [evolve])]) --> domesticate>. {1.000000 0.035494}
+<({Humans} * [({Humans} * hoofed)]) --> one-toed>. {1.000000 0.005326}
+((<penguin --> penguin> || <tweety --> penguin>) || <animal --> penguin>). {0.921714 0.012212}
+<({Humans} * [({Horses} * 3000)]) --> evolve>. {1.000000 0.010735}
+<<(horse * ([$2] & $1)) --> by> ==> <([one-toed] * ([$2] & $1)) --> by>>. {1.000000 0.225681}
+<<([evolve] * ([$2] & $1)) --> by> ==> <([one-toed] * ([$2] & $1)) --> by>>. {1.000000 0.150948}
+<<(hoofed * ([$2] & $1)) --> by> ==> <([one-toed] * ([$2] & $1)) --> by>>. {1.000000 0.135603}
+<<([domesticate] * ([$2] & $1)) --> by> ==> <([one-toed] * ([$2] & $1)) --> by>>. {1.000000 0.131398}
+<<(3000 * ([$2] & $1)) --> by> ==> <([one-toed] * ([$2] & $1)) --> by>>. {1.000000 0.116969}
+(<({Horses} * #1) --> ({Humans} * hoofed)> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.109188}
+<({Humans} * [evolve]) <-> one-toed>. {1.000000 0.132003}
+<({Humans} * [one-toed]) --> one-toed>. {1.000000 0.236638}
+<(hoofed * ([taxonomic] & subspecies)) --> part_of>. {1.000000 0.613514}
+<penguin <-> animal>. {0.907706 0.405581}
+<animal <-> bird>. {0.895206 0.626465}
+<evolve <-> one-toed>. {1.000000 0.636292}
+<({Humans} * hoofed) --> ({Horses} * [one-toed])>. {1.000000 0.087379}
+<<$1 --> [one-toed]> ==> <$1 --> hoofed>>. {1.000000 0.432656}
+<<animal --> $1> ==> <tweety --> $1>>. {0.000000 0.502993}
+<<$1 --> [evolve]> ==> <$1 --> hoofed>>. {1.000000 0.692469}
+<<$1 --> [domesticate]> ==> <$1 --> hoofed>>. {1.000000 0.670234}
+<<$1 --> [one-toed]> ==> <$1 --> hoofed>>. {1.000000 0.551819}
+<<$1 --> 3000> ==> <$1 --> hoofed>>. {1.000000 0.522000}
+<(<$1 --> [one-toed]> && <$1 --> [evolve]>) ==> <$1 --> hoofed>>. {1.000000 0.188236}
+<(<$1 --> [evolve]> && <$1 --> [one-toed]>) ==> <$1 --> hoofed>>. {1.000000 0.188236}
+<(<$1 --> [one-toed]> || <$1 --> [evolve]>) ==> <$1 --> hoofed>>. {1.000000 0.188236}
+<(<$1 --> [evolve]> || <$1 --> [one-toed]>) ==> <$1 --> hoofed>>. {1.000000 0.188236}
+<(<$1 --> [domesticate]> && <$1 --> [evolve]>) ==> <$1 --> hoofed>>. {1.000000 0.187164}
+<(<$1 --> [evolve]> && <$1 --> [domesticate]>) ==> <$1 --> hoofed>>. {1.000000 0.187164}
+<(<$1 --> [domesticate]> || <$1 --> [evolve]>) ==> <$1 --> hoofed>>. {1.000000 0.187164}
+<(<$1 --> [evolve]> || <$1 --> [domesticate]>) ==> <$1 --> hoofed>>. {1.000000 0.187164}
+<(<$1 --> [domesticate]> && <$1 --> [one-toed]>) ==> <$1 --> hoofed>>. {1.000000 0.186125}
+<(<$1 --> [one-toed]> && <$1 --> [domesticate]>) ==> <$1 --> hoofed>>. {1.000000 0.186125}
+<(<$1 --> [domesticate]> || <$1 --> [one-toed]>) ==> <$1 --> hoofed>>. {1.000000 0.186125}
+<(<$1 --> [one-toed]> || <$1 --> [domesticate]>) ==> <$1 --> hoofed>>. {1.000000 0.186125}
+<(<$1 --> 3000> && <$1 --> [evolve]>) ==> <$1 --> hoofed>>. {1.000000 0.102167}
+<(<$1 --> [evolve]> && <$1 --> 3000>) ==> <$1 --> hoofed>>. {1.000000 0.102167}
+<(<$1 --> 3000> || <$1 --> [evolve]>) ==> <$1 --> hoofed>>. {1.000000 0.102167}
+<(<$1 --> [evolve]> || <$1 --> 3000>) ==> <$1 --> hoofed>>. {1.000000 0.102167}
+(<(#1 * ([mineral] & vein)) --> by> && <({Humans} * #1) --> evolve>). {1.000000 0.186430}
+<(hoofed * family) --> belong_to>. {1.000000 0.613514}
+<({Humans} * hoofed) <-> ({Horses} * 3000)>. {1.000000 0.476754}
+<({Horses} * 3000) <-> ({Humans} * horse)>. {1.000000 0.543019}
+<({Humans} * horse) --> ({Horses} * [evolve])>. {1.000000 0.163152}
+<<horse --> $1> ==> <[one-toed] --> $1>>. {1.000000 0.286428}
+<<[domesticate] --> $1> ==> <[one-toed] --> $1>>. {1.000000 0.208839}
+<<3000 --> $1> ==> <[one-toed] --> $1>>. {1.000000 0.168883}
+<<[evolve] --> $1> ==> <[one-toed] --> $1>>. {1.000000 0.135673}
+<<hoofed --> $1> ==> <[one-toed] --> $1>>. {1.000000 0.078390}
+<({Horses} * 3000) <-> ({Humans} * [evolve])>. {1.000000 0.308331}
+(<({Humans} * #1) --> ({Horses} * 3000)> && <(#1 * family) --> belong_to>). {1.000000 0.314721}
+<({Horses} * 3000) --> one-toed>. {1.000000 0.498004}
+<Horses <-> Humans>. {1.000000 0.503729}
+<horse --> hoofed>. {1.000000 0.931144}
+<horse --> [evolve]>. {1.000000 0.867927}
+<[one-toed] --> 3000>. {1.000000 0.399795}
+<[domesticate] --> 3000>. {1.000000 0.490407}
+<<$1 --> penguin> ==> <$1 --> swan>>. {1.000000 0.308203}
+<<$1 --> bird> ==> <$1 --> swan>>. {0.902739 0.357841}
+<<$1 --> animal> ==> <$1 --> swan>>. {0.891392 0.348482}
+<<$1 --> animal> ==> <$1 --> bird>>. {1.000000 0.614615}
+<<$1 --> penguin> ==> <$1 --> bird>>. {0.990332 0.508569}
+<<$1 --> swan> ==> <$1 --> bird>>. {0.907706 0.356581}
+<(<$1 --> penguin> && <$1 --> animal>) ==> <$1 --> bird>>. {1.000000 0.136717}
+<(<$1 --> animal> && <$1 --> penguin>) ==> <$1 --> bird>>. {1.000000 0.136717}
+<(<$1 --> penguin> || <$1 --> animal>) ==> <$1 --> bird>>. {1.000000 0.136717}
+<(<$1 --> animal> || <$1 --> penguin>) ==> <$1 --> bird>>. {1.000000 0.136717}
+(<(#1 * ([mineral] & vein)) --> by> && <({Humans} * #1) --> domesticate>). {1.000000 0.492772}
+<(horse * ([mineral] & vein)) --> by>. {1.000000 0.762403}
+<<$1 --> bird> ==> <$1 --> animal>>. {0.903200 0.638431}
+<<$1 --> penguin> ==> <$1 --> animal>>. {0.914114 0.492046}
+<<$1 --> swan> ==> <$1 --> animal>>. {0.900000 0.346303}
+<(<$1 --> penguin> && <$1 --> bird>) ==> <$1 --> animal>>. {0.990000 0.107441}
+<(<$1 --> bird> && <$1 --> penguin>) ==> <$1 --> animal>>. {0.990000 0.107441}
+<(<$1 --> penguin> || <$1 --> bird>) ==> <$1 --> animal>>. {0.810000 0.107441}
+<(<$1 --> bird> || <$1 --> penguin>) ==> <$1 --> animal>>. {0.810000 0.107441}
+<penguin --> bird>. {0.905068 0.929483}
+<({Humans} * [({Horses} * 3000)]) --> one-toed>. {1.000000 0.009962}
+(<horse --> [domesticate]> && <horse --> [one-toed]>). {1.000000 0.173309}
+((<tweety --> animal> && <penguin --> animal>) && <tweety --> animal>). {0.000000 0.000000}
+<({Humans} * [({Humans} * 3000)]) --> [widely]>. {1.000000 0.000111}
+(<tweety --> bird> || <tweety --> animal>). {0.000000 0.000000}
+(<hoofed --> [domesticate]> && <hoofed --> [one-toed]>). {1.000000 0.095093}
+(<hoofed --> 3000> && <hoofed --> hoofed>). {1.000000 0.067794}
+(<horse --> [one-toed]> || <horse --> [domesticate]>). {1.000000 0.173309}
+(<[evolve] --> [one-toed]> && <[evolve] --> [domesticate]>). {1.000000 0.112590}
+(<[one-toed] --> [one-toed]> || <[one-toed] --> [domesticate]>). {1.000000 0.127948}
+(<tweety --> bird> && <tweety --> penguin>). {0.000000 0.000000}
+(<tweety --> animal> && <tweety --> bird>). {0.000000 0.000000}
+(<[domesticate] --> [domesticate]> && <[domesticate] --> [one-toed]>). {1.000000 0.127396}
+(<[domesticate] --> [evolve]> || <[domesticate] --> hoofed>). {1.000000 0.100518}
+(<hoofed --> 3000> && <hoofed --> [evolve]>). {1.000000 0.066245}
+<({Horses} * [one-toed]) --> ({Horses} * 3000)>. {1.000000 0.019454}
+<({Humans} * [([blue] * 3000)]) --> evolve>. {1.000000 0.005351}
+<({Humans} * [domesticate]) --> ([widely] & domesticate)>. {1.000000 0.028618}
+<({Humans} * [domesticate]) --> ({Humans} * [domesticate])>. {1.000000 0.120762}
+<({Humans} * [one-toed]) --> [widely]>. {1.000000 0.026027}
+((<tweety --> animal> && <penguin --> animal>) && <penguin --> animal>). {0.000000 0.000000}
+<({Horses} * horse) --> ({Horses} * 3000)>. {1.000000 0.007804}
+(<tweety --> swan> && <penguin --> swan>). {0.000000 0.000000}
+(<animal --> swan> || <tweety --> swan>). {0.899416 0.032236}
+(<tweety --> animal> && <animal --> animal>). {0.000000 0.000000}
+<({Horses} * hoofed) --> ({Humans} * hoofed)>. {1.000000 0.054969}
+<({Humans} * [evolve]) --> ({Humans} * [domesticate])>. {1.000000 0.102197}
+<({Humans} * [evolve]) --> ({Humans} * hoofed)>. {1.000000 0.107200}
+((<tweety --> animal> || <penguin --> animal>) || <tweety --> animal>). {0.809222 0.043597}
+(<tweety --> animal> && <bird --> animal>). {0.000000 0.000000}
+(<tweety --> penguin> && <penguin --> penguin>). {0.000000 0.000000}
+<({Humans} * [({Horses} * [evolve])]) --> evolve>. {1.000000 0.002380}
+((<tweety --> penguin> && <penguin --> penguin>) || <bird --> penguin>). {0.829543 0.023705}
+((<penguin --> swan> || <tweety --> swan>) || <tweety --> swan>). {0.809475 0.018441}
+(<tweety --> swan> || <penguin --> swan>). {0.810334 0.094135}
+((<tweety --> swan> && <penguin --> swan>) || <tweety --> swan>). {0.000000 0.000000}
+((<penguin --> swan> || <tweety --> swan>) || <animal --> swan>). {0.899416 0.007619}
+((<tweety --> swan> && <penguin --> swan>) && <bird --> swan>). {0.000000 0.000000}
+<({Humans} * 3000) --> ([widely] & domesticate)>. {1.000000 0.208027}
+((<tweety --> swan> && <penguin --> swan>) || <bird --> swan>). {0.806662 0.011716}
+(<({Horses} * [#1]) --> ({Humans} * [domesticate])> && <([#1] * ([mineral] & vein)) --> by>). {1.000000 0.027265}
+<({Humans} * [({Horses} * [one-toed])]) --> [widely]>. {1.000000 0.000584}
+<({Humans} * [({Horses} * [one-toed])]) --> ({Humans} * [domesticate])>. {1.000000 0.002433}
+<3000 --> 3000>. {1.000000 0.310164}
+<({Humans} * [({Horses} * horse)]) --> evolve>. {1.000000 0.003137}
+<({Humans} * [({Horses} * horse)]) --> one-toed>. {1.000000 0.003297}
+<({Humans} * [({Humans} * 3000)]) --> evolve>. {1.000000 0.003357}
+<({Humans} * [({Humans} * [one-toed])]) --> evolve>. {1.000000 0.006758}
+<({Humans} * [({Humans} * horse)]) --> domesticate>. {1.000000 0.055702}
+<({Humans} * [({Humans} * [domesticate])]) --> one-toed>. {1.000000 0.007820}
+<({Humans} * [({Horses} * hoofed)]) --> evolve>. {1.000000 0.003229}
+<({Humans} * [({Humans} * [one-toed])]) --> one-toed>. {1.000000 0.006176}
+<({Humans} * [({Humans} * [evolve])]) --> one-toed>. {1.000000 0.006618}
+<({Humans} * [({Humans} * [domesticate])]) --> evolve>. {1.000000 0.007440}
+<({Humans} * [({Humans} * [evolve])]) --> evolve>. {1.000000 0.006296}
+((<tweety --> penguin> && <penguin --> penguin>) && <tweety --> penguin>). {0.000000 0.000000}
+(<tweety --> penguin> || <animal --> penguin>). {0.921714 0.051665}
+((<tweety --> penguin> && <penguin --> penguin>) || <penguin --> penguin>). {0.833319 0.037980}
+(<animal --> penguin> && <tweety --> penguin>). {0.000000 0.000000}
+<({Humans} * [({Horses} * [domesticate])]) --> ({Humans} * horse)>. {1.000000 0.000336}
+<({Humans} * [({Humans} * horse)]) --> [widely]>. {1.000000 0.002670}
+((<tweety --> penguin> && <penguin --> penguin>) || <tweety --> penguin>). {0.000000 0.000000}
+<({Humans} * [({Humans} * [domesticate])]) --> ({Humans} * hoofed)>. {1.000000 0.008786}
+(<({Horses} * #1) --> evolve> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.103777}
+<<(horse * ([$2] & $1)) --> by> ==> <(3000 * ([$2] & $1)) --> by>>. {1.000000 0.154678}
+<<([one-toed] * ([$2] & $1)) --> by> ==> <(3000 * ([$2] & $1)) --> by>>. {1.000000 0.116969}
+<<([evolve] * ([$2] & $1)) --> by> ==> <(3000 * ([$2] & $1)) --> by>>. {1.000000 0.098587}
+<<(hoofed * ([$2] & $1)) --> by> ==> <(3000 * ([$2] & $1)) --> by>>. {1.000000 0.088014}
+<<([domesticate] * ([$2] & $1)) --> by> ==> <(3000 * ([$2] & $1)) --> by>>. {1.000000 0.085139}
+(<({Humans} * [#1]) --> #1> && <([#1] * rock) --> block_of>). {1.000000 0.053239}
+<<swan --> $1> ==> ((<tweety --> $1> && <penguin --> $1>) || <penguin --> $1>)>. {0.904097 0.064792}
+<<({$1} * [evolve]) --> evolve> ==> <({$1} * hoofed) --> evolve>>. {1.000000 0.050395}
+<<({$1} * [one-toed]) --> evolve> ==> <({$1} * hoofed) --> evolve>>. {1.000000 0.048638}
+<({Humans} * hoofed) --> ({Horses} * [evolve])>. {1.000000 0.118089}
+<<[$1] --> horse> ==> <[$1] --> hoofed>>. {1.000000 0.205654}
+<<[$1] --> [one-toed]> ==> <[$1] --> hoofed>>. {1.000000 0.188468}
+<<[$1] --> [domesticate]> ==> <[$1] --> hoofed>>. {1.000000 0.187581}
+<<[$1] --> [evolve]> ==> <[$1] --> hoofed>>. {1.000000 0.158318}
+<<[$1] --> 3000> ==> <[$1] --> hoofed>>. {1.000000 0.071909}
+<<(horse * ([$2] & $1)) --> by> ==> <([evolve] * ([$2] & $1)) --> by>>. {1.000000 0.219245}
+<<([one-toed] * ([$2] & $1)) --> by> ==> <([evolve] * ([$2] & $1)) --> by>>. {1.000000 0.150948}
+<<(hoofed * ([$2] & $1)) --> by> ==> <([evolve] * ([$2] & $1)) --> by>>. {1.000000 0.131301}
+<<([domesticate] * ([$2] & $1)) --> by> ==> <([evolve] * ([$2] & $1)) --> by>>. {1.000000 0.127209}
+<<(3000 * ([$2] & $1)) --> by> ==> <([evolve] * ([$2] & $1)) --> by>>. {1.000000 0.098587}
+<domesticate --> ({Humans} * [one-toed])>. {1.000000 0.051885}
+(<penguin --> bird> && <animal --> bird>). {0.902677 0.088801}
+<<horse --> [$1]> ==> <[domesticate] --> [$1]>>. {1.000000 0.332141}
+<<[evolve] --> [$1]> ==> <[domesticate] --> [$1]>>. {1.000000 0.233396}
+<<hoofed --> [$1]> ==> <[domesticate] --> [$1]>>. {1.000000 0.184701}
+<<3000 --> [$1]> ==> <[domesticate] --> [$1]>>. {1.000000 0.169780}
+<<[one-toed] --> [$1]> ==> <[domesticate] --> [$1]>>. {1.000000 0.167100}
+(<penguin --> penguin> || <animal --> penguin>). {0.921714 0.066089}
+<[one-toed] --> horse>. {1.000000 0.712577}
+<<$1 --> hoofed> ==> (<$1 --> [domesticate]> && <$1 --> [one-toed]>)>. {1.000000 0.186125}
+<<$1 --> [evolve]> ==> (<$1 --> [domesticate]> && <$1 --> [one-toed]>)>. {1.000000 0.177737}
+<<$1 --> 3000> ==> (<$1 --> [domesticate]> && <$1 --> [one-toed]>)>. {1.000000 0.050661}
+(<animal --> bird> || <penguin --> bird>). {0.998430 0.098220}
+<[blue] --> {Horses}>. {1.000000 0.237063}
+(<({Humans} * [#1]) --> one-toed> && <([#1] * ([mineral] & vein)) --> by>). {1.000000 0.029850}
+<<penguin --> $1> ==> (<swan --> $1> || <tweety --> $1>)>. {1.000000 0.116536}
+<<animal --> $1> ==> (<swan --> $1> || <tweety --> $1>)>. {1.000000 0.086584}
+<<bird --> $1> ==> (<swan --> $1> || <tweety --> $1>)>. {0.900000 0.100787}
+specie. {1.000000 0.847332}
+<<$1 --> hoofed> ==> (<$1 --> 3000> || <$1 --> [evolve]>)>. {1.000000 0.102167}
+<<$1 --> [one-toed]> ==> (<$1 --> 3000> || <$1 --> [evolve]>)>. {1.000000 0.095539}
+<<$1 --> [domesticate]> ==> (<$1 --> 3000> || <$1 --> [evolve]>)>. {1.000000 0.094248}
+<({Horses} * 3000) --> ({Humans} * [one-toed])>. {1.000000 0.458851}
+<<$1 --> bird> ==> <$1 --> penguin>>. {1.000000 0.336876}
+<<$1 --> animal> ==> <$1 --> penguin>>. {1.000000 0.229831}
+<penguin --> swan>. {0.902739 0.684732}
+<[one-toed] <-> horse>. {1.000000 0.621741}
+<<bird --> $1> ==> (<swan --> $1> && <animal --> $1>)>. {0.900000 0.049130}
+<<bird --> $1> ==> <tweety --> $1>>. {0.000000 0.271471}
+<({Humans} * [domesticate]) --> evolve>. {1.000000 0.243644}
+<animal <-> tweety>. {0.000000 0.584555}
+<([one-toed] * rock) --> block_of>. {1.000000 0.457311}
+(<(#1 * family) --> belong_to> && <({Humans} * #1) --> evolve>). {1.000000 0.220020}
+<({Humans} * [domesticate]) --> ([blue] * 3000)>. {1.000000 0.369219}
+<domesticate --> ({Horses} * 3000)>. {1.000000 0.143151}
+<<({$2} * $1) --> [widely]> ==> <({$2} * $1) --> ({Humans} * [domesticate])>>. {1.000000 0.218412}
+<<({$2} * $1) --> ([widely] & domesticate)> ==> <({$2} * $1) --> ({Humans} * [domesticate])>>. {1.000000 0.215585}
+<<({$2} * $1) --> domesticate> ==> <({$2} * $1) --> ({Humans} * [domesticate])>>. {1.000000 0.199713}
+<<({$2} * $1) --> evolve> ==> <({$2} * $1) --> ({Humans} * [domesticate])>>. {1.000000 0.137715}
+<<({$2} * $1) --> ({Humans} * hoofed)> ==> <({$2} * $1) --> ({Humans} * [domesticate])>>. {1.000000 0.129924}
+<<({$2} * $1) --> ({Humans} * [one-toed])> ==> <({$2} * $1) --> ({Humans} * [domesticate])>>. {1.000000 0.124372}
+<<({$2} * $1) --> one-toed> ==> <({$2} * $1) --> ({Humans} * [domesticate])>>. {1.000000 0.103365}
+<animal --> animal>. {0.903200 0.438834}
+<({Humans} * [domesticate]) <-> evolve>. {1.000000 0.137715}
+(<penguin --> penguin> || <tweety --> penguin>). {0.833319 0.190458}
+<animal <-> penguin>. {0.900632 0.435916}
+<({Humans} * [evolve]) --> ({Horses} * 3000)>. {1.000000 0.416751}
+(<({Humans} * #1) --> domesticate> && <(#1 * family) --> belong_to>). {1.000000 0.646175}
+(<(#1 * rock) --> block_of> && <({Humans} * #1) --> one-toed>). {1.000000 0.192976}
+<bird --> animal>. {0.897665 0.964971}
+<<$1 --> [domesticate]> ==> <$1 --> [evolve]>>. {1.000000 0.420365}
+<horse --> [one-toed]>. {1.000000 0.924880}
+<<swan --> $1> ==> <penguin --> $1>>. {0.902739 0.684732}
+<<swan --> $1> ==> <bird --> $1>>. {0.923410 0.465002}
+<<penguin --> $1> ==> <bird --> $1>>. {0.900000 0.384204}
+<<animal --> $1> ==> <bird --> $1>>. {0.945419 0.138912}
+<(<penguin --> $1> && <swan --> $1>) ==> <bird --> $1>>. {0.990000 0.110756}
+<(<swan --> $1> && <penguin --> $1>) ==> <bird --> $1>>. {0.990000 0.110756}
+<(<penguin --> $1> || <swan --> $1>) ==> <bird --> $1>>. {0.810000 0.110756}
+<(<swan --> $1> || <penguin --> $1>) ==> <bird --> $1>>. {0.810000 0.110756}
+<(<animal --> $1> && <swan --> $1>) ==> <bird --> $1>>. {0.994542 0.051573}
+<(<swan --> $1> && <animal --> $1>) ==> <bird --> $1>>. {0.994542 0.051573}
+<(<animal --> $1> && <penguin --> $1>) ==> <bird --> $1>>. {0.994542 0.041440}
+<(<penguin --> $1> && <animal --> $1>) ==> <bird --> $1>>. {0.994542 0.041440}
+<(<animal --> $1> || <swan --> $1>) ==> <bird --> $1>>. {0.850877 0.051573}
+<(<swan --> $1> || <animal --> $1>) ==> <bird --> $1>>. {0.850877 0.051573}
+<(<animal --> $1> || <penguin --> $1>) ==> <bird --> $1>>. {0.850877 0.041440}
+<(<penguin --> $1> || <animal --> $1>) ==> <bird --> $1>>. {0.850877 0.041440}
+<(<penguin --> $1> || <tweety --> $1>) ==> <bird --> $1>>. {0.900000 0.035271}
+<(<tweety --> $1> || <penguin --> $1>) ==> <bird --> $1>>. {0.900000 0.035271}
+<<$1 --> [evolve]> ==> <$1 --> [domesticate]>>. {1.000000 0.681557}
+<<$1 --> hoofed> ==> <$1 --> [domesticate]>>. {1.000000 0.670213}
+<<$1 --> [one-toed]> ==> <$1 --> [domesticate]>>. {1.000000 0.641955}
+<<$1 --> 3000> ==> <$1 --> [domesticate]>>. {1.000000 0.467714}
+<(<$1 --> hoofed> && <$1 --> [one-toed]>) ==> <$1 --> [domesticate]>>. {1.000000 0.187187}
+<(<$1 --> [one-toed]> && <$1 --> hoofed>) ==> <$1 --> [domesticate]>>. {1.000000 0.187187}
+<(<$1 --> hoofed> || <$1 --> [one-toed]>) ==> <$1 --> [domesticate]>>. {1.000000 0.187187}
+<(<$1 --> [one-toed]> || <$1 --> hoofed>) ==> <$1 --> [domesticate]>>. {1.000000 0.187187}
+<(<$1 --> [evolve]> && <$1 --> [one-toed]>) ==> <$1 --> [domesticate]>>. {1.000000 0.182911}
+<(<$1 --> [one-toed]> && <$1 --> [evolve]>) ==> <$1 --> [domesticate]>>. {1.000000 0.182911}
+<(<$1 --> [evolve]> || <$1 --> [one-toed]>) ==> <$1 --> [domesticate]>>. {1.000000 0.182911}
+<(<$1 --> [one-toed]> || <$1 --> [evolve]>) ==> <$1 --> [domesticate]>>. {1.000000 0.182911}
+<(<$1 --> [evolve]> && <$1 --> hoofed>) ==> <$1 --> [domesticate]>>. {1.000000 0.180837}
+<(<$1 --> hoofed> && <$1 --> [evolve]>) ==> <$1 --> [domesticate]>>. {1.000000 0.180837}
+<(<$1 --> [evolve]> || <$1 --> hoofed>) ==> <$1 --> [domesticate]>>. {1.000000 0.180837}
+<(<$1 --> hoofed> || <$1 --> [evolve]>) ==> <$1 --> [domesticate]>>. {1.000000 0.180837}
+<(<$1 --> 3000> && <$1 --> [one-toed]>) ==> <$1 --> [domesticate]>>. {1.000000 0.097557}
+<(<$1 --> [one-toed]> && <$1 --> 3000>) ==> <$1 --> [domesticate]>>. {1.000000 0.097557}
+<(<$1 --> 3000> || <$1 --> [one-toed]>) ==> <$1 --> [domesticate]>>. {1.000000 0.097557}
+<(<$1 --> [one-toed]> || <$1 --> 3000>) ==> <$1 --> [domesticate]>>. {1.000000 0.097557}
+((<tweety --> bird> && <penguin --> bird>) && <tweety --> bird>). {0.000000 0.000000}
+<({Humans} * [one-toed]) --> domesticate>. {1.000000 0.542915}
+<<$1 --> [domesticate]> ==> <$1 --> 3000>>. {1.000000 0.224205}
+<({Humans} * [evolve]) --> domesticate>. {1.000000 0.511719}
+<tweety <-> animal>. {0.000000 0.639876}
+<domesticate <-> one-toed>. {1.000000 0.557593}
+<hoofed --> [one-toed]>. {1.000000 0.527527}
+<<bird --> $1> ==> <penguin --> $1>>. {0.810000 0.320833}
+<<swan --> $1> ==> (<tweety --> $1> && <penguin --> $1>)>. {0.000000 0.109417}
+<({Humans} * [domesticate]) <-> ({Horses} * 3000)>. {1.000000 0.379705}
+<({Humans} * [domesticate]) --> ({Horses} * 3000)>. {1.000000 0.418573}
+<({Horses} * 3000) --> ({Humans} * hoofed)>. {1.000000 0.454939}
+(<(#1 * rock) --> block_of> && <({Humans} * #1) --> evolve>). {1.000000 0.186430}
+<({Horses} * 3000) <-> ({Humans} * [one-toed])>. {1.000000 0.403262}
+<({Horses} * 3000) --> ({Humans} * horse)>. {1.000000 0.562292}
+<({Horses} * 3000) <-> ({Humans} * hoofed)>. {1.000000 0.388166}
+<<({Humans} * [$1]) --> domesticate> ==> <$1 --> domesticate>>. {1.000000 0.069363}
+<<[one-toed] --> $1> ==> <hoofed --> $1>>. {1.000000 0.078390}
+<({Humans} * [one-toed]) <-> domesticate>. {1.000000 0.034468}
+<<({$2} * $1) --> domesticate> ==> <({$2} * $1) --> one-toed>>. {1.000000 0.186451}
+<<({$2} * $1) --> ({Humans} * [evolve])> ==> <({$2} * $1) --> one-toed>>. {1.000000 0.132003}
+<<({$2} * $1) --> ({Humans} * hoofed)> ==> <({$2} * $1) --> one-toed>>. {1.000000 0.109068}
+<<({$2} * $1) --> ({Humans} * [domesticate])> ==> <({$2} * $1) --> one-toed>>. {1.000000 0.103365}
+<<({$2} * $1) --> evolve> ==> <({$2} * $1) --> one-toed>>. {1.000000 0.092548}
+<<({$2} * $1) --> ({Horses} * 3000)> ==> <({$2} * $1) --> one-toed>>. {1.000000 0.051878}
+<one-toed --> ({Humans} * 3000)>. {1.000000 0.038542}
+<domesticate --> ({Horses} * [one-toed])>. {1.000000 0.011874}
+<one-toed --> ({Horses} * [evolve])>. {1.000000 0.076653}
+(<({Horses} * #1) --> ({Humans} * [evolve])> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.031111}
+<({Humans} * hoofed) --> domesticate>. {1.000000 0.624154}
+<({Horses} * horse) --> ({Humans} * [evolve])>. {1.000000 0.114032}
+<tweety --> bird>. {0.000000 0.537613}
+<horse <-> [domesticate]>. {1.000000 0.332141}
+(<(#1 * family) --> belong_to> && <({Humans} * #1) --> domesticate>). {1.000000 0.581558}
+<({Humans} * 3000) --> domesticate>. {1.000000 0.260662}
+<hoofed --> horse>. {1.000000 0.346620}
+<3000 <-> [domesticate]>. {1.000000 0.434013}
+<({Horses} * horse) --> evolve>. {1.000000 0.121250}
+(<(#1 * ([mineral] & vein)) --> by> && <({Humans} * #1) --> ({Horses} * 3000)>). {1.000000 0.240006}
+<domesticate --> one-toed>. {1.000000 0.186451}
+<({Horses} * horse) --> ({Humans} * [domesticate])>. {1.000000 0.116451}
+<hoofed <-> horse>. {1.000000 0.314717}
+<({Humans} * 3000) --> evolve>. {1.000000 0.183601}
+<3000 --> horse>. {1.000000 0.403917}
+<{Humans} <-> {Horses}>. {1.000000 0.557436}
+([domesticated] & horse). {1.000000 0.762599}
+<({Humans} * [one-toed]) <-> one-toed>. {1.000000 0.069363}
+<penguin <-> tweety>. {0.000000 0.349618}
+<hoofed --> [evolve]>. {1.000000 0.535018}
+<<({$1} * horse) --> domesticate> ==> <({$1} * [evolve]) --> domesticate>>. {1.000000 0.236333}
+<<({$1} * hoofed) --> domesticate> ==> <({$1} * [evolve]) --> domesticate>>. {1.000000 0.193891}
+<<({$1} * [one-toed]) --> domesticate> ==> <({$1} * [evolve]) --> domesticate>>. {1.000000 0.173021}
+<<({$1} * [domesticate]) --> domesticate> ==> <({$1} * [evolve]) --> domesticate>>. {1.000000 0.132787}
+<<({$1} * 3000) --> domesticate> ==> <({$1} * [evolve]) --> domesticate>>. {1.000000 0.091281}
+<({Humans} * [one-toed]) --> ({Horses} * [evolve])>. {1.000000 0.133800}
+<3000 <-> hoofed>. {1.000000 0.501772}
+<(3000 * ([taxonomic] & subspecies)) --> part_of>. {1.000000 0.441456}
+<<[evolve] --> $1> ==> <3000 --> $1>>. {1.000000 0.198855}
+<<[one-toed] --> $1> ==> <3000 --> $1>>. {1.000000 0.168883}
+<<[domesticate] --> $1> ==> <3000 --> $1>>. {1.000000 0.118288}
+<evolve --> ({Humans} * 3000)>. {1.000000 0.061140}
+(<({Humans} * #1) --> ({Horses} * horse)> && <(#1 * family) --> belong_to>). {1.000000 0.037360}
+(<({Horses} * #1) --> ({Humans} * [one-toed])> && <(#1 * family) --> belong_to>). {1.000000 0.143189}
+<<[$1] --> hoofed> ==> <[$1] --> [one-toed]>>. {1.000000 0.188468}
+<<[$1] --> [domesticate]> ==> <[$1] --> [one-toed]>>. {1.000000 0.138220}
+<<[$1] --> horse> ==> <[$1] --> [one-toed]>>. {1.000000 0.126913}
+<<[$1] --> 3000> ==> <[$1] --> [one-toed]>>. {1.000000 0.088791}
+<<[$1] --> hoofed> ==> <[$1] --> horse>>. {1.000000 0.205654}
+<<[$1] --> [domesticate]> ==> <[$1] --> horse>>. {1.000000 0.182414}
+<<[$1] --> 3000> ==> <[$1] --> horse>>. {1.000000 0.127714}
+<<[$1] --> [one-toed]> ==> <[$1] --> horse>>. {1.000000 0.126913}
+<<[$1] --> [evolve]> ==> <[$1] --> horse>>. {1.000000 0.085669}
+<evolve --> domesticate>. {1.000000 0.238560}
+<horse --> 3000>. {1.000000 0.544511}
+<[evolve] <-> hoofed>. {1.000000 0.691866}
+<horse --> [domesticate]>. {1.000000 0.892468}
+<hoofed <-> [domesticate]>. {1.000000 0.610106}
+<[one-toed] --> [evolve]>. {1.000000 0.668227}
+<[evolve] --> hoofed>. {1.000000 0.604916}
+<Humans <-> Horses>. {1.000000 0.468651}
+(<(#1 * ([taxonomic] & subspecies)) --> part_of> && <({Humans} * #1) --> domesticate>). {1.000000 0.581557}
+<tweety --> penguin>. {0.000000 0.964448}
+<<([one-toed] * ([$2] & $1)) --> by> ==> <([domesticate] * ([$2] & $1)) --> by>>. {1.000000 0.131398}
+<<([evolve] * ([$2] & $1)) --> by> ==> <([domesticate] * ([$2] & $1)) --> by>>. {1.000000 0.127209}
+<<(horse * ([$2] & $1)) --> by> ==> <([domesticate] * ([$2] & $1)) --> by>>. {1.000000 0.101454}
+<<(3000 * ([$2] & $1)) --> by> ==> <([domesticate] * ([$2] & $1)) --> by>>. {1.000000 0.085139}
+<({Humans} * [domesticate]) --> ({Humans} * [evolve])>. {1.000000 0.127210}
+<[one-toed] --> [({Humans} * [domesticate])]>. {1.000000 0.087391}
+<({Horses} * [domesticate]) --> ({Humans} * horse)>. {1.000000 0.080157}
+<([domesticate] * ([mineral] & vein)) --> by>. {1.000000 0.558816}
+<([domesticate] * rock) --> block_of>. {1.000000 0.558816}
+<([one-toed] * ([mineral] & vein)) --> by>. {1.000000 0.551915}
+<{Horses} <-> {Humans}>. {1.000000 0.580694}
+(<({Humans} * #1) --> ({Horses} * 3000)> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.323196}
+(<(#1 * ([taxonomic] & subspecies)) --> part_of> && <({Humans} * #1) --> ({Horses} * 3000)>). {1.000000 0.283249}
+(<({Humans} * #1) --> domesticate> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.547524}
+<(horse * rock) --> block_of>. {1.000000 0.741030}
+<<([one-toed] * ([$2] & $1)) --> by> ==> <(horse * ([$2] & $1)) --> by>>. {1.000000 0.225681}
+<<([evolve] * ([$2] & $1)) --> by> ==> <(horse * ([$2] & $1)) --> by>>. {1.000000 0.219245}
+<<(3000 * ([$2] & $1)) --> by> ==> <(horse * ([$2] & $1)) --> by>>. {1.000000 0.154678}
+<<(hoofed * ([$2] & $1)) --> by> ==> <(horse * ([$2] & $1)) --> by>>. {1.000000 0.103800}
+<<([domesticate] * ([$2] & $1)) --> by> ==> <(horse * ([$2] & $1)) --> by>>. {1.000000 0.101454}
+<3000 --> hoofed>. {1.000000 0.594184}
+<[domesticate] <-> [evolve]>. {1.000000 0.679494}
+<(hoofed * rock) --> block_of>. {1.000000 0.565126}
+<[domesticate] --> [({Humans} * [domesticate])]>. {1.000000 0.018251}
+<({Humans} * [({Humans} * 3000)]) --> ({Humans} * [evolve])>. {1.000000 0.000028}
+(<penguin --> bird> || <penguin --> penguin>). {0.820239 0.063441}
+<evolve --> evolve>. {1.000000 0.005237}
+<({Humans} * 3000) --> ({Humans} * horse)>. {1.000000 0.008036}
+<({Humans} * [({Humans} * 3000)]) --> ({Horses} * 3000)>. {1.000000 0.000204}
+(<tweety --> bird> || <tweety --> penguin>). {0.000000 0.000000}
+((<penguin --> animal> || <tweety --> animal>) || <bird --> animal>). {0.890144 0.032449}
+(<tweety --> swan> && <tweety --> bird>). {0.000000 0.000000}
+(<tweety --> swan> || <tweety --> bird>). {0.000000 0.000000}
+(<penguin --> swan> || <penguin --> bird>). {0.898023 0.025883}
+(<swan --> penguin> || <swan --> bird>). {0.899136 0.075260}
+(<swan --> penguin> && <swan --> bird>). {0.899136 0.075260}
+(<tweety --> penguin> || <tweety --> bird>). {0.000000 0.000000}
+((<penguin --> bird> && <tweety --> bird>) && <tweety --> bird>). {0.000000 0.000000}
+(<penguin --> bird> && <penguin --> penguin>). {0.820239 0.063441}
+((<penguin --> bird> && <tweety --> bird>) && <bird --> bird>). {0.000000 0.000000}
+((<penguin --> swan> && <tweety --> swan>) || <bird --> swan>). {0.806662 0.011716}
+((<penguin --> swan> && <tweety --> swan>) && <bird --> swan>). {0.000000 0.000000}
+(<animal --> animal> && <animal --> bird>). {0.900000 0.048521}
+<([blue] * hoofed) --> ({Humans} * [one-toed])>. {1.000000 0.107648}
+(<[domesticate] --> 3000> || <[domesticate] --> hoofed>). {1.000000 0.056169}
+<[domesticate] --> [({Humans} * hoofed)]>. {1.000000 0.039998}
+<hoofed --> [({Humans} * hoofed)]>. {1.000000 0.037899}
+<({Humans} * 3000) --> ([blue] * [evolve])>. {1.000000 0.117039}
+(<[domesticate] --> hoofed> || <[domesticate] --> 3000>). {1.000000 0.056169}
+(<[domesticate] --> hoofed> && <[domesticate] --> 3000>). {1.000000 0.056169}
+(<[domesticate] --> 3000> && <[domesticate] --> hoofed>). {1.000000 0.056169}
+(<[domesticate] --> [one-toed]> || <[domesticate] --> [domesticate]>). {1.000000 0.127396}
+(<3000 --> [domesticate]> && <3000 --> [one-toed]>). {1.000000 0.110592}
+(<[evolve] --> [domesticate]> && <[evolve] --> [one-toed]>). {1.000000 0.112590}
+(<hoofed --> [one-toed]> && <hoofed --> [domesticate]>). {1.000000 0.095093}
+(<3000 --> [one-toed]> && <3000 --> [domesticate]>). {1.000000 0.110592}
+(<hoofed --> [domesticate]> || <hoofed --> [one-toed]>). {1.000000 0.095093}
+(<horse --> [domesticate]> || <horse --> [one-toed]>). {1.000000 0.173309}
+(<[evolve] --> [domesticate]> || <[evolve] --> [one-toed]>). {1.000000 0.112590}
+<({Humans} * 3000) --> ({Humans} * [one-toed])>. {1.000000 0.018396}
+(<3000 --> [one-toed]> || <3000 --> [domesticate]>). {1.000000 0.110592}
+<({Humans} * [({Humans} * 3000)]) --> ([widely] & domesticate)>. {1.000000 0.000110}
+(<horse --> hoofed> || <horse --> 3000>). {1.000000 0.090418}
+(<tweety --> bird> || <swan --> bird>). {0.905068 0.098035}
+(<tweety --> penguin> || <swan --> penguin>). {0.898023 0.048396}
+(<tweety --> swan> || <swan --> swan>). {0.902739 0.072035}
+(<swan --> animal> || <tweety --> animal>). {0.820239 0.079263}
+(<penguin --> swan> && <bird --> swan>). {0.729301 0.057326}
+((<penguin --> animal> && <tweety --> animal>) && <bird --> animal>). {0.000000 0.000000}
+((<penguin --> swan> && <tweety --> swan>) || <tweety --> swan>). {0.000000 0.000000}
+<({Humans} * [({Horses} * hoofed)]) --> ({Humans} * [one-toed])>. {1.000000 0.000490}
+(<horse --> 3000> || <horse --> [evolve]>). {1.000000 0.095133}
+(<[domesticate] --> [evolve]> && <[domesticate] --> hoofed>). {1.000000 0.100518}
+(<[domesticate] --> [one-toed]> && <[domesticate] --> [domesticate]>). {1.000000 0.127396}
+(<hoofed --> hoofed> || <hoofed --> [evolve]>). {1.000000 0.127108}
+(<3000 --> hoofed> || <3000 --> [evolve]>). {1.000000 0.109054}
+(<[domesticate] --> hoofed> && <[domesticate] --> [evolve]>). {1.000000 0.100518}
+(<[evolve] --> hoofed> || <[evolve] --> [evolve]>). {1.000000 0.127998}
+(<[evolve] --> 3000> || <[evolve] --> [evolve]>). {1.000000 0.066848}
+(<[evolve] --> [evolve]> || <[evolve] --> hoofed>). {1.000000 0.127998}
+<({Horses} * [evolve]) --> ({Horses} * 3000)>. {1.000000 0.021426}
+<<({$1} * [$2]) --> ({Horses} * 3000)> ==> <({$1} * [$2]) --> evolve>>. {1.000000 0.046278}
+<one-toed --> ([blue] * horse)>. {1.000000 0.052792}
+<({Humans} * [evolve]) --> ([blue] * hoofed)>. {1.000000 0.218429}
+<{Humans} --> {Humans}>. {1.000000 0.184532}
+<({Humans} * [([blue] * 3000)]) --> domesticate>. {1.000000 0.030166}
+<({Humans} * [([blue] * 3000)]) --> one-toed>. {1.000000 0.005624}
+<({Humans} * [([blue] * 3000)]) --> ({Humans} * hoofed)>. {1.000000 0.006319}
+<({Humans} * [([blue] * 3000)]) --> [widely]>. {1.000000 0.001446}
+<({Humans} * [evolve]) --> ([blue] * [domesticate])>. {1.000000 0.152743}
+<({Humans} * [({Horses} * 3000)]) --> ({Horses} * 3000)>. {1.000000 0.005972}
+<({Humans} * [domesticate]) --> ([blue] * horse)>. {1.000000 0.111522}
+<({Humans} * [({Horses} * 3000)]) --> ([widely] & domesticate)>. {1.000000 0.002551}
+<({Humans} * [one-toed]) --> ({Humans} * [domesticate])>. {1.000000 0.108427}
+((<penguin --> animal> || <tweety --> animal>) && <penguin --> animal>). {0.731615 0.042538}
+<({Humans} * [one-toed]) --> ([widely] & domesticate)>. {1.000000 0.025695}
+((<penguin --> animal> || <tweety --> animal>) && <animal --> animal>). {0.809222 0.013677}
+<([blue] * [domesticate]) --> ({Humans} * horse)>. {1.000000 0.055243}
+((<tweety --> animal> && <penguin --> animal>) && <animal --> animal>). {0.000000 0.000000}
+<({Humans} * [({Horses} * 3000)]) --> [widely]>. {1.000000 0.002584}
+(<animal --> bird> && <tweety --> bird>). {0.000000 0.000000}
+<([widely] & domesticate) --> ({Humans} * hoofed)>. {1.000000 0.225920}
+<<({$1} * hoofed) --> ({Horses} * 3000)> ==> <({$1} * [domesticate]) --> ({Horses} * 3000)>>. {1.000000 0.089263}
+((<tweety --> animal> && <penguin --> animal>) || <animal --> animal>). {0.899136 0.015197}
+(<({Horses} * #1) --> ([blue] * 3000)> && <(#1 * family) --> belong_to>). {1.000000 0.309912}
+<<({$1} * hoofed) --> ({Horses} * 3000)> ==> <({$1} * [one-toed]) --> ({Horses} * 3000)>>. {1.000000 0.064007}
+((<tweety --> bird> && <penguin --> bird>) && <penguin --> bird>). {0.000000 0.000000}
+<({Horses} * [one-toed]) --> ([blue] * 3000)>. {1.000000 0.248023}
+<({Humans} * [({Horses} * hoofed)]) --> [widely]>. {1.000000 0.000794}
+<({Humans} * [({Horses} * hoofed)]) --> ({Horses} * 3000)>. {1.000000 0.002016}
+<({Humans} * [({Horses} * hoofed)]) --> ([widely] & domesticate)>. {1.000000 0.000784}
+(<tweety --> swan> && <animal --> swan>). {0.000000 0.000000}
+<({Humans} * hoofed) <-> [widely]>. {1.000000 0.228842}
+(<tweety --> penguin> && <bird --> penguin>). {0.000000 0.000000}
+<({Humans} * [({Horses} * [domesticate])]) --> ({Horses} * 3000)>. {1.000000 0.001250}
+((<penguin --> animal> || <tweety --> animal>) || <tweety --> animal>). {0.809222 0.036781}
+<({Humans} * hoofed) <-> domesticate>. {1.000000 0.209489}
+((<penguin --> bird> || <tweety --> bird>) || <tweety --> bird>). {0.900000 0.043968}
+<({Horses} * [domesticate]) --> [widely]>. {1.000000 0.028300}
+((<penguin --> animal> || <tweety --> animal>) && <tweety --> animal>). {0.000000 0.000000}
+<({Humans} * [({Horses} * [domesticate])]) --> [widely]>. {1.000000 0.000541}
+<({Humans} * [domesticate]) --> ({Humans} * hoofed)>. {1.000000 0.126673}
+<({Humans} * hoofed) --> ({Humans} * hoofed)>. {1.000000 0.130753}
+<({Humans} * [({Horses} * hoofed)]) --> ({Humans} * hoofed)>. {1.000000 0.003813}
+<({Horses} * [evolve]) --> ({Humans} * hoofed)>. {1.000000 0.088271}
+<evolve --> one-toed>. {1.000000 0.092548}
+<({Humans} * [evolve]) --> ([widely] & domesticate)>. {1.000000 0.024218}
+<({Humans} * [({Horses} * [domesticate])]) --> ([widely] & domesticate)>. {1.000000 0.000516}
+<<swan --> $1> ==> ((<tweety --> $1> && <penguin --> $1>) || <animal --> $1>)>. {1.000000 0.018835}
+<<horse --> [$1]> ==> <[one-toed] --> [$1]>>. {1.000000 0.430384}
+<<[domesticate] --> [$1]> ==> <[one-toed] --> [$1]>>. {1.000000 0.167100}
+<<hoofed --> [$1]> ==> <[one-toed] --> [$1]>>. {1.000000 0.099074}
+<({Humans} * [evolve]) --> [widely]>. {1.000000 0.024532}
+((<tweety --> animal> || <penguin --> animal>) && <tweety --> animal>). {0.000000 0.000000}
+((<tweety --> penguin> || <penguin --> penguin>) || <tweety --> penguin>). {0.829543 0.035033}
+<<swan --> $1> ==> ((<tweety --> $1> && <penguin --> $1>) && <bird --> $1>)>. {0.000000 0.040622}
+<<swan --> $1> ==> (<tweety --> $1> || <bird --> $1>)>. {0.900000 0.203709}
+<<animal --> $1> ==> (<tweety --> $1> || <bird --> $1>)>. {0.945419 0.056251}
+<<penguin --> $1> ==> (<tweety --> $1> || <bird --> $1>)>. {0.900000 0.061250}
+((<tweety --> penguin> || <penguin --> penguin>) || <bird --> penguin>). {0.912497 0.026075}
+((<tweety --> animal> || <penguin --> animal>) || <bird --> animal>). {0.890144 0.032449}
+(<tweety --> animal> || <bird --> animal>). {0.809222 0.147929}
+(<bird --> animal> || <bird --> bird>). {0.920172 0.048095}
+(<tweety --> penguin> || <bird --> penguin>). {0.829543 0.118871}
+((<tweety --> animal> || <penguin --> animal>) && <bird --> animal>). {0.728300 0.026549}
+((<penguin --> penguin> || <tweety --> penguin>) || <bird --> penguin>). {0.912497 0.026075}
+(<bird --> swan> || <tweety --> swan>). {0.806662 0.058753}
+((<tweety --> penguin> && <penguin --> penguin>) || <animal --> penguin>). {0.921714 0.012212}
+(<bird --> animal> && <tweety --> animal>). {0.000000 0.000000}
+((<tweety --> animal> && <penguin --> animal>) && <bird --> animal>). {0.000000 0.000000}
+((<tweety --> penguin> && <penguin --> penguin>) && <bird --> penguin>). {0.000000 0.000000}
+(<bird --> animal> || <tweety --> animal>). {0.809222 0.147929}
+(<bird --> penguin> || <tweety --> penguin>). {0.829543 0.118871}
+<[one-toed] --> [({Horses} * 3000)]>. {1.000000 0.009033}
+(<swan --> bird> && <swan --> swan>). {0.921714 0.040410}
+(<penguin --> swan> && <tweety --> swan>). {0.000000 0.000000}
+(<penguin --> swan> || <animal --> swan>). {0.899416 0.041236}
+<({Horses} * [one-toed]) --> ({Humans} * horse)>. {1.000000 0.000319}
+(<penguin --> swan> && <animal --> swan>). {0.813160 0.037281}
+((<tweety --> swan> && <penguin --> swan>) || <penguin --> swan>). {0.813160 0.023697}
+(<penguin --> animal> && <penguin --> bird>). {0.808220 0.031353}
+<({Humans} * [({Horses} * 3000)]) --> ({Humans} * [evolve])>. {1.000000 0.000090}
+((<penguin --> swan> || <tweety --> swan>) && <tweety --> swan>). {0.000000 0.000000}
+((<tweety --> swan> && <penguin --> swan>) && <penguin --> swan>). {0.000000 0.000000}
+(<animal --> swan> && <penguin --> swan>). {0.813160 0.037281}
+(<({Humans} * #1) --> ({Horses} * [domesticate])> && <(#1 * rock) --> block_of>). {1.000000 0.033951}
+((<tweety --> swan> && <penguin --> swan>) && <animal --> swan>). {0.000000 0.000000}
+((<tweety --> swan> || <penguin --> swan>) || <bird --> swan>). {0.887329 0.012888}
+(<penguin --> bird> || <penguin --> animal>). {0.898023 0.034836}
+<({Humans} * 3000) --> ({Horses} * 3000)>. {1.000000 0.028877}
+<({Horses} * horse) --> [widely]>. {1.000000 0.288001}
+<({Humans} * 3000) --> [widely]>. {1.000000 0.012496}
+((<penguin --> swan> || <tweety --> swan>) && <bird --> swan>). {0.725996 0.010545}
+(<({Humans} * #1) --> ({Horses} * [one-toed])> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.036422}
+(<({Horses} * #1) --> ({Humans} * [one-toed])> && <(#1 * rock) --> block_of>). {1.000000 0.077847}
+(<({Humans} * [#1]) --> evolve> && <([#1] * ([mineral] & vein)) --> by>). {1.000000 0.144201}
+<({Horses} * horse) --> domesticate>. {1.000000 0.254924}
+(<bird --> bird> && <tweety --> bird>). {0.000000 0.000000}
+(<tweety --> bird> && <bird --> bird>). {0.000000 0.000000}
+(<bird --> bird> || <tweety --> bird>). {0.900000 0.176834}
+<({Humans} * [({Humans} * [evolve])]) --> ({Humans} * [domesticate])>. {1.000000 0.007089}
+(<({Horses} * #1) --> [widely]> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.208865}
+<<$1 --> penguin> ==> (<$1 --> swan> || <$1 --> bird>)>. {1.000000 0.062325}
+(<({Horses} * #1) --> one-toed> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.086164}
+(<({Horses} * #1) --> domesticate> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.186521}
+<<({$1} * [one-toed]) --> domesticate> ==> <({$1} * [domesticate]) --> domesticate>>. {1.000000 0.137062}
+<<({$1} * [evolve]) --> domesticate> ==> <({$1} * [domesticate]) --> domesticate>>. {1.000000 0.132787}
+(<({Humans} * #1) --> ({Horses} * horse)> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.037360}
+<({Humans} * horse) --> ({Horses} * [one-toed])>. {1.000000 0.095613}
+<({Humans} * [domesticate]) --> ({Horses} * horse)>. {1.000000 0.135174}
+<<({$1} * [one-toed]) --> domesticate> ==> <({$1} * horse) --> domesticate>>. {1.000000 0.236563}
+<<({$1} * [evolve]) --> domesticate> ==> <({$1} * horse) --> domesticate>>. {1.000000 0.236333}
+<({Humans} * [({Horses} * [one-toed])]) --> ({Horses} * 3000)>. {1.000000 0.001349}
+<evolve --> ({Horses} * horse)>. {1.000000 0.043264}
+<evolve --> ({Horses} * [one-toed])>. {1.000000 0.026445}
+((<tweety --> bird> && <penguin --> bird>) && <bird --> bird>). {0.000000 0.000000}
+((<tweety --> bird> || <penguin --> bird>) || <tweety --> bird>). {0.900000 0.052116}
+((<penguin --> bird> || <tweety --> bird>) && <bird --> bird>). {0.810000 0.031737}
+((<tweety --> bird> || <penguin --> bird>) && <bird --> bird>). {0.810000 0.031737}
+<({Horses} * [domesticate]) --> domesticate>. {1.000000 0.162645}
+<<$1 --> penguin> ==> (<$1 --> bird> && <$1 --> swan>)>. {1.000000 0.062325}
+(<animal --> swan> && <animal --> bird>). {1.000000 0.040055}
+((<tweety --> bird> && <penguin --> bird>) || <bird --> bird>). {0.900000 0.035263}
+(<animal --> bird> && <animal --> swan>). {1.000000 0.040055}
+(<animal --> swan> || <animal --> bird>). {1.000000 0.040055}
+(<bird --> bird> && <bird --> swan>). {0.920172 0.035734}
+<({Humans} * [evolve]) --> ({Horses} * [domesticate])>. {1.000000 0.036734}
+<({Horses} * [domesticate]) --> ({Humans} * [evolve])>. {1.000000 0.053803}
+<({Humans} * [({Horses} * [evolve])]) --> ({Horses} * 3000)>. {1.000000 0.001486}
+<({Humans} * [({Humans} * 3000)]) --> one-toed>. {1.000000 0.003371}
+<({Humans} * [({Horses} * [evolve])]) --> ({Humans} * [domesticate])>. {1.000000 0.002679}
+<({Humans} * [({Horses} * [evolve])]) --> one-toed>. {1.000000 0.002501}
+<({Humans} * [({Horses} * [domesticate])]) --> evolve>. {1.000000 0.002655}
+<({Humans} * [({Humans} * [evolve])]) --> ({Humans} * hoofed)>. {1.000000 0.007436}
+<hoofed --> [({Horses} * 3000)]>. {1.000000 0.005396}
+<({Humans} * [({Horses} * [domesticate])]) --> domesticate>. {1.000000 0.011281}
+<({Humans} * [one-toed]) --> ({Humans} * [one-toed])>. {1.000000 0.053445}
+<({Humans} * [({Humans} * [one-toed])]) --> domesticate>. {1.000000 0.033811}
+<({Humans} * [({Horses} * [one-toed])]) --> one-toed>. {1.000000 0.002271}
+<({Humans} * [({Horses} * hoofed)]) --> one-toed>. {1.000000 0.003393}
+<({Humans} * [({Horses} * [one-toed])]) --> domesticate>. {1.000000 0.012180}
+(<swan --> swan> && <swan --> bird>). {0.921714 0.040410}
+<({Humans} * [({Horses} * [one-toed])]) --> evolve>. {1.000000 0.002161}
+(<({Humans} * [#1]) --> one-toed> && <([#1] * rock) --> block_of>). {1.000000 0.047455}
+<<([evolve] * $1) --> block_of> ==> <(3000 * $1) --> block_of>>. {1.000000 0.082750}
+<({Humans} * [({Horses} * [domesticate])]) --> one-toed>. {1.000000 0.002103}
+<<swan --> $1> ==> ((<penguin --> $1> && <tweety --> $1>) && <tweety --> $1>)>. {0.000000 0.060036}
+<({Humans} * [({Horses} * [evolve])]) --> domesticate>. {1.000000 0.013415}
+<({Horses} * [one-toed]) --> one-toed>. {1.000000 0.081121}
+(<({Horses} * [#1]) --> #1> && <([#1] * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.040094}
+(<({Humans} * [#1]) --> ({Horses} * 3000)> && <([#1] * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.095900}
+<[evolve] <-> [one-toed]>. {1.000000 0.615253}
+<bird <-> swan>. {0.835177 0.578847}
+<({Humans} * [({Humans} * horse)]) --> one-toed>. {1.000000 0.010025}
+<({Humans} * horse) --> ({Humans} * [domesticate])>. {1.000000 0.160381}
+<({Humans} * [({Humans} * horse)]) --> evolve>. {1.000000 0.009881}
+<<({$2} * $1) --> ({Humans} * [evolve])> ==> <({$2} * $1) --> ({Humans} * horse)>>. {1.000000 0.146546}
+<<({$2} * $1) --> ({Humans} * [one-toed])> ==> <({$2} * $1) --> ({Humans} * horse)>>. {1.000000 0.118090}
+<[evolve] --> [({Horses} * 3000)]>. {1.000000 0.009068}
+<animal --> swan>. {1.000000 0.696752}
+<<(horse * $1) --> belong_to> ==> <([one-toed] * $1) --> belong_to>>. {1.000000 0.269111}
+<<(hoofed * $1) --> belong_to> ==> <([one-toed] * $1) --> belong_to>>. {1.000000 0.186845}
+<<([domesticate] * $1) --> belong_to> ==> <([one-toed] * $1) --> belong_to>>. {1.000000 0.181743}
+<<([evolve] * $1) --> belong_to> ==> <([one-toed] * $1) --> belong_to>>. {1.000000 0.151632}
+<<({$1} * horse) --> one-toed> ==> <({$1} * [evolve]) --> one-toed>>. {1.000000 0.086653}
+<<({$1} * hoofed) --> one-toed> ==> <({$1} * [evolve]) --> one-toed>>. {1.000000 0.048553}
+<<({$1} * [one-toed]) --> one-toed> ==> <({$1} * [evolve]) --> one-toed>>. {1.000000 0.044570}
+<<({$1} * [domesticate]) --> one-toed> ==> <({$1} * [evolve]) --> one-toed>>. {1.000000 0.038880}
+<({Humans} * [({Humans} * hoofed)]) --> evolve>. {1.000000 0.007387}
+<<({$2} * $1) --> evolve> ==> <({$2} * $1) --> ({Humans} * [one-toed])>>. {1.000000 0.138913}
+<<({$2} * $1) --> ({Humans} * hoofed)> ==> <({$2} * $1) --> ({Humans} * [one-toed])>>. {1.000000 0.128587}
+<<({$2} * $1) --> ({Humans} * [domesticate])> ==> <({$2} * $1) --> ({Humans} * [one-toed])>>. {1.000000 0.124372}
+<<({$2} * $1) --> ({Humans} * [evolve])> ==> <({$2} * $1) --> ({Humans} * [one-toed])>>. {1.000000 0.122900}
+<<({$2} * $1) --> ({Humans} * horse)> ==> <({$2} * $1) --> ({Humans} * [one-toed])>>. {1.000000 0.118090}
+<({Horses} * horse) --> ({Humans} * horse)>. {1.000000 0.016711}
+<({Humans} * [({Humans} * [evolve])]) --> ({Humans} * [one-toed])>. {1.000000 0.000956}
+<({Humans} * [({Horses} * [domesticate])]) --> ({Humans} * [one-toed])>. {1.000000 0.000369}
+((<penguin --> penguin> || <tweety --> penguin>) && <animal --> penguin>). {0.829543 0.010991}
+<({Humans} * [one-toed]) --> ({Humans} * [evolve])>. {1.000000 0.114217}
+(<penguin --> penguin> && <tweety --> penguin>). {0.000000 0.000000}
+((<penguin --> penguin> || <tweety --> penguin>) || <penguin --> penguin>). {0.912875 0.041606}
+(<animal --> penguin> || <tweety --> penguin>). {0.921714 0.051665}
+((<penguin --> penguin> || <tweety --> penguin>) && <penguin --> penguin>). {0.749987 0.034182}
+<({Humans} * horse) --> ({Humans} * horse)>. {1.000000 0.024758}
+((<tweety --> penguin> && <penguin --> penguin>) && <animal --> penguin>). {0.000000 0.000000}
+((<penguin --> penguin> || <tweety --> penguin>) || <tweety --> penguin>). {0.829543 0.029556}
+<({Humans} * [({Humans} * hoofed)]) --> ([widely] & domesticate)>. {1.000000 0.000242}
+((<penguin --> penguin> || <tweety --> penguin>) && <tweety --> penguin>). {0.000000 0.000000}
+(<tweety --> penguin> && <animal --> penguin>). {0.000000 0.000000}
+((<tweety --> penguin> && <penguin --> penguin>) && <penguin --> penguin>). {0.000000 0.000000}
+<({Humans} * [({Humans} * horse)]) --> ([widely] & domesticate)>. {1.000000 0.002636}
+<<([evolve] * ([$2] & $1)) --> part_of> ==> <([domesticate] * ([$2] & $1)) --> part_of>>. {1.000000 0.151187}
+<<(horse * ([$2] & $1)) --> part_of> ==> <([domesticate] * ([$2] & $1)) --> part_of>>. {1.000000 0.143685}
+<({Humans} * [({Humans} * horse)]) --> ({Humans} * [domesticate])>. {1.000000 0.011124}
+<({Humans} * [({Humans} * horse)]) --> ({Horses} * 3000)>. {1.000000 0.006171}
+<<(horse * ([$2] & $1)) --> part_of> ==> <([one-toed] * ([$2] & $1)) --> part_of>>. {1.000000 0.269111}
+<<([evolve] * ([$2] & $1)) --> part_of> ==> <([one-toed] * ([$2] & $1)) --> part_of>>. {1.000000 0.169323}
+<horse <-> 3000>. {1.000000 0.302050}
+<<(hoofed * ([$2] & $1)) --> part_of> ==> <(horse * ([$2] & $1)) --> part_of>>. {1.000000 0.276327}
+<<([one-toed] * ([$2] & $1)) --> part_of> ==> <(horse * ([$2] & $1)) --> part_of>>. {1.000000 0.269111}
+<<([evolve] * ([$2] & $1)) --> part_of> ==> <(horse * ([$2] & $1)) --> part_of>>. {1.000000 0.263906}
+<<([domesticate] * ([$2] & $1)) --> part_of> ==> <(horse * ([$2] & $1)) --> part_of>>. {1.000000 0.143685}
+<<(3000 * ([$2] & $1)) --> part_of> ==> <(horse * ([$2] & $1)) --> part_of>>. {1.000000 0.069215}
+<({Humans} * [({Horses} * 3000)]) --> ({Humans} * horse)>. {1.000000 0.000176}
+<({Humans} * [({Humans} * [domesticate])]) --> ({Humans} * [evolve])>. {1.000000 0.008824}
+<({Humans} * [({Humans} * [domesticate])]) --> ({Horses} * 3000)>. {1.000000 0.004646}
+<({Humans} * [({Humans} * [domesticate])]) --> [widely]>. {1.000000 0.002011}
+<({Humans} * [({Humans} * [domesticate])]) --> ([widely] & domesticate)>. {1.000000 0.001985}
+<({Humans} * [({Humans} * [domesticate])]) --> ({Humans} * horse)>. {1.000000 0.001293}
+<<(horse * ([$2] & $1)) --> part_of> ==> <([evolve] * ([$2] & $1)) --> part_of>>. {1.000000 0.263906}
+<<(hoofed * ([$2] & $1)) --> part_of> ==> <([evolve] * ([$2] & $1)) --> part_of>>. {1.000000 0.203124}
+<<([one-toed] * ([$2] & $1)) --> part_of> ==> <([evolve] * ([$2] & $1)) --> part_of>>. {1.000000 0.169323}
+<<([domesticate] * ([$2] & $1)) --> part_of> ==> <([evolve] * ([$2] & $1)) --> part_of>>. {1.000000 0.151187}
+<<(3000 * ([$2] & $1)) --> part_of> ==> <([evolve] * ([$2] & $1)) --> part_of>>. {1.000000 0.105292}
+<<({$2} * $1) --> ({Humans} * [evolve])> ==> <({$2} * $1) --> domesticate>>. {1.000000 0.210377}
+<<({$2} * $1) --> ({Humans} * hoofed)> ==> <({$2} * $1) --> domesticate>>. {1.000000 0.209489}
+<<({$2} * $1) --> ({Humans} * [domesticate])> ==> <({$2} * $1) --> domesticate>>. {1.000000 0.199713}
+<<({$2} * $1) --> one-toed> ==> <({$2} * $1) --> domesticate>>. {1.000000 0.186451}
+<<({$2} * $1) --> evolve> ==> <({$2} * $1) --> domesticate>>. {1.000000 0.177389}
+<<({$2} * $1) --> ({Horses} * 3000)> ==> <({$2} * $1) --> domesticate>>. {1.000000 0.110782}
+(<({Horses} * #1) --> domesticate> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.218188}
+(<({Horses} * #1) --> ({Humans} * [evolve])> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.206145}
+<<({$1} * horse) --> evolve> ==> <({$1} * [one-toed]) --> evolve>>. {1.000000 0.064914}
+<<({$1} * hoofed) --> evolve> ==> <({$1} * [one-toed]) --> evolve>>. {1.000000 0.048638}
+<<({$1} * [domesticate]) --> evolve> ==> <({$1} * [one-toed]) --> evolve>>. {1.000000 0.038624}
+<<({$1} * 3000) --> evolve> ==> <({$1} * [one-toed]) --> evolve>>. {1.000000 0.022458}
+(<({Humans} * [#1]) --> #1> && <([#1] * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.068095}
+(<({Horses} * #1) --> ({Humans} * [domesticate])> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.090955}
+(<({Humans} * [#1]) --> #1> && <([#1] * family) --> belong_to>). {1.000000 0.028058}
+(<({Horses} * #1) --> one-toed> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.101689}
+<domesticate --> ({Humans} * 3000)>. {1.000000 0.029485}
+<<$1 --> animal> ==> (<$1 --> bird> && <$1 --> penguin>)>. {1.000000 0.093274}
+<({Humans} * [one-toed]) <-> ({Horses} * horse)>. {1.000000 0.023820}
+<<$1 --> animal> ==> (<$1 --> bird> || <$1 --> penguin>)>. {1.000000 0.093274}
+<<({$1} * [one-toed]) --> evolve> ==> <({$1} * horse) --> evolve>>. {1.000000 0.064914}
+(<({Humans} * [#1]) --> #1> && <([#1] * ([mineral] & vein)) --> by>). {1.000000 0.092321}
+(<horse --> [evolve]> && <horse --> 3000>). {1.000000 0.095133}
+<<swan --> $1> ==> (<bird --> $1> || <penguin --> $1>)>. {0.990410 0.219844}
+<<$1 --> penguin> ==> (<$1 --> bird> || <$1 --> animal>)>. {1.000000 0.083885}
+<<({$1} * [evolve]) --> evolve> ==> <({$1} * [domesticate]) --> evolve>>. {1.000000 0.054090}
+<<({$1} * [one-toed]) --> evolve> ==> <({$1} * [domesticate]) --> evolve>>. {1.000000 0.038624}
+<({Horses} * [evolve]) --> ([widely] & domesticate)>. {1.000000 0.166066}
+(<swan --> animal> || <swan --> bird>). {0.921714 0.054389}
+<<$1 --> evolve> ==> <({Humans} * [$1]) --> evolve>>. {1.000000 0.018284}
+<<$1 --> animal> ==> (<$1 --> penguin> && <$1 --> bird>)>. {1.000000 0.093274}
+<([blue] * [evolve]) --> ({Horses} * horse)>. {1.000000 0.058288}
+<<({Humans} * [$1]) --> evolve> ==> <$1 --> evolve>>. {1.000000 0.018284}
+(<({Horses} * #1) --> ({Humans} * hoofed)> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.096587}
+<({Horses} * horse) --> ([blue] * [evolve])>. {1.000000 0.056070}
+<<$1 --> penguin> ==> (<$1 --> bird> && <$1 --> animal>)>. {0.900000 0.083885}
+<<$1 --> penguin> ==> (<$1 --> animal> || <$1 --> bird>)>. {1.000000 0.083885}
+(<animal --> animal> || <animal --> bird>). {1.000000 0.053912}
+<({Humans} * [evolve]) <-> domesticate>. {1.000000 0.210377}
+(<animal --> penguin> || <penguin --> penguin>). {0.921714 0.066089}
+(<animal --> bird> || <animal --> animal>). {1.000000 0.053912}
+<<$1 --> hoofed> ==> (<$1 --> [evolve]> || <$1 --> 3000>)>. {1.000000 0.102167}
+<<$1 --> [one-toed]> ==> (<$1 --> [evolve]> || <$1 --> 3000>)>. {1.000000 0.095539}
+<<$1 --> [domesticate]> ==> (<$1 --> [evolve]> || <$1 --> 3000>)>. {1.000000 0.094248}
+(<([#1] * ([taxonomic] & subspecies)) --> part_of> && <({Humans} * [#1]) --> ({Horses} * 3000)>). {1.000000 0.086310}
+(<(#1 * family) --> belong_to> && <({Horses} * #1) --> ({Humans} * [one-toed])>). {1.000000 0.128870}
+(<(#1 * ([mineral] & vein)) --> by> && <({Horses} * #1) --> ({Humans} * [one-toed])>). {1.000000 0.105155}
+<one-toed --> ({Horses} * [domesticate])>. {1.000000 0.046394}
+(<({Horses} * [#1]) --> one-toed> && <([#1] * family) --> belong_to>). {1.000000 0.043198}
+<({Horses} * [evolve]) --> ([blue] * 3000)>. {1.000000 0.250357}
+<({Humans} * [evolve]) --> ([blue] * horse)>. {1.000000 0.151518}
+<([blue] * [evolve]) --> ({Humans} * horse)>. {1.000000 0.105602}
+<domesticate <-> ({Humans} * [evolve])>. {1.000000 0.210377}
+<([blue] * hoofed) --> ({Humans} * horse)>. {1.000000 0.090547}
+<([blue] * 3000) --> ({Humans} * hoofed)>. {1.000000 0.176477}
+<([blue] * horse) --> ({Horses} * [evolve])>. {1.000000 0.095990}
+<([blue] * hoofed) --> ({Horses} * 3000)>. {1.000000 0.171720}
+<one-toed --> ([blue] * hoofed)>. {1.000000 0.040901}
+<({Horses} * [domesticate]) --> ([blue] * 3000)>. {1.000000 0.118447}
+<<$1 --> hoofed> ==> (<$1 --> [one-toed]> && <$1 --> [domesticate]>)>. {1.000000 0.186125}
+<<$1 --> [evolve]> ==> (<$1 --> [one-toed]> && <$1 --> [domesticate]>)>. {1.000000 0.177737}
+<<$1 --> 3000> ==> (<$1 --> [one-toed]> && <$1 --> [domesticate]>)>. {1.000000 0.050661}
+<domesticate --> ({Humans} * hoofed)>. {1.000000 0.209489}
+<<$1 --> hoofed> ==> (<$1 --> [one-toed]> || <$1 --> [domesticate]>)>. {1.000000 0.186125}
+<<$1 --> [evolve]> ==> (<$1 --> [one-toed]> || <$1 --> [domesticate]>)>. {1.000000 0.177737}
+<<$1 --> 3000> ==> (<$1 --> [one-toed]> || <$1 --> [domesticate]>)>. {1.000000 0.050661}
+<big <-> ([fast] & run)>. {1.000000 0.391612}
+(<([#1] * family) --> belong_to> && <({Horses} * [#1]) --> one-toed>). {1.000000 0.038878}
+<([fast] & run) <-> big>. {1.000000 0.391612}
+(<({Horses} * #1) --> ({Humans} * [domesticate])> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.105100}
+<<swan --> $1> ==> ((<tweety --> $1> || <penguin --> $1>) && <penguin --> $1>)>. {0.813687 0.064792}
+(<3000 --> 3000> && <3000 --> hoofed>). {1.000000 0.058280}
+<({Horses} * horse) <-> ({Humans} * [one-toed])>. {1.000000 0.023820}
+(<tweety --> animal> && <swan --> animal>). {0.000000 0.000000}
+(<[one-toed] --> [evolve]> || <[one-toed] --> hoofed>). {1.000000 0.129254}
+<({Horses} * [evolve]) --> [widely]>. {1.000000 0.168852}
+<([blue] * 3000) --> ({Humans} * horse)>. {1.000000 0.331547}
+<({Humans} * [one-toed]) --> evolve>. {1.000000 0.384739}
+(<bird --> swan> || <penguin --> swan>). {0.887696 0.069776}
+(<bird --> animal> || <penguin --> animal>). {0.890513 0.175684}
+<<swan --> $1> ==> (<penguin --> $1> || <bird --> $1>)>. {0.990410 0.219844}
+(<penguin --> swan> || <bird --> swan>). {0.887696 0.069776}
+(<bird --> animal> && <penguin --> animal>). {0.731615 0.144336}
+((<tweety --> swan> || <penguin --> swan>) || <penguin --> swan>). {0.890791 0.025960}
+<<$1 --> [one-toed]> ==> (<$1 --> [evolve]> && <$1 --> hoofed>)>. {1.000000 0.182934}
+<<$1 --> [domesticate]> ==> (<$1 --> [evolve]> && <$1 --> hoofed>)>. {1.000000 0.180837}
+<<$1 --> 3000> ==> (<$1 --> [evolve]> && <$1 --> hoofed>)>. {1.000000 0.050626}
+<<animal --> $1> ==> (<swan --> $1> && <tweety --> $1>)>. {0.000000 0.086584}
+<<bird --> $1> ==> (<swan --> $1> && <tweety --> $1>)>. {0.000000 0.100787}
+<<penguin --> $1> ==> (<swan --> $1> && <tweety --> $1>)>. {0.000000 0.116536}
+<tweety --> animal>. {0.000000 0.502993}
+(<({Horses} * #1) --> ({Humans} * [one-toed])> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.091873}
+<<$1 --> swan> ==> <$1 --> penguin>>. {1.000000 0.185009}
+<<$1 --> [one-toed]> ==> (<$1 --> hoofed> || <$1 --> [evolve]>)>. {1.000000 0.182934}
+<<$1 --> [domesticate]> ==> (<$1 --> hoofed> || <$1 --> [evolve]>)>. {1.000000 0.180837}
+<<$1 --> 3000> ==> (<$1 --> hoofed> || <$1 --> [evolve]>)>. {1.000000 0.050626}
+<<[evolve] --> $1> ==> <[domesticate] --> $1>>. {1.000000 0.209761}
+<<[one-toed] --> $1> ==> <[domesticate] --> $1>>. {1.000000 0.208839}
+<<3000 --> $1> ==> <[domesticate] --> $1>>. {1.000000 0.118288}
+<<({$1} * [$2]) --> one-toed> ==> <({$1} * [$2]) --> ({Horses} * 3000)>>. {1.000000 0.047508}
+<<({$1} * [$2]) --> evolve> ==> <({$1} * [$2]) --> ({Horses} * 3000)>>. {1.000000 0.046278}
+<one-toed <-> ({Humans} * [evolve])>. {1.000000 0.132003}
+<swan <-> tweety>. {0.000000 0.623570}
+<<penguin --> $1> ==> <tweety --> $1>>. {0.000000 0.205315}
+(<horse --> [evolve]> || <horse --> 3000>). {1.000000 0.095133}
+<domesticate --> ({Horses} * [evolve])>. {1.000000 0.058108}
+<horse <-> [one-toed]>. {1.000000 0.621741}
+<<horse --> [$1]> ==> <[evolve] --> [$1]>>. {1.000000 0.381645}
+<<[domesticate] --> [$1]> ==> <[evolve] --> [$1]>>. {1.000000 0.233396}
+<<hoofed --> [$1]> ==> <[evolve] --> [$1]>>. {1.000000 0.193093}
+<<bird --> $1> ==> (<animal --> $1> && <swan --> $1>)>. {0.900000 0.049130}
+<<$1 --> [one-toed]> ==> (<$1 --> hoofed> || <$1 --> 3000>)>. {1.000000 0.097762}
+<<$1 --> [domesticate]> ==> (<$1 --> hoofed> || <$1 --> 3000>)>. {1.000000 0.096451}
+<<$1 --> [evolve]> ==> (<$1 --> hoofed> || <$1 --> 3000>)>. {1.000000 0.093795}
+<<([one-toed] * $1) --> block_of> ==> <([domesticate] * $1) --> block_of>>. {1.000000 0.131398}
+<<([evolve] * $1) --> block_of> ==> <([domesticate] * $1) --> block_of>>. {1.000000 0.127209}
+<<swan --> $1> ==> ((<tweety --> $1> && <penguin --> $1>) || <tweety --> $1>)>. {0.000000 0.050651}
+<<$1 --> [one-toed]> ==> (<$1 --> 3000> || <$1 --> hoofed>)>. {1.000000 0.097762}
+<<$1 --> [domesticate]> ==> (<$1 --> 3000> || <$1 --> hoofed>)>. {1.000000 0.096451}
+<<$1 --> [evolve]> ==> (<$1 --> 3000> || <$1 --> hoofed>)>. {1.000000 0.093795}
+<<[evolve] --> $1> ==> <horse --> $1>>. {1.000000 0.287567}
+<<[one-toed] --> $1> ==> <horse --> $1>>. {1.000000 0.286428}
+(<({Humans} * [#1]) --> domesticate> && <([#1] * rock) --> block_of>). {1.000000 0.111368}
+<({Humans} * horse) --> ([blue] * 3000)>. {1.000000 0.523637}
+<({Humans} * [domesticate]) --> ({Horses} * [evolve])>. {1.000000 0.105933}
+<<swan --> $1> ==> (<penguin --> $1> || <tweety --> $1>)>. {0.900000 0.109417}
+<penguin <-> bird>. {0.827420 0.661204}
+<<swan --> $1> ==> <animal --> $1>>. {1.000000 0.172137}
+<bird <-> tweety>. {0.000000 0.381603}
+<animal --> penguin>. {1.000000 0.642684}
+(<(#1 * family) --> belong_to> && <({Humans} * #1) --> one-toed>). {1.000000 0.227745}
+<<swan --> $1> ==> (<tweety --> $1> || <penguin --> $1>)>. {0.904097 0.324909}
+<<bird --> $1> ==> (<tweety --> $1> || <penguin --> $1>)>. {0.834934 0.116582}
+<<penguin --> $1> ==> (<tweety --> $1> || <penguin --> $1>)>. {0.900000 0.055336}
+<(<penguin --> $1> || <tweety --> $1>) ==> (<tweety --> $1> || <penguin --> $1>)>. {0.900000 0.010660}
+<({Humans} * [domesticate]) --> ({Horses} * hoofed)>. {1.000000 0.124084}
+<({Humans} * hoofed) --> evolve>. {1.000000 0.403983}
+<[domesticate] --> [one-toed]>. {1.000000 0.549477}
+<({Humans} * hoofed) --> ([blue] * 3000)>. {1.000000 0.379007}
+<<swan --> $1> ==> (<animal --> $1> && <penguin --> $1>)>. {0.904097 0.101931}
+<<bird --> $1> ==> (<animal --> $1> && <penguin --> $1>)>. {0.810000 0.042457}
+(<animal --> bird> || <tweety --> bird>). {1.000000 0.076858}
+<({Humans} * horse) --> ([blue] * [one-toed])>. {1.000000 0.312161}
+<({Humans} * [domesticate]) <-> one-toed>. {1.000000 0.103365}
+<{Humans} <-> [blue]>. {1.000000 0.375287}
+<({Humans} * horse) --> ([blue] * [evolve])>. {1.000000 0.272873}
+<one-toed --> ([blue] * [evolve])>. {1.000000 0.067615}
+<({Humans} * [evolve]) --> ([blue] * 3000)>. {1.000000 0.367612}
+(<({Humans} * [#1]) --> domesticate> && <([#1] * family) --> belong_to>). {1.000000 0.074376}
+((<penguin --> bird> || <tweety --> bird>) || <penguin --> bird>). {0.988855 0.061834}
+(<([blue] * #1) --> ({Humans} * [evolve])> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.128790}
+<({Humans} * [one-toed]) --> ([blue] * horse)>. {1.000000 0.129710}
+<([blue] * 4000) --> around>. {1.000000 0.329665}
+<([blue] * 3000) --> ({Humans} * [evolve])>. {1.000000 0.291738}
+(<({Horses} * #1) --> ([blue] * [evolve])> && <(#1 * rock) --> block_of>). {1.000000 0.082474}
+<([blue] * [domesticate]) --> one-toed>. {1.000000 0.109048}
+<({Horses} * [evolve]) --> ({Humans} * [domesticate])>. {1.000000 0.084966}
+<[blue] <-> {Horses}>. {1.000000 0.213357}
+<evolve <-> ({Humans} * [domesticate])>. {1.000000 0.137715}
+<({Humans} * [one-toed]) --> ([blue] * 3000)>. {1.000000 0.429432}
+<{Horses} <-> [blue]>. {1.000000 0.192021}
+<[blue] --> {Humans}>. {1.000000 0.375287}
+<{Humans} --> [blue]>. {1.000000 0.491709}
+(<({Humans} * [#1]) --> domesticate> && <([#1] * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.123097}
+<([one-toed] * ([taxonomic] & subspecies)) --> part_of>. {1.000000 0.490614}
+<(<swan --> $1> && <animal --> $1>) ==> <tweety --> $1>>. {0.000000 0.065081}
+<([one-toed] * family) --> belong_to>. {1.000000 0.603260}
+<({Humans} * [evolve]) --> one-toed>. {1.000000 0.315847}
+<<animal --> $1> ==> <swan --> $1>>. {1.000000 0.172137}
+<({Humans} * hoofed) --> ({Horses} * 3000)>. {1.000000 0.429669}
+<[one-toed] <-> hoofed>. {1.000000 0.695102}
+<({Horses} * 3000) <-> ({Humans} * [domesticate])>. {1.000000 0.467920}
+<({Horses} * [one-toed]) --> ({Humans} * [domesticate])>. {1.000000 0.098948}
+<<({$2} * $1) --> domesticate> ==> <({$2} * $1) --> ({Horses} * 3000)>>. {1.000000 0.110782}
+<<({$2} * $1) --> evolve> ==> <({$2} * $1) --> ({Horses} * 3000)>>. {1.000000 0.060679}
+<<({$2} * $1) --> one-toed> ==> <({$2} * $1) --> ({Horses} * 3000)>>. {1.000000 0.051878}
+<[domesticate] <-> [one-toed]>. {1.000000 0.692429}
+<<$1 --> [domesticate]> ==> <$1 --> hoofed>>. {1.000000 0.430191}
+<({Humans} * 4000) --> around>. {1.000000 0.754973}
+(<(#1 * family) --> belong_to> && <({Humans} * #1) --> ({Horses} * 3000)>). {1.000000 0.283249}
+<one-toed <-> domesticate>. {1.000000 0.673293}
+(<(#1 * ([mineral] & vein)) --> by> && <({Humans} * #1) --> one-toed>). {1.000000 0.192976}
+(<({Humans} * #1) --> ({Horses} * 3000)> && <(#1 * rock) --> block_of>). {1.000000 0.266673}
+<({Humans} * horse) --> ({Horses} * 3000)>. {1.000000 0.593633}
+<(horse * family) --> belong_to>. {1.000000 0.869035}
+<<$1 --> [one-toed]> ==> <$1 --> [evolve]>>. {1.000000 0.422816}
+<{Horses} --> {Humans}>. {1.000000 0.681037}
+<hoofed <-> [one-toed]>. {1.000000 0.487956}
+<(([domesticated] & horse) * ([feral] & horse)) --> a>. {1.000000 0.762599}
+<[one-toed] --> [domesticate]>. {1.000000 0.714754}
+<<swan --> $1> ==> (<penguin --> $1> && <animal --> $1>)>. {0.904097 0.101931}
+<<bird --> $1> ==> (<penguin --> $1> && <animal --> $1>)>. {0.810000 0.042457}
+(<penguin --> bird> || <tweety --> bird>). {0.902677 0.283055}
+<(horse * ([taxonomic] & subspecies)) --> part_of>. {1.000000 0.862923}
+<([domesticate] * family) --> belong_to>. {1.000000 0.599174}
+<<$1 --> hoofed> ==> <$1 --> [evolve]>>. {1.000000 0.435071}
+<{Horses} --> [blue]>. {1.000000 0.882090}
+<({Humans} * horse) <-> ({Horses} * 3000)>. {1.000000 0.543019}
+<<penguin --> $1> ==> <swan --> $1>>. {1.000000 0.662237}
+<(<animal --> $1> || <swan --> $1>) ==> <tweety --> $1>>. {0.000000 0.065081}
+<<penguin --> $1> ==> <animal --> $1>>. {1.000000 0.427225}
+<<swan --> $1> ==> <animal --> $1>>. {0.992499 0.393936}
+<<bird --> $1> ==> <animal --> $1>>. {1.000000 0.132333}
+<(<bird --> $1> && <swan --> $1>) ==> <animal --> $1>>. {1.000000 0.022779}
+<(<swan --> $1> && <bird --> $1>) ==> <animal --> $1>>. {1.000000 0.022779}
+<(<bird --> $1> || <swan --> $1>) ==> <animal --> $1>>. {1.000000 0.022779}
+<(<swan --> $1> || <bird --> $1>) ==> <animal --> $1>>. {1.000000 0.022779}
+<(<penguin --> $1> || <tweety --> $1>) ==> <animal --> $1>>. {1.000000 0.016669}
+<({Horse} * name) --> have>. {1.000000 0.864536}
+<<{$1} --> [big]> ==> <{$1} --> [([fast] & run)]>>. {1.000000 0.435125}
+<<bird --> $1> ==> (<animal --> $1> || <swan --> $1>)>. {1.000000 0.049130}
+[<((machine * judge) * $1) --> convince> human]. {1.000000 0.813944}
+<(3 * ([human] & response)) --> to>. {1.000000 0.754973}
+<<$1 --> [domesticate]> ==> <$1 --> [one-toed]>>. {1.000000 0.641955}
+<<$1 --> [evolve]> ==> <$1 --> [one-toed]>>. {1.000000 0.557629}
+<<$1 --> hoofed> ==> <$1 --> [one-toed]>>. {1.000000 0.551552}
+<<$1 --> 3000> ==> <$1 --> [one-toed]>>. {1.000000 0.447796}
+<<$1 --> horse> ==> <$1 --> [one-toed]>>. {1.000000 0.055950}
+<<swan --> $1> ==> ((<penguin --> $1> || <tweety --> $1>) && <penguin --> $1>)>. {0.813687 0.064792}
+<<swan --> $1> ==> ((<tweety --> $1> || <penguin --> $1>) && <tweety --> $1>)>. {0.000000 0.060036}
+<<swan --> $1> ==> ((<tweety --> $1> && <penguin --> $1>) && <penguin --> $1>)>. {0.000000 0.064792}
+<[widely] <-> ({Humans} * hoofed)>. {1.000000 0.228842}
+<domesticate <-> ({Humans} * hoofed)>. {1.000000 0.209489}
+<<swan --> $1> ==> ((<tweety --> $1> || <penguin --> $1>) && <bird --> $1>)>. {0.810000 0.040622}
+<([widely] & domesticate) <-> ({Humans} * hoofed)>. {1.000000 0.225920}
+<({Humans} * hoofed) <-> ([widely] & domesticate)>. {1.000000 0.225920}
+(<tweety --> bird> && <animal --> bird>). {0.000000 0.000000}
+<({Horses} * [domesticate]) --> ({Humans} * hoofed)>. {1.000000 0.123664}
+<<({$2} * $1) --> [widely]> ==> <({$2} * $1) --> ({Humans} * hoofed)>>. {1.000000 0.228842}
+<<({$2} * $1) --> ([widely] & domesticate)> ==> <({$2} * $1) --> ({Humans} * hoofed)>>. {1.000000 0.225920}
+<<({$2} * $1) --> domesticate> ==> <({$2} * $1) --> ({Humans} * hoofed)>>. {1.000000 0.209489}
+<<({$2} * $1) --> evolve> ==> <({$2} * $1) --> ({Humans} * hoofed)>>. {1.000000 0.145007}
+<<({$2} * $1) --> ({Humans} * [domesticate])> ==> <({$2} * $1) --> ({Humans} * hoofed)>>. {1.000000 0.129924}
+<<({$2} * $1) --> ({Humans} * [one-toed])> ==> <({$2} * $1) --> ({Humans} * hoofed)>>. {1.000000 0.128587}
+<<({$2} * $1) --> one-toed> ==> <({$2} * $1) --> ({Humans} * hoofed)>>. {1.000000 0.109068}
+(<tweety --> animal> || <penguin --> animal>). {0.812906 0.237016}
+<<swan --> $1> ==> ((<penguin --> $1> || <tweety --> $1>) && <animal --> $1>)>. {0.900000 0.018835}
+<({Horses} * [one-toed]) --> ({Humans} * hoofed)>. {1.000000 0.102797}
+<({Horses} * [domesticate]) --> ({Humans} * [domesticate])>. {1.000000 0.032482}
+<({Horses} * [domesticate]) --> ([widely] & domesticate)>. {1.000000 0.027938}
+((<tweety --> bird> && <penguin --> bird>) || <tweety --> bird>). {0.000000 0.000000}
+<<swan --> $1> ==> ((<tweety --> $1> && <penguin --> $1>) && <animal --> $1>)>. {0.000000 0.018835}
+(<penguin --> animal> || <animal --> animal>). {0.899136 0.082245}
+<({Humans} * [one-toed]) --> ({Humans} * hoofed)>. {1.000000 0.113735}
+<<swan --> $1> ==> ((<penguin --> $1> || <tweety --> $1>) || <animal --> $1>)>. {1.000000 0.018835}
+<({Humans} * [({Horses} * [domesticate])]) --> ({Humans} * hoofed)>. {1.000000 0.002363}
+<<swan --> $1> ==> (<tweety --> $1> || <penguin --> $1>)>. {0.900000 0.109417}
+<({Humans} * [({Horses} * 3000)]) --> ({Humans} * hoofed)>. {1.000000 0.011293}
+<bird --> penguin>. {0.920172 0.623088}
+<penguin <-> swan>. {0.902683 0.689121}
+<<swan --> $1> ==> <bird --> $1>>. {0.900000 0.371263}
+<(<animal --> $1> && <swan --> $1>) ==> <tweety --> $1>>. {0.000000 0.065081}
+<swan <-> animal>. {0.887352 0.444936}
+<<[one-toed] --> [$1]> ==> <horse --> [$1]>>. {1.000000 0.430384}
+<<[evolve] --> [$1]> ==> <horse --> [$1]>>. {1.000000 0.381645}
+<<[domesticate] --> [$1]> ==> <horse --> [$1]>>. {1.000000 0.332141}
+<<hoofed --> [$1]> ==> <horse --> [$1]>>. {1.000000 0.314717}
+<<3000 --> [$1]> ==> <horse --> [$1]>>. {1.000000 0.302050}
+<({Humans} * horse) --> one-toed>. {1.000000 0.481276}
+<({Humans} * [({Horses} * [domesticate])]) --> ({Humans} * [domesticate])>. {1.000000 0.002253}
+((<penguin --> bird> || <tweety --> bird>) && <tweety --> bird>). {0.000000 0.000000}
+<<animal --> $1> ==> (<tweety --> $1> && <bird --> $1>)>. {0.000000 0.056251}
+<<penguin --> $1> ==> (<tweety --> $1> && <bird --> $1>)>. {0.000000 0.061250}
+<<swan --> $1> ==> (<tweety --> $1> && <bird --> $1>)>. {0.000000 0.203709}
+(<({Humans} * #1) --> one-toed> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.330979}
+<(<penguin --> $1> || <tweety --> $1>) ==> (<tweety --> $1> && <penguin --> $1>)>. {0.000000 0.010660}
+<(<tweety --> $1> || <penguin --> $1>) ==> (<tweety --> $1> && <penguin --> $1>)>. {0.000000 0.010660}
+<<animal --> $1> ==> (<tweety --> $1> && <penguin --> $1>)>. {0.000000 0.018487}
+<<penguin --> $1> ==> (<tweety --> $1> && <penguin --> $1>)>. {0.000000 0.055336}
+<<bird --> $1> ==> (<tweety --> $1> && <penguin --> $1>)>. {0.000000 0.116582}
+<<swan --> $1> ==> (<tweety --> $1> && <penguin --> $1>)>. {0.000000 0.324909}
+((<tweety --> penguin> || <penguin --> penguin>) && <tweety --> penguin>). {0.000000 0.000000}
+(<({Humans} * #1) --> evolve> && <(#1 * family) --> belong_to>). {1.000000 0.244466}
+<([evolve] * ([taxonomic] & subspecies)) --> part_of>. {1.000000 0.526814}
+<swan --> penguin>. {0.921714 0.703438}
+<<swan --> $1> ==> ((<penguin --> $1> || <tweety --> $1>) || <bird --> $1>)>. {0.990000 0.040622}
+<({Humans} * [domesticate]) --> one-toed>. {1.000000 0.271819}
+<<swan --> $1> ==> ((<penguin --> $1> || <tweety --> $1>) && <bird --> $1>)>. {0.810000 0.040622}
+<<animal --> $1> ==> (<bird --> $1> && <tweety --> $1>)>. {0.000000 0.056251}
+<<penguin --> $1> ==> (<bird --> $1> && <tweety --> $1>)>. {0.000000 0.061250}
+<<swan --> $1> ==> (<bird --> $1> && <tweety --> $1>)>. {0.000000 0.203709}
+(<penguin --> animal> && <animal --> animal>). {0.812906 0.074357}
+<evolve <-> ({Horses} * 3000)>. {1.000000 0.120216}
+<<swan --> $1> ==> ((<tweety --> $1> && <penguin --> $1>) || <bird --> $1>)>. {0.900000 0.040622}
+<({Humans} * [evolve]) <-> ({Horses} * 3000)>. {1.000000 0.413571}
+(! ([{Feral}] & horse) <population --> [wild]>). {1.000000 0.864536}
+<({Humans} * [evolve]) --> evolve>. {1.000000 0.286440}
+<penguin --> animal>. {0.820239 0.829215}
+<({Horses} * 3000) --> ({Humans} * [domesticate])>. {1.000000 0.437906}
+<<swan --> $1> ==> (<bird --> $1> || <tweety --> $1>)>. {0.900000 0.203709}
+<<animal --> $1> ==> (<bird --> $1> || <tweety --> $1>)>. {0.945419 0.056251}
+<<penguin --> $1> ==> (<bird --> $1> || <tweety --> $1>)>. {0.900000 0.061250}
+<<penguin --> $1> ==> <bird --> $1>>. {0.900000 0.298321}
+(<animal --> animal> || <penguin --> animal>). {0.899136 0.082245}
+(<animal --> animal> && <penguin --> animal>). {0.812906 0.074357}
+(<bird --> animal> && <bird --> bird>). {0.828155 0.043286}
+<({Humans} * [one-toed]) <-> ({Horses} * 3000)>. {1.000000 0.403262}
+(<bird --> bird> && <bird --> animal>). {0.828155 0.043286}
+<evolve --> ({Horses} * 3000)>. {1.000000 0.120216}
+((<tweety --> penguin> || <penguin --> penguin>) && <bird --> penguin>). {0.746589 0.021334}
+<({Horses} * 3000) <-> evolve>. {1.000000 0.120216}
+(<bird --> bird> || <bird --> animal>). {0.920172 0.048095}
+<({Humans} * [({Horses} * [evolve])]) --> ({Humans} * hoofed)>. {1.000000 0.002810}
+<({Humans} * 3000) --> ({Humans} * hoofed)>. {1.000000 0.054606}
+<<$1 --> penguin> ==> (<$1 --> bird> || <$1 --> swan>)>. {1.000000 0.062325}
+(<({Humans} * [#1]) --> ({Horses} * hoofed)> && <([#1] * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.012647}
+(<bird --> penguin> && <tweety --> penguin>). {0.000000 0.000000}
+((<penguin --> animal> || <tweety --> animal>) && <bird --> animal>). {0.728300 0.026549}
+<({Humans} * [({Horses} * [one-toed])]) --> ({Humans} * hoofed)>. {1.000000 0.002552}
+((<penguin --> penguin> || <tweety --> penguin>) && <bird --> penguin>). {0.746589 0.021334}
+(<tweety --> bird> || <bird --> bird>). {0.900000 0.176834}
+(<({Horses} * [#1]) --> ({Humans} * hoofed)> && <([#1] * ([mineral] & vein)) --> by>). {1.000000 0.023824}
+((<tweety --> animal> && <penguin --> animal>) || <bird --> animal>). {0.809222 0.029499}
+<<swan --> $1> ==> ((<penguin --> $1> && <tweety --> $1>) || <bird --> $1>)>. {0.900000 0.040622}
+(<({Horses} * #1) --> ([widely] & domesticate)> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.242431}
+(<({Horses} * #1) --> ({Humans} * [evolve])> && <(#1 * family) --> belong_to>). {1.000000 0.206145}
+<({Humans} * horse) --> ({Humans} * hoofed)>. {1.000000 0.168232}
+(<({Humans} * [#1]) --> ({Horses} * hoofed)> && <([#1] * rock) --> block_of>). {1.000000 0.011442}
+<({Humans} * [({Humans} * horse)]) --> ({Humans} * horse)>. {1.000000 0.000162}
+(<penguin --> animal> || <penguin --> bird>). {0.898023 0.034836}
+((<tweety --> swan> && <penguin --> swan>) && <tweety --> swan>). {0.000000 0.000000}
+(<animal --> swan> || <penguin --> swan>). {0.899416 0.041236}
+<({Humans} * hoofed) --> ({Humans} * horse)>. {1.000000 0.019243}
+<<({$1} * [domesticate]) --> evolve> ==> <({$1} * [evolve]) --> evolve>>. {1.000000 0.054090}
+<<({$1} * hoofed) --> evolve> ==> <({$1} * [evolve]) --> evolve>>. {1.000000 0.050395}
+((<tweety --> swan> || <penguin --> swan>) && <bird --> swan>). {0.725996 0.010545}
+(<bird --> swan> && <tweety --> swan>). {0.000000 0.000000}
+<({Humans} * [({Humans} * hoofed)]) --> [widely]>. {1.000000 0.000245}
+((<penguin --> swan> || <tweety --> swan>) || <penguin --> swan>). {0.890791 0.025960}
+<({Humans} * [({Humans} * horse)]) --> ({Humans} * [evolve])>. {1.000000 0.000083}
+(<penguin --> bird> && <penguin --> animal>). {0.808220 0.031353}
+<({Humans} * [evolve]) <-> ({Horses} * [one-toed])>. {1.000000 0.015740}
+<<(horse * $1) --> belong_to> ==> <([evolve] * $1) --> belong_to>>. {1.000000 0.262320}
+<<(hoofed * $1) --> belong_to> ==> <([evolve] * $1) --> belong_to>>. {1.000000 0.180578}
+<<([domesticate] * $1) --> belong_to> ==> <([evolve] * $1) --> belong_to>>. {1.000000 0.175610}
+<<([one-toed] * $1) --> belong_to> ==> <([evolve] * $1) --> belong_to>>. {1.000000 0.151632}
+<<({$1} * [evolve]) --> one-toed> ==> <({$1} * horse) --> one-toed>>. {1.000000 0.086653}
+<<({$1} * hoofed) --> one-toed> ==> <({$1} * horse) --> one-toed>>. {1.000000 0.045510}
+<<({$1} * [domesticate]) --> one-toed> ==> <({$1} * horse) --> one-toed>>. {1.000000 0.043981}
+(<tweety --> swan> && <bird --> swan>). {0.000000 0.000000}
+<horse --> [({Humans} * [domesticate])]>. {1.000000 0.025031}
+<<({$1} * [$2]) --> one-toed> ==> <({$1} * [$2]) --> domesticate>>. {1.000000 0.108509}
+((<penguin --> swan> || <tweety --> swan>) && <penguin --> swan>). {0.731844 0.021328}
+((<penguin --> swan> || <tweety --> swan>) && <animal --> swan>). {0.809475 0.006858}
+<[domesticate] --> horse>. {1.000000 0.332141}
+<<horse --> [$1]> ==> <3000 --> [$1]>>. {1.000000 0.302050}
+<<[domesticate] --> [$1]> ==> <3000 --> [$1]>>. {1.000000 0.169780}
+((<tweety --> swan> && <penguin --> swan>) || <animal --> swan>). {0.899416 0.007619}
+(<tweety --> swan> || <bird --> swan>). {0.806662 0.058753}
+<[domesticate] <-> horse>. {1.000000 0.332141}
+<<({$1} * horse) --> one-toed> ==> <({$1} * [domesticate]) --> one-toed>>. {1.000000 0.043981}
+<<({$1} * [evolve]) --> one-toed> ==> <({$1} * [domesticate]) --> one-toed>>. {1.000000 0.038880}
+((<tweety --> swan> || <penguin --> swan>) || <tweety --> swan>). {0.806662 0.017315}
+((<tweety --> swan> || <penguin --> swan>) && <tweety --> swan>). {0.000000 0.000000}
+<3000 --> [({Humans} * [domesticate])]>. {1.000000 0.034183}
+(<({Humans} * [#1]) --> domesticate> && <([#1] * ([mineral] & vein)) --> by>). {1.000000 0.190175}
+<({Horses} * [evolve]) --> evolve>. {1.000000 0.096503}
+<({Horses} * [domesticate]) --> ({Humans} * [one-toed])>. {1.000000 0.130519}
+<evolve <-> ({Humans} * horse)>. {1.000000 0.020125}
+<<({$1} * [evolve]) --> one-toed> ==> <({$1} * hoofed) --> one-toed>>. {1.000000 0.048553}
+<<({$1} * horse) --> one-toed> ==> <({$1} * hoofed) --> one-toed>>. {1.000000 0.045510}
+<evolve --> ({Humans} * [domesticate])>. {1.000000 0.137715}
+<({Humans} * 3000) --> ({Humans} * [domesticate])>. {1.000000 0.052057}
+<evolve --> ({Humans} * horse)>. {1.000000 0.020125}
+(<penguin --> bird> || <animal --> bird>). {0.998430 0.098220}
+<({Horses} * 3000) <-> one-toed>. {1.000000 0.125586}
+<({Humans} * horse) <-> evolve>. {1.000000 0.020125}
+<horse <-> hoofed>. {1.000000 0.314717}
+<<([one-toed] * ([$2] & $1)) --> by> ==> <(hoofed * ([$2] & $1)) --> by>>. {1.000000 0.135603}
+<<([evolve] * ([$2] & $1)) --> by> ==> <(hoofed * ([$2] & $1)) --> by>>. {1.000000 0.131301}
+<<(horse * ([$2] & $1)) --> by> ==> <(hoofed * ([$2] & $1)) --> by>>. {1.000000 0.103800}
+<<(3000 * ([$2] & $1)) --> by> ==> <(hoofed * ([$2] & $1)) --> by>>. {1.000000 0.088014}
+<one-toed --> ({Horses} * 3000)>. {1.000000 0.125586}
+<({Humans} * 3000) --> one-toed>. {1.000000 0.151035}
+<<$1 --> domesticate> ==> <({Humans} * [$1]) --> domesticate>>. {1.000000 0.069363}
+<({Humans} * [({Horses} * [one-toed])]) --> ([widely] & domesticate)>. {1.000000 0.000576}
+<<([domesticate] * $1) --> belong_to> ==> <(horse * $1) --> belong_to>>. {1.000000 0.270984}
+<<([one-toed] * $1) --> belong_to> ==> <(horse * $1) --> belong_to>>. {1.000000 0.269111}
+<<([evolve] * $1) --> belong_to> ==> <(horse * $1) --> belong_to>>. {1.000000 0.262320}
+<({Humans} * [({Horses} * [evolve])]) --> ([widely] & domesticate)>. {1.000000 0.000635}
+(<({Humans} * #1) --> ({Horses} * [domesticate])> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.037361}
+<one-toed --> ({Horses} * hoofed)>. {1.000000 0.046369}
+<({Horses} * horse) --> ([widely] & domesticate)>. {1.000000 0.283249}
+<({Humans} * [one-toed]) --> ({Horses} * hoofed)>. {1.000000 0.071762}
+(<({Horses} * #1) --> ({Humans} * [one-toed])> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.116839}
+<one-toed <-> ({Horses} * 3000)>. {1.000000 0.125586}
+<({Horses} * horse) --> one-toed>. {1.000000 0.150422}
+<evolve --> ({Horses} * hoofed)>. {1.000000 0.033186}
+<({Horses} * [one-toed]) --> ({Humans} * [evolve])>. {1.000000 0.044724}
+(<({Horses} * #1) --> ([widely] & domesticate)> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.205419}
+<({Humans} * [one-toed]) --> ({Horses} * horse)>. {1.000000 0.147048}
+<({Horses} * [domesticate]) --> one-toed>. {1.000000 0.072096}
+(<(#1 * rock) --> block_of> && <({Humans} * #1) --> ({Horses} * 3000)>). {1.000000 0.240006}
+<({Humans} * [evolve]) --> ({Horses} * hoofed)>. {1.000000 0.030440}
+<({Humans} * [evolve]) --> ({Horses} * [one-toed])>. {1.000000 0.050931}
+<one-toed --> ({Horses} * horse)>. {1.000000 0.059848}
+<({Horses} * horse) --> ({Humans} * hoofed)>. {1.000000 0.123662}
+<one-toed --> domesticate>. {1.000000 0.186451}
+<({Horses} * [evolve]) --> ({Humans} * [one-toed])>. {1.000000 0.133179}
+(<({Horses} * #1) --> evolve> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.119371}
+<<({$1} * horse) --> domesticate> ==> <({$1} * [one-toed]) --> domesticate>>. {1.000000 0.236563}
+<<({$1} * [evolve]) --> domesticate> ==> <({$1} * [one-toed]) --> domesticate>>. {1.000000 0.173021}
+<<({$1} * hoofed) --> domesticate> ==> <({$1} * [one-toed]) --> domesticate>>. {1.000000 0.141349}
+<<({$1} * [domesticate]) --> domesticate> ==> <({$1} * [one-toed]) --> domesticate>>. {1.000000 0.137062}
+<hoofed --> [domesticate]>. {1.000000 0.702884}
+<one-toed --> evolve>. {1.000000 0.092548}
+<({Humans} * hoofed) --> ({Horses} * horse)>. {1.000000 0.084431}
+<[evolve] --> [one-toed]>. {1.000000 0.699695}
+<({Horses} * hoofed) --> ({Humans} * [one-toed])>. {1.000000 0.184229}
+<tweety --> swan>. {0.000000 0.647105}
+<({Horses} * hoofed) --> one-toed>. {1.000000 0.106072}
+(<bird --> swan> && <bird --> bird>). {0.920172 0.035734}
+<({Horses} * horse) --> ({Humans} * [one-toed])>. {1.000000 0.117628}
+((<tweety --> bird> || <penguin --> bird>) && <tweety --> bird>). {0.000000 0.000000}
+<<$1 --> penguin> ==> (<$1 --> swan> && <$1 --> bird>)>. {1.000000 0.062325}
+((<tweety --> bird> || <penguin --> bird>) || <bird --> bird>). {0.990000 0.038790}
+<<({$1} * [evolve]) --> domesticate> ==> <({$1} * hoofed) --> domesticate>>. {1.000000 0.193891}
+<<({$1} * [one-toed]) --> domesticate> ==> <({$1} * hoofed) --> domesticate>>. {1.000000 0.141349}
+((<penguin --> bird> || <tweety --> bird>) || <bird --> bird>). {0.990000 0.038790}
+<evolve --> ({Humans} * [one-toed])>. {1.000000 0.138913}
+<({Horses} * hoofed) --> domesticate>. {1.000000 0.262394}
+<({Horses} * [domesticate]) --> evolve>. {1.000000 0.127203}
+<({Humans} * [one-toed]) <-> evolve>. {1.000000 0.138913}
+<evolve <-> ({Humans} * [one-toed])>. {1.000000 0.138913}
+<({Humans} * [({Horses} * horse)]) --> domesticate>. {1.000000 0.017682}
+(<animal --> bird> || <animal --> swan>). {1.000000 0.040055}
+(<bird --> bird> || <bird --> swan>). {0.920172 0.035734}
+<({Humans} * [({Humans} * [evolve])]) --> ({Horses} * 3000)>. {1.000000 0.003932}
+<({Humans} * [({Horses} * [evolve])]) --> [widely]>. {1.000000 0.000643}
+<({Horses} * [one-toed]) --> domesticate>. {1.000000 0.175603}
+(<bird --> swan> || <bird --> bird>). {0.920172 0.035734}
+<({Horses} * hoofed) --> evolve>. {1.000000 0.116796}
+<<(horse * $1) --> belong_to> ==> <([domesticate] * $1) --> belong_to>>. {1.000000 0.270984}
+<<(hoofed * $1) --> belong_to> ==> <([domesticate] * $1) --> belong_to>>. {1.000000 0.207869}
+<<([one-toed] * $1) --> belong_to> ==> <([domesticate] * $1) --> belong_to>>. {1.000000 0.181743}
+<<([evolve] * $1) --> belong_to> ==> <([domesticate] * $1) --> belong_to>>. {1.000000 0.175610}
+<<(3000 * $1) --> belong_to> ==> <([domesticate] * $1) --> belong_to>>. {1.000000 0.158832}
+<<$1 --> [evolve]> ==> <$1 --> horse>>. {1.000000 0.115936}
+<<$1 --> hoofed> ==> <$1 --> horse>>. {1.000000 0.072110}
+<<$1 --> [domesticate]> ==> <$1 --> horse>>. {1.000000 0.069074}
+<<$1 --> [one-toed]> ==> <$1 --> horse>>. {1.000000 0.055950}
+<one-toed --> ({Humans} * [evolve])>. {1.000000 0.132003}
+<[evolve] --> horse>. {1.000000 0.437153}
+<3000 --> [one-toed]>. {1.000000 0.596140}
+<horse <-> [evolve]>. {1.000000 0.494071}
+<[evolve] <-> horse>. {1.000000 0.494071}
+<<$1 --> penguin> ==> <$1 --> animal>>. {0.900000 0.249009}
+<<horse --> $1> ==> <[evolve] --> $1>>. {1.000000 0.287567}
+<<[domesticate] --> $1> ==> <[evolve] --> $1>>. {1.000000 0.209761}
+<<3000 --> $1> ==> <[evolve] --> $1>>. {1.000000 0.198855}
+<<[one-toed] --> $1> ==> <[evolve] --> $1>>. {1.000000 0.135673}
+<[evolve] --> [domesticate]>. {1.000000 0.608974}
+<[one-toed] <-> [domesticate]>. {1.000000 0.660779}
+<({Humans} * [({Humans} * [evolve])]) --> ([widely] & domesticate)>. {1.000000 0.001680}
+(<swan --> swan> || <swan --> bird>). {0.921714 0.040410}
+<<([domesticate] * $1) --> belong_to> ==> <(hoofed * $1) --> belong_to>>. {1.000000 0.207869}
+<<([one-toed] * $1) --> belong_to> ==> <(hoofed * $1) --> belong_to>>. {1.000000 0.186845}
+<<([evolve] * $1) --> belong_to> ==> <(hoofed * $1) --> belong_to>>. {1.000000 0.180578}
+<<(3000 * $1) --> belong_to> ==> <(hoofed * $1) --> belong_to>>. {1.000000 0.163420}
+<({Humans} * [({Humans} * [evolve])]) --> [widely]>. {1.000000 0.001702}
+<({Humans} * horse) --> ([widely] & domesticate)>. {1.000000 0.038007}
+(<({Humans} * #1) --> ({Horses} * [domesticate])> && <(#1 * family) --> belong_to>). {1.000000 0.037361}
+(<({Horses} * [#1]) --> ({Humans} * hoofed)> && <([#1] * rock) --> block_of>). {1.000000 0.033180}
+<<(hoofed * $1) --> belong_to> ==> <(3000 * $1) --> belong_to>>. {1.000000 0.163420}
+<<([domesticate] * $1) --> belong_to> ==> <(3000 * $1) --> belong_to>>. {1.000000 0.158832}
+<({Horses} * [one-toed]) <-> ({Humans} * [evolve])>. {1.000000 0.015740}
+(<({Horses} * #1) --> one-toed> && <(#1 * family) --> belong_to>). {1.000000 0.037305}
+<horse --> horse>. {1.000000 0.204102}
+(<({Horses} * [#1]) --> ({Humans} * hoofed)> && <([#1] * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.036674}
+<({Humans} * [({Horses} * hoofed)]) --> domesticate>. {1.000000 0.018200}
+(<swan --> bird> || <swan --> swan>). {0.921714 0.040410}
+<<swan --> $1> ==> ((<penguin --> $1> && <tweety --> $1>) && <bird --> $1>)>. {0.000000 0.040622}
+<({Humans} * [evolve]) --> ({Horses} * horse)>. {1.000000 0.125879}
+<evolve --> ({Horses} * [domesticate])>. {1.000000 0.050376}
+(<({Horses} * #1) --> evolve> && <(#1 * family) --> belong_to>). {1.000000 0.051682}
+(<({Horses} * [#1]) --> ({Humans} * [domesticate])> && <([#1] * rock) --> block_of>). {1.000000 0.031938}
+<<swan --> $1> ==> ((<penguin --> $1> && <tweety --> $1>) || <tweety --> $1>)>. {0.000000 0.060036}
+(<({Humans} * #1) --> ({Horses} * [one-toed])> && <(#1 * family) --> belong_to>). {1.000000 0.036422}
+<<(hoofed * $1) --> block_of> ==> <([evolve] * $1) --> block_of>>. {1.000000 0.175206}
+<<([one-toed] * $1) --> block_of> ==> <([evolve] * $1) --> block_of>>. {1.000000 0.146683}
+<<([domesticate] * $1) --> block_of> ==> <([evolve] * $1) --> block_of>>. {1.000000 0.127209}
+<<(3000 * $1) --> block_of> ==> <([evolve] * $1) --> block_of>>. {1.000000 0.082750}
+<({Humans} * [one-toed]) --> ({Horses} * [domesticate])>. {1.000000 0.074182}
+<horse --> [({Horses} * 3000)]>. {1.000000 0.031535}
+<({Horses} * [evolve]) --> domesticate>. {1.000000 0.193408}
+<({Horses} * hoofed) --> ({Humans} * [evolve])>. {1.000000 0.237601}
+(<({Horses} * [#1]) --> #1> && <([#1] * rock) --> block_of>). {1.000000 0.036274}
+(<({Horses} * #1) --> ({Humans} * [domesticate])> && <(#1 * family) --> belong_to>). {1.000000 0.057988}
+<({Horses} * [evolve]) --> one-toed>. {1.000000 0.120392}
+<<({$2} * $1) --> domesticate> ==> <({$2} * $1) --> ({Humans} * [evolve])>>. {1.000000 0.210377}
+<<({$2} * $1) --> ({Humans} * horse)> ==> <({$2} * $1) --> ({Humans} * [evolve])>>. {1.000000 0.146546}
+<<({$2} * $1) --> one-toed> ==> <({$2} * $1) --> ({Humans} * [evolve])>>. {1.000000 0.132003}
+<<({$2} * $1) --> ({Humans} * [one-toed])> ==> <({$2} * $1) --> ({Humans} * [evolve])>>. {1.000000 0.122900}
+<<({$2} * $1) --> domesticate> ==> <({$2} * $1) --> evolve>>. {1.000000 0.177389}
+<<({$2} * $1) --> ({Humans} * hoofed)> ==> <({$2} * $1) --> evolve>>. {1.000000 0.145007}
+<<({$2} * $1) --> ({Humans} * [one-toed])> ==> <({$2} * $1) --> evolve>>. {1.000000 0.138913}
+<<({$2} * $1) --> ({Humans} * [domesticate])> ==> <({$2} * $1) --> evolve>>. {1.000000 0.137715}
+<<({$2} * $1) --> one-toed> ==> <({$2} * $1) --> evolve>>. {1.000000 0.092548}
+<<({$2} * $1) --> ({Horses} * 3000)> ==> <({$2} * $1) --> evolve>>. {1.000000 0.060679}
+<({Horses} * [one-toed]) --> evolve>. {1.000000 0.112384}
+<({Humans} * horse) --> [widely]>. {1.000000 0.038499}
+(<({Horses} * [#1]) --> ({Humans} * [domesticate])> && <([#1] * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.035301}
+<tweety <-> swan>. {0.000000 0.533446}
+<(3000 * family) --> belong_to>. {1.000000 0.441456}
+<(3000 * ([mineral] & vein)) --> by>. {1.000000 0.360218}
+<({Humans} * horse) --> domesticate>. {1.000000 0.803058}
+(<({Humans} * #1) --> domesticate> && <(#1 * rock) --> block_of>). {1.000000 0.547525}
+<<[$1] --> [domesticate]> ==> <[$1] --> [evolve]>>. {1.000000 0.186977}
+<<[$1] --> hoofed> ==> <[$1] --> [evolve]>>. {1.000000 0.158318}
+<<[$1] --> 3000> ==> <[$1] --> [evolve]>>. {1.000000 0.111887}
+<<[$1] --> horse> ==> <[$1] --> [evolve]>>. {1.000000 0.085669}
+<[one-toed] <-> 3000>. {1.000000 0.505102}
+(<({Humans} * #1) --> evolve> && <(#1 * rock) --> block_of>). {1.000000 0.207144}
+<[domesticate] <-> 3000>. {1.000000 0.434013}
+<(3000 * rock) --> block_of>. {1.000000 0.387105}
+<<[$1] --> hoofed> ==> <[$1] --> [domesticate]>>. {1.000000 0.187581}
+<<[$1] --> [evolve]> ==> <[$1] --> [domesticate]>>. {1.000000 0.186977}
+<<[$1] --> horse> ==> <[$1] --> [domesticate]>>. {1.000000 0.182414}
+<<[$1] --> [one-toed]> ==> <[$1] --> [domesticate]>>. {1.000000 0.138220}
+<<[$1] --> 3000> ==> <[$1] --> [domesticate]>>. {1.000000 0.088322}
+<<[$1] --> horse> ==> <[$1] --> 3000>>. {1.000000 0.127714}
+<<[$1] --> [evolve]> ==> <[$1] --> 3000>>. {1.000000 0.111887}
+<<[$1] --> [one-toed]> ==> <[$1] --> 3000>>. {1.000000 0.088791}
+<<[$1] --> [domesticate]> ==> <[$1] --> 3000>>. {1.000000 0.088322}
+<<[$1] --> hoofed> ==> <[$1] --> 3000>>. {1.000000 0.071909}
+<[one-toed] <-> [evolve]>. {1.000000 0.713902}
+<evolve <-> domesticate>. {1.000000 0.679917}
+<[domesticate] --> [({Horses} * 3000)]>. {1.000000 0.001902}
+<<({$1} * [evolve]) --> one-toed> ==> <({$1} * [one-toed]) --> one-toed>>. {1.000000 0.044570}
+<domesticate --> evolve>. {1.000000 0.238560}
+<({Humans} * [domesticate]) --> domesticate>. {1.000000 0.604677}
+<hoofed <-> [evolve]>. {1.000000 0.649888}
+<3000 --> [({Horses} * 3000)]>. {1.000000 0.001928}
+<<$1 --> hoofed> ==> <$1 --> [one-toed]>>. {1.000000 0.432656}
+<[evolve] <-> 3000>. {1.000000 0.410598}
+<({Horses} * 3000) --> domesticate>. {1.000000 0.872463}
+<[domesticate] <-> hoofed>. {1.000000 0.610106}
+<<$1 --> [domesticate]> ==> <$1 --> [one-toed]>>. {1.000000 0.435125}
+<[domesticate] --> [evolve]>. {1.000000 0.598844}
+<<$1 --> [evolve]> ==> <$1 --> [one-toed]>>. {1.000000 0.422816}
+<([evolve] * family) --> belong_to>. {1.000000 0.498021}
+<one-toed <-> evolve>. {1.000000 0.547474}
+<<$1 --> 3000> ==> <$1 --> [one-toed]>>. {1.000000 0.225958}
+<<({$1} * [evolve]) --> domesticate> ==> <({$1} * 3000) --> domesticate>>. {1.000000 0.091281}
+<({Humans} * [({Humans} * hoofed)]) --> ({Humans} * horse)>. {1.000000 0.000121}
+<({Humans} * [({Humans} * horse)]) --> ({Humans} * hoofed)>. {1.000000 0.011669}
+<({Humans} * [evolve]) --> ({Humans} * horse)>. {1.000000 0.015776}
+<({Humans} * [({Horses} * 3000)]) --> ({Humans} * [one-toed])>. {1.000000 0.001491}
+<({Humans} * horse) --> ({Humans} * [one-toed])>. {1.000000 0.052719}
+<({Humans} * [evolve]) --> ({Humans} * [one-toed])>. {1.000000 0.039790}
+<({Horses} * [one-toed]) --> ({Humans} * [one-toed])>. {1.000000 0.002698}
+(<({Horses} * #1) --> evolve> && <(#1 * rock) --> block_of>). {1.000000 0.046964}
+<({Humans} * [evolve]) --> ({Humans} * [evolve])>. {1.000000 0.107654}
+<({Humans} * horse) --> ({Humans} * [evolve])>. {1.000000 0.168945}
+<({Horses} * [evolve]) --> ({Humans} * [evolve])>. {1.000000 0.040689}
+<({Humans} * [({Humans} * [evolve])]) --> ({Humans} * [evolve])>. {1.000000 0.000053}
+<({Humans} * [({Horses} * [domesticate])]) --> ({Humans} * [evolve])>. {1.000000 0.002373}
+<({Humans} * [one-toed]) --> ({Humans} * horse)>. {1.000000 0.016738}
+<[evolve] --> [({Humans} * [domesticate])]>. {1.000000 0.014058}
+<({Humans} * hoofed) --> ({Humans} * [evolve])>. {1.000000 0.131308}
+<[evolve] <-> [domesticate]>. {1.000000 0.678658}
+<({Horses} * hoofed) --> ({Humans} * horse)>. {1.000000 0.112284}
+<({Horses} * [evolve]) --> ({Humans} * horse)>. {1.000000 0.133853}
+<({Humans} * [({Humans} * [evolve])]) --> ({Humans} * horse)>. {1.000000 0.000103}
+<({Humans} * [({Humans} * hoofed)]) --> ({Humans} * [one-toed])>. {1.000000 0.001026}
+<({Horses} * 3000) --> ([widely] & domesticate)>. {1.000000 0.855891}
+<<$1 --> penguin> ==> <$1 --> swan>>. {1.000000 0.185009}
+<[domesticate] --> hoofed>. {1.000000 0.684467}
+<({Humans} * hoofed) --> ({Humans} * [one-toed])>. {1.000000 0.056119}
+<({Humans} * [({Humans} * hoofed)]) --> ({Horses} * 3000)>. {1.000000 0.000448}
+<({Humans} * [({Humans} * hoofed)]) --> ({Humans} * [domesticate])>. {1.000000 0.001017}
+<({Humans} * [({Humans} * hoofed)]) --> ({Humans} * [evolve])>. {1.000000 0.000062}
+<({Humans} * [({Humans} * hoofed)]) --> ({Humans} * hoofed)>. {1.000000 0.001071}
+<<$1 --> bird> ==> <$1 --> animal>>. {0.900000 0.431474}
+(<tweety --> penguin> || <penguin --> penguin>). {0.833319 0.190458}
+(<animal --> bird> && <penguin --> bird>). {0.902677 0.088801}
+<({Humans} * [({Humans} * [domesticate])]) --> ({Humans} * [one-toed])>. {1.000000 0.001130}
+<<animal --> $1> ==> <bird --> $1>>. {0.945419 0.138912}
+(<({Humans} * #1) --> one-toed> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.390613}
+<3000 <-> [evolve]>. {1.000000 0.313138}
+<hoofed --> 3000>. {1.000000 0.610953}
+<({Horses} * 3000) --> [widely]>. {1.000000 0.870249}
+<({Humans} * [({Humans} * horse)]) --> ({Humans} * [one-toed])>. {1.000000 0.001500}
+<hoofed <-> 3000>. {1.000000 0.425000}
+<(hoofed * ([mineral] & vein)) --> by>. {1.000000 0.565126}
+<({Horses} * 3000) --> evolve>. {1.000000 0.497366}
+<swan <-> bird>. {0.815908 0.442351}
+(<({Humans} * #1) --> ({Horses} * 3000)> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.266673}
+(<({Humans} * #1) --> evolve> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.295240}
+(<({Humans} * #1) --> one-toed> && <(#1 * rock) --> block_of>). {1.000000 0.214418}
+<<swan --> $1> ==> (<penguin --> $1> && <tweety --> $1>)>. {0.000000 0.109417}
+<({Humans} * [domesticate]) --> ({Humans} * horse)>. {1.000000 0.018642}
+<<(hoofed * ([$2] & $1)) --> part_of> ==> <(3000 * ([$2] & $1)) --> part_of>>. {1.000000 0.111377}
+<<([evolve] * ([$2] & $1)) --> part_of> ==> <(3000 * ([$2] & $1)) --> part_of>>. {1.000000 0.105292}
+<<(horse * ([$2] & $1)) --> part_of> ==> <(3000 * ([$2] & $1)) --> part_of>>. {1.000000 0.069215}
+<hoofed --> [({Humans} * [domesticate])]>. {1.000000 0.072806}
+<({Humans} * [domesticate]) --> ({Humans} * [one-toed])>. {1.000000 0.027921}
+<3000 --> [domesticate]>. {1.000000 0.554574}
+<({Humans} * [({Horses} * 3000)]) --> domesticate>. {1.000000 0.060516}
+<({Humans} * [({Humans} * [domesticate])]) --> ({Humans} * [domesticate])>. {1.000000 0.008376}
+<<(horse * ([$2] & $1)) --> part_of> ==> <(hoofed * ([$2] & $1)) --> part_of>>. {1.000000 0.276327}
+<<([evolve] * ([$2] & $1)) --> part_of> ==> <(hoofed * ([$2] & $1)) --> part_of>>. {1.000000 0.203124}
+<<(3000 * ([$2] & $1)) --> part_of> ==> <(hoofed * ([$2] & $1)) --> part_of>>. {1.000000 0.111377}
+(<({Horses} * #1) --> [widely]> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.246498}
+<3000 <-> horse>. {1.000000 0.302050}
+(<({Humans} * #1) --> one-toed> && <(#1 * family) --> belong_to>). {1.000000 0.253050}
+<domesticate <-> evolve>. {1.000000 0.572741}
+<3000 <-> [one-toed]>. {1.000000 0.423331}
+<([evolve] * ([mineral] & vein)) --> by>. {1.000000 0.455697}
+<[evolve] --> 3000>. {1.000000 0.476618}
+(<({Humans} * #1) --> domesticate> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.674132}
+(<penguin --> bird> && <bird --> bird>). {0.812410 0.172372}
+<bird --> bird>. {0.893263 0.496962}
+<({Humans} * 3000) --> ({Humans} * [evolve])>. {1.000000 0.054837}
+(<tweety --> penguin> && <tweety --> bird>). {0.000000 0.000000}
+<({Humans} * [({Humans} * 3000)]) --> ({Humans} * horse)>. {1.000000 0.000055}
+(<({Humans} * [#1]) --> one-toed> && <([#1] * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.057450}
+(<({Humans} * [#1]) --> ({Horses} * 3000)> && <([#1] * ([mineral] & vein)) --> by>). {1.000000 0.048725}
+(<animal --> penguin> && <animal --> bird>). {0.903200 0.036970}
+(<bird --> bird> || <bird --> penguin>). {0.897665 0.080796}
+(<horse --> 3000> || <horse --> hoofed>). {1.000000 0.090418}
+((<penguin --> penguin> && <tweety --> penguin>) || <tweety --> penguin>). {0.000000 0.000000}
+(<[one-toed] --> hoofed> && <[one-toed] --> [evolve]>). {1.000000 0.129254}
+(<[one-toed] --> hoofed> && <[one-toed] --> 3000>). {1.000000 0.068939}
+(<[evolve] --> 3000> && <[evolve] --> [evolve]>). {1.000000 0.066848}
+<({Humans} * [({Humans} * 3000)]) --> ({Humans} * [domesticate])>. {1.000000 0.000462}
+<({Humans} * [evolve]) <-> evolve>. {1.000000 0.047847}
+<({Humans} * [({Humans} * 3000)]) --> ({Humans} * hoofed)>. {1.000000 0.000487}
+<({Humans} * [({Horses} * [evolve])]) --> ({Humans} * [evolve])>. {1.000000 0.002822}
+<({Humans} * [({Humans} * 3000)]) --> ({Humans} * [one-toed])>. {1.000000 0.000466}
+<({Humans} * [({Horses} * hoofed)]) --> ({Humans} * horse)>. {1.000000 0.000053}
+<({Humans} * [({Horses} * hoofed)]) --> ({Humans} * [evolve])>. {1.000000 0.000027}
+(<tweety --> swan> && <swan --> swan>). {0.000000 0.000000}
+<3000 --> [({Humans} * hoofed)]>. {1.000000 0.039853}
+(<penguin --> penguin> || <penguin --> bird>). {0.820239 0.063441}
+(<[evolve] --> hoofed> || <[evolve] --> 3000>). {1.000000 0.068404}
+<({Humans} * [({Horses} * [evolve])]) --> ({Humans} * [one-toed])>. {1.000000 0.000361}
+(<hoofed --> [evolve]> && <hoofed --> 3000>). {1.000000 0.066245}
+(<tweety --> bird> || <tweety --> swan>). {0.000000 0.000000}
+(<penguin --> bird> || <penguin --> swan>). {0.898023 0.025883}
+<domesticate <-> ({Humans} * [one-toed])>. {1.000000 0.034468}
+(<tweety --> bird> && <tweety --> animal>). {0.000000 0.000000}
+(<penguin --> penguin> && <penguin --> bird>). {0.820239 0.063441}
+(<tweety --> animal> || <tweety --> bird>). {0.000000 0.000000}
+((<penguin --> animal> && <tweety --> animal>) || <bird --> animal>). {0.809222 0.029499}
+(<tweety --> bird> && <tweety --> swan>). {0.000000 0.000000}
+<<({$1} * [$2]) --> domesticate> ==> <({$1} * [$2]) --> one-toed>>. {1.000000 0.108509}
+<<({$1} * [$2]) --> ({Horses} * 3000)> ==> <({$1} * [$2]) --> one-toed>>. {1.000000 0.047508}
+(<(#1 * ([taxonomic] & subspecies)) --> part_of> && <({Horses} * #1) --> ([blue] * [evolve])>). {1.000000 0.084649}
+((<penguin --> penguin> && <tweety --> penguin>) && <tweety --> penguin>). {0.000000 0.000000}
+(<bird --> penguin> || <bird --> bird>). {0.897665 0.080796}
+<<swan --> $1> ==> ((<tweety --> $1> || <penguin --> $1>) || <bird --> $1>)>. {0.990000 0.040622}
+(<bird --> bird> && <bird --> penguin>). {0.897665 0.080796}
+(<penguin --> swan> && <penguin --> bird>). {0.898023 0.025883}
+(<bird --> penguin> && <bird --> bird>). {0.897665 0.080796}
+(<(#1 * rock) --> block_of> && <([blue] * #1) --> ({Humans} * horse)>). {1.000000 0.046053}
+<<swan --> $1> ==> ((<tweety --> $1> || <penguin --> $1>) || <tweety --> $1>)>. {0.900000 0.060036}
+(<penguin --> bird> && <penguin --> swan>). {0.898023 0.025883}
+((<penguin --> animal> && <tweety --> animal>) || <tweety --> animal>). {0.000000 0.000000}
+((<penguin --> animal> && <tweety --> animal>) && <tweety --> animal>). {0.000000 0.000000}
+(<swan --> bird> || <swan --> penguin>). {0.899136 0.075260}
+<({Horses} * horse) --> ({Humans} * 3000)>. {1.000000 0.027525}
+(<swan --> bird> && <swan --> penguin>). {0.899136 0.075260}
+<({Horses} * [evolve]) --> ({Humans} * 3000)>. {1.000000 0.062037}
+<<$1 --> penguin> ==> (<$1 --> animal> && <$1 --> bird>)>. {0.900000 0.083885}
+<<swan --> $1> ==> ((<penguin --> $1> || <tweety --> $1>) || <penguin --> $1>)>. {0.990410 0.064792}
+<<penguin --> $1> ==> (<tweety --> $1> || <swan --> $1>)>. {1.000000 0.116536}
+<<animal --> $1> ==> (<tweety --> $1> || <swan --> $1>)>. {1.000000 0.086584}
+<<bird --> $1> ==> (<tweety --> $1> || <swan --> $1>)>. {0.900000 0.100787}
+<<swan --> $1> ==> ((<tweety --> $1> || <penguin --> $1>) || <penguin --> $1>)>. {0.990410 0.064792}
+(<animal --> penguin> || <animal --> bird>). {0.903200 0.036970}
+((<penguin --> swan> && <tweety --> swan>) && <tweety --> swan>). {0.000000 0.000000}
+((<penguin --> bird> && <tweety --> bird>) || <bird --> bird>). {0.900000 0.035263}
+<<({$1} * [one-toed]) --> evolve> ==> <({$1} * 3000) --> evolve>>. {1.000000 0.022458}
+(<animal --> bird> && <animal --> penguin>). {0.903200 0.036970}
+((<penguin --> penguin> && <tweety --> penguin>) && <bird --> penguin>). {0.000000 0.000000}
+((<penguin --> bird> && <tweety --> bird>) || <tweety --> bird>). {0.000000 0.000000}
+((<penguin --> penguin> && <tweety --> penguin>) || <bird --> penguin>). {0.829543 0.023705}
+(<swan --> bird> || <swan --> animal>). {0.921714 0.054389}
+(<animal --> penguin> && <penguin --> penguin>). {0.833319 0.059751}
+<{Horses} --> {Horses}>. {1.000000 0.041688}
+<one-toed --> ({Humans} * horse)>. {1.000000 0.098794}
+(<({Horses} * #1) --> ({Humans} * [evolve])> && <(#1 * rock) --> block_of>). {1.000000 0.180765}
+<<[blue] --> {$1}> ==> <{Horses} --> {$1}>>. {1.000000 0.175851}
+(<swan --> bird> && <swan --> animal>). {0.829543 0.048950}
+(<({Horses} * #1) --> ([blue] * [evolve])> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.094054}
+(<animal --> bird> && <animal --> animal>). {0.900000 0.048521}
+<([blue] * 3000) --> ({Humans} * [domesticate])>. {1.000000 0.148723}
+(<swan --> animal> && <swan --> bird>). {0.829543 0.048950}
+<({Humans} * [one-toed]) --> ([blue] * [evolve])>. {1.000000 0.118024}
+<({Humans} * hoofed) --> ([blue] * [one-toed])>. {1.000000 0.077076}
+(<({Horses} * [#1]) --> ({Humans} * hoofed)> && <([#1] * family) --> belong_to>). {1.000000 0.043961}
+<({Humans} * hoofed) --> ([blue] * [evolve])>. {1.000000 0.073538}
+<({Humans} * [one-toed]) --> ([blue] * hoofed)>. {1.000000 0.071394}
+<({Humans} * hoofed) --> ([blue] * horse)>. {1.000000 0.066542}
+<([blue] * [evolve]) --> ({Horses} * 3000)>. {1.000000 0.156401}
+<({Humans} * [domesticate]) --> ([blue] * [evolve])>. {1.000000 0.093442}
+<({Horses} * horse) --> ([blue] * 3000)>. {1.000000 0.356616}
+<horse --> [({Humans} * hoofed)]>. {1.000000 0.120424}
+(<[one-toed] --> 3000> || <[one-toed] --> hoofed>). {1.000000 0.068939}
+(<(#1 * ([taxonomic] & subspecies)) --> part_of> && <([blue] * #1) --> ({Humans} * [evolve])>). {1.000000 0.115911}
+(<([blue] * #1) --> ({Humans} * horse)> && <(#1 * ([mineral] & vein)) --> by>). {1.000000 0.051170}
+<<swan --> $1> ==> (<tweety --> $1> || <animal --> $1>)>. {1.000000 0.079684}
+<<bird --> $1> ==> (<tweety --> $1> || <animal --> $1>)>. {1.000000 0.035925}
+<([blue] * horse) --> ({Horses} * hoofed)>. {1.000000 0.114632}
+<[evolve] --> [({Humans} * hoofed)]>. {1.000000 0.045959}
+<({Humans} * [({Horses} * [evolve])]) --> ({Humans} * horse)>. {1.000000 0.000414}
+(<(#1 * rock) --> block_of> && <([blue] * #1) --> ({Humans} * [evolve])>). {1.000000 0.101640}
+<({Horses} * [evolve]) --> ([blue] * horse)>. {1.000000 0.076559}
+<([blue] * hoofed) --> ({Horses} * horse)>. {1.000000 0.029436}
+<({Horses} * hoofed) --> ([blue] * [evolve])>. {1.000000 0.049591}
+(<(#1 * ([taxonomic] & subspecies)) --> part_of> && <({Horses} * #1) --> ({Humans} * [evolve])>). {1.000000 0.185531}
+<<swan --> $1> ==> (<animal --> $1> || <tweety --> $1>)>. {1.000000 0.079684}
+<<bird --> $1> ==> (<animal --> $1> || <tweety --> $1>)>. {1.000000 0.035925}
+(<(#1 * rock) --> block_of> && <({Horses} * #1) --> ({Humans} * [evolve])>). {1.000000 0.162689}
+(<(#1 * family) --> belong_to> && <({Horses} * #1) --> ([blue] * 3000)>). {1.000000 0.278921}
+<<bird --> $1> ==> (<tweety --> $1> && <animal --> $1>)>. {0.000000 0.035925}
+<<swan --> $1> ==> (<tweety --> $1> && <animal --> $1>)>. {0.000000 0.079684}
+(<hoofed --> hoofed> && <hoofed --> 3000>). {1.000000 0.067794}
+(<hoofed --> 3000> || <hoofed --> hoofed>). {1.000000 0.067794}
+<<$1 --> hoofed> ==> (<$1 --> [domesticate]> || <$1 --> [one-toed]>)>. {1.000000 0.186125}
+<<$1 --> [evolve]> ==> (<$1 --> [domesticate]> || <$1 --> [one-toed]>)>. {1.000000 0.177737}
+<<$1 --> 3000> ==> (<$1 --> [domesticate]> || <$1 --> [one-toed]>)>. {1.000000 0.050661}
+(<hoofed --> hoofed> || <hoofed --> 3000>). {1.000000 0.067794}
+<<bird --> $1> ==> (<animal --> $1> && <tweety --> $1>)>. {0.000000 0.035925}
+<<swan --> $1> ==> (<animal --> $1> && <tweety --> $1>)>. {0.000000 0.079684}
+(<[one-toed] --> 3000> && <[one-toed] --> hoofed>). {1.000000 0.068939}
+(<(#1 * rock) --> block_of> && <({Horses} * #1) --> ([blue] * [evolve])>). {1.000000 0.074227}
+(<(#1 * family) --> belong_to> && <([blue] * #1) --> ({Humans} * horse)>). {1.000000 0.049996}
+(<(#1 * ([taxonomic] & subspecies)) --> part_of> && <({Horses} * #1) --> ([blue] * 3000)>). {1.000000 0.276959}
+(<(#1 * ([mineral] & vein)) --> by> && <([blue] * #1) --> ({Humans} * horse)>). {1.000000 0.046053}
+<<{$1} --> [([fast] & run)]> ==> <{$1} --> [big]>>. {1.000000 0.435125}
+<([big] * name) --> have>. {1.000000 0.432656}
+(<horse --> hoofed> && <horse --> 3000>). {1.000000 0.090418}
+(<3000 --> hoofed> || <3000 --> 3000>). {1.000000 0.058280}
+(<penguin --> animal> && <bird --> animal>). {0.731615 0.144336}
+(<[evolve] --> 3000> || <[evolve] --> hoofed>). {1.000000 0.068404}
+(<hoofed --> [one-toed]> || <hoofed --> [domesticate]>). {1.000000 0.095093}
+(<[evolve] --> hoofed> && <[evolve] --> 3000>). {1.000000 0.068404}
+(<[evolve] --> 3000> && <[evolve] --> hoofed>). {1.000000 0.068404}
+(<[one-toed] --> [domesticate]> && <[one-toed] --> [one-toed]>). {1.000000 0.127948}
+(<3000 --> 3000> || <3000 --> hoofed>). {1.000000 0.058280}
+(<[evolve] --> hoofed> && <[evolve] --> [evolve]>). {1.000000 0.127998}
+(<[domesticate] --> [evolve]> && <[domesticate] --> 3000>). {1.000000 0.069930}
+(<horse --> [one-toed]> && <horse --> [domesticate]>). {1.000000 0.173309}
+(<horse --> [evolve]> || <horse --> hoofed>). {1.000000 0.185828}
+(<bird --> penguin> || <penguin --> penguin>). {0.912875 0.141173}
+<domesticate --> ({Humans} * horse)>. {1.000000 0.148727}
+<<swan --> $1> ==> (<penguin --> $1> && <bird --> $1>)>. {0.813687 0.219844}
+<<$1 --> [one-toed]> ==> <$1 --> [domesticate]>>. {1.000000 0.435125}
+(<[one-toed] --> [one-toed]> && <[one-toed] --> [domesticate]>). {1.000000 0.127948}
+(<penguin --> penguin> || <bird --> penguin>). {0.912875 0.141173}
+(<penguin --> animal> || <bird --> animal>). {0.890513 0.175684}
+(<penguin --> bird> || <bird --> bird>). {0.988855 0.209809}
+(<[one-toed] --> [domesticate]> || <[one-toed] --> [one-toed]>). {1.000000 0.127948}
+((<tweety --> penguin> || <penguin --> penguin>) || <penguin --> penguin>). {0.912875 0.041606}
+(<bird --> bird> || <penguin --> bird>). {0.988855 0.209809}
+((<tweety --> bird> || <penguin --> bird>) || <penguin --> bird>). {0.988855 0.061834}
+(<3000 --> [domesticate]> || <3000 --> [one-toed]>). {1.000000 0.110592}
+((<tweety --> penguin> || <penguin --> penguin>) && <penguin --> penguin>). {0.749987 0.034182}
+<[one-toed] --> [({Humans} * hoofed)]>. {1.000000 0.051828}
+(<[one-toed] --> hoofed> || <[one-toed] --> 3000>). {1.000000 0.068939}
+(<bird --> swan> && <penguin --> swan>). {0.729301 0.057326}
+(<bird --> penguin> && <penguin --> penguin>). {0.749987 0.115983}
+((<tweety --> animal> || <penguin --> animal>) && <penguin --> animal>). {0.731615 0.042538}
+(<bird --> bird> && <penguin --> bird>). {0.812410 0.172372}
+(<[evolve] --> [one-toed]> || <[evolve] --> [domesticate]>). {1.000000 0.112590}
+(<penguin --> penguin> && <bird --> penguin>). {0.749987 0.115983}
+((<tweety --> swan> || <penguin --> swan>) && <penguin --> swan>). {0.731844 0.021328}
+(<swan --> swan> && <tweety --> swan>). {0.000000 0.000000}
+((<tweety --> bird> || <penguin --> bird>) && <penguin --> bird>). {0.812410 0.050801}
+((<tweety --> animal> || <penguin --> animal>) || <penguin --> animal>). {0.890513 0.051777}
+<<animal --> $1> ==> (<tweety --> $1> && <swan --> $1>)>. {0.000000 0.086584}
+<<bird --> $1> ==> (<tweety --> $1> && <swan --> $1>)>. {0.000000 0.100787}
+<<penguin --> $1> ==> (<tweety --> $1> && <swan --> $1>)>. {0.000000 0.116536}
+(<3000 --> hoofed> && <3000 --> 3000>). {1.000000 0.058280}
+(<penguin --> penguin> && <animal --> penguin>). {0.833319 0.059751}
+<<$1 --> animal> ==> (<$1 --> penguin> || <$1 --> bird>)>. {1.000000 0.093274}
+(<swan --> penguin> || <tweety --> penguin>). {0.898023 0.048396}
+(<swan --> bird> || <tweety --> bird>). {0.905068 0.098035}
+(<tweety --> animal> || <swan --> animal>). {0.820239 0.079263}
+(<swan --> penguin> && <tweety --> penguin>). {0.000000 0.000000}
+(<swan --> bird> && <tweety --> bird>). {0.000000 0.000000}
+(<tweety --> penguin> && <swan --> penguin>). {0.000000 0.000000}
+(<tweety --> bird> && <swan --> bird>). {0.000000 0.000000}
+(<swan --> animal> && <tweety --> animal>). {0.000000 0.000000}
+(<swan --> swan> || <tweety --> swan>). {0.902739 0.072035}
+(<3000 --> [evolve]> && <3000 --> hoofed>). {1.000000 0.109054}
+(<[one-toed] --> [evolve]> && <[one-toed] --> 3000>). {1.000000 0.067364}
+<<$1 --> [one-toed]> ==> (<$1 --> hoofed> && <$1 --> [evolve]>)>. {1.000000 0.182934}
+<<$1 --> [domesticate]> ==> (<$1 --> hoofed> && <$1 --> [evolve]>)>. {1.000000 0.180837}
+<<$1 --> 3000> ==> (<$1 --> hoofed> && <$1 --> [evolve]>)>. {1.000000 0.050626}
+<<(horse * $1) --> block_of> ==> <([one-toed] * $1) --> block_of>>. {1.000000 0.220538}
+<<([evolve] * $1) --> block_of> ==> <([one-toed] * $1) --> block_of>>. {1.000000 0.146683}
+<<(hoofed * $1) --> block_of> ==> <([one-toed] * $1) --> block_of>>. {1.000000 0.135603}
+<<([domesticate] * $1) --> block_of> ==> <([one-toed] * $1) --> block_of>>. {1.000000 0.131398}
+<animal <-> swan>. {0.826594 0.406019}
+<<$1 --> hoofed> ==> (<$1 --> [evolve]> && <$1 --> 3000>)>. {1.000000 0.102167}
+<<$1 --> [one-toed]> ==> (<$1 --> [evolve]> && <$1 --> 3000>)>. {1.000000 0.095539}
+<<$1 --> [domesticate]> ==> (<$1 --> [evolve]> && <$1 --> 3000>)>. {1.000000 0.094248}
+<([evolve] * rock) --> block_of>. {1.000000 0.481411}
+(<[domesticate] --> [evolve]> || <[domesticate] --> 3000>). {1.000000 0.069930}
+(<3000 --> [evolve]> || <3000 --> 3000>). {1.000000 0.060706}
+(<animal --> bird> || <animal --> penguin>). {0.903200 0.036970}
+(<3000 --> 3000> || <3000 --> [evolve]>). {1.000000 0.060706}
+(<[one-toed] --> 3000> || <[one-toed] --> [evolve]>). {1.000000 0.067364}
+(<[one-toed] --> 3000> && <[one-toed] --> [evolve]>). {1.000000 0.067364}
+(<[one-toed] --> [evolve]> || <[one-toed] --> 3000>). {1.000000 0.067364}
+(<3000 --> 3000> && <3000 --> [evolve]>). {1.000000 0.060706}
+(<[domesticate] --> 3000> && <[domesticate] --> [evolve]>). {1.000000 0.069930}
+(<horse --> 3000> && <horse --> [evolve]>). {1.000000 0.095133}
+(<[domesticate] --> 3000> || <[domesticate] --> [evolve]>). {1.000000 0.069930}
+(<3000 --> [evolve]> && <3000 --> 3000>). {1.000000 0.060706}
+<<$1 --> hoofed> ==> (<$1 --> 3000> && <$1 --> [evolve]>)>. {1.000000 0.102167}
+<<$1 --> [one-toed]> ==> (<$1 --> 3000> && <$1 --> [evolve]>)>. {1.000000 0.095539}
+<<$1 --> [domesticate]> ==> (<$1 --> 3000> && <$1 --> [evolve]>)>. {1.000000 0.094248}
+<<$1 --> [one-toed]> ==> (<$1 --> 3000> && <$1 --> hoofed>)>. {1.000000 0.097762}
+<<$1 --> [domesticate]> ==> (<$1 --> 3000> && <$1 --> hoofed>)>. {1.000000 0.096451}
+<<$1 --> [evolve]> ==> (<$1 --> 3000> && <$1 --> hoofed>)>. {1.000000 0.093795}
+<<$1 --> [one-toed]> ==> (<$1 --> hoofed> && <$1 --> 3000>)>. {1.000000 0.097762}
+<<$1 --> [domesticate]> ==> (<$1 --> hoofed> && <$1 --> 3000>)>. {1.000000 0.096451}
+<<$1 --> [evolve]> ==> (<$1 --> hoofed> && <$1 --> 3000>)>. {1.000000 0.093795}
+<swan <-> penguin>. {0.903207 0.768140}
+<<([one-toed] * $1) --> block_of> ==> <(horse * $1) --> block_of>>. {1.000000 0.220538}
+<<swan --> $1> ==> ((<penguin --> $1> || <tweety --> $1>) || <tweety --> $1>)>. {0.900000 0.050651}
+(<hoofed --> [evolve]> || <hoofed --> 3000>). {1.000000 0.066245}
+(<horse --> [evolve]> && <horse --> hoofed>). {1.000000 0.185828}
+(<hoofed --> 3000> || <hoofed --> [evolve]>). {1.000000 0.066245}
+(<[domesticate] --> hoofed> || <[domesticate] --> [evolve]>). {1.000000 0.100518}
+(<hoofed --> [evolve]> && <hoofed --> hoofed>). {1.000000 0.127108}
+(<horse --> hoofed> || <horse --> [evolve]>). {1.000000 0.185828}
+(<[one-toed] --> hoofed> || <[one-toed] --> [evolve]>). {1.000000 0.129254}
+<<swan --> $1> ==> (<penguin --> $1> || <animal --> $1>)>. {1.000000 0.101931}
+<<bird --> $1> ==> (<penguin --> $1> || <animal --> $1>)>. {1.000000 0.042457}
+(<[evolve] --> [evolve]> || <[evolve] --> 3000>). {1.000000 0.066848}
+(<horse --> hoofed> && <horse --> [evolve]>). {1.000000 0.185828}
+(<hoofed --> [evolve]> || <hoofed --> hoofed>). {1.000000 0.127108}
+(<hoofed --> hoofed> && <hoofed --> [evolve]>). {1.000000 0.127108}
+(<3000 --> [evolve]> || <3000 --> hoofed>). {1.000000 0.109054}
+<<swan --> $1> ==> ((<penguin --> $1> || <tweety --> $1>) && <tweety --> $1>)>. {0.000000 0.050651}
+(<[one-toed] --> [evolve]> && <[one-toed] --> hoofed>). {1.000000 0.129254}
+(<3000 --> hoofed> && <3000 --> [evolve]>). {1.000000 0.109054}
+<domesticate --> ({Humans} * [evolve])>. {1.000000 0.210377}
+<(<penguin --> $1> || <tweety --> $1>) ==> (<penguin --> $1> && <tweety --> $1>)>. {0.000000 0.010660}
+<(<tweety --> $1> || <penguin --> $1>) ==> (<penguin --> $1> && <tweety --> $1>)>. {0.000000 0.010660}
+<<bird --> $1> ==> (<penguin --> $1> && <tweety --> $1>)>. {0.000000 0.116582}
+<<swan --> $1> ==> (<penguin --> $1> && <tweety --> $1>)>. {0.000000 0.324909}
+<<bird --> $1> ==> (<swan --> $1> || <animal --> $1>)>. {1.000000 0.049130}
+<tweety <-> penguin>. {0.000000 0.339944}
+<bird --> swan>. {0.891392 0.627326}
+<<([evolve] * $1) --> block_of> ==> <(hoofed * $1) --> block_of>>. {1.000000 0.175206}
+<<([one-toed] * $1) --> block_of> ==> <(hoofed * $1) --> block_of>>. {1.000000 0.135603}
+<<swan --> $1> ==> ((<tweety --> $1> && <penguin --> $1>) && <tweety --> $1>)>. {0.000000 0.050651}
+<({Humans} * [domesticate]) --> [widely]>. {1.000000 0.218412}
+<animal --> bird>. {1.000000 0.761030}
+<swan --> animal>. {0.899136 0.897378}
+(<[evolve] --> [evolve]> && <[evolve] --> hoofed>). {1.000000 0.127998}
+(<[evolve] --> [evolve]> && <[evolve] --> 3000>). {1.000000 0.066848}
+(<({Humans} * [#1]) --> evolve> && <([#1] * rock) --> block_of>). {1.000000 0.033890}
+<[widely] --> ({Humans} * [domesticate])>. {1.000000 0.218412}
+<([blue] * 3000) --> one-toed>. {1.000000 0.305210}
+<({Humans} * [domesticate]) --> ({Horses} * [one-toed])>. {1.000000 0.080116}
+(<(#1 * rock) --> block_of> && <({Humans} * #1) --> domesticate>). {1.000000 0.492772}
+<one-toed --> ({Humans} * [domesticate])>. {1.000000 0.103365}
+<([blue] * 3000) --> domesticate>. {1.000000 0.434898}
+(<horse --> 3000> && <horse --> hoofed>). {1.000000 0.090418}
+<({Humans} * [([blue] * 3000)]) --> ({Humans} * [domesticate])>. {1.000000 0.006024}
+<([blue] * [evolve]) --> ({Humans} * hoofed)>. {1.000000 0.072238}
+<([blue] * 3000) --> evolve>. {1.000000 0.000098}
+<([blue] * hoofed) --> ({Horses} * [evolve])>. {1.000000 0.031287}
+<([blue] * hoofed) --> ({Horses} * [one-toed])>. {1.000000 0.032792}
+<({Humans} * [one-toed]) --> ([blue] * [domesticate])>. {1.000000 0.066012}
+<<{Horses} --> {$1}> ==> <[blue] --> {$1}>>. {1.000000 0.175851}
+<<swan --> $1> ==> (<bird --> $1> && <penguin --> $1>)>. {0.813687 0.219844}
+<([blue] * [one-toed]) --> ({Horses} * [evolve])>. {1.000000 0.061729}
+<({Horses} * 3000) <-> domesticate>. {1.000000 0.110782}
+<({Horses} * 3000) --> ([blue] * [evolve])>. {1.000000 0.213055}
+<([blue] * horse) --> ({Horses} * 3000)>. {1.000000 0.222783}
+<<$1 --> [one-toed]> ==> (<$1 --> [evolve]> || <$1 --> hoofed>)>. {1.000000 0.182934}
+<<$1 --> [domesticate]> ==> (<$1 --> [evolve]> || <$1 --> hoofed>)>. {1.000000 0.180837}
+<<$1 --> 3000> ==> (<$1 --> [evolve]> || <$1 --> hoofed>)>. {1.000000 0.050626}
+<([blue] * horse) --> ({Humans} * [evolve])>. {1.000000 0.091393}
+((<penguin --> bird> || <tweety --> bird>) || <animal --> bird>). {1.000000 0.018167}
+((<penguin --> animal> || <tweety --> animal>) || <animal --> animal>). {0.899136 0.015197}
+<<{$1} --> {Humans}> ==> <{$1} --> [blue]>>. {1.000000 0.375287}
+(<penguin --> swan> || <tweety --> swan>). {0.810334 0.094135}
+<({Humans} * [([blue] * 3000)]) --> ({Horses} * 3000)>. {1.000000 0.003342}
+<([blue] * horse) --> one-toed>. {1.000000 0.092189}
+<[widely] <-> ({Humans} * [domesticate])>. {1.000000 0.218412}
+<({Humans} * [domesticate]) <-> [widely]>. {1.000000 0.218412}
+<({Humans} * [([blue] * 3000)]) --> ({Humans} * [evolve])>. {1.000000 0.006346}
+<({Humans} * [([blue] * 3000)]) --> ({Humans} * [one-toed])>. {1.000000 0.000813}
+<one-toed <-> ({Humans} * [domesticate])>. {1.000000 0.103365}
+<<({$2} * $1) --> ({Humans} * hoofed)> ==> <({$2} * $1) --> [widely]>>. {1.000000 0.228842}
+<<({$2} * $1) --> ({Humans} * [domesticate])> ==> <({$2} * $1) --> [widely]>>. {1.000000 0.218412}
+<({Horses} * hoofed) --> ([blue] * [one-toed])>. {1.000000 0.052491}
+((<penguin --> bird> || <tweety --> bird>) && <penguin --> bird>). {0.812410 0.050801}
+<({Humans} * [domesticate]) <-> domesticate>. {1.000000 0.199713}
+<<({$2} * $1) --> ({Humans} * hoofed)> ==> <({$2} * $1) --> ([widely] & domesticate)>>. {1.000000 0.225920}
+<<({$2} * $1) --> ({Humans} * [domesticate])> ==> <({$2} * $1) --> ([widely] & domesticate)>>. {1.000000 0.215585}
+<({Humans} * [([blue] * 3000)]) --> ({Humans} * horse)>. {1.000000 0.000930}
+<[blue] <-> {Humans}>. {1.000000 0.375287}
+<domesticate <-> ({Horses} * 3000)>. {1.000000 0.110782}
+(<({Horses} * #1) --> ([blue] * 3000)> && <(#1 * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.307733}
+<({Humans} * [([blue] * 3000)]) --> ([widely] & domesticate)>. {1.000000 0.001428}
+(<([blue] * #1) --> ({Humans} * [evolve])> && <(#1 * rock) --> block_of>). {1.000000 0.112933}
+((<penguin --> bird> || <tweety --> bird>) && <animal --> bird>). {0.900000 0.016350}
+((<tweety --> bird> && <penguin --> bird>) || <penguin --> bird>). {0.902677 0.056445}
+<({Horses} * 3000) --> ([blue] * horse)>. {1.000000 0.256547}
+((<tweety --> animal> && <penguin --> animal>) || <penguin --> animal>). {0.812906 0.047264}
+<([blue] * [one-toed]) --> ({Horses} * 3000)>. {1.000000 0.193146}
+<<{$1} --> [blue]> ==> <{$1} --> {Humans}>>. {1.000000 0.375287}
+<([blue] * horse) --> ({Horses} * [one-toed])>. {1.000000 0.112528}
+<({Horses} * hoofed) --> ({Humans} * [domesticate])>. {1.000000 0.140727}
+(<([blue] * #1) --> ({Humans} * horse)> && <(#1 * family) --> belong_to>). {1.000000 0.055552}
+((<tweety --> bird> && <penguin --> bird>) && <animal --> bird>). {0.000000 0.000000}
+<[([fast] & run)] <-> [big]>. {1.000000 0.435125}
+<<horse --> [$1]> ==> <hoofed --> [$1]>>. {1.000000 0.314717}
+<<[evolve] --> [$1]> ==> <hoofed --> [$1]>>. {1.000000 0.193093}
+<<[domesticate] --> [$1]> ==> <hoofed --> [$1]>>. {1.000000 0.184701}
+<<[one-toed] --> [$1]> ==> <hoofed --> [$1]>>. {1.000000 0.099074}
+<([blue] * hoofed) --> ({Humans} * [evolve])>. {1.000000 0.173271}
+((<penguin --> animal> || <tweety --> animal>) || <penguin --> animal>). {0.890513 0.051777}
+<tweety <-> bird>. {0.000000 0.506559}
+<({Humans} * hoofed) --> ({Humans} * [domesticate])>. {1.000000 0.124651}
+<[one-toed] --> hoofed>. {1.000000 0.617223}
+<({Humans} * [({Horses} * 3000)]) --> ({Humans} * [domesticate])>. {1.000000 0.010766}
+<({Humans} * hoofed) --> one-toed>. {1.000000 0.384033}
+(<({Humans} * [#1]) --> evolve> && <([#1] * ([taxonomic] & subspecies)) --> part_of>). {1.000000 0.037369}
+(<tweety --> bird> || <penguin --> bird>). {0.902677 0.283055}
+<({Horses} * hoofed) --> ([widely] & domesticate)>. {1.000000 0.200988}
+<<bird --> $1> ==> <swan --> $1>>. {0.900000 0.371263}
+<({Horses} * [one-toed]) --> ([widely] & domesticate)>. {1.000000 0.193395}
+<({Horses} * 3000) --> ({Humans} * [evolve])>. {1.000000 0.466967}
+(<animal --> animal> && <tweety --> animal>). {0.000000 0.000000}
+<({Humans} * [one-toed]) --> ({Horses} * 3000)>. {1.000000 0.486835}
+<({Humans} * horse) --> ([blue] * hoofed)>. {1.000000 0.311137}
+<([blue] * [evolve]) --> one-toed>. {1.000000 0.134427}
+<({Horses} * [one-toed]) --> ([blue] * [evolve])>. {1.000000 0.112697}
+<({Horses} * hoofed) --> [widely]>. {1.000000 0.204360}
+<({Humans} * hoofed) --> ([widely] & domesticate)>. {1.000000 0.225920}
+(<penguin --> animal> || <tweety --> animal>). {0.812906 0.237016}
+(<({Humans} * [#1]) --> evolve> && <([#1] * family) --> belong_to>). {1.000000 0.037369}
+<<$1 --> [evolve]> ==> <$1 --> hoofed>>. {1.000000 0.435071}
+<evolve <-> ({Humans} * hoofed)>. {1.000000 0.145007}
+<<$1 --> 3000> ==> <$1 --> [domesticate]>>. {1.000000 0.224205}
+<({Horses} * [one-toed]) --> [widely]>. {1.000000 0.196640}
+<<$1 --> 3000> ==> <$1 --> hoofed>>. {1.000000 0.234829}
+<({Humans} * hoofed) --> [widely]>. {1.000000 0.228842}
+<({Horses} * 4000) --> around>. {1.000000 0.557530}
+(<penguin --> animal> && <tweety --> animal>). {0.000000 0.000000}
+(<(#1 * ([taxonomic] & subspecies)) --> part_of> && <({Humans} * #1) --> one-toed>). {1.000000 0.227745}
+<bird <-> animal>. {0.885506 0.609299}
+<<bird --> $1> ==> <animal --> $1>>. {1.000000 0.132333}
+<<swan --> $1> ==> (<animal --> $1> || <penguin --> $1>)>. {1.000000 0.101931}
+<<bird --> $1> ==> (<animal --> $1> || <penguin --> $1>)>. {1.000000 0.042457}
+<<$1 --> hoofed> ==> <$1 --> [domesticate]>>. {1.000000 0.430191}
+<one-toed --> ({Humans} * hoofed)>. {1.000000 0.109068}
+<{Humans} --> {Horses}>. {1.000000 0.547169}
+<[widely] --> ({Humans} * hoofed)>. {1.000000 0.228842}
+<([domesticate] * ([taxonomic] & subspecies)) --> part_of>. {1.000000 0.599652}
+<<$1 --> [evolve]> ==> <$1 --> [domesticate]>>. {1.000000 0.420365}
+<<$1 --> animal> ==> <$1 --> bird>>. {1.000000 0.405838}
+<evolve --> ({Humans} * hoofed)>. {1.000000 0.145007}
+<<$1 --> [evolve]> ==> <$1 --> 3000>>. {1.000000 0.215586}
+<<({$1} * horse) --> ({Horses} * 3000)> ==> <({$1} * hoofed) --> ({Horses} * 3000)>>. {1.000000 0.106325}
+<<({$1} * [domesticate]) --> ({Horses} * 3000)> ==> <({$1} * hoofed) --> ({Horses} * 3000)>>. {1.000000 0.089263}
+<<({$1} * [one-toed]) --> ({Horses} * 3000)> ==> <({$1} * hoofed) --> ({Horses} * 3000)>>. {1.000000 0.064007}
+<<({$1} * [evolve]) --> ({Horses} * 3000)> ==> <({$1} * hoofed) --> ({Horses} * 3000)>>. {1.000000 0.031910}
+<<$1 --> [one-toed]> ==> <$1 --> 3000>>. {1.000000 0.225958}
+<<({$1} * hoofed) --> ({Horses} * 3000)> ==> <({$1} * horse) --> ({Horses} * 3000)>>. {1.000000 0.106325}
+<<$1 --> hoofed> ==> <$1 --> 3000>>. {1.000000 0.234829}
+(<([blue] * #1) --> ({Humans} * horse)> && <(#1 * rock) --> block_of>). {1.000000 0.051170}
+(<penguin --> bird> && <tweety --> bird>). {0.000000 0.000000}
+<({Humans} * hoofed) --> ({Horses} * [domesticate])>. {1.000000 0.084432}
+<[big] <-> [([fast] & run)]>. {1.000000 0.435125}
+<({Humans} * hoofed) <-> evolve>. {1.000000 0.145007}
+<(<swan --> $1> || <animal --> $1>) ==> <tweety --> $1>>. {0.000000 0.065081}
+<({Horses} * hoofed) --> ([blue] * 3000)>. {1.000000 0.249173}
+<<swan --> $1> ==> (<penguin --> $1> || <tweety --> $1>)>. {0.904097 0.324909}
+<<bird --> $1> ==> (<penguin --> $1> || <tweety --> $1>)>. {0.834934 0.116582}
+<<penguin --> $1> ==> (<penguin --> $1> || <tweety --> $1>)>. {0.900000 0.055894}
+<<animal --> $1> ==> (<penguin --> $1> || <tweety --> $1>)>. {0.900000 0.018487}
+<(<tweety --> $1> || <penguin --> $1>) ==> (<penguin --> $1> || <tweety --> $1>)>. {0.900000 0.010660}
+<({Humans} * hoofed) <-> one-toed>. {1.000000 0.109068}
+<bird <-> penguin>. {0.815177 0.570471}
+<one-toed <-> ({Humans} * hoofed)>. {1.000000 0.109068}
+<<$1 --> 3000> ==> <$1 --> [evolve]>>. {1.000000 0.215586}
+((<tweety --> bird> && <penguin --> bird>) || <animal --> bird>). {1.000000 0.018167}
+(<(#1 * ([taxonomic] & subspecies)) --> part_of> && <({Humans} * #1) --> evolve>). {1.000000 0.220020}
+<<$1 --> penguin> ==> <$1 --> bird>>. {1.000000 0.336876}
+<swan --> bird>. {0.998430 0.965109}
+(<tweety --> animal> || <animal --> animal>). {0.899136 0.064295}
+<[big] --> [([fast] & run)]>. {1.000000 0.435125}
+<<({$1} * hoofed) --> ({Horses} * 3000)> ==> <({$1} * [evolve]) --> ({Horses} * 3000)>>. {1.000000 0.031910}
+2. {1.000000 0.838859}
+(<animal --> animal> || <tweety --> animal>). {0.899136 0.064295}
+<{Horse} --> [big]>. {1.000000 0.882090}
+<({Humans} * [({Horses} * hoofed)]) --> ({Humans} * [domesticate])>. {1.000000 0.003635}
+<([([fast] & run)] * name) --> have>. {1.000000 0.430191}
+(<tweety --> bird> || <animal --> bird>). {1.000000 0.076858}
+<[([fast] & run)] --> [big]>. {1.000000 0.435125}
+<({Horses} * [domesticate]) --> ({Horses} * 3000)>. {1.000000 0.018018}
+<{Horse} --> [([fast] & run)]>. {1.000000 0.873269}
+<({Horses} * 3000) --> ({Horses} * 3000)>. {1.000000 0.086094}
+3. {1.000000 0.754973}
+<({Horses} * hoofed) --> ({Horses} * 3000)>. {1.000000 0.029069}
