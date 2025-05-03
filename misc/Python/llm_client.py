@@ -33,7 +33,7 @@ class LlmClient:
                 print(f"Initializing main model: {model_name}")
                 print(f"Initializing fact extraction model: {self.fact_model}")
             
-            self.llm = OllamaLLM(model=model_name)
+            self.llm = OllamaLLM(model=model_name, base_url="http://ollamaNARS:11434")
             self.fact_llm = OllamaLLM(model=self.fact_model)
             self.chat_history = []
         except Exception as e:

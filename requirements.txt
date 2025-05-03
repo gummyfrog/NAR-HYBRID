@@ -1,0 +1,9 @@
+flask                  # For web server functionality (if applicable)
+numpy                  # For numerical computations
+pandas                 # For data manipulation
+pytest                 # For testing
+requests               # For HTTP requests
+langchain              # For language model interactions
+nltk                  # For natural language processing tasks
+langchain_ollama
+langchain_core

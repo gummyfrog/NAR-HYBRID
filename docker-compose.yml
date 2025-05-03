@@ -1,4 +1,9 @@
-version: '3.8'
+#* Instructions for running project with ONA container in interactive mode
+#* docker compose build
+#* docker compose up ollamaNARS
+#* docker compose up -d ona
+#* docker exex -i ONA /bin/bash
+
 services:
   ona:
     build:
@@ -7,3 +12,24 @@ services:
     image: ona 
     container_name: ONA
     restart: unless-stopped
+    ports:
+      - "8080:8080"
+    # volumes:
+      # - .:/app
+    environment:
+      - ONA_ENV=development
+      - ONA_PORT=8080
+    depends_on:
+      - ollamaNARS
+
+  ollamaNARS:
+    image: ollama/ollama:latest
+    container_name: ollamaNARS
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+  
+volumes:
+  ollama_data:

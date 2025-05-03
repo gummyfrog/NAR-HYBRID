@@ -21,7 +21,7 @@ import sys
 import os
 import argparse
 import atexit
-from pipeline import NarsOllamaPipeline
+from Pipeline import NarsOllamaPipeline
 
 def parse_args():
     """Parse command line arguments."""
