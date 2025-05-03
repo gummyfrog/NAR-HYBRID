@@ -115,6 +115,9 @@ class NarsOllamaPipeline:
             is_question = user_input.strip().endswith('?')
             
             if not is_question:
+
+                return "..."
+            
                 # Stage 1: Extract simple statements using LLM (only if not a question)
                 simple_statements = self.llm_client.extract_facts(user_input)
                 

@@ -338,7 +338,7 @@ class EnglishToNarsese:
                           .replace(" what ", " ?1 ")
                           .replace(" who ", " ?1 ")
                           .replace(" it ", " $1 ")
-                          .strip() + (punctuation + ("" if self.eternal else " " + non_eternal_marker)) + truth_string)
+                          .strip() + (punctuation) + truth_string)
                 results.append(narsese)
             
             if len(typetext_split) > 0 and self.thinkcycles is not None:

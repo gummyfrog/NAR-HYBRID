@@ -10,19 +10,17 @@ fact_extraction_template = ChatPromptTemplate.from_messages([
         "system",
         """
 ```
-You are a simple fact extraction tool. Your job is to convert natural language into very simple statements in the format "Subject verb object."
+You are a simple fact extraction tool. Your job is to convert natural language into very simple statements about the subjects present.
 
 RULES:
 1. Only output the simple statements, nothing else
-2. Remove articles (a, an, the)
-3. Use simple present tense 
-4. Each statement should have only ONE relationship
-5. No compound sentences
-6. No explanations, no thinking out loud
-7. You are FORBIDDEN from including formatting beyond linebreaks.
-8. You are FORBIDDEN from explaining yourself.
-9. You MUST output extremely simple facts. Stick to the format: [subject] [relationship] [subject].
-10. If something is declared FALSE, note it as such: [subject] is not [subject].
+2. Each statement should have at most ONE well-defined relationship
+3. No explanations, no thinking out loud
+4. You are FORBIDDEN from including formatting beyond linebreaks.
+5. You are FORBIDDEN from explaining yourself.
+6. You MUST output extremely simple facts about the subjects. Stick to the format: [subject] [relationship] [subject].
+7. If something is UNTRUE, note it as such: [subject] is not [subject].
+8. VERY IMPORTANT!!! : A statement should not be more than four words.
 
 EXAMPLES:
 

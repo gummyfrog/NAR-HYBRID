@@ -1,0 +1,26 @@
+TRANSCRIPT EXCERPT — INTERGOVERNMENTAL SUPPLY ALIGNMENT WORKGROUP (ISAW)
+Date: March 27, 2025
+Chair: N. Veidt (Executive Coordinator, Eastern Transit Integration Board)
+Participants: M. Silven (Director, Trade Corridors – Ruvinia), K. Aden (Liaison, Caldurian Freight Council), P. Ostrel (Regulatory Attaché, Vensari Union), S. Dren (Customs Analyst, Temur Administrative Zone)
+
+Veidt Said: Let’s begin with cross-border flow adjustments between Ruvinia and the western provinces of Temur. I understand the Kessarin Link is now operating under conditional approval?
+
+Silven Said: Correct. The Provisional Transit Accord was ratified by the Ruvinian Assembly, but full implementation is pending a security review at the Derrek Gate. Traffic is being funneled through secondary lanes with manual verification protocols.
+
+Dren Said: That’s creating significant queue expansion. Some shipments originating in Nareth Province are being held for over twelve hours. Temur’s infrastructure bureau has requested interim routing through the Polzari Interchange, but that would bypass agreed control points.
+
+Aden Said: From Calduria’s perspective, any realignment that excludes standardized inspection zones would constitute a treaty breach. We had similar issues last quarter when traffic from the Sylvic Delta was redirected through the Verdan Corridor without joint oversight. That incident’s still under review.
+
+Ostrel Said: The Vensari Union won’t authorize corridor sharing with Temur until the documentation parity issue is resolved. We’re still receiving manifests in the older Muric template, which doesn’t encode consignee metadata or reflect revised point-of-origin protocols.
+
+Veidt Said: That’ll have to be resolved before the April compliance cycle. Has there been any movement on that from the Temur side?
+
+Dren Said: A working group was formed, but the schema update hasn’t been deployed system-wide. The eastern districts are still using localized tagging conventions. Integration with the Vensari ledger system is blocked until we standardize across all six entry zones.
+
+Silven Said: Also worth noting: Ruvinia has officially requested exemption from the transit weight harmonization policy for all overland shipments originating in the Hask interior. They argue that the terrain makes full compliance economically unviable. We haven’t issued a response.
+
+Veidt Said: Log it as a pending agenda item. We’ll need technical assessments from the Logistics Panel before we can proceed. In the meantime, continue to treat any cross-Hask shipments as provisional entries under Annex 3 of the Unified Border Statutes.
+
+Aden Said: Are we also addressing the Banoric Bay embargo revision today, or is that being pushed to the intersessional summit?
+
+Veidt Said: That will be deferred. The Banor Accord Secretariat hasn’t submitted updated figures on marine tonnage thresholds. Until then, no action.

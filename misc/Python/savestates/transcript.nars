@@ -1,0 +1,2379 @@
+<{Dren} --> {Dren}>. {1.000000 0.125557}
+{Banor}. {1.000000 0.902405}
+<({Silven} * correct) --> say>. {1.000000 0.927347}
+<{Director} --> {Silven}>. {1.000000 0.083099}
+<{Director} --> {Director}>. {1.000000 0.083407}
+<{Trade} --> {Trade}>. {1.000000 0.055800}
+<{Regulatory} --> {Regulatory}>. {1.000000 0.082588}
+{Nothing}. {1.000000 0.882090}
+<({Movement} * {Temur}) <-> ({Shipment} * {Nareth})>. {1.000000 0.425271}
+<([hold] * {Nareth}) --> from>. {1.000000 0.430191}
+<{Veidt} --> [defer]>. {1.000000 0.927347}
+<Trade <-> Nareth>. {1.000000 0.095005}
+<{Veidt} --> [say]>. {1.000000 0.932348}
+<({Veidt} * {April}) --> speak_about>. {1.000000 0.855891}
+<({Assessments} * {Logistics}) --> need_from>. {1.000000 0.922351}
+<{Dren} --> ({Dren} * ([queue] & expansion))>. {1.000000 0.103176}
+<{Customs} --> {Dren}>. {1.000000 0.105285}
+<{Ostrel} --> {Ostrel}>. {1.000000 0.153696}
+<{Regulatory} --> ({Dren} * ([queue] & expansion))>. {1.000000 0.060329}
+<{Dren} --> ({Director} * ([queue] & expansion))>. {1.000000 0.032855}
+<({Silven} * surname) --> {Regulatory}>. {1.000000 0.053790}
+<{Movement} --> {Movement}>. {1.000000 0.082269}
+<{Silven} --> {Silven}>. {1.000000 0.217558}
+<{Executive} --> {Executive}>. {1.000000 0.321871}
+<({Customs} * {Trade}) --> ({Customs} * {Nareth})>. {1.000000 0.027601}
+<{Director} --> {Shipment}>. {1.000000 0.079212}
+<{Director} --> [hold]>. {1.000000 0.079790}
+<({Ostrel} * {Vensari}) --> ({Dren} * {Vensari})>. {1.000000 0.112245}
+<({Ostrel} * {Vensari}) <-> ({Customs} * {Trade})>. {1.000000 0.183205}
+<({Shipment} * {Nareth}) --> ({Customs} * {Nareth})>. {1.000000 0.098657}
+<{Vensari} --> {Vensari}>. {1.000000 0.054818}
+<({Movement} * hold) --> ({Shipment} * {Nareth})>. {1.000000 0.194701}
+<{Shipment} --> [hold]>. {1.000000 0.909952}
+<({Dren} * creates) --> say>. {1.000000 0.864536}
+<({Silven} * correct) --> defer>. {1.000000 0.372492}
+<({Shipment} * {Nareth}) <-> ({Movement} * {Temur})>. {1.000000 0.425271}
+<{Ostrel} <-> {Shipment}>. {1.000000 0.360431}
+<({Shipment} * {Nareth}) --> ({Movement} * {Temur})>. {1.000000 0.425271}
+<([hold] * {Nareth}) --> ({Movement} * {Temur})>. {1.000000 0.270805}
+<({Silven} * {Trade}) --> ({Dren} * {Nareth})>. {1.000000 0.160892}
+<Trade <-> Vensari>. {1.000000 0.310022}
+<({Dren} * {Nareth}) --> work_in>. {1.000000 0.324311}
+<({Dren} * {Nareth}) --> ({Silven} * {Trade})>. {1.000000 0.160892}
+<({Cross-border} * {Nareth}) --> of>. {1.000000 0.286071}
+<{Trade} --> {Nareth}>. {1.000000 0.144803}
+<({Issues} * ([last] & quarter)) --> occur>. {1.000000 0.864536}
+<({Shipment} * {Nareth}) --> from>. {1.000000 0.927347}
+<Nareth <-> Vensari>. {1.000000 0.324388}
+<Nareth <-> Temur>. {1.000000 0.310022}
+<({Customs} * creates) --> say>. {1.000000 0.712135}
+<({Director} * ([queue] & expansion)) --> say>. {1.000000 0.263813}
+<({Shipment} * {Nareth}) --> ({Movement} * {Trade})>. {1.000000 0.218716}
+<({Movement} * {Trade}) --> ([hold] * {Nareth})>. {1.000000 0.122267}
+{Maximum}. {1.000000 0.855891}
+{Aden}. {1.000000 0.855891}
+<{Executive} --> [say]>. {1.000000 0.719329}
+<({Dren} * {Temur}) --> work_in>. {1.000000 0.847332}
+<(({Dren} * ([queue] & expansion)) * occurs) --> say>. {1.000000 0.855891}
+2. {1.000000 0.963980}
+<({Shipment} * 12) --> over>. {1.000000 0.762599}
+<({Customs} * {Temur}) <-> ({Silven} * {Trade})>. {1.000000 0.336807}
+<Silven <-> Director>. {1.000000 0.828593}
+<({Robot} * rule) --> have>. {1.000000 0.864536}
+<{Nareth} --> {Nareth}>. {1.000000 0.021030}
+<{Customs} --> {Movement}>. {1.000000 0.042151}
+<{Veidt} --> {Veidt}>. {1.000000 0.156599}
+<({Silven} * {Temur}) --> ({Dren} * {Nareth})>. {1.000000 0.006966}
+<({Silven} * {Vensari}) --> from>. {1.000000 0.104331}
+<({Movement} * {Vensari}) --> work_in>. {1.000000 0.046624}
+<{Shipment} --> {Shipment}>. {1.000000 0.062352}
+<({Director} * {Vensari}) --> ({Movement} * {Temur})>. {1.000000 0.003205}
+<({Director} * {Vensari}) --> ({Movement} * hold)>. {1.000000 0.001600}
+<({Regulatory} * {Vensari}) <-> ({Dren} * hold)>. {1.000000 0.077251}
+<({Regulatory} * {Vensari}) --> ({Ostrel} * {Vensari})>. {1.000000 0.080350}
+<({Ostrel} * ([queue] & expansion)) --> {Customs}>. {1.000000 0.009213}
+<({Dren} * surname) --> {Shipment}>. {1.000000 0.000622}
+<({Silven} * {Trade}) --> ({Director} * {Trade})>. {1.000000 0.086016}
+<({Silven} * {Temur}) --> ({Silven} * {Trade})>. {1.000000 0.090693}
+<({Silven} * {Temur}) --> ({Customs} * {Temur})>. {1.000000 0.013654}
+<({Regulatory} * {Trade}) --> ({Customs} * {Nareth})>. {1.000000 0.003813}
+<{Director} --> ({Director} * ([queue] & expansion))>. {1.000000 0.008294}
+<{Customs} --> ({Director} * ([queue] & expansion))>. {1.000000 0.026324}
+<({Customs} * ([queue] & expansion)) --> have>. {1.000000 0.027408}
+<({Silven} * surname) --> (have * {N})>. {1.000000 0.120588}
+<({Director} * ([queue] & expansion)) --> {Regulatory}>. {1.000000 0.002454}
+<({Dren} * ([queue] & expansion)) --> [hold]>. {1.000000 0.003493}
+<({Dren} * ([queue] & expansion)) --> {Movement}>. {1.000000 0.003924}
+<({Regulatory} * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.004044}
+<({Regulatory} * {Trade}) --> ({Movement} * {Trade})>. {1.000000 0.001202}
+<{Shipment} --> ({Customs} * ([queue] & expansion))>. {1.000000 0.045266}
+<({Movement} * {Vensari}) --> in>. {1.000000 0.034779}
+<({Dren} * {Trade}) --> ({Customs} * {Vensari})>. {1.000000 0.036466}
+<({Dren} * {Temur}) --> ({Customs} * {Vensari})>. {1.000000 0.038276}
+<{Customs} --> {Customs}>. {1.000000 0.089335}
+<{Movement} --> {Customs}>. {1.000000 0.053484}
+<({Customs} * {Trade}) --> ({Customs} * {Temur})>. {1.000000 0.061553}
+<({Customs} * {Trade}) --> ({Dren} * {Temur})>. {1.000000 0.068646}
+<({Dren} * {Nareth}) --> ({Customs} * {Temur})>. {1.000000 0.032671}
+<({Customs} * {Trade}) --> ({Dren} * hold)>. {1.000000 0.027291}
+<({Customs} * {Nareth}) --> ({Customs} * hold)>. {1.000000 0.010179}
+<({Customs} * {Trade}) --> ({Dren} * {Nareth})>. {1.000000 0.031403}
+<({Dren} * {Vensari}) --> ({Customs} * {Nareth})>. {1.000000 0.012877}
+<({Dren} * {Vensari}) --> ({Dren} * {Vensari})>. {1.000000 0.014650}
+<({Ostrel} * surname) --> {Regulatory}>. {1.000000 0.186578}
+<({Movement} * {Trade}) --> ({Director} * {Trade})>. {1.000000 0.031640}
+<({Movement} * {Trade}) --> in>. {1.000000 0.024535}
+<({Movement} * {Trade}) --> ({Movement} * hold)>. {1.000000 0.017438}
+<{Movement} --> {Dren}>. {1.000000 0.031205}
+<{Director} --> [{Temur}]>. {1.000000 0.022658}
+<[{Temur}] <-> {Regulatory}>. {1.000000 0.071426}
+<({Regulatory} * {Vensari}) --> ({Customs} * {Vensari})>. {1.000000 0.075761}
+<({Regulatory} * surname) --> {Regulatory}>. {1.000000 0.130656}
+<({Regulatory} * surname) --> [hold]>. {1.000000 0.058614}
+<({Shipment} * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.009844}
+<({Shipment} * {Trade}) --> ({Director} * {Trade})>. {1.000000 0.001550}
+<({Ostrel} * {Vensari}) <-> work_in>. {1.000000 0.267689}
+<({Dren} * {Trade}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.218716}
+<(({Dren} * ([queue] & expansion)) * {Trade}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.220705}
+<({Ostrel} * {Vensari}) <-> (({Customs} * ([queue] & expansion)) * {Trade})>. {1.000000 0.165502}
+<({Shipment} * {Nareth}) --> ([hold] * {Nareth})>. {1.000000 0.058294}
+<({Ostrel} * {Vensari}) <-> ({Customs} * {Nareth})>. {1.000000 0.087081}
+<({Shipment} * {Nareth}) --> ({Shipment} * {Nareth})>. {1.000000 0.250346}
+<({Shipment} * {Nareth}) --> ({Dren} * {Nareth})>. {1.000000 0.112245}
+<({Ostrel} * ([queue] & expansion)) --> {Silven}>. {1.000000 0.048412}
+<({Shipment} * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.025196}
+<({Movement} * {Vensari}) --> ({Movement} * hold)>. {1.000000 0.012447}
+<({Shipment} * {Vensari}) --> ({Movement} * {Trade})>. {1.000000 0.013931}
+<{Veidt} --> [{Silven}]>. {1.000000 0.217118}
+<<$1 --> {Ostrel}> ==> <$1 --> follow>>. {1.000000 0.094440}
+<<$1 --> {Regulatory}> ==> <$1 --> follow>>. {1.000000 0.085289}
+<<$1 --> {Shipment}> ==> <$1 --> follow>>. {1.000000 0.045099}
+<<$1 --> {Movement}> ==> <$1 --> follow>>. {1.000000 0.044879}
+<<$1 --> [hold]> ==> <$1 --> follow>>. {1.000000 0.040150}
+<({Shipment} * surname) --> have>. {1.000000 0.329480}
+<(({Dren} * ([queue] & expansion)) * occurs) --> defer>. {1.000000 0.343790}
+<{Nareth} <-> hold>. {1.000000 0.111158}
+<{Silven} <-> defer>. {1.000000 0.099867}
+[defer]. {1.000000 0.281999}
+<({Silven} * {Ruvinia}) --> locate_in>. {1.000000 0.864536}
+<({Veidt} * {Eastern}) --> belong_to>. {1.000000 0.912369}
+<{Silven} --> {Director}>. {1.000000 0.932348}
+<({Director} * correct) --> defer>. {1.000000 0.287739}
+<({Customs} * {Ruvinia}) --> locate_in>. {1.000000 0.262063}
+<({Regulatory} * {Vensari}) --> from>. {1.000000 0.712135}
+<({Director} * correct) --> (({Dren} * ([queue] & expansion)) * occurs)>. {1.000000 0.343574}
+<<({$2} * $1) --> follow> ==> <({$2} * $1) --> have>>. {1.000000 0.427729}
+<<(({$2} * $1) * {S}) --> have> ==> <({$2} * $1) --> have>>. {1.000000 0.422816}
+<<(({$2} * $1) * {N}) --> have> ==> <({$2} * $1) --> have>>. {1.000000 0.420365}
+<<({$2} * $1) --> {Ostrel}> ==> <({$2} * $1) --> have>>. {1.000000 0.243821}
+<<({$2} * $1) --> {Regulatory}> ==> <({$2} * $1) --> have>>. {1.000000 0.217993}
+<<({$2} * $1) --> {Shipment}> ==> <({$2} * $1) --> have>>. {1.000000 0.110419}
+<<({$2} * $1) --> {Movement}> ==> <({$2} * $1) --> have>>. {1.000000 0.109854}
+<<({$2} * $1) --> [hold]> ==> <({$2} * $1) --> have>>. {1.000000 0.097794}
+<<{$1} --> {Ostrel}> ==> <{$1} --> [hold]>>. {1.000000 0.267082}
+<<{$1} --> {Movement}> ==> <{$1} --> [hold]>>. {1.000000 0.250509}
+<<{$1} --> {Regulatory}> ==> <{$1} --> [hold]>>. {1.000000 0.225185}
+<<{$1} --> {Silven}> ==> <{$1} --> [hold]>>. {1.000000 0.113999}
+<<{$1} --> ({ISAW} * chair)> ==> <{$1} --> [hold]>>. {1.000000 0.113416}
+<({Ostrel} * surname) --> (have * {N})>. {1.000000 0.358266}
+<{Ostrel} <-> [hold]>. {1.000000 0.267082}
+<{Ostrel} --> [hold]>. {1.000000 0.366461}
+<{Veidt} <-> [say]>. {1.000000 0.334724}
+<have <-> {Regulatory}>. {1.000000 0.217993}
+<({Director} * ([queue] & expansion)) --> {Silven}>. {1.000000 0.116794}
+<<({$1} * {$2}) --> work_in> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.266854}
+<<({$1} * {$2}) --> ({Movement} * {Temur})> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.159124}
+<<({$1} * {$2}) --> ({Silven} * {Trade})> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.159124}
+<<({$1} * {$2}) --> ({Dren} * {Temur})> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.151657}
+<<({$1} * {$2}) --> ({Director} * {Trade})> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.144661}
+<<({$1} * {$2}) --> ({Customs} * {Temur})> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.133863}
+<<({$1} * {$2}) --> ({Movement} * {Trade})> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.088692}
+<<({$1} * {$2}) --> ({Movement} * hold)> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.079730}
+<<({$1} * {$2}) --> ({Dren} * {Nareth})> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.064041}
+<<({$1} * {$2}) --> ({Dren} * {Vensari})> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.064041}
+<<({$1} * {$2}) --> ({Customs} * {Nareth})> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.055850}
+<<({$1} * {$2}) --> ({Customs} * {Vensari})> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.055850}
+<<({$1} * {$2}) --> ({Dren} * hold)> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.055188}
+<<({$1} * {$2}) --> ({Customs} * hold)> ==> <({$1} * {$2}) --> ({Ostrel} * {Vensari})>>. {1.000000 0.048072}
+<(have * {N}) --> ({Ostrel} * surname)>. {1.000000 0.263767}
+<({Ostrel} * surname) <-> (({ISAW} * chair) * {N})>. {1.000000 0.422816}
+<(({Dren} * ([queue] & expansion)) * occurs) <-> ({Silven} * correct)>. {1.000000 0.425271}
+<{Director} --> {Dren}>. {1.000000 0.305150}
+<({Silven} * correct) <-> (({Dren} * ([queue] & expansion)) * occurs)>. {1.000000 0.425271}
+<Customs <-> Silven>. {1.000000 0.250814}
+<[defer] --> {Veidt}>. {1.000000 0.343574}
+<({Movement} * {Temur}) --> ({Shipment} * {Nareth})>. {1.000000 0.425271}
+<([hold] * {Nareth}) <-> ({Movement} * {Temur})>. {1.000000 0.269111}
+<({Director} * {Trade}) --> ({Dren} * {Nareth})>. {1.000000 0.129771}
+<({Movement} * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.218716}
+<({Director} * {Trade}) --> ({Customs} * {Nareth})>. {1.000000 0.112192}
+<({Movement} * {Temur}) --> ([hold] * {Nareth})>. {1.000000 0.371376}
+<{Temur} --> {Nareth}>. {1.000000 0.382743}
+<[defer] <-> {Veidt}>. {1.000000 0.309217}
+<({Silven} * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.425271}
+<{Dren} --> {Silven}>. {1.000000 0.560742}
+<({Customs} * {Nareth}) --> work_in>. {1.000000 0.227107}
+<[say] <-> {Veidt}>. {1.000000 0.311260}
+<{Nareth} <-> {Temur}>. {1.000000 0.344469}
+<({Ostrel} * {Vensari}) --> ([hold] * {Nareth})>. {1.000000 0.404899}
+<({Customs} * {Nareth}) --> ({Silven} * {Trade})>. {1.000000 0.128911}
+<[defer] <-> {Executive}>. {1.000000 0.427729}
+<({Silven} * {Trade}) --> ({Customs} * {Nareth})>. {1.000000 0.139097}
+<({Dren} * {Nareth}) --> ({Director} * {Trade})>. {1.000000 0.140502}
+<({Duration} * hold) --> ({Cross-border} * {Nareth})>. {1.000000 0.138955}
+<({Nareth} * infrastructure) --> 's>. {1.000000 0.321068}
+<from --> ({Customs} * {Temur})>. {1.000000 0.237252}
+<{Silven} --> ({Customs} * ([queue] & expansion))>. {1.000000 0.330896}
+<hold --> {Nareth}>. {1.000000 0.125060}
+<hold <-> {Nareth}>. {1.000000 0.111158}
+<(({Dren} * ([queue] & expansion)) * {Trade}) --> ({Customs} * {Nareth})>. {1.000000 0.053238}
+<{Nareth} --> hold>. {1.000000 0.125060}
+<from --> ({Customs} * {Vensari})>. {1.000000 0.106386}
+<(({Dren} * ([queue] & expansion)) * {Trade}) --> work_in>. {1.000000 0.327587}
+<have --> {Ostrel}>. {1.000000 0.243821}
+{Date}. {1.000000 0.847332}
+<{M} --> [{Participant}]>. {1.000000 0.937352}
+<({Silven} * {Trade}) --> work_in>. {1.000000 0.855891}
+{Veidt}. {1.000000 0.847332}
+<({Veidt} * issueApril) --> resolve>. {1.000000 0.864536}
+<say --> {Director}>. {1.000000 0.189666}
+(<({Movement} * {#1}) --> ([hold] * {Nareth})> && <({#1} * infrastructure) --> 's>). {1.000000 0.225746}
+<<({$1} * creates) --> say> ==> <({$1} * correct) --> say>>. {1.000000 0.220438}
+<<({$1} * ([queue] & expansion)) --> say> ==> <({$1} * correct) --> say>>. {1.000000 0.220438}
+(<({#1} * infrastructure) --> 's> && <({Dren} * {#1}) --> work_in>). {1.000000 0.639713}
+<correct --> ([queue] & expansion)>. {1.000000 0.400479}
+<(say * occurs) --> say>. {1.000000 0.425271}
+<Temur <-> Nareth>. {1.000000 0.310022}
+<{Temur} --> {Vensari}>. {1.000000 0.433388}
+<say <-> {Silven}>. {1.000000 0.248626}
+<({Customs} * ([queue] & expansion)) --> say>. {1.000000 0.712135}
+<say --> {Silven}>. {1.000000 0.248626}
+<({Duration} * hold) --> ({Cross-border} * {Temur})>. {1.000000 0.363051}
+<Trade <-> Temur>. {1.000000 0.306446}
+<({Customs} * hold) --> (({Dren} * ([queue] & expansion)) * {Trade})>. {1.000000 0.042121}
+<Shipment <-> Movement>. {1.000000 0.310022}
+<Temur <-> Trade>. {1.000000 0.306446}
+<({Ostrel} * {Vensari}) <-> ({Director} * {Trade})>. {1.000000 0.380082}
+<(({ISAW} * chair) * {Vensari}) --> ({Movement} * {Trade})>. {1.000000 0.096273}
+<{Nareth} --> {Vensari}>. {1.000000 0.400479}
+<Regulatory <-> Silven>. {1.000000 0.276067}
+<([defer] * {April}) --> speak_about>. {1.000000 0.425271}
+<Veidt <-> Executive>. {1.000000 0.823719}
+<({Director} * {Trade}) <-> (have * {Vensari})>. {1.000000 0.133897}
+(<({Customs} * {#1}) --> ({Silven} * {Trade})> && <({#1} * infrastructure) --> 's>). {1.000000 0.282533}
+<({Director} * creates) --> say>. {1.000000 0.263813}
+<Vensari <-> Nareth>. {1.000000 0.324388}
+<({Silven} * {Trade}) --> ({Dren} * {Temur})>. {1.000000 0.420365}
+<(({Transit} * harmonization) * policy) --> weight>. {1.000000 0.789769}
+{Agenda}. {1.000000 0.927347}
+<({Temur} * {Polzari}) --> through>. {1.000000 0.739949}
+<({Dren} * hold) --> ({Silven} * {Trade})>. {1.000000 0.137353}
+<({Customs} * correct) --> say>. {1.000000 0.262063}
+<<{$1} --> {Executive}> ==> <{$1} --> [say]>>. {1.000000 0.447460}
+<<{$1} --> [defer]> ==> <{$1} --> [say]>>. {1.000000 0.446305}
+<<{$1} --> {Veidt}> ==> <{$1} --> [say]>>. {1.000000 0.167962}
+<(have * {Vensari}) <-> ({Director} * {Trade})>. {1.000000 0.133897}
+<{Executive} <-> [say]>. {1.000000 0.447460}
+<[say] <-> {Executive}>. {1.000000 0.447460}
+<({Director} * {Trade}) --> ({Customs} * hold)>. {1.000000 0.095778}
+<([say] * {April}) --> speak_about>. {1.000000 0.427729}
+<{Silven} <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.310022}
+{Kessarin}. {1.000000 0.924932}
+<({Dren} * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.138593}
+3. {1.000000 0.904960}
+<{Veidt} --> {Executive}>. {1.000000 0.927347}
+<({Dren} * ([queue] & expansion)) --> say>. {1.000000 0.864536}
+<({Silven} * {Trade}) --> ({Dren} * {Vensari})>. {1.000000 0.160892}
+<({Silven} * {Trade}) --> ({Customs} * hold)>. {1.000000 0.118746}
+<({Silven} * ([queue] & expansion)) --> say>. {1.000000 0.346229}
+<({Exemption} * overland) --> for>. {1.000000 0.864536}
+<({Customs} * hold) --> ({Silven} * {Trade})>. {1.000000 0.110050}
+<{Robot} --> fact>. {1.000000 0.855891}
+<({Silven} * {Trade}) --> ({Customs} * {Vensari})>. {1.000000 0.139097}
+<({Movement} * surname) --> follow>. {1.000000 0.105544}
+<({Customs} * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.114190}
+<Ostrel <-> Shipment>. {1.000000 0.324388}
+<{Director} --> {Customs}>. {1.000000 0.263813}
+<Ostrel <-> Regulatory>. {1.000000 0.823719}
+<({Silven} * {Trade}) --> ({Customs} * {Temur})>. {1.000000 0.363421}
+<Regulatory <-> Ostrel>. {1.000000 0.773192}
+<({Customs} * {Temur}) --> ({Silven} * {Trade})>. {1.000000 0.336807}
+<{Director} <-> {Silven}>. {1.000000 0.828593}
+4. {1.000000 0.822166}
+<({Robot} * ([natural] & language)) --> convert>. {1.000000 0.864536}
+{From}. {1.000000 0.830470}
+{One}. {1.000000 0.864536}
+<({Movement} * {Vensari}) --> ({Dren} * hold)>. {1.000000 0.011599}
+<({Movement} * {Vensari}) --> ({Customs} * {Temur})>. {1.000000 0.026162}
+<([{Vensari}] * {Nareth}) --> from>. {1.000000 0.000726}
+<({Movement} * {Vensari}) --> ({Dren} * {Vensari})>. {1.000000 0.013347}
+<({Director} * {Vensari}) --> from>. {1.000000 0.079543}
+<(({ISAW} * chair) * {N}) <-> (({Ostrel} * surname) * {S})>. {1.000000 0.422816}
+{Duration}. {1.000000 0.263147}
+<{N} <-> surname>. {1.000000 0.308233}
+<([{Temur}] * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.032711}
+<{Customs} --> ({Customs} * ([queue] & expansion))>. {1.000000 0.059343}
+<({Silven} * ([queue] & expansion)) --> {Silven}>. {1.000000 0.086082}
+<{Nareth} --> {Temur}>. {1.000000 0.402425}
+<([hold] * {Nareth}) --> ((({Ostrel} * surname) * {S}) * {Vensari})>. {1.000000 0.105158}
+<({Movement} * {Temur}) --> ((({Ostrel} * surname) * {S}) * {Vensari})>. {1.000000 0.137440}
+<(({Ostrel} * surname) * {S}) <-> {Movement}>. {1.000000 0.085943}
+<({Movement} * {Trade}) --> ((({Ostrel} * surname) * {S}) * {Vensari})>. {1.000000 0.065263}
+<({Silven} * {Trade}) --> ((({Ostrel} * surname) * {S}) * {Vensari})>. {1.000000 0.118617}
+<({Director} * {Vensari}) --> ({Customs} * {Vensari})>. {1.000000 0.002804}
+<({Shipment} * {Vensari}) --> ({Customs} * {Vensari})>. {1.000000 0.000724}
+<({Director} * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.021473}
+<({Shipment} * {Vensari}) --> ({Dren} * {Nareth})>. {1.000000 0.000823}
+<({Shipment} * {Vensari}) --> work_in>. {1.000000 0.002876}
+<({Director} * {Vensari}) --> ({Dren} * {Vensari})>. {1.000000 0.000153}
+<({Silven} * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.027445}
+<({Director} * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.020924}
+<({Ostrel} * {Vensari}) --> ({Ostrel} * {Vensari})>. {1.000000 0.104633}
+<({Silven} * {Vensari}) --> ({Dren} * {Vensari})>. {1.000000 0.000178}
+<({Director} * {Vensari}) --> ({Ostrel} * {Vensari})>. {1.000000 0.050202}
+<correct --> occurs>. {1.000000 0.382743}
+<({Shipment} * surname) --> ({ISAW} * chair)>. {1.000000 0.218249}
+<({ISAW} * chair) <-> ({Shipment} * surname)>. {1.000000 0.218249}
+<([hold] * surname) --> ({ISAW} * chair)>. {1.000000 0.159187}
+<{Customs} --> have>. {1.000000 0.036239}
+<({ISAW} * chair) --> ({Movement} * surname)>. {1.000000 0.172926}
+<({Silven} * {Temur}) --> ([hold] * {Nareth})>. {1.000000 0.012432}
+<({Silven} * {Temur}) --> ({Movement} * hold)>. {1.000000 0.006935}
+<<({$2} * $1) --> have> ==> <({$2} * $1) --> {Ostrel}>>. {1.000000 0.243821}
+<({Customs} * hold) <-> ({Regulatory} * {Vensari})>. {1.000000 0.062860}
+<({Dren} * {Nareth}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.089307}
+<({Customs} * {Nareth}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.072848}
+<({Customs} * {Nareth}) --> ([hold] * {Nareth})>. {1.000000 0.017670}
+<(({Regulatory} * surname) * {S}) --> have>. {1.000000 0.048836}
+<({Customs} * {Temur}) --> ({Movement} * {Temur})>. {1.000000 0.051584}
+<({Customs} * {Nareth}) --> ({Shipment} * {Nareth})>. {1.000000 0.019840}
+<({Customs} * {Nareth}) --> ({Movement} * {Temur})>. {1.000000 0.019743}
+<({Silven} * ([queue] & expansion)) --> {Customs}>. {1.000000 0.036269}
+<({Customs} * {Nareth}) --> ({Movement} * hold)>. {1.000000 0.009858}
+<({Dren} * surname) --> {Regulatory}>. {1.000000 0.001228}
+<({Customs} * surname) --> [hold]>. {1.000000 0.000324}
+<(({Dren} * surname) * {N}) --> have>. {1.000000 0.002368}
+<(({Customs} * surname) * {N}) --> have>. {1.000000 0.001393}
+<in --> work_in>. {1.000000 0.420365}
+<in <-> work_in>. {1.000000 0.420365}
+<({Silven} * {Trade}) <-> in>. {1.000000 0.264591}
+<({Director} * {Temur}) --> ({Director} * {Trade})>. {1.000000 0.062440}
+<({Director} * {Trade}) --> ({Director} * {Trade})>. {1.000000 0.069378}
+<({Director} * {Temur}) --> work_in>. {1.000000 0.109789}
+<({Director} * {Temur}) --> ({Shipment} * {Nareth})>. {1.000000 0.010636}
+<({Director} * {Temur}) --> ({Silven} * {Trade})>. {1.000000 0.069104}
+<({Director} * {Trade}) --> ({Movement} * {Trade})>. {1.000000 0.033710}
+<({Silven} * {Temur}) --> ({Customs} * {Nareth})>. {1.000000 0.006123}
+<({Silven} * {Temur}) --> from>. {1.000000 0.060922}
+<({Director} * {Temur}) --> ({Customs} * {Nareth})>. {1.000000 0.004939}
+<({Silven} * {Temur}) --> ({Customs} * {Vensari})>. {1.000000 0.006123}
+<{Regulatory} --> {Customs}>. {1.000000 0.085379}
+<discuss --> ({Liaison} * revision)>. {1.000000 0.238305}
+<({Aden} * revision) <-> discuss>. {1.000000 0.263767}
+<chair --> {S}>. {1.000000 0.378329}
+<({Ostrel} * {Trade}) --> work_in>. {1.000000 0.246754}
+<({Ostrel} * correct) --> (({Dren} * ([queue] & expansion)) * occurs)>. {1.000000 0.139984}
+<{Ostrel} <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.127775}
+<(({Dren} * ([queue] & expansion)) * occurs) --> ({Ostrel} * correct)>. {1.000000 0.162769}
+<({Dren} * {Vensari}) --> ({Ostrel} * {Trade})>. {1.000000 0.053046}
+<({Liaison} * revision) <-> discuss>. {1.000000 0.238305}
+<({Ostrel} * {Trade}) --> ({Dren} * {Nareth})>. {1.000000 0.058008}
+<({Ostrel} * {Trade}) --> ({Customs} * {Nareth})>. {1.000000 0.050547}
+<({Ostrel} * {Trade}) --> in>. {1.000000 0.103727}
+<({Dren} * ([queue] & expansion)) --> have>. {1.000000 0.035718}
+<({Ostrel} * {Trade}) --> ({Director} * {Trade})>. {1.000000 0.024798}
+<(have * {Trade}) --> from>. {1.000000 0.016545}
+<({Shipment} * {Nareth}) --> ({Silven} * {Vensari})>. {1.000000 0.163710}
+<(({ISAW} * chair) * {N}) --> ({Silven} * surname)>. {1.000000 0.161830}
+<({ISAW} * chair) <-> {Silven}>. {1.000000 0.127131}
+<([hold] * {Nareth}) --> ({Silven} * {Vensari})>. {1.000000 0.104085}
+<({Movement} * hold) --> ({Silven} * {Vensari})>. {1.000000 0.074521}
+<[{Temur}] --> {Silven}>. {1.000000 0.032932}
+<({ISAW} * chair) --> ({Silven} * surname)>. {1.000000 0.160892}
+<({Customs} * ([queue] & expansion)) --> {Regulatory}>. {1.000000 0.005975}
+<({Dren} * ([queue] & expansion)) --> {Regulatory}>. {1.000000 0.007786}
+<({Customs} * ([queue] & expansion)) --> [hold]>. {1.000000 0.002680}
+<(({Dren} * ([queue] & expansion)) * {N}) --> have>. {1.000000 0.015015}
+<({Customs} * ([queue] & expansion)) --> {Movement}>. {1.000000 0.003011}
+<({Dren} * ([queue] & expansion)) --> {Shipment}>. {1.000000 0.003944}
+<({Regulatory} * {Trade}) --> ({Customs} * {Temur})>. {1.000000 0.008504}
+<(({Dren} * ([queue] & expansion)) * {S}) --> have>. {1.000000 0.015102}
+<({Regulatory} * {Trade}) --> ({Dren} * {Vensari})>. {1.000000 0.004339}
+<{Shipment} --> ({Dren} * ([queue] & expansion))>. {1.000000 0.051452}
+<({Regulatory} * {Trade}) --> ({Silven} * {Trade})>. {1.000000 0.014120}
+<({Silven} * surname) --> {Ostrel}>. {1.000000 0.060164}
+<({Regulatory} * {Trade}) --> work_in>. {1.000000 0.015156}
+<({Director} * surname) --> {Shipment}>. {1.000000 0.000698}
+<({Dren} * {Nareth}) --> ({Director} * {Vensari})>. {1.000000 0.053776}
+<({Customs} * hold) --> (({Dren} * ([queue] & expansion)) * {Vensari})>. {1.000000 0.016122}
+<{Shipment} --> {Dren}>. {1.000000 0.106386}
+<({Silven} * {Vensari}) --> in>. {1.000000 0.103727}
+<({Director} * {Vensari}) --> in>. {1.000000 0.079081}
+<{Shipment} --> ({Director} * ([queue] & expansion))>. {1.000000 0.018589}
+<({Silven} * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.024798}
+<([hold] * {Nareth}) --> (({ISAW} * chair) * {Trade})>. {1.000000 0.062020}
+<([hold] * {Nareth}) --> ({Regulatory} * {Trade})>. {1.000000 0.089985}
+<({Customs} * {Trade}) --> in>. {1.000000 0.046113}
+<({Dren} * {Trade}) --> in>. {1.000000 0.060922}
+<({Customs} * {Trade}) --> ({Movement} * {Trade})>. {1.000000 0.002399}
+<({Dren} * {Trade}) --> ({Movement} * {Trade})>. {1.000000 0.002865}
+<({Dren} * {Trade}) --> ({Movement} * {Temur})>. {1.000000 0.005155}
+<({Regulatory} * {Vensari}) --> in>. {1.000000 0.080225}
+<{Director} --> have>. {1.000000 0.069152}
+<[{Temur}] --> {Movement}>. {1.000000 0.081271}
+<({Director} * surname) --> {Movement}>. {1.000000 0.000695}
+<({Movement} * ([queue] & expansion)) --> {Silven}>. {1.000000 0.027448}
+<{Dren} --> [hold]>. {1.000000 0.063924}
+<({Customs} * {Trade}) --> ({Customs} * {Vensari})>. {1.000000 0.027601}
+<({Dren} * {Nareth}) --> ({Customs} * {Vensari})>. {1.000000 0.014650}
+<({Dren} * {Vensari}) --> ({Customs} * {Vensari})>. {1.000000 0.012877}
+<<{$1} --> {Silven}> ==> <({$1} * ([queue] & expansion)) --> {Silven}>>. {1.000000 0.126487}
+<{Silven} --> [{Temur}]>. {1.000000 0.032932}
+<{Dren} --> {Movement}>. {1.000000 0.071649}
+<({Director} * correct) <-> ({Dren} * creates)>. {1.000000 0.382453}
+<({Regulatory} * correct) <-> ({Dren} * creates)>. {1.000000 0.190704}
+<({Customs} * {Temur}) --> ({Customs} * {Temur})>. {1.000000 0.068393}
+<({Movement} * {Trade}) <-> ([hold] * {Nareth})>. {1.000000 0.122267}
+<({Dren} * {Temur}) --> ({Dren} * {Temur})>. {1.000000 0.095196}
+<{Customs} --> {Regulatory}>. {1.000000 0.086415}
+<({Customs} * {Temur}) --> ({Dren} * {Temur})>. {1.000000 0.076273}
+<({Customs} * {Vensari}) --> ({Dren} * {Temur})>. {1.000000 0.028149}
+<({Customs} * {Nareth}) --> ({Dren} * {Temur})>. {1.000000 0.029193}
+<({Customs} * {Nareth}) --> ({Customs} * {Temur})>. {1.000000 0.026177}
+<({Customs} * {Temur}) --> ({Customs} * hold)>. {1.000000 0.026595}
+<({Customs} * {Vensari}) --> ({Customs} * {Temur})>. {1.000000 0.025240}
+<({Dren} * {Vensari}) --> ({Customs} * {Temur})>. {1.000000 0.028717}
+<({Customs} * {Temur}) --> ({Dren} * hold)>. {1.000000 0.030324}
+<({Dren} * {Nareth}) --> ({Dren} * hold)>. {1.000000 0.014486}
+<({Customs} * {Vensari}) --> ({Dren} * hold)>. {1.000000 0.011191}
+<({Dren} * {Temur}) --> ({Customs} * hold)>. {1.000000 0.033193}
+<({Director} * {Nareth}) --> ({Shipment} * {Nareth})>. {1.000000 0.000969}
+<({Dren} * {Nareth}) --> ({Customs} * hold)>. {1.000000 0.012704}
+<({Dren} * {Temur}) --> ({Dren} * {Nareth})>. {1.000000 0.043548}
+<({Dren} * {Vensari}) --> ({Customs} * hold)>. {1.000000 0.011167}
+<({Customs} * {Temur}) --> ({Customs} * {Nareth})>. {1.000000 0.030668}
+<({Customs} * {Nareth}) --> ({Dren} * {Nareth})>. {1.000000 0.013355}
+<({Dren} * {Vensari}) --> ({Dren} * {Nareth})>. {1.000000 0.014650}
+<({Dren} * {Trade}) --> ({Customs} * {Nareth})>. {1.000000 0.036466}
+<{Shipment} <-> [hold]>. {1.000000 0.271092}
+<({Dren} * {Nareth}) --> ({Customs} * {Nareth})>. {1.000000 0.014650}
+<({Customs} * {Vensari}) --> ({Customs} * {Nareth})>. {1.000000 0.011318}
+<({Dren} * {Trade}) --> ({Dren} * {Vensari})>. {1.000000 0.041488}
+<({Shipment} * {Nareth}) --> ({Dren} * {Trade})>. {1.000000 0.218716}
+<({Customs} * {Trade}) --> ({Dren} * {Vensari})>. {1.000000 0.031403}
+<({Dren} * {Nareth}) --> ({Dren} * {Vensari})>. {1.000000 0.016668}
+<{Movement} --> ({Dren} * ([queue] & expansion))>. {1.000000 0.031478}
+<({Movement} * {Trade}) --> ({Silven} * {Trade})>. {1.000000 0.034803}
+<{Cross-border} --> {Duration}>. {1.000000 0.326746}
+<({Dren} * hold) <-> ({Shipment} * {Nareth})>. {1.000000 0.092257}
+<{Dren} <-> {Shipment}>. {1.000000 0.106386}
+<{Shipment} <-> {Customs}>. {1.000000 0.087081}
+<({Director} * {Trade}) --> (({ISAW} * chair) * {Vensari})>. {1.000000 0.189175}
+<({Director} * {Trade}) <-> (({ISAW} * chair) * {Vensari})>. {1.000000 0.189175}
+<({Shipment} * {Trade}) --> ({Customs} * hold)>. {1.000000 0.003364}
+<({Shipment} * {Trade}) --> ({Dren} * hold)>. {1.000000 0.003836}
+<({Shipment} * {Trade}) --> ({Customs} * {Temur})>. {1.000000 0.008652}
+<({Shipment} * {Trade}) --> from>. {1.000000 0.036466}
+<({Customs} * creates) <-> ({Silven} * correct)>. {1.000000 0.292109}
+<({Shipment} * {Trade}) --> work_in>. {1.000000 0.015418}
+<({Shipment} * {Trade}) --> ({Customs} * {Vensari})>. {1.000000 0.003879}
+<{Duration} --> {Cross-border}>. {1.000000 0.326746}
+<{Regulatory} <-> [{Temur}]>. {1.000000 0.071426}
+<({Shipment} * {Trade}) --> ({Movement} * {Trade})>. {1.000000 0.000146}
+<{Customs} --> [hold]>. {1.000000 0.037606}
+<{Customs} --> [{Temur}]>. {1.000000 0.010864}
+<{Customs} --> {Shipment}>. {1.000000 0.087081}
+(<({Cross-border} * {#1}) --> of> && <({#1} * infrastructure) --> 's>). {1.000000 0.626983}
+<{Dren} --> [{Temur}]>. {1.000000 0.018466}
+<({Shipment} * {Nareth}) <-> ({Movement} * {Vensari})>. {1.000000 0.087035}
+<{Customs} --> ({ISAW} * chair)>. {1.000000 0.041938}
+<({Movement} * {Nareth}) --> work_in>. {1.000000 0.045448}
+<({Shipment} * {Nareth}) <-> ({Movement} * {Trade})>. {1.000000 0.218716}
+<({Movement} * {Nareth}) --> ({Silven} * {Trade})>. {1.000000 0.027101}
+<({Movement} * {Nareth}) --> ({Director} * {Trade})>. {1.000000 0.024638}
+<[{Temur}] --> {Regulatory}>. {1.000000 0.071426}
+<({Movement} * {Temur}) --> ({Dren} * {Temur})>. {1.000000 0.064495}
+<({Movement} * {Nareth}) --> ({Movement} * {Temur})>. {1.000000 0.027101}
+<({Ostrel} * {Vensari}) --> ({Customs} * {Vensari})>. {1.000000 0.098657}
+<({Movement} * {Trade}) --> ({Dren} * {Nareth})>. {1.000000 0.014007}
+<([hold] * {Nareth}) <-> ({Movement} * {Trade})>. {1.000000 0.122267}
+<({Regulatory} * surname) --> {Ostrel}>. {1.000000 0.146136}
+<({Ostrel} * surname) --> {Ostrel}>. {1.000000 0.208685}
+<({Ostrel} * surname) --> [hold]>. {1.000000 0.083701}
+<({Regulatory} * surname) --> {Shipment}>. {1.000000 0.066181}
+<({Silven} * {Nareth}) --> ({Silven} * {Trade})>. {1.000000 0.000196}
+<({Silven} * {Nareth}) --> ({Director} * {Trade})>. {1.000000 0.000177}
+<({Silven} * {Nareth}) --> ({Customs} * {Nareth})>. {1.000000 0.000444}
+<({Director} * {Nareth}) --> ({Customs} * hold)>. {1.000000 0.000331}
+<({Silven} * {Nareth}) --> ({Customs} * {Vensari})>. {1.000000 0.000444}
+<({Director} * {Nareth}) --> work_in>. {1.000000 0.001517}
+<({Director} * {Nareth}) --> ({Movement} * hold)>. {1.000000 0.000032}
+<{Ostrel} <-> ({ISAW} * chair)>. {1.000000 0.221439}
+<({Ruvinia} * {Hask}) --> ({Customs} * {Temur})>. {1.000000 0.205113}
+<({Movement} * {Temur}) --> ({Dren} * {Vensari})>. {1.000000 0.027235}
+<({Dren} * {Vensari}) --> work_in>. {1.000000 0.244890}
+<work_in <-> ({Ostrel} * {Vensari})>. {1.000000 0.267689}
+<({Ruvinia} * {Hask}) --> work_in>. {1.000000 0.365540}
+<({Ostrel} * {Vensari}) <-> ({Dren} * {Temur})>. {1.000000 0.237252}
+<({Ostrel} * {Vensari}) <-> ({Customs} * {Temur})>. {1.000000 0.199500}
+<({Ostrel} * {Vensari}) --> ({Dren} * {Trade})>. {1.000000 0.218716}
+<({Ostrel} * {Vensari}) <-> ({Dren} * {Trade})>. {1.000000 0.218716}
+<({Ostrel} * {Vensari}) --> ({Customs} * {Trade})>. {1.000000 0.183205}
+<{Hask} --> {Trade}>. {1.000000 0.051429}
+<({Ostrel} * {Vensari}) --> (({Dren} * ([queue] & expansion)) * {Trade})>. {1.000000 0.220705}
+<(({Customs} * ([queue] & expansion)) * {Trade}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.165502}
+<({Ostrel} * {Vensari}) --> (({Customs} * ([queue] & expansion)) * {Trade})>. {1.000000 0.165502}
+<(({Ruvinia} * surname) * {S}) --> have>. {1.000000 0.004715}
+<({Ostrel} * {Vensari}) --> (({Director} * ([queue] & expansion)) * {Trade})>. {1.000000 0.079547}
+<({Ostrel} * {Vensari}) <-> (({Director} * ([queue] & expansion)) * {Trade})>. {1.000000 0.079547}
+<({Ostrel} * {Vensari}) <-> ({Dren} * hold)>. {1.000000 0.092257}
+<from <-> ({Shipment} * {Nareth})>. {1.000000 0.269960}
+<({Movement} * {Vensari}) --> ({Dren} * {Temur})>. {1.000000 0.029176}
+<({Customs} * {Nareth}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.087081}
+<({Dren} * {Nareth}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.106386}
+<{Ostrel} <-> {Dren}>. {1.000000 0.126487}
+<(({ISAW} * chair) * {N}) <-> follow>. {1.000000 0.267983}
+<{Customs} <-> {Ostrel}>. {1.000000 0.111259}
+<{Ostrel} <-> {Customs}>. {1.000000 0.111259}
+<(({Dren} * ([queue] & expansion)) * {Trade}) --> ({Customs} * {Vensari})>. {1.000000 0.053238}
+<({Shipment} * {Nareth}) --> work_in>. {1.000000 0.392097}
+<from --> ({Shipment} * {Nareth})>. {1.000000 0.269960}
+<<{Nareth} --> {$1}> ==> <hold --> {$1}>>. {1.000000 0.111158}
+<<{Trade} --> {$1}> ==> <hold --> {$1}>>. {1.000000 0.110017}
+<({Ruvinia} * surname) --> {Shipment}>. {1.000000 0.000220}
+<({Cross-border} * {Vensari}) --> ({Duration} * hold)>. {1.000000 0.122002}
+<({Shipment} * {Nareth}) --> ({Customs} * {Temur})>. {1.000000 0.220015}
+<({Shipment} * {Nareth}) --> ({Dren} * hold)>. {1.000000 0.097550}
+<({Movement} * {Temur}) --> ({Movement} * hold)>. {1.000000 0.033907}
+<({Duration} * hold) --> ({Cross-border} * {Vensari})>. {1.000000 0.138955}
+<{Ostrel} --> ({Director} * ([queue] & expansion))>. {1.000000 0.046164}
+<({Vensari} * infrastructure) --> 's>. {1.000000 0.243037}
+<([{Temur}] * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.036458}
+<{Muric} <-> {Manifest}>. {1.000000 0.630247}
+<({Movement} * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.087035}
+<{Duration} <-> {Cross-border}>. {1.000000 0.294071}
+<({Shipment} * {Vensari}) --> ({Dren} * {Temur})>. {1.000000 0.001800}
+<({Shipment} * {Vensari}) --> ({Movement} * hold)>. {1.000000 0.012519}
+<({Shipment} * {Vensari}) --> ({Movement} * {Temur})>. {1.000000 0.025073}
+<({Movement} * {Vensari}) --> ({Movement} * {Temur})>. {1.000000 0.024929}
+<[hold] --> (have * {N})>. {1.000000 0.006119}
+<({Movement} * {Vensari}) --> ({Movement} * {Trade})>. {1.000000 0.013851}
+<({Silven} * {Trade}) --> ({Silven} * {Trade})>. {1.000000 0.149115}
+<({Shipment} * {Vensari}) --> from>. {1.000000 0.006802}
+<[defer] --> [{Silven}]>. {1.000000 0.059291}
+<{Ostrel} --> (({ISAW} * chair) * {N})>. {1.000000 0.032480}
+<{Ostrel} --> {Ruvinia}>. {1.000000 0.002447}
+<{Shipment} --> ({Movement} * surname)>. {1.000000 0.004813}
+<{Aden} <-> {Liaison}>. {1.000000 0.880143}
+<{Movement} --> ({Movement} * surname)>. {1.000000 0.004284}
+<(have * {N}) --> (({Ostrel} * surname) * {S})>. {1.000000 0.264591}
+<<$1 --> follow> ==> <$1 --> {Ostrel}>>. {1.000000 0.094440}
+{Nareth}. {1.000000 0.296334}
+<<$1 --> follow> ==> <$1 --> {Movement}>>. {1.000000 0.044879}
+<(have * {N}) --> have>. {1.000000 0.420365}
+<([hold] * surname) --> [hold]>. {1.000000 0.003837}
+<(({Dren} * cross-border) * flow) <-> ({Aden} * revision)>. {1.000000 0.422816}
+<({Ostrel} * correct) --> defer>. {1.000000 0.132912}
+<<$1 --> follow> ==> <$1 --> {Shipment}>>. {1.000000 0.045099}
+<((({Ostrel} * surname) * {S}) * {N}) --> have>. {1.000000 0.359787}
+<(([{Cross-Hask}] & shipment) * {Annex}) --> entry>. {1.000000 0.770302}
+<(({Ostrel} * surname) * {S}) <-> (have * {N})>. {1.000000 0.264591}
+<{Shipment} --> ({ISAW} * chair)>. {1.000000 0.146489}
+<([hold] * surname) --> {Movement}>. {1.000000 0.004289}
+(<({#1} * {Polzari}) --> through> && <({Customs} * {#1}) --> in>). {1.000000 0.469507}
+<follow --> {Director}>. {1.000000 0.005339}
+<((({Ostrel} * surname) * {S}) * {Vensari}) --> from>. {1.000000 0.186578}
+{Executive}. {1.000000 0.659295}
+<{Movement} --> ({ISAW} * chair)>. {1.000000 0.127131}
+<<{Veidt} --> {$1}> ==> <[defer] --> {$1}>>. {1.000000 0.269960}
+<<[say] --> {$1}> ==> <[defer] --> {$1}>>. {1.000000 0.155409}
+<<({Veidt} * {$1}) --> belong_to> ==> <([defer] * {$1}) --> belong_to>>. {1.000000 0.260698}
+<<({Executive} * {$1}) --> belong_to> ==> <([defer] * {$1}) --> belong_to>>. {1.000000 0.225086}
+<<([say] * {$1}) --> belong_to> ==> <([defer] * {$1}) --> belong_to>>. {1.000000 0.150914}
+<({Director} * {Trade}) <-> ({Customs} * {Temur})>. {1.000000 0.264290}
+<({Regulatory} * surname) --> have>. {1.000000 0.599359}
+<Temur <-> Vensari>. {1.000000 0.100567}
+<[defer] --> {Executive}>. {1.000000 0.427729}
+<(({ISAW} * chair) * {N}) --> have>. {1.000000 0.855891}
+<say <-> defer>. {1.000000 0.401675}
+<({Aden} * embargo) --> discuss>. {1.000000 0.864536}
+<({Director} * creates) --> defer>. {1.000000 0.105967}
+<([defer] * issueApril) --> resolve>. {1.000000 0.427729}
+<(defer * occurs) --> ({Silven} * correct)>. {1.000000 0.107980}
+<{Embargo} --> [revise]>. {1.000000 0.873269}
+<{Silven} --> defer>. {1.000000 0.132912}
+<<{$1} --> {Regulatory}> ==> <{$1} --> {Shipment}>>. {1.000000 0.249705}
+<<{$1} --> {Silven}> ==> <{$1} --> {Shipment}>>. {1.000000 0.128418}
+<<{$1} --> ({ISAW} * chair)> ==> <{$1} --> {Shipment}>>. {1.000000 0.127772}
+<({Movement} * hold) --> from>. {1.000000 0.279659}
+<(({ISAW} * chair) * {N}) --> ({Shipment} * surname)>. {1.000000 0.162765}
+<({Director} * {Ruvinia}) --> locate_in>. {1.000000 0.611528}
+<{Regulatory} <-> {Shipment}>. {1.000000 0.249705}
+<({Silven} * {Vensari}) --> ({Dren} * {Temur})>. {1.000000 0.138593}
+<chair <-> {S}>. {1.000000 0.340496}
+<({Director} * correct) <-> (({Dren} * ([queue] & expansion)) * occurs)>. {1.000000 0.343574}
+<({ISAW} * chair) --> {Shipment}>. {1.000000 0.146489}
+<Dren <-> Director>. {1.000000 0.216764}
+<({Regulatory} * surname) <-> (({ISAW} * chair) * {N})>. {1.000000 0.339055}
+<(({Dren} * ([queue] & expansion)) * occurs) <-> ({Director} * correct)>. {1.000000 0.343574}
+<({Customs} * correct) --> (({Dren} * ([queue] & expansion)) * occurs)>. {1.000000 0.163906}
+<({Shipment} * {Nareth}) <-> (({ISAW} * chair) * {Vensari})>. {1.000000 0.221439}
+<({ISAW} * chair) <-> {Shipment}>. {1.000000 0.127772}
+<(({Ostrel} * surname) * {S}) --> ({ISAW} * chair)>. {1.000000 0.420365}
+<(({Dren} * ([queue] & expansion)) * occurs) --> ({Customs} * correct)>. {1.000000 0.163906}
+<({Ostrel} * surname) <-> ({ISAW} * chair)>. {1.000000 0.420365}
+<({ISAW} * chair) <-> ({Regulatory} * surname)>. {1.000000 0.336807}
+<({Regulatory} * {Vensari}) <-> work_in>. {1.000000 0.231421}
+<({Regulatory} * {Vensari}) --> ({Dren} * {Trade})>. {1.000000 0.212349}
+<({Dren} * {Trade}) --> ({Regulatory} * {Vensari})>. {1.000000 0.212349}
+<({Regulatory} * {Vensari}) <-> ({Dren} * {Trade})>. {1.000000 0.187385}
+<({Shipment} * surname) --> (({ISAW} * chair) * {N})>. {1.000000 0.162765}
+<({Customs} * {Temur}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.170322}
+<((have * {N}) * {S}) --> {Shipment}>. {1.000000 0.004527}
+<({Regulatory} * {Vensari}) <-> (({Dren} * ([queue] & expansion)) * {Trade})>. {1.000000 0.189158}
+<({Customs} * {Trade}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.155946}
+<{Ostrel} --> [{Temur}]>. {1.000000 0.088972}
+<({Cross-border} * {Trade}) --> of>. {1.000000 0.282772}
+<({Regulatory} * {Vensari}) --> (({Customs} * ([queue] & expansion)) * {Trade})>. {1.000000 0.140424}
+<(({ISAW} * chair) * {Vensari}) <-> ({Shipment} * {Nareth})>. {1.000000 0.221439}
+<({Customs} * hold) --> ({Regulatory} * {Vensari})>. {1.000000 0.062860}
+<({Movement} * {Temur}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.425271}
+<{Shipment} <-> ({ISAW} * chair)>. {1.000000 0.127772}
+<((({ISAW} * chair) * {N}) * {S}) --> have>. {1.000000 0.361884}
+<<{Veidt} --> [$1]> ==> <[defer] --> [$1]>>. {1.000000 0.273083}
+<<({$1} * {$2}) --> in> ==> <({$1} * {$2}) --> ({Director} * {Trade})>>. {1.000000 0.239075}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Director} * {Trade})>>. {1.000000 0.144661}
+<<({$1} * {$2}) --> ({Shipment} * {Nareth})> ==> <({$1} * {$2}) --> ({Director} * {Trade})>>. {1.000000 0.139838}
+<<({$1} * {$2}) --> ({Movement} * {Temur})> ==> <({$1} * {$2}) --> ({Director} * {Trade})>>. {1.000000 0.139146}
+<<({$1} * {$2}) --> ([hold] * {Nareth})> ==> <({$1} * {$2}) --> ({Director} * {Trade})>>. {1.000000 0.124320}
+<<({$1} * {$2}) --> ({Movement} * {Trade})> ==> <({$1} * {$2}) --> ({Director} * {Trade})>>. {1.000000 0.076750}
+<<({$1} * {$2}) --> ({Movement} * hold)> ==> <({$1} * {$2}) --> ({Director} * {Trade})>>. {1.000000 0.068903}
+<{Dren} --> {Director}>. {1.000000 0.330383}
+<{Regulatory} --> have>. {1.000000 0.225796}
+<have --> {Regulatory}>. {1.000000 0.217993}
+<{Director} <-> {Dren}>. {1.000000 0.298650}
+<{Dren} <-> {Regulatory}>. {1.000000 0.159258}
+<{Regulatory} <-> have>. {1.000000 0.217993}
+<have --> {Shipment}>. {1.000000 0.110419}
+<(have * {Vensari}) --> from>. {1.000000 0.217993}
+<Aden <-> Liaison>. {1.000000 0.828593}
+<{Silven} --> ({Director} * ([queue] & expansion))>. {1.000000 0.126452}
+<{Director} <-> {Customs}>. {1.000000 0.222170}
+<{Shipment} --> have>. {1.000000 0.124125}
+<({Shipment} * {Nareth}) --> ({Ostrel} * {Vensari})>. {1.000000 0.444976}
+<([hold] * {Nareth}) --> (have * {Vensari})>. {1.000000 0.137302}
+<({Shipment} * surname) --> (have * {N})>. {1.000000 0.137916}
+<have <-> {Shipment}>. {1.000000 0.110419}
+<{Customs} <-> {Director}>. {1.000000 0.222170}
+<({Ostrel} * {Vensari}) --> ({Movement} * {Temur})>. {1.000000 0.425271}
+<{Shipment} <-> have>. {1.000000 0.110419}
+<{Movement} --> have>. {1.000000 0.109854}
+<({Ostrel} * {Vensari}) <-> ({Shipment} * {Nareth})>. {1.000000 0.444976}
+<({Movement} * {Temur}) --> (have * {Vensari})>. {1.000000 0.186168}
+<[hold] <-> have>. {1.000000 0.097794}
+<{Shipment} <-> {Ostrel}>. {1.000000 0.360431}
+<({Movement} * {Trade}) --> (have * {Vensari})>. {1.000000 0.081575}
+<(have * {Vensari}) --> ({Movement} * {Trade})>. {1.000000 0.075422}
+<([hold] * {Nareth}) <-> (({ISAW} * chair) * {Vensari})>. {1.000000 0.123980}
+<have <-> [hold]>. {1.000000 0.097794}
+<({Regulatory} * {Vensari}) <-> ({Movement} * {Temur})>. {1.000000 0.378693}
+<([hold] * surname) --> (have * {N})>. {1.000000 0.105450}
+<(have * {N}) --> ([hold] * surname)>. {1.000000 0.107492}
+<({Movement} * {Temur}) --> ({Ostrel} * {Vensari})>. {1.000000 0.425271}
+<Silven <-> Customs>. {1.000000 0.264934}
+<({Dren} * ([queue] & expansion)) --> {Silven}>. {1.000000 0.382743}
+<have --> {Movement}>. {1.000000 0.109854}
+<{Movement} <-> have>. {1.000000 0.109854}
+<(({ISAW} * chair) * {N}) --> ({Ostrel} * surname)>. {1.000000 0.422816}
+<({Ostrel} * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.444976}
+<{Trade} <-> {Temur}>. {1.000000 0.340496}
+<<[say] --> {$1}> ==> <{Veidt} --> {$1}>>. {1.000000 0.271092}
+<<[defer] --> {$1}> ==> <{Veidt} --> {$1}>>. {1.000000 0.269960}
+<({Silven} * correct) --> (({Dren} * ([queue] & expansion)) * occurs)>. {1.000000 0.425271}
+<[hold] <-> {Ostrel}>. {1.000000 0.267082}
+<([defer] * {Eastern}) --> belong_to>. {1.000000 0.420365}
+<({Regulatory} * correct) --> say>. {1.000000 0.272565}
+<<{$1} --> {Director}> ==> <{$1} --> {Dren}>>. {1.000000 0.248337}
+<<{$1} --> ({Dren} * ([queue] & expansion))> ==> <{$1} --> {Dren}>>. {1.000000 0.126487}
+<<{$1} --> {Ostrel}> ==> <{$1} --> {Dren}>>. {1.000000 0.126487}
+<{Executive} <-> {Veidt}>. {1.000000 0.823719}
+<({Movement} * {Temur}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.378693}
+<[hold] --> {Ostrel}>. {1.000000 0.269700}
+<({Ostrel} * surname) --> (({ISAW} * chair) * {N})>. {1.000000 0.422816}
+<{Silven} --> ({Dren} * ([queue] & expansion))>. {1.000000 0.382743}
+<[say] --> {Veidt}>. {1.000000 0.345844}
+<{Director} --> ({Customs} * ([queue] & expansion))>. {1.000000 0.234058}
+<({Movement} * {Temur}) <-> ([hold] * {Nareth})>. {1.000000 0.269111}
+<{Shipment} --> [{Temur}]>. {1.000000 0.231123}
+<{Veidt} <-> [defer]>. {1.000000 0.332808}
+<{Movement} --> {Regulatory}>. {1.000000 0.330896}
+<({Ostrel} * correct) --> say>. {1.000000 0.330896}
+<{Director} --> defer>. {1.000000 0.094015}
+<{Silven} <-> {Ostrel}>. {1.000000 0.344469}
+<{Regulatory} <-> {Silven}>. {1.000000 0.306741}
+<{Director} --> ({Dren} * ([queue] & expansion))>. {1.000000 0.270733}
+<{Silven} <-> {Regulatory}>. {1.000000 0.306741}
+<(({ISAW} * chair) * {N}) <-> ({Regulatory} * surname)>. {1.000000 0.339055}
+<(({ISAW} * chair) * {N}) <-> ({Ostrel} * surname)>. {1.000000 0.422816}
+<Vensari <-> Trade>. {1.000000 0.310022}
+<({Ostrel} * {Ruvinia}) --> locate_in>. {1.000000 0.248626}
+<{Shipment} --> {Movement}>. {1.000000 0.382743}
+<([hold] * {Nareth}) --> ({Ostrel} * {Vensari})>. {1.000000 0.288205}
+<{Veidt} <-> {Executive}>. {1.000000 0.875193}
+<Dren <-> Customs>. {1.000000 0.823719}
+<{Ostrel} <-> {Silven}>. {1.000000 0.344469}
+<({ISAW} * chair) <-> (({Ostrel} * surname) * {S})>. {1.000000 0.420365}
+<({Movement} * {Trade}) --> from>. {1.000000 0.323808}
+(<({Movement} * {#1}) --> ({Shipment} * {Nareth})> && <({#1} * infrastructure) --> 's>). {1.000000 0.356742}
+<({Silven} * {Trade}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.425271}
+<({Shipment} * {Nareth}) --> ({Silven} * {Trade})>. {1.000000 0.425271}
+<(({ISAW} * chair) * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.219711}
+<({Regulatory} * {Vensari}) --> ([hold] * {Nareth})>. {1.000000 0.300033}
+<({Regulatory} * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.378693}
+<{Incident} --> [cross-Hask]>. {1.000000 0.348454}
+<<{$1} --> [hold]> ==> <{$1} --> {Ostrel}>>. {1.000000 0.267082}
+<<{$1} --> {Director}> ==> <{$1} --> {Ostrel}>>. {1.000000 0.262999}
+<<{$1} --> ({Dren} * ([queue] & expansion))> ==> <{$1} --> {Ostrel}>>. {1.000000 0.127775}
+<<{$1} --> {Dren}> ==> <{$1} --> {Ostrel}>>. {1.000000 0.126487}
+<<{$1} --> ({Customs} * ([queue] & expansion))> ==> <{$1} --> {Ostrel}>>. {1.000000 0.112411}
+<<{$1} --> {Customs}> ==> <{$1} --> {Ostrel}>>. {1.000000 0.111259}
+<<{$1} --> ({Director} * ([queue] & expansion))> ==> <{$1} --> {Ostrel}>>. {1.000000 0.046164}
+<({Silven} * {Trade}) --> (({ISAW} * chair) * {Vensari})>. {1.000000 0.219711}
+<({Silven} * {Trade}) <-> (({ISAW} * chair) * {Vensari})>. {1.000000 0.219711}
+<{Customs} --> {Silven}>. {1.000000 0.329882}
+<([hold] * {Nareth}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.271092}
+<({Shipment} * {Nareth}) <-> ({Silven} * {Trade})>. {1.000000 0.425271}
+<({Silven} * {Trade}) <-> ({Shipment} * {Nareth})>. {1.000000 0.425271}
+<({Regulatory} * surname) --> (({ISAW} * chair) * {N})>. {1.000000 0.339055}
+<([hold] * {Nareth}) --> ({Silven} * {Trade})>. {1.000000 0.269111}
+<({Silven} * {Trade}) --> ([hold] * {Nareth})>. {1.000000 0.269111}
+<([hold] * {Nareth}) <-> ({Silven} * {Trade})>. {1.000000 0.269111}
+<{Temur} --> {Trade}>. {1.000000 0.378329}
+<({Customs} * correct) --> defer>. {1.000000 0.105264}
+<({Movement} * {Temur}) --> ({Silven} * {Trade})>. {1.000000 0.422816}
+<({Movement} * {Temur}) <-> ({Silven} * {Trade})>. {1.000000 0.422816}
+<({Regulatory} * {Vensari}) <-> ([hold] * {Nareth})>. {1.000000 0.234511}
+<({Ostrel} * {Vensari}) <-> ([hold] * {Nareth})>. {1.000000 0.271092}
+<({Executive} * {Eastern}) --> belong_to>. {1.000000 0.690984}
+<(({Ostrel} * surname) * {S}) <-> ({ISAW} * chair)>. {1.000000 0.420365}
+<({Dren} * {Ruvinia}) --> locate_in>. {1.000000 0.327079}
+<{Silven} --> {Customs}>. {1.000000 0.371383}
+<({Customs} * {Nareth}) --> ({Director} * {Trade})>. {1.000000 0.112574}
+<<({Silven} * {$1}) --> from> ==> <({Movement} * {$1}) --> from>>. {1.000000 0.217003}
+<<({Director} * {$1}) --> from> ==> <({Movement} * {$1}) --> from>>. {1.000000 0.186754}
+<{Dren} <-> {Customs}>. {1.000000 0.875193}
+<({Silven} * {Trade}) <-> (have * {Vensari})>. {1.000000 0.157240}
+<({Dren} * ([queue] & expansion)) --> {Director}>. {1.000000 0.334238}
+<<({$1} * {$2}) --> work_in> ==> <({$1} * {$2}) --> from>>. {1.000000 0.422816}
+<<({$1} * {$2}) --> ({Shipment} * {Nareth})> ==> <({$1} * {$2}) --> from>>. {1.000000 0.269960}
+<<({$1} * {$2}) --> ({Dren} * {Temur})> ==> <({$1} * {$2}) --> from>>. {1.000000 0.264591}
+<<({$1} * {$2}) --> ({Customs} * {Temur})> ==> <({$1} * {$2}) --> from>>. {1.000000 0.237252}
+<<({$1} * {$2}) --> ({Dren} * {Nareth})> ==> <({$1} * {$2}) --> from>>. {1.000000 0.121038}
+<<({$1} * {$2}) --> ({Dren} * {Vensari})> ==> <({$1} * {$2}) --> from>>. {1.000000 0.121038}
+<<({$1} * {$2}) --> ({Customs} * {Nareth})> ==> <({$1} * {$2}) --> from>>. {1.000000 0.106386}
+<<({$1} * {$2}) --> ({Customs} * {Vensari})> ==> <({$1} * {$2}) --> from>>. {1.000000 0.106386}
+<<({$1} * {$2}) --> ({Dren} * hold)> ==> <({$1} * {$2}) --> from>>. {1.000000 0.105193}
+<<({$1} * {$2}) --> ({Customs} * hold)> ==> <({$1} * {$2}) --> from>>. {1.000000 0.092257}
+<({Director} * {Trade}) --> from>. {1.000000 0.709185}
+<(have * {Vensari}) <-> ({Silven} * {Trade})>. {1.000000 0.157240}
+<{Customs} <-> {Silven}>. {1.000000 0.296894}
+<work_in --> from>. {1.000000 0.422816}
+<<({$1} * {$2}) --> from> ==> <({$1} * {$2}) --> work_in>>. {1.000000 0.422816}
+<<({$1} * {$2}) --> in> ==> <({$1} * {$2}) --> work_in>>. {1.000000 0.420365}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> work_in>>. {1.000000 0.266854}
+<<{$1} --> {Ostrel}> ==> <{$1} --> {Director}>>. {1.000000 0.262999}
+<<{$1} --> ({Dren} * ([queue] & expansion))> ==> <{$1} --> {Director}>>. {1.000000 0.250509}
+<<{$1} --> {Dren}> ==> <{$1} --> {Director}>>. {1.000000 0.248337}
+<<{$1} --> {Regulatory}> ==> <{$1} --> {Director}>>. {1.000000 0.240826}
+<<{$1} --> ({Customs} * ([queue] & expansion))> ==> <{$1} --> {Director}>>. {1.000000 0.224181}
+<<{$1} --> {Customs}> ==> <{$1} --> {Director}>>. {1.000000 0.222170}
+<<{$1} --> ({Director} * ([queue] & expansion))> ==> <{$1} --> {Director}>>. {1.000000 0.099445}
+<work_in <-> from>. {1.000000 0.422816}
+<from --> work_in>. {1.000000 0.422816}
+<{Director} <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.250509}
+<from --> ({Dren} * {Temur})>. {1.000000 0.264591}
+<({Customs} * {Temur}) <-> from>. {1.000000 0.237252}
+<{Silven} --> [hold]>. {1.000000 0.113999}
+<({Customs} * {Trade}) --> from>. {1.000000 0.259443}
+<({Dren} * {Temur}) <-> from>. {1.000000 0.264591}
+<from <-> ({Dren} * {Temur})>. {1.000000 0.264591}
+<<({$1} * {$2}) --> from> ==> <({$1} * {$2}) --> ({Dren} * {Temur})>>. {1.000000 0.264591}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Dren} * {Temur})>>. {1.000000 0.151657}
+<([hold] * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.113296}
+<{Liaison} <-> {Aden}>. {1.000000 0.828593}
+<<({$1} * {$2}) --> from> ==> <({$1} * {$2}) --> ({Customs} * {Temur})>>. {1.000000 0.237252}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Customs} * {Temur})>>. {1.000000 0.133863}
+<{Trade} <-> {Nareth}>. {1.000000 0.128418}
+<({Customs} * ([queue] & expansion)) --> {Silven}>. {1.000000 0.268025}
+<({Customs} * {Temur}) --> from>. {1.000000 0.288270}
+<({Dren} * ([queue] & expansion)) <-> {Director}>. {1.000000 0.270733}
+<({Dren} * {Trade}) --> from>. {1.000000 0.342766}
+<<{$1} --> {Customs}> ==> <{$1} --> {Silven}>>. {1.000000 0.270809}
+<<{$1} --> {Regulatory}> ==> <{$1} --> {Silven}>>. {1.000000 0.261958}
+<<{$1} --> {Shipment}> ==> <{$1} --> {Silven}>>. {1.000000 0.128418}
+<<{$1} --> {Movement}> ==> <{$1} --> {Silven}>>. {1.000000 0.127775}
+<<{$1} --> ({ISAW} * chair)> ==> <{$1} --> {Silven}>>. {1.000000 0.127131}
+<<({$1} * ([queue] & expansion)) --> {Silven}> ==> <{$1} --> {Silven}>>. {1.000000 0.126487}
+<<{$1} --> [hold]> ==> <{$1} --> {Silven}>>. {1.000000 0.113999}
+<<{$1} --> have> ==> <{$1} --> {Silven}>>. {1.000000 0.109854}
+<<{$1} --> [{Temur}]> ==> <{$1} --> {Silven}>>. {1.000000 0.032932}
+<{Temur} <-> {Nareth}>. {1.000000 0.344469}
+<({Cross-border} * {Nareth}) --> ({Duration} * hold)>. {1.000000 0.138955}
+<({Dren} * hold) <-> from>. {1.000000 0.105193}
+<({Customs} * hold) --> from>. {1.000000 0.094191}
+<({Dren} * creates) <-> ({Silven} * correct)>. {1.000000 0.444976}
+<{Dren} <-> {Silven}>. {1.000000 0.519195}
+<from --> ({Customs} * hold)>. {1.000000 0.092257}
+<(({Dren} * ([queue] & expansion)) * {Ruvinia}) --> locate_in>. {1.000000 0.330896}
+<({Customs} * {Nareth}) --> from>. {1.000000 0.110333}
+<({Customs} * {Nareth}) --> (({Dren} * ([queue] & expansion)) * {Trade})>. {1.000000 0.049340}
+<{ISAW} --> ({Ostrel} * surname)>. {1.000000 0.378329}
+<{Silven} <-> {Customs}>. {1.000000 0.294371}
+<from --> ({Dren} * {Nareth})>. {1.000000 0.121038}
+<from <-> ({Customs} * hold)>. {1.000000 0.092257}
+<from <-> ({Dren} * {Nareth})>. {1.000000 0.121038}
+<<{Trade} --> {$1}> ==> <{Nareth} --> {$1}>>. {1.000000 0.126487}
+<<hold --> {$1}> ==> <{Nareth} --> {$1}>>. {1.000000 0.111158}
+<({Customs} * {Vensari}) <-> from>. {1.000000 0.106386}
+<({Customs} * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.183205}
+<({Customs} * {Nareth}) <-> from>. {1.000000 0.106386}
+<{Shipment} <-> {Movement}>. {1.000000 0.344469}
+<from <-> ({Dren} * {Vensari})>. {1.000000 0.121038}
+<from --> ({Dren} * {Vensari})>. {1.000000 0.121038}
+<({Dren} * ([queue] & expansion)) <-> {Customs}>. {1.000000 0.111259}
+<{Customs} --> ({Dren} * ([queue] & expansion))>. {1.000000 0.111259}
+<({Customs} * {Temur}) --> (({Dren} * ([queue] & expansion)) * {Trade})>. {1.000000 0.128911}
+<(({Dren} * ([queue] & expansion)) * {Trade}) --> ({Customs} * {Temur})>. {1.000000 0.139097}
+<have <-> {Ostrel}>. {1.000000 0.243821}
+<{Ostrel} --> have>. {1.000000 0.322439}
+<[say] --> [defer]>. {1.000000 0.446305}
+<[defer] --> [say]>. {1.000000 0.446305}
+<[say] <-> [defer]>. {1.000000 0.446305}
+<({Silven} * correct) <-> ({Dren} * creates)>. {1.000000 0.444976}
+<{Trade} --> {Temur}>. {1.000000 0.378329}
+<({Cross-border} * {Temur}) --> of>. {1.000000 0.747423}
+<({Aden} * revision) --> discuss>. {1.000000 0.864536}
+{Eastern}. {1.000000 0.922351}
+{Ruvinia}. {1.000000 0.873269}
+<({Ostrel} * surname) --> have>. {1.000000 0.855891}
+5. {1.000000 0.847332}
+{Cross-border}. {1.000000 0.950654}
+<{Aden} --> {Liaison}>. {1.000000 0.932348}
+<({Dren} * {Temur}) --> in>. {1.000000 0.855891}
+<{Dren} --> {Customs}>. {1.000000 0.927347}
+{Schema}. {1.000000 0.927347}
+<({Silven} * {Trade}) --> from>. {1.000000 0.855891}
+<{Traffic} --> [funnel]>. {1.000000 0.873269}
+<({Dren} * ([queue] & expansion)) <-> {Silven}>. {1.000000 0.344469}
+<([say] * issueApril) --> resolve>. {1.000000 0.430191}
+<({Dren} * ([queue] & expansion)) --> ({Silven} * correct)>. {1.000000 0.444976}
+<([([manually] & verify)] * ([secondary] & lane)) --> funnel_through>. {1.000000 0.430191}
+<funnel <-> ([manually] & verify)>. {1.000000 0.389390}
+<({Dren} * creates) --> defer>. {1.000000 0.347262}
+(<({Customs} * {#1}) --> in> && <({#1} * infrastructure) --> 's>). {1.000000 0.591407}
+<correct <-> creates>. {1.000000 0.220438}
+<({Dren} * creates) --> ({Customs} * correct)>. {1.000000 0.184714}
+<{Ostrel} --> ({Dren} * ([queue] & expansion))>. {1.000000 0.127775}
+<([{Temur}] * {Nareth}) --> ({Ostrel} * {Vensari})>. {1.000000 0.093254}
+<({Regulatory} * correct) --> ({Dren} * creates)>. {1.000000 0.190704}
+<{N} --> surname>. {1.000000 0.380534}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Movement} * hold)>>. {1.000000 0.079730}
+<<({$1} * {$2}) --> ({Silven} * {Trade})> ==> <({$1} * {$2}) --> ({Movement} * hold)>>. {1.000000 0.076469}
+<<({$1} * {$2}) --> ({Director} * {Trade})> ==> <({$1} * {$2}) --> ({Movement} * hold)>>. {1.000000 0.068903}
+<<({$1} * ([queue] & expansion)) --> say> ==> <({$1} * creates) --> say>>. {1.000000 0.427729}
+<<({$1} * correct) --> say> ==> <({$1} * creates) --> say>>. {1.000000 0.220438}
+<creates --> expansion>. {1.000000 0.384956}
+(<({#1} * infrastructure) --> 's> && <({Dren} * {#1}) --> in>). {1.000000 0.646175}
+<{Vensari} --> {Temur}>. {1.000000 0.433388}
+<creates --> correct>. {1.000000 0.400479}
+<({Dren} * ([queue] & expansion)) <-> ({Customs} * creates)>. {1.000000 0.381061}
+<({Customs} * creates) --> ({Dren} * ([queue] & expansion))>. {1.000000 0.381061}
+<Regulatory <-> Shipment>. {1.000000 0.196520}
+<({Dren} * ([queue] & expansion)) --> defer>. {1.000000 0.347262}
+<[hold] <-> ({ISAW} * chair)>. {1.000000 0.113416}
+<({Dren} * ([queue] & expansion)) <-> ({Director} * correct)>. {1.000000 0.382453}
+<<({$1} * creates) --> say> ==> <({$1} * ([queue] & expansion)) --> say>>. {1.000000 0.427729}
+<<({$1} * correct) --> say> ==> <({$1} * ([queue] & expansion)) --> say>>. {1.000000 0.220438}
+<({Ostrel} * correct) --> ({Dren} * ([queue] & expansion))>. {1.000000 0.222438}
+<({Silven} * creates) --> say>. {1.000000 0.327079}
+<({Customs} * correct) <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.184714}
+<{Ostrel} --> ({Ostrel} * surname)>. {1.000000 0.032480}
+<({Dren} * ([queue] & expansion)) --> ({Customs} * creates)>. {1.000000 0.381061}
+<({Regulatory} * correct) <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.190704}
+<creates --> ([queue] & expansion)>. {1.000000 0.427729}
+<({Cross-border} * {Temur}) <-> ({Duration} * hold)>. {1.000000 0.363051}
+<<({$1} * {$2}) --> from> ==> <({$1} * {$2}) --> ({Shipment} * {Nareth})>>. {1.000000 0.269960}
+<<({$1} * {$2}) --> ({Silven} * {Trade})> ==> <({$1} * {$2}) --> ({Shipment} * {Nareth})>>. {1.000000 0.153905}
+<<({$1} * {$2}) --> ({Director} * {Trade})> ==> <({$1} * {$2}) --> ({Shipment} * {Nareth})>>. {1.000000 0.139838}
+(<({Customs} * {#1}) --> in> && <({#1} * {Polzari}) --> through>). {1.000000 0.521674}
+<({Silven} * correct) --> (say * occurs)>. {1.000000 0.367662}
+<({ISAW} * chair) <-> {Movement}>. {1.000000 0.127131}
+<({Silven} * correct) --> ({Dren} * ([queue] & expansion))>. {1.000000 0.444976}
+<({Customs} * correct) --> (say * occurs)>. {1.000000 0.141703}
+<(say * occurs) --> ({Silven} * correct)>. {1.000000 0.268825}
+<({Director} * correct) --> (say * occurs)>. {1.000000 0.297032}
+<{Silven} --> say>. {1.000000 0.330896}
+<(say * occurs) --> ({Director} * correct)>. {1.000000 0.243037}
+<(say * occurs) --> ({Customs} * correct)>. {1.000000 0.124115}
+<({Duration} * hold) <-> ({Cross-border} * {Trade})>. {1.000000 0.177389}
+<{Silven} --> ({Dren} * creates)>. {1.000000 0.163710}
+<{Ostrel} --> {Movement}>. {1.000000 0.382743}
+<({Dren} * creates) --> {Director}>. {1.000000 0.142963}
+<{Temur} <-> hold>. {1.000000 0.264664}
+<({Silven} * correct) --> ({Customs} * creates)>. {1.000000 0.412648}
+<({Cross-border} * {Temur}) --> ({Duration} * hold)>. {1.000000 0.363051}
+<[hold] --> {Shipment}>. {1.000000 0.271092}
+<<([hold] * {$1}) --> from> ==> <({Shipment} * {$1}) --> from>>. {1.000000 0.271092}
+<<({Dren} * {$1}) --> from> ==> <({Shipment} * {$1}) --> from>>. {1.000000 0.106386}
+<<({Customs} * {$1}) --> from> ==> <({Shipment} * {$1}) --> from>>. {1.000000 0.087081}
+<<({Shipment} * {$1}) --> from> ==> <([hold] * {$1}) --> from>>. {1.000000 0.271092}
+<hold --> {Temur}>. {1.000000 0.326746}
+<work_in --> ({Shipment} * {Nareth})>. {1.000000 0.267689}
+<{Movement} <-> {Ostrel}>. {1.000000 0.344469}
+<([{Cross-Hask}] & shipment) --> [provisional]>. {1.000000 0.785942}
+<Customs <-> Ostrel>. {1.000000 0.076120}
+<({Customs} * {Temur}) <-> ({Shipment} * {Nareth})>. {1.000000 0.199500}
+<({Regulatory} * {Vensari}) <-> ({Movement} * {Trade})>. {1.000000 0.187385}
+<(({Dren} * ([queue] & expansion)) * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.220705}
+<{Temur} --> hold>. {1.000000 0.326746}
+<<{$1} --> {Regulatory}> ==> <{$1} --> have>>. {1.000000 0.217993}
+<<(({$1} * surname) * {S}) --> have> ==> <{$1} --> have>>. {1.000000 0.216284}
+<<{$1} --> {Silven}> ==> <{$1} --> have>>. {1.000000 0.109854}
+<({Director} * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.380082}
+<({Regulatory} * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.335564}
+<({Movement} * {Trade}) --> ({Regulatory} * {Vensari})>. {1.000000 0.189088}
+<({Movement} * {Nareth}) --> ({Ostrel} * {Vensari})>. {1.000000 0.170312}
+<(({ISAW} * chair) * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.189175}
+<({Regulatory} * {Vensari}) <-> ({Director} * {Trade})>. {1.000000 0.335564}
+<({Movement} * {Trade}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.187385}
+<({Director} * {Trade}) --> ([hold] * {Nareth})>. {1.000000 0.233766}
+<({Dren} * hold) --> ({Shipment} * {Nareth})>. {1.000000 0.092257}
+<({Dren} * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.094729}
+<{Executive} --> [{Silven}]>. {1.000000 0.152042}
+<({Customs} * {Vensari}) <-> ({Shipment} * {Nareth})>. {1.000000 0.084228}
+<({Shipment} * {Nareth}) <-> ({Director} * {Trade})>. {1.000000 0.380082}
+<({Director} * {Trade}) <-> ({Shipment} * {Nareth})>. {1.000000 0.380082}
+<({Movement} * {Trade}) <-> ({Shipment} * {Nareth})>. {1.000000 0.218716}
+<({Movement} * hold) <-> ({Shipment} * {Nareth})>. {1.000000 0.194701}
+(<({Dren} * {#1}) --> ({Silven} * {Trade})> && <({#1} * infrastructure) --> 's>). {1.000000 0.352627}
+<({Ruvinia} * {Hask}) --> ([hold] * {Nareth})>. {1.000000 0.404899}
+<({Movement} * {Temur}) --> ({Director} * {Trade})>. {1.000000 0.377717}
+<({Movement} * {Trade}) --> (({ISAW} * chair) * {Vensari})>. {1.000000 0.096273}
+<({Duration} * hold) <-> ({Cross-border} * {Temur})>. {1.000000 0.363051}
+<({Silven} * correct) --> ({Customs} * ([queue] & expansion))>. {1.000000 0.412648}
+(<({Dren} * {#1}) --> ({Director} * {Trade})> && <({#1} * infrastructure) --> 's>). {1.000000 0.307938}
+<({Dren} * hold) --> ({Director} * {Trade})>. {1.000000 0.119946}
+<{Customs} --> {Director}>. {1.000000 0.264711}
+<({Trade} * infrastructure) --> 's>. {1.000000 0.317364}
+<({Director} * {Trade}) --> ({Regulatory} * {Vensari})>. {1.000000 0.335564}
+<({Director} * {Trade}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.380082}
+<Manifest <-> Muric>. {1.000000 0.630247}
+<({Movement} * hold) <-> ({Director} * {Trade})>. {1.000000 0.165505}
+<({Silven} * correct) <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.444976}
+<({Ostrel} * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.380082}
+<Silven <-> Regulatory>. {1.000000 0.276067}
+<Director <-> Ostrel>. {1.000000 0.277080}
+<({Ostrel} * {Vensari}) --> ({Movement} * {Trade})>. {1.000000 0.218716}
+<({Director} * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.380082}
+<({Movement} * {Trade}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.218716}
+<({Director} * correct) --> say>. {1.000000 0.716348}
+<revision --> flow>. {1.000000 0.380534}
+<({Dren} * {Temur}) --> ({Silven} * {Trade})>. {1.000000 0.420365}
+<({Director} * {Trade}) --> (have * {Vensari})>. {1.000000 0.133897}
+<{Director} --> {Regulatory}>. {1.000000 0.317221}
+(<({Dren} * {#1}) --> in> && <({#1} * infrastructure) --> 's>). {1.000000 0.717972}
+<({Ostrel} * 12) --> over>. {1.000000 0.305405}
+<({Ostrel} * {Vensari}) <-> ({Movement} * hold)>. {1.000000 0.194701}
+<([hold] * {Nareth}) --> ({Ruvinia} * {Hask})>. {1.000000 0.288205}
+<{Silven} <-> {Director}>. {1.000000 0.880143}
+<(have * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.133897}
+<({Executive} * {April}) --> speak_about>. {1.000000 0.705014}
+<Silven <-> Dren>. {1.000000 0.479705}
+<({Calduria} * treaty) --> a>. {1.000000 0.739949}
+<({Duration} * hold) --> of>. {1.000000 0.762599}
+<({Shipment} * {Nareth}) <-> ({Movement} * hold)>. {1.000000 0.194701}
+<({Traffic} * {Verdan}) --> redirect_through>. {1.000000 0.855891}
+<({Traffic} * ([secondary] & lane)) --> funnel_through>. {1.000000 0.864536}
+<({Movement} * hold) --> ({Ostrel} * {Vensari})>. {1.000000 0.194701}
+<({Director} * {Trade}) --> ({Dren} * {Temur})>. {1.000000 0.339055}
+<({ISAW} * chair) <-> {Ostrel}>. {1.000000 0.342481}
+<({Director} * {Trade}) --> ({Customs} * {Temur})>. {1.000000 0.293126}
+<{Ostrel} --> ({ISAW} * chair)>. {1.000000 0.380534}
+<({Dren} * correct) --> say>. {1.000000 0.327079}
+<(({Ostrel} * surname) * {N}) --> have>. {1.000000 0.359787}
+<({Silven} * {Trade}) <-> ({Dren} * {Temur})>. {1.000000 0.420365}
+<(({ISAW} * chair) * {Vensari}) <-> ({Movement} * hold)>. {1.000000 0.084252}
+<({Robot} * rule) --> {Shipment}>. {1.000000 0.095461}
+<[hold] --> ({ISAW} * chair)>. {1.000000 0.113416}
+<({Customs} * hold) <-> ({Ostrel} * {Vensari})>. {1.000000 0.075300}
+<({Ostrel} * {Vensari}) --> ({Dren} * {Temur})>. {1.000000 0.245367}
+<{Regulatory} --> {Ostrel}>. {1.000000 0.343574}
+<({Silven} * {Nareth}) --> from>. {1.000000 0.004170}
+(<({Dren} * {#1}) --> work_in> && <({#1} * infrastructure) --> 's>). {1.000000 0.710792}
+<{Regulatory} <-> ({ISAW} * chair)>. {1.000000 0.247546}
+<(({Dren} * ([queue] & expansion)) * {Trade}) --> ({Customs} * hold)>. {1.000000 0.045449}
+<(({ISAW} * chair) * {Vensari}) --> from>. {1.000000 0.328986}
+(<({Cross-border} * {#1}) --> ({Duration} * hold)> && <({#1} * infrastructure) --> 's>). {1.000000 0.304548}
+<({Ruvinia} * {Hask}) --> ({Movement} * {Trade})>. {1.000000 0.008651}
+<({Ostrel} * {Vensari}) --> ({Customs} * {Temur})>. {1.000000 0.220015}
+<([say] * {Eastern}) --> belong_to>. {1.000000 0.443438}
+<[say] --> {Executive}>. {1.000000 0.447460}
+<({Ostrel} * {Vensari}) --> work_in>. {1.000000 0.392097}
+<({Ostrel} * {Vensari}) --> ({Dren} * hold)>. {1.000000 0.097550}
+<{Regulatory} --> [hold]>. {1.000000 0.235411}
+<({Regulatory} * {Vensari}) --> ({Dren} * hold)>. {1.000000 0.077251}
+<({Ostrel} * {Vensari}) --> ({Dren} * {Nareth})>. {1.000000 0.112245}
+<({Duration} * hold) --> ({Cross-border} * {Trade})>. {1.000000 0.177389}
+<({Ostrel} * {Vensari}) --> ({Customs} * hold)>. {1.000000 0.085555}
+<[hold] --> {Regulatory}>. {1.000000 0.225185}
+<{Aden} --> ({Dren} * cross-border)>. {1.000000 0.380534}
+<({Director} * {Trade}) <-> ({Dren} * {Temur})>. {1.000000 0.339055}
+<<({Regulatory} * {$1}) --> from> ==> <({Ostrel} * {$1}) --> from>>. {1.000000 0.343574}
+<<(({ISAW} * chair) * {$1}) --> from> ==> <({Ostrel} * {$1}) --> from>>. {1.000000 0.221439}
+<<(have * {$1}) --> from> ==> <({Ostrel} * {$1}) --> from>>. {1.000000 0.158577}
+<<({Dren} * {$1}) --> from> ==> <({Ostrel} * {$1}) --> from>>. {1.000000 0.094729}
+<<({Customs} * {$1}) --> from> ==> <({Ostrel} * {$1}) --> from>>. {1.000000 0.084228}
+<({Customs} * hold) --> ({Director} * {Trade})>. {1.000000 0.096103}
+<({Dren} * {Temur}) <-> ({Director} * {Trade})>. {1.000000 0.339055}
+<<({Ostrel} * {$1}) --> from> ==> <({Regulatory} * {$1}) --> from>>. {1.000000 0.343574}
+<<(({ISAW} * chair) * {$1}) --> from> ==> <({Regulatory} * {$1}) --> from>>. {1.000000 0.189813}
+<<(have * {$1}) --> from> ==> <({Regulatory} * {$1}) --> from>>. {1.000000 0.134379}
+<<({Dren} * {$1}) --> from> ==> <({Regulatory} * {$1}) --> from>>. {1.000000 0.079356}
+<<({Customs} * {$1}) --> from> ==> <({Regulatory} * {$1}) --> from>>. {1.000000 0.070426}
+<({Dren} * {Temur}) --> ({Director} * {Trade})>. {1.000000 0.367092}
+{Redirected}. {1.000000 0.855891}
+<({Ruvinia} * {Hask}) --> ({Dren} * {Temur})>. {1.000000 0.228748}
+<<{$1} --> [say]> ==> <{$1} --> {Executive}>>. {1.000000 0.447460}
+<<{$1} --> [defer]> ==> <{$1} --> {Executive}>>. {1.000000 0.427729}
+<({Dren} * {Temur}) --> ({Ostrel} * {Vensari})>. {1.000000 0.237252}
+<({Customs} * {Temur}) --> ({Ostrel} * {Vensari})>. {1.000000 0.199500}
+<([hold] * surname) --> have>. {1.000000 0.223437}
+<{Trade} <-> hold>. {1.000000 0.110017}
+<({Regulatory} * {Vensari}) --> ({Customs} * {Nareth})>. {1.000000 0.075761}
+<({Ruvinia} * {Hask}) --> ({Ostrel} * {Vensari})>. {1.000000 0.097546}
+<({Robot} * rule) --> {Regulatory}>. {1.000000 0.188463}
+<{Traffic} --> [([manually] & verify)]>. {1.000000 0.932348}
+<{Exemption} --> [weight]>. {1.000000 0.864536}
+<({Ruvinia} * exemption) --> request>. {1.000000 0.864536}
+<({Terrain} * compliance) --> make>. {1.000000 0.927347}
+<(({Robot} * rule) * {N}) --> have>. {1.000000 0.363421}
+<(({Robot} * rule) * {S}) --> have>. {1.000000 0.365540}
+{Vensari}. {1.000000 0.822166}
+<(({Ostrel} * surname) * {S}) --> have>. {1.000000 0.855891}
+(<({#1} * infrastructure) --> 's> && <({Cross-border} * {#1}) --> ({Duration} * hold)>). {1.000000 0.274094}
+<Movement <-> Shipment>. {1.000000 0.310022}
+<{Regulatory} --> ({ISAW} * chair)>. {1.000000 0.266478}
+<(({Dren} * ([queue] & expansion)) * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.220705}
+<{Ruvinia} --> {Dren}>. {1.000000 0.005981}
+<{Ruvinia} --> {Director}>. {1.000000 0.024083}
+<correct --> [queue]>. {1.000000 0.360431}
+<{Ruvinia} --> have>. {1.000000 0.021800}
+<({ISAW} * chair) --> {Regulatory}>. {1.000000 0.328986}
+<({ISAW} * chair) --> [hold]>. {1.000000 0.127924}
+(<({Dren} * {#1}) --> in> && <({#1} * {Polzari}) --> through>). {1.000000 0.633316}
+<([{Temur}] * {Nareth}) --> ({Ruvinia} * {Hask})>. {1.000000 0.093254}
+<<{$1} --> {Silven}> ==> <{$1} --> {Regulatory}>>. {1.000000 0.261958}
+<<{$1} --> {Shipment}> ==> <{$1} --> {Regulatory}>>. {1.000000 0.249705}
+<<{$1} --> {Movement}> ==> <{$1} --> {Regulatory}>>. {1.000000 0.248626}
+<<{$1} --> ({ISAW} * chair)> ==> <{$1} --> {Regulatory}>>. {1.000000 0.247546}
+<<{$1} --> {Director}> ==> <{$1} --> {Regulatory}>>. {1.000000 0.240826}
+<<{$1} --> [hold]> ==> <{$1} --> {Regulatory}>>. {1.000000 0.225185}
+<<{$1} --> have> ==> <{$1} --> {Regulatory}>>. {1.000000 0.217993}
+<<{$1} --> [{Temur}]> ==> <{$1} --> {Regulatory}>>. {1.000000 0.071426}
+<({Dren} * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.123193}
+<({Dren} * hold) --> ({Ostrel} * {Vensari})>. {1.000000 0.092257}
+<({ISAW} * chair) <-> {Regulatory}>. {1.000000 0.266478}
+<follow <-> have>. {1.000000 0.427729}
+<({Director} * {Trade}) --> ({Customs} * {Vensari})>. {1.000000 0.112192}
+<follow --> have>. {1.000000 0.427729}
+<<follow --> $1> ==> <{Regulatory} --> $1>>. {1.000000 0.088073}
+<Executive <-> Veidt>. {1.000000 0.773192}
+<(({ISAW} * chair) * {N}) --> follow>. {1.000000 0.366089}
+{Documentation}. {1.000000 0.864536}
+<({Ostrel} * surname) --> follow>. {1.000000 0.366089}
+<{Ostrel} --> {Shipment}>. {1.000000 0.402680}
+<follow --> (({ISAW} * chair) * {N})>. {1.000000 0.267983}
+<{Trade} --> {Vensari}>. {1.000000 0.441151}
+<({Customs} * {Temur}) --> work_in>. {1.000000 0.593365}
+<({Shipment} * surname) <-> follow>. {1.000000 0.123521}
+<follow --> ({Regulatory} * surname)>. {1.000000 0.204052}
+<follow --> ({Shipment} * surname)>. {1.000000 0.123521}
+<([hold] * surname) --> follow>. {1.000000 0.095570}
+<<{Ostrel} --> $1> ==> <follow --> $1>>. {1.000000 0.121201}
+<<{Regulatory} --> $1> ==> <follow --> $1>>. {1.000000 0.088073}
+<<{Shipment} --> $1> ==> <follow --> $1>>. {1.000000 0.050415}
+<<{Movement} --> $1> ==> <follow --> $1>>. {1.000000 0.044879}
+<<[hold] --> $1> ==> <follow --> $1>>. {1.000000 0.040150}
+<{Shipment} --> {Ostrel}>. {1.000000 0.402680}
+<(have * {N}) --> follow>. {1.000000 0.179802}
+<{Vensari} --> {Trade}>. {1.000000 0.433388}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Movement} * {Trade})>>. {1.000000 0.088692}
+<<({$1} * {$2}) --> ({Silven} * {Trade})> ==> <({$1} * {$2}) --> ({Movement} * {Trade})>>. {1.000000 0.085098}
+<<({$1} * {$2}) --> ({Director} * {Trade})> ==> <({$1} * {$2}) --> ({Movement} * {Trade})>>. {1.000000 0.076750}
+<{Ostrel} <-> {Regulatory}>. {1.000000 0.875193}
+<({ISAW} * chair) --> {Ostrel}>. {1.000000 0.380534}
+<(follow * {N}) --> have>. {1.000000 0.179802}
+<{Ostrel} --> {Director}>. {1.000000 0.342074}
+<{Ostrel} <-> follow>. {1.000000 0.121201}
+<{Regulatory} <-> follow>. {1.000000 0.093242}
+<(follow * {N}) --> ({Regulatory} * surname)>. {1.000000 0.101152}
+<follow --> {Regulatory}>. {1.000000 0.093242}
+<{Ostrel} --> follow>. {1.000000 0.137916}
+<{Regulatory} --> follow>. {1.000000 0.096579}
+<{Regulatory} <-> {Ostrel}>. {1.000000 0.823719}
+<follow --> {Movement}>. {1.000000 0.046988}
+<(follow * {N}) --> ({Shipment} * surname)>. {1.000000 0.051841}
+<({Silven} * {Trade}) <-> ({Customs} * {Temur})>. {1.000000 0.336807}
+<(follow * {Vensari}) --> ([hold] * {Nareth})>. {1.000000 0.060218}
+<[hold] --> follow>. {1.000000 0.041829}
+<follow --> {Shipment}>. {1.000000 0.050415}
+<{Shipment} <-> follow>. {1.000000 0.050415}
+<<({$1} * {$2}) --> in> ==> <({$1} * {$2}) --> ({Silven} * {Trade})>>. {1.000000 0.264591}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Silven} * {Trade})>>. {1.000000 0.159124}
+<<({$1} * {$2}) --> ({Shipment} * {Nareth})> ==> <({$1} * {$2}) --> ({Silven} * {Trade})>>. {1.000000 0.153905}
+<<({$1} * {$2}) --> ({Movement} * {Temur})> ==> <({$1} * {$2}) --> ({Silven} * {Trade})>>. {1.000000 0.153156}
+<<({$1} * {$2}) --> ([hold] * {Nareth})> ==> <({$1} * {$2}) --> ({Silven} * {Trade})>>. {1.000000 0.137074}
+<<({$1} * {$2}) --> ({Movement} * {Trade})> ==> <({$1} * {$2}) --> ({Silven} * {Trade})>>. {1.000000 0.085098}
+<<({$1} * {$2}) --> ({Movement} * hold)> ==> <({$1} * {$2}) --> ({Silven} * {Trade})>>. {1.000000 0.076469}
+<Customs <-> Dren>. {1.000000 0.773192}
+<follow <-> {Movement}>. {1.000000 0.044879}
+<Dren <-> Silven>. {1.000000 0.479705}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Movement} * {Temur})>>. {1.000000 0.159124}
+<<({$1} * {$2}) --> ({Silven} * {Trade})> ==> <({$1} * {$2}) --> ({Movement} * {Temur})>>. {1.000000 0.153156}
+<<({$1} * {$2}) --> ({Director} * {Trade})> ==> <({$1} * {$2}) --> ({Movement} * {Temur})>>. {1.000000 0.139146}
+<{Shipment} --> follow>. {1.000000 0.053092}
+<({Movement} * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.218716}
+<({Dren} * {Temur}) <-> ({Silven} * {Trade})>. {1.000000 0.420365}
+<{Movement} --> follow>. {1.000000 0.046988}
+<follow --> (have * {S})>. {1.000000 0.153153}
+<({Silven} * {Trade}) --> (follow * {Vensari})>. {1.000000 0.067256}
+<({Director} * {Trade}) --> (follow * {Vensari})>. {1.000000 0.057272}
+<follow --> (({Ostrel} * surname) * {S})>. {1.000000 0.267983}
+<(({Ostrel} * surname) * {S}) <-> follow>. {1.000000 0.267983}
+<{Statements} --> [should]>. {1.000000 0.864536}
+<({Robot} * rule) --> follow>. {1.000000 0.864536}
+<follow --> {Ruvinia}>. {1.000000 0.020190}
+<follow <-> (({Ostrel} * surname) * {S})>. {1.000000 0.267983}
+<{Movement} <-> ({ISAW} * chair)>. {1.000000 0.127131}
+<({Movement} * surname) --> have>. {1.000000 0.246754}
+rout. {1.000000 0.864536}
+<Director <-> Silven>. {1.000000 0.777964}
+<({Duration} * twelve) --> over>. {1.000000 0.762599}
+{Subjects}. {1.000000 0.882090}
+<{Regulatory} --> ({Shipment} * surname)>. {1.000000 0.010879}
+<({Customs} * surname) --> {Movement}>. {1.000000 0.000364}
+<({Movement} * {Temur}) --> work_in>. {1.000000 0.113485}
+<({Silven} * {Vensari}) --> ([hold] * {Nareth})>. {1.000000 0.125081}
+<({Director} * {Vensari}) --> ({Movement} * {Trade})>. {1.000000 0.001781}
+<({Dren} * {Trade}) --> ({Director} * {Trade})>. {1.000000 0.030585}
+<({Shipment} * {Vensari}) --> ({Customs} * {Nareth})>. {1.000000 0.000724}
+<({Shipment} * {Vensari}) --> ({Dren} * hold)>. {1.000000 0.000716}
+<({Shipment} * {Vensari}) --> ({Dren} * {Vensari})>. {1.000000 0.000823}
+<(({Ostrel} * surname) * {S}) <-> (({ISAW} * chair) * {N})>. {1.000000 0.422816}
+<occurs --> correct>. {1.000000 0.382743}
+<({Shipment} * {Vensari}) --> ({Customs} * hold)>. {1.000000 0.000628}
+<({Silven} * {Trade}) --> ({Movement} * {Trade})>. {1.000000 0.005570}
+<review --> {Annex}>. {1.000000 0.387172}
+<({Movement} * {Vensari}) --> ({Customs} * hold)>. {1.000000 0.010173}
+<(({Ostrel} * surname) * {S}) --> (({ISAW} * chair) * {N})>. {1.000000 0.422816}
+<({Movement} * {Vensari}) --> ({Customs} * {Nareth})>. {1.000000 0.000719}
+<({Director} * {Temur}) --> ([hold] * {Nareth})>. {1.000000 0.009472}
+<Cross-border <-> Duration>. {1.000000 0.264664}
+<{Dren} --> have>. {1.000000 0.061600}
+<({Silven} * {Temur}) --> ({Ostrel} * {Vensari})>. {1.000000 0.038450}
+<review <-> {Annex}>. {1.000000 0.348454}
+<(({ISAW} * chair) * {N}) --> (({Ostrel} * surname) * {S})>. {1.000000 0.422816}
+<{Incident} --> shipment>. {1.000000 0.348454}
+<<(({Ostrel} * $1) * {S}) --> have> ==> <([hold] * $1) --> have>>. {1.000000 0.160537}
+<{Silven} <-> have>. {1.000000 0.109854}
+<{Regulatory} <-> {Customs}>. {1.000000 0.070426}
+<{Regulatory} --> ((({Ostrel} * surname) * {S}) * {N})>. {1.000000 0.011746}
+<<(({Ostrel} * $1) * {S}) --> have> ==> <({Shipment} * $1) --> have>>. {1.000000 0.219968}
+<([cross-Hask] & shipment) <-> {Incident}>. {1.000000 0.348454}
+<<(({Ostrel} * $1) * {S}) --> have> ==> <({Movement} * $1) --> have>>. {1.000000 0.174369}
+<{Annex} <-> review>. {1.000000 0.313609}
+<({Silven} * surname) --> {ISAW}>. {1.000000 0.130323}
+<((({Ostrel} * surname) * {S}) * {N}) --> {Ostrel}>. {1.000000 0.014534}
+<({Director} * {Temur}) --> in>. {1.000000 0.261175}
+<(({ISAW} * chair) * {N}) --> {Movement}>. {1.000000 0.016430}
+<(have * {N}) --> {Movement}>. {1.000000 0.008069}
+<(fact * rule) --> {Movement}>. {1.000000 0.019086}
+<(({Ostrel} * surname) * {S}) <-> {Regulatory}>. {1.000000 0.161957}
+<({Customs} * {Nareth}) --> (({Dren} * ([queue] & expansion)) * {Vensari})>. {1.000000 0.018884}
+<[hold] --> (({Ostrel} * surname) * {S})>. {1.000000 0.077236}
+<{Regulatory} --> (({Ostrel} * surname) * {S})>. {1.000000 0.161957}
+<((({Ostrel} * surname) * {S}) * {Vensari}) --> ([hold] * {Nareth})>. {1.000000 0.120497}
+<(({Director} * surname) * {N}) --> have>. {1.000000 0.002658}
+<{Shipment} --> (({Ostrel} * surname) * {S})>. {1.000000 0.096035}
+<(({Ostrel} * surname) * {S}) --> {Regulatory}>. {1.000000 0.186578}
+<{Shipment} <-> (({Ostrel} * surname) * {S})>. {1.000000 0.096035}
+<({Shipment} * {Nareth}) --> ((({Ostrel} * surname) * {S}) * {Vensari})>. {1.000000 0.138899}
+<((({Ostrel} * surname) * {S}) * {Vensari}) --> ({Movement} * {Temur})>. {1.000000 0.134331}
+<<({$1} * {$2}) --> from> ==> <({$1} * {$2}) --> ({Customs} * {Vensari})>>. {1.000000 0.106386}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Customs} * {Vensari})>>. {1.000000 0.055850}
+<(have * {N}) --> {Shipment}>. {1.000000 0.008109}
+<<{$1} --> have> ==> <(({$1} * surname) * {S}) --> have>>. {1.000000 0.216284}
+<{Movement} <-> (({Ostrel} * surname) * {S})>. {1.000000 0.085943}
+<(({Ostrel} * surname) * {S}) --> {Shipment}>. {1.000000 0.096035}
+<((({Ostrel} * surname) * {S}) * {Vensari}) --> ({Movement} * {Trade})>. {1.000000 0.064553}
+<(({Ostrel} * surname) * {S}) <-> {Shipment}>. {1.000000 0.096035}
+<((({Ostrel} * surname) * {S}) * {Vensari}) --> ({Movement} * hold)>. {1.000000 0.057030}
+<<{Silven} --> {$1}> ==> <{Customs} --> {$1}>>. {1.000000 0.187760}
+<{Movement} --> (({Ostrel} * surname) * {S})>. {1.000000 0.085943}
+<({Dren} * ([queue] & expansion)) <-> {Regulatory}>. {1.000000 0.105663}
+<[hold] <-> (({Ostrel} * surname) * {S})>. {1.000000 0.077236}
+<({Aden} * revision) --> (({Dren} * cross-border) * flow)>. {1.000000 0.422816}
+<((({Ostrel} * surname) * {S}) * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.134581}
+<({Movement} * hold) --> ((({Ostrel} * surname) * {S}) * {Vensari})>. {1.000000 0.057583}
+<((({Ostrel} * surname) * {S}) * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.114601}
+<({Silven} * {Vensari}) --> ({Customs} * {Nareth})>. {1.000000 0.050547}
+<(have * {S}) --> {Shipment}>. {1.000000 0.008156}
+<({Director} * {Vensari}) --> ({Customs} * {Nareth})>. {1.000000 0.041173}
+<{Shipment} <-> {Regulatory}>. {1.000000 0.269575}
+<([funnel] * {Verdan}) --> redirect_through>. {1.000000 0.185059}
+<<{$1} --> [say]> ==> <{$1} --> {Veidt}>>. {1.000000 0.167962}
+<<{$1} --> [defer]> ==> <{$1} --> {Veidt}>>. {1.000000 0.166562}
+<<({$2} * $1) --> have> ==> <(({$2} * $1) * {N}) --> have>>. {1.000000 0.420365}
+<(defer * occurs) --> say>. {1.000000 0.170820}
+<(({Ostrel} * surname) * {S}) <-> [hold]>. {1.000000 0.077236}
+<({Movement} * {Vensari}) --> ({Customs} * {Vensari})>. {1.000000 0.011731}
+<({Silven} * {Vensari}) --> work_in>. {1.000000 0.246754}
+<({Silven} * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.140680}
+<<{$1} --> {Silven}> ==> <{$1} --> {Customs}>>. {1.000000 0.270809}
+<<{$1} --> {Director}> ==> <{$1} --> {Customs}>>. {1.000000 0.222170}
+<<{$1} --> ({Dren} * ([queue] & expansion))> ==> <{$1} --> {Customs}>>. {1.000000 0.111259}
+<<{$1} --> {Ostrel}> ==> <{$1} --> {Customs}>>. {1.000000 0.111259}
+<<({$1} * ([queue] & expansion)) --> {Customs}> ==> <{$1} --> {Customs}>>. {1.000000 0.097659}
+<({Movement} * {Vensari}) --> ({Dren} * {Nareth})>. {1.000000 0.000819}
+<({Silven} * {Vensari}) --> ({Customs} * {Vensari})>. {1.000000 0.003678}
+<({Silven} * {Vensari}) --> ({Dren} * {Nareth})>. {1.000000 0.058008}
+<{Regulatory} --> {Shipment}>. {1.000000 0.269575}
+<(([cross-Hask] & shipment) * {Annex}) --> ({Incident} * review)>. {1.000000 0.430191}
+<({Director} * {Vensari}) --> work_in>. {1.000000 0.188126}
+<({Director} * {Vensari}) --> ({Customs} * {Temur})>. {1.000000 0.100875}
+<<{$1} --> {Trade}> ==> <{$1} --> {Nareth}>>. {1.000000 0.128418}
+<<{$1} --> hold> ==> <{$1} --> {Nareth}>>. {1.000000 0.111158}
+<<{$1} --> {Vensari}> ==> <{$1} --> {Nareth}>>. {1.000000 0.052512}
+<({Director} * {Vensari}) --> ({Dren} * hold)>. {1.000000 0.040677}
+<({Director} * {Vensari}) --> ({Dren} * {Nareth})>. {1.000000 0.047319}
+<({Director} * {Vensari}) --> ({Customs} * hold)>. {1.000000 0.035362}
+<({Director} * {Vensari}) --> ({Dren} * {Temur})>. {1.000000 0.114865}
+<({Silven} * {Vensari}) --> ({Customs} * hold)>. {1.000000 0.043474}
+<follow --> ((have * {N}) * {S})>. {1.000000 0.091221}
+<<(({$3} * $2) * $1) --> discuss> ==> <(({$3} * $2) * $1) --> ({Liaison} * revision)>>. {1.000000 0.238305}
+<({Silven} * {Vensari}) --> ({Customs} * {Temur})>. {1.000000 0.122112}
+<(({Dren} * ([queue] & expansion)) * occurs) <-> ({Customs} * correct)>. {1.000000 0.163906}
+<({Silven} * {Vensari}) --> ({Dren} * hold)>. {1.000000 0.049945}
+<({Director} * {Vensari}) --> ([hold] * {Nareth})>. {1.000000 0.002868}
+<({Silven} * {Vensari}) --> ({Movement} * hold)>. {1.000000 0.069352}
+<({ISAW} * chair) <-> ([hold] * surname)>. {1.000000 0.159187}
+<({Customs} * {Trade}) --> ({Regulatory} * {Vensari})>. {1.000000 0.155946}
+<(({Ostrel} * surname) * {S}) --> [hold]>. {1.000000 0.083701}
+<({Ostrel} * surname) --> ({ISAW} * chair)>. {1.000000 0.420365}
+<<{$1} --> [([manually] & verify)]> ==> <{$1} --> [funnel]>>. {1.000000 0.432656}
+<({ISAW} * chair) --> ({Ostrel} * surname)>. {1.000000 0.420365}
+<({Silven} * {Vensari}) --> ({Movement} * {Temur})>. {1.000000 0.139984}
+<({Shipment} * {Vensari}) --> ({Ostrel} * {Vensari})>. {1.000000 0.000767}
+<({Silven} * {Vensari}) --> ({Ostrel} * {Vensari})>. {1.000000 0.065847}
+<({Movement} * {Vensari}) --> ({Ostrel} * {Vensari})>. {1.000000 0.012442}
+<({Silven} * {Vensari}) --> ({Movement} * {Trade})>. {1.000000 0.077246}
+<({ISAW} * chair) --> ({Regulatory} * surname)>. {1.000000 0.363421}
+<([hold] * surname) <-> ({ISAW} * chair)>. {1.000000 0.159187}
+<({Regulatory} * surname) --> ({ISAW} * chair)>. {1.000000 0.336807}
+<({ISAW} * chair) <-> ({Ostrel} * surname)>. {1.000000 0.420365}
+<({Customs} * {Temur}) --> ({Regulatory} * {Vensari})>. {1.000000 0.170322}
+<({Dren} * {Temur}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.203959}
+<({Dren} * {Temur}) --> ({Regulatory} * {Vensari})>. {1.000000 0.203959}
+<work_in <-> ({Regulatory} * {Vensari})>. {1.000000 0.231421}
+<({ISAW} * chair) --> ({Shipment} * surname)>. {1.000000 0.218249}
+<({Regulatory} * {Vensari}) <-> ({Customs} * {Temur})>. {1.000000 0.170322}
+<work_in --> ({Regulatory} * {Vensari})>. {1.000000 0.231421}
+<({Regulatory} * surname) <-> ({ISAW} * chair)>. {1.000000 0.336807}
+<<{$1} --> {Movement}> ==> <{$1} --> [{Temur}]>>. {1.000000 0.081271}
+<<{$1} --> {Regulatory}> ==> <{$1} --> [{Temur}]>>. {1.000000 0.071426}
+<<{$1} --> {Silven}> ==> <{$1} --> [{Temur}]>>. {1.000000 0.032932}
+<({Dren} * {Trade}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.187385}
+<({Shipment} * surname) <-> ({ISAW} * chair)>. {1.000000 0.218249}
+<({Regulatory} * {Vensari}) --> ({Customs} * {Trade})>. {1.000000 0.155946}
+<({Regulatory} * {Vensari}) <-> ({Dren} * {Temur})>. {1.000000 0.203959}
+<({Regulatory} * {Vensari}) <-> ({Customs} * {Trade})>. {1.000000 0.155946}
+<({ISAW} * chair) --> ([hold] * surname)>. {1.000000 0.159187}
+<({Regulatory} * {Vensari}) --> (({Dren} * ([queue] & expansion)) * {Trade})>. {1.000000 0.189158}
+<({Movement} * surname) <-> ({ISAW} * chair)>. {1.000000 0.172926}
+<({Customs} * surname) --> {Shipment}>. {1.000000 0.000366}
+<({Dren} * surname) --> {Ostrel}>. {1.000000 0.001373}
+<{Regulatory} --> {Dren}>. {1.000000 0.079356}
+<(({Dren} * ([queue] & expansion)) * {Trade}) --> ({Regulatory} * {Vensari})>. {1.000000 0.189158}
+<({Regulatory} * {Vensari}) <-> (({Customs} * ([queue] & expansion)) * {Trade})>. {1.000000 0.140424}
+<(({Dren} * ([queue] & expansion)) * {Trade}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.189158}
+<({Regulatory} * {Vensari}) --> (({Director} * ([queue] & expansion)) * {Trade})>. {1.000000 0.066456}
+<(({Director} * ([queue] & expansion)) * {Trade}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.066456}
+<(({Customs} * ([queue] & expansion)) * {Trade}) --> ({Regulatory} * {Vensari})>. {1.000000 0.140424}
+<({ISAW} * chair) <-> ({Movement} * surname)>. {1.000000 0.172926}
+<({Dren} * hold) <-> ({Regulatory} * {Vensari})>. {1.000000 0.077251}
+<(({Customs} * ([queue] & expansion)) * {Trade}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.140424}
+<({Silven} * {Temur}) --> ({Customs} * hold)>. {1.000000 0.005310}
+<(({Director} * ([queue] & expansion)) * {Trade}) --> ({Regulatory} * {Vensari})>. {1.000000 0.066456}
+<({Regulatory} * {Vensari}) <-> ({Customs} * hold)>. {1.000000 0.062860}
+<((({ISAW} * chair) * {N}) * {S}) --> follow>. {1.000000 0.154788}
+<({Dren} * creates) --> ({Director} * correct)>. {1.000000 0.414873}
+<({Dren} * {Nareth}) --> ({Regulatory} * {Vensari})>. {1.000000 0.089307}
+<({Customs} * {Nareth}) --> ({Regulatory} * {Vensari})>. {1.000000 0.072848}
+<[defer] --> [defer]>. {1.000000 0.253242}
+<({Regulatory} * {Vensari}) <-> ({Customs} * {Nareth})>. {1.000000 0.072848}
+<({Dren} * hold) --> ({Regulatory} * {Vensari})>. {1.000000 0.077251}
+<{Regulatory} <-> {Dren}>. {1.000000 0.079356}
+<<{Veidt} --> {$1}> ==> <[say] --> {$1}>>. {1.000000 0.271092}
+<<[defer] --> {$1}> ==> <[say] --> {$1}>>. {1.000000 0.155409}
+<have <-> {Movement}>. {1.000000 0.109854}
+<({Regulatory} * {Vensari}) <-> ({Dren} * {Nareth})>. {1.000000 0.089307}
+<{Customs} <-> {Regulatory}>. {1.000000 0.091070}
+<({Incident} * review) <-> (([cross-Hask] & shipment) * {Annex})>. {1.000000 0.430191}
+<(have * {N}) --> ({Regulatory} * surname)>. {1.000000 0.236486}
+<({Regulatory} * {Vensari}) <-> (({Director} * ([queue] & expansion)) * {Trade})>. {1.000000 0.066456}
+<({Regulatory} * surname) --> (have * {N})>. {1.000000 0.287292}
+<({Dren} * surname) --> [hold]>. {1.000000 0.000551}
+<<({$2} * $1) --> have> ==> <({$2} * $1) --> {Regulatory}>>. {1.000000 0.217993}
+<({Customs} * {Nareth}) --> ({Movement} * {Trade})>. {1.000000 0.010970}
+<{Regulatory} --> {Director}>. {1.000000 0.281773}
+<<{$1} --> {Customs}> ==> <({$1} * ([queue] & expansion)) --> {Customs}>>. {1.000000 0.097659}
+<(([{Cross-Hask}] & shipment) * {Annex}) --> [provisional]>. {1.000000 0.770302}
+<(have * {Vensari}) --> ([hold] * {Nareth})>. {1.000000 0.140785}
+<([manually] & verify) <-> funnel>. {1.000000 0.389390}
+<({Shipment} * {Nareth}) --> (have * {Vensari})>. {1.000000 0.187632}
+<({Regulatory} * ([queue] & expansion)) --> {Silven}>. {1.000000 0.039878}
+<({Customs} * {Temur}) --> ({Shipment} * {Nareth})>. {1.000000 0.199500}
+<(({Customs} * surname) * {S}) --> have>. {1.000000 0.007838}
+<(have * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.158577}
+<({Customs} * surname) --> have>. {1.000000 0.003314}
+<{Regulatory} --> ({Customs} * ([queue] & expansion))>. {1.000000 0.053989}
+<({Regulatory} * ([queue] & expansion)) --> {Customs}>. {1.000000 0.007589}
+<(have * {N}) --> ({Shipment} * surname)>. {1.000000 0.121201}
+<{Incident} --> ([cross-Hask] & shipment)>. {1.000000 0.387172}
+<(({Dren} * surname) * {S}) --> have>. {1.000000 0.013323}
+<({Customs} * {Temur}) --> ({Movement} * hold)>. {1.000000 0.025755}
+<{Shipment} <-> {Ruvinia}>. {1.000000 0.360431}
+<({Customs} * {Temur}) --> ({Movement} * {Trade})>. {1.000000 0.028662}
+<({Dren} * surname) --> have>. {1.000000 0.005633}
+<({Customs} * {Temur}) --> ([hold] * {Nareth})>. {1.000000 0.046167}
+<<({$2} * $1) --> have> ==> <({$2} * $1) --> {Shipment}>>. {1.000000 0.110419}
+<({Director} * ([queue] & expansion)) --> {Customs}>. {1.000000 0.025764}
+<{Regulatory} --> ({Director} * ([queue] & expansion))>. {1.000000 0.001960}
+<({Customs} * surname) --> {Regulatory}>. {1.000000 0.000722}
+<(have * {Vensari}) --> ({Movement} * {Temur})>. {1.000000 0.156949}
+<({Customs} * correct) <-> (({Dren} * ([queue] & expansion)) * occurs)>. {1.000000 0.163906}
+<Director <-> Dren>. {1.000000 0.252362}
+<<({Veidt} * {$1}) --> belong_to> ==> <([say] * {$1}) --> belong_to>>. {1.000000 0.261820}
+<<({Executive} * {$1}) --> belong_to> ==> <([say] * {$1}) --> belong_to>>. {1.000000 0.226102}
+<<([defer] * {$1}) --> belong_to> ==> <([say] * {$1}) --> belong_to>>. {1.000000 0.150914}
+<(({ISAW} * chair) * {Vensari}) <-> ({Movement} * {Temur})>. {1.000000 0.219711}
+<({Director} * {Trade}) --> work_in>. {1.000000 0.605413}
+<({Customs} * {Nareth}) --> in>. {1.000000 0.095468}
+<({Dren} * surname) --> {Movement}>. {1.000000 0.000619}
+<({Movement} * {Temur}) --> ({Regulatory} * {Vensari})>. {1.000000 0.378693}
+<({Director} * {Trade}) <-> in>. {1.000000 0.239075}
+<({Customs} * {Temur}) --> in>. {1.000000 0.705014}
+<({Regulatory} * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.381061}
+<[hold] --> have>. {1.000000 0.097794}
+<work_in <-> in>. {1.000000 0.420365}
+<({Regulatory} * {Vensari}) <-> ({Shipment} * {Nareth})>. {1.000000 0.381061}
+<<({$1} * {$2}) --> work_in> ==> <({$1} * {$2}) --> in>>. {1.000000 0.420365}
+<<({$1} * {$2}) --> ({Silven} * {Trade})> ==> <({$1} * {$2}) --> in>>. {1.000000 0.264591}
+<<({$1} * {$2}) --> ({Director} * {Trade})> ==> <({$1} * {$2}) --> in>>. {1.000000 0.239075}
+<in --> ({Silven} * {Trade})>. {1.000000 0.264591}
+<work_in --> in>. {1.000000 0.420365}
+<(have * {Vensari}) --> ({Movement} * hold)>. {1.000000 0.066633}
+<in <-> ({Silven} * {Trade})>. {1.000000 0.264591}
+<{Temur} <-> {Trade}>. {1.000000 0.340496}
+<({Ostrel} * {Vensari}) <-> ({Movement} * {Temur})>. {1.000000 0.425271}
+<in --> ({Director} * {Trade})>. {1.000000 0.239075}
+<in <-> ({Director} * {Trade})>. {1.000000 0.239075}
+<({Director} * {Trade}) --> in>. {1.000000 0.290194}
+<({Regulatory} * {Vensari}) --> ({Movement} * {Temur})>. {1.000000 0.378693}
+<({Silven} * {Temur}) --> in>. {1.000000 0.342766}
+<({Silven} * {Trade}) --> in>. {1.000000 0.359787}
+<({Movement} * hold) --> (have * {Vensari})>. {1.000000 0.071390}
+<(({ISAW} * chair) * {Vensari}) --> ({Movement} * {Temur})>. {1.000000 0.219711}
+<have --> [hold]>. {1.000000 0.097794}
+<<({$2} * $1) --> have> ==> <({$2} * $1) --> [hold]>>. {1.000000 0.097794}
+<(have * {N}) --> ({Movement} * surname)>. {1.000000 0.120588}
+<({Silven} * {Temur}) --> work_in>. {1.000000 0.144087}
+<({Silven} * {Temur}) --> ({Director} * {Trade})>. {1.000000 0.081947}
+<({Director} * {Trade}) --> ({Silven} * {Trade})>. {1.000000 0.076783}
+<{Regulatory} --> {Silven}>. {1.000000 0.340824}
+<({Director} * {Temur}) --> ({Dren} * hold)>. {1.000000 0.004883}
+<({Movement} * surname) --> (have * {N})>. {1.000000 0.118024}
+<({Silven} * {Temur}) --> ({Dren} * {Vensari})>. {1.000000 0.006966}
+<({Movement} * {Temur}) <-> (({ISAW} * chair) * {Vensari})>. {1.000000 0.219711}
+<({Shipment} * {Nareth}) --> ({Regulatory} * {Vensari})>. {1.000000 0.381061}
+<({Shipment} * {Nareth}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.381061}
+<(({ISAW} * chair) * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.221439}
+<({Silven} * {Temur}) --> ({Shipment} * {Nareth})>. {1.000000 0.013186}
+<({Director} * {Temur}) --> ({Movement} * {Temur})>. {1.000000 0.010584}
+<({Director} * {Temur}) --> ({Movement} * {Trade})>. {1.000000 0.005881}
+<({Director} * {Temur}) --> from>. {1.000000 0.046420}
+<<({Veidt} * {$1}) --> belong_to> ==> <({Executive} * {$1}) --> belong_to>>. {1.000000 0.330105}
+<<([say] * {$1}) --> belong_to> ==> <({Executive} * {$1}) --> belong_to>>. {1.000000 0.226102}
+<<([defer] * {$1}) --> belong_to> ==> <({Executive} * {$1}) --> belong_to>>. {1.000000 0.225086}
+<({Director} * {Temur}) --> ({Dren} * {Temur})>. {1.000000 0.012282}
+<({Silven} * {Temur}) --> ({Movement} * {Trade})>. {1.000000 0.007718}
+<({Director} * {Temur}) --> ({Customs} * {Temur})>. {1.000000 0.011013}
+<({Shipment} * {Nareth}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.444976}
+<{Ostrel} <-> have>. {1.000000 0.243821}
+<({Silven} * {Temur}) --> ({Movement} * {Temur})>. {1.000000 0.013122}
+<({Director} * {Temur}) --> ({Dren} * {Vensari})>. {1.000000 0.005619}
+<({Shipment} * {Nareth}) --> (({ISAW} * chair) * {Vensari})>. {1.000000 0.221439}
+<({Director} * {Temur}) --> ({Movement} * hold)>. {1.000000 0.005284}
+<({Silven} * {Temur}) --> ({Dren} * {Temur})>. {1.000000 0.015228}
+<({Director} * {Temur}) --> ({Ostrel} * {Vensari})>. {1.000000 0.029298}
+<({Movement} * {Temur}) --> (({ISAW} * chair) * {Vensari})>. {1.000000 0.219711}
+<({Silven} * {Temur}) --> ({Dren} * hold)>. {1.000000 0.006054}
+<<({Executive} * {$1}) --> belong_to> ==> <({Veidt} * {$1}) --> belong_to>>. {1.000000 0.330105}
+<<([say] * {$1}) --> belong_to> ==> <({Veidt} * {$1}) --> belong_to>>. {1.000000 0.261820}
+<<([defer] * {$1}) --> belong_to> ==> <({Veidt} * {$1}) --> belong_to>>. {1.000000 0.260698}
+<{Executive} --> {Veidt}>. {1.000000 0.330105}
+<([hold] * {Nareth}) --> (({ISAW} * chair) * {Vensari})>. {1.000000 0.162041}
+<({Director} * {Temur}) --> ({Customs} * hold)>. {1.000000 0.004283}
+<({Director} * {Temur}) --> ({Customs} * {Vensari})>. {1.000000 0.004939}
+<({Director} * {Temur}) --> ({Dren} * {Nareth})>. {1.000000 0.005619}
+<({Ostrel} * {Trade}) --> ({Customs} * {Vensari})>. {1.000000 0.050547}
+<discuss <-> ({Liaison} * revision)>. {1.000000 0.238305}
+<{Silven} --> have>. {1.000000 0.109854}
+<(have * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.157240}
+<({Dren} * {Temur}) --> from>. {1.000000 0.359787}
+<({Liaison} * revision) <-> (({Dren} * cross-border) * flow)>. {1.000000 0.359381}
+<(({Dren} * cross-border) * flow) <-> ({Liaison} * revision)>. {1.000000 0.359381}
+<<(({$3} * $2) * $1) --> ({Aden} * revision)> ==> <(({$3} * $2) * $1) --> discuss>>. {1.000000 0.263767}
+<<(({$3} * $2) * $1) --> ({Liaison} * revision)> ==> <(({$3} * $2) * $1) --> discuss>>. {1.000000 0.238305}
+<{Dren} --> ({Customs} * ([queue] & expansion))>. {1.000000 0.074066}
+<discuss --> ({Aden} * revision)>. {1.000000 0.263767}
+<discuss <-> ({Aden} * revision)>. {1.000000 0.263767}
+<{Director} <-> ({Customs} * ([queue] & expansion))>. {1.000000 0.224181}
+<({Customs} * ([queue] & expansion)) <-> {Director}>. {1.000000 0.224181}
+<(({ISAW} * chair) * {Vensari}) --> ([hold] * {Nareth})>. {1.000000 0.193375}
+<{S} --> chair>. {1.000000 0.378329}
+<({Customs} * ([queue] & expansion)) --> {Director}>. {1.000000 0.234058}
+(<({Movement} * {#1}) --> from> && <({#1} * infrastructure) --> 's>). {1.000000 0.717972}
+<({Dren} * {Temur}) --> ({Ostrel} * {Trade})>. {1.000000 0.160892}
+<<{$1} --> {Director}> ==> <{$1} --> ({Customs} * ([queue] & expansion))>>. {1.000000 0.224181}
+<<{$1} --> {Ostrel}> ==> <{$1} --> ({Customs} * ([queue] & expansion))>>. {1.000000 0.112411}
+<({Customs} * {Temur}) --> ({Ostrel} * {Trade})>. {1.000000 0.128911}
+<{Director} <-> {Ostrel}>. {1.000000 0.307866}
+<<(({$3} * $2) * $1) --> discuss> ==> <(({$3} * $2) * $1) --> ({Aden} * revision)>>. {1.000000 0.263767}
+<({Dren} * ([queue] & expansion)) --> {Ostrel}>. {1.000000 0.146493}
+<({Ostrel} * {Trade}) --> ({Dren} * {Temur})>. {1.000000 0.138593}
+<<{$1} --> {Director}> ==> <{$1} --> ({Director} * ([queue] & expansion))>>. {1.000000 0.099445}
+<<{$1} --> {Ostrel}> ==> <{$1} --> ({Director} * ([queue] & expansion))>>. {1.000000 0.046164}
+<({Dren} * ([queue] & expansion)) <-> {Ostrel}>. {1.000000 0.127775}
+<({Ostrel} * {Trade}) --> ({Customs} * {Temur})>. {1.000000 0.122112}
+<({Customs} * ([queue] & expansion)) <-> {Ostrel}>. {1.000000 0.112411}
+<{Ostrel} <-> {Director}>. {1.000000 0.307866}
+<({ISAW} * chair) --> (({Ostrel} * surname) * {S})>. {1.000000 0.420365}
+<({Director} * ([queue] & expansion)) --> {Ostrel}>. {1.000000 0.046164}
+<{Ostrel} <-> ({Director} * ([queue] & expansion))>. {1.000000 0.046164}
+<({Silven} * {Trade}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.378693}
+<Duration <-> Cross-border>. {1.000000 0.264664}
+<{Ostrel} <-> ({Customs} * ([queue] & expansion))>. {1.000000 0.112411}
+<({Customs} * hold) --> ({Ostrel} * {Trade})>. {1.000000 0.042121}
+<({Director} * ([queue] & expansion)) <-> {Ostrel}>. {1.000000 0.046164}
+<({Dren} * {Nareth}) --> ({Ostrel} * {Trade})>. {1.000000 0.061580}
+<({Ostrel} * {Trade}) --> ({Dren} * hold)>. {1.000000 0.049945}
+<({Customs} * {Nareth}) --> ({Ostrel} * {Trade})>. {1.000000 0.049340}
+<{Movement} --> {Shipment}>. {1.000000 0.382743}
+<({Dren} * hold) --> ({Ostrel} * {Trade})>. {1.000000 0.052571}
+<({Ostrel} * {Trade}) --> ({Customs} * hold)>. {1.000000 0.043474}
+<({Customs} * {Vensari}) --> ({Ostrel} * {Trade})>. {1.000000 0.043706}
+<({Liaison} * revision) --> discuss>. {1.000000 0.611528}
+<(({ISAW} * chair) * {Vensari}) <-> ([hold] * {Nareth})>. {1.000000 0.123980}
+<({Director} * surname) --> {ISAW}>. {1.000000 0.129416}
+<({Ostrel} * {Vensari}) <-> ({Silven} * {Trade})>. {1.000000 0.425271}
+<({Silven} * {Trade}) --> ({Regulatory} * {Vensari})>. {1.000000 0.378693}
+<([cross-Hask] & shipment) --> {Incident}>. {1.000000 0.387172}
+<({Ostrel} * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.065847}
+<(({ISAW} * chair) * {Trade}) --> from>. {1.000000 0.111835}
+<({Regulatory} * {Vensari}) <-> ({Silven} * {Trade})>. {1.000000 0.378693}
+<({Regulatory} * {Trade}) --> from>. {1.000000 0.035846}
+<({Director} * ([queue] & expansion)) --> have>. {1.000000 0.011256}
+<({Ostrel} * {Trade}) --> ([hold] * {Nareth})>. {1.000000 0.125081}
+<({Ostrel} * {Trade}) --> ({Dren} * {Vensari})>. {1.000000 0.058008}
+<({Regulatory} * {Trade}) --> ({Customs} * {Vensari})>. {1.000000 0.003813}
+<({Ostrel} * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.425271}
+<({Ostrel} * {Trade}) --> from>. {1.000000 0.104331}
+<({Silven} * surname) --> have>. {1.000000 0.246754}
+<(({ISAW} * chair) * {Vensari}) <-> ({Silven} * {Trade})>. {1.000000 0.219711}
+<({Silven} * surname) --> (({ISAW} * chair) * {N})>. {1.000000 0.139289}
+<({Ostrel} * {Trade}) --> ({Silven} * {Trade})>. {1.000000 0.027445}
+<{Dren} <-> {Director}>. {1.000000 0.267610}
+<({Silven} * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.425271}
+<(({ISAW} * chair) * {N}) --> ({Regulatory} * surname)>. {1.000000 0.365540}
+<([hold] * {Nareth}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.234511}
+<{Movement} --> {Silven}>. {1.000000 0.217003}
+<{Shipment} --> {Silven}>. {1.000000 0.147339}
+<({ISAW} * chair) --> {Silven}>. {1.000000 0.145647}
+<{Silven} <-> {Shipment}>. {1.000000 0.128418}
+<({Customs} * ([queue] & expansion)) --> {Ostrel}>. {1.000000 0.112411}
+<[hold] --> {Silven}>. {1.000000 0.113999}
+<{Silven} <-> ({ISAW} * chair)>. {1.000000 0.127131}
+<({Movement} * {Temur}) --> ({Silven} * {Vensari})>. {1.000000 0.162769}
+<({Silven} * {Trade}) <-> ([hold] * {Nareth})>. {1.000000 0.269111}
+<[{Temur}] <-> {Silven}>. {1.000000 0.032932}
+<{Shipment} <-> {Silven}>. {1.000000 0.128418}
+<({Movement} * {Trade}) --> ({Silven} * {Vensari})>. {1.000000 0.083712}
+<([hold] * {Nareth}) --> ({Regulatory} * {Vensari})>. {1.000000 0.235106}
+<[hold] <-> {Silven}>. {1.000000 0.113999}
+<{Silven} <-> [hold]>. {1.000000 0.113999}
+<(have * {N}) --> ({Silven} * surname)>. {1.000000 0.100955}
+<have --> {Silven}>. {1.000000 0.109854}
+<({Silven} * {Trade}) --> ({Movement} * {Temur})>. {1.000000 0.422816}
+<{Silven} <-> [{Temur}]>. {1.000000 0.032932}
+<have <-> {Silven}>. {1.000000 0.109854}
+<<{Dren} --> {$1}> ==> <{Silven} --> {$1}>>. {1.000000 0.223912}
+<<{Customs} --> {$1}> ==> <{Silven} --> {$1}>>. {1.000000 0.187760}
+<{Movement} <-> {Silven}>. {1.000000 0.217003}
+<({Silven} * {Trade}) <-> ({Movement} * {Temur})>. {1.000000 0.422816}
+<{Silven} --> {Movement}>. {1.000000 0.217003}
+<{Silven} <-> {Movement}>. {1.000000 0.217003}
+<{Shipment} --> {Customs}>. {1.000000 0.087081}
+<({Silven} * surname) --> ({ISAW} * chair)>. {1.000000 0.138593}
+<({Director} * ([queue] & expansion)) --> [hold]>. {1.000000 0.001101}
+<({Movement} * hold) --> ({Silven} * {Trade})>. {1.000000 0.193130}
+<{Nareth} --> {Trade}>. {1.000000 0.147339}
+<<({Movement} * {$1}) --> from> ==> <({Silven} * {$1}) --> from>>. {1.000000 0.217003}
+<({Regulatory} * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.009677}
+<({Silven} * {Trade}) --> ({Movement} * hold)>. {1.000000 0.193130}
+<(({Customs} * ([queue] & expansion)) * {N}) --> have>. {1.000000 0.011522}
+<({Silven} * surname) --> [hold]>. {1.000000 0.024131}
+<(({Silven} * surname) * {N}) --> have>. {1.000000 0.103727}
+<({Silven} * {Trade}) <-> ({Movement} * hold)>. {1.000000 0.193130}
+<({Customs} * ([queue] & expansion)) --> {Shipment}>. {1.000000 0.003026}
+<({Shipment} * ([queue] & expansion)) --> {Silven}>. {1.000000 0.018637}
+<({Silven} * surname) --> {Shipment}>. {1.000000 0.027246}
+<({Ostrel} * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.140680}
+<({Movement} * hold) <-> ({Silven} * {Trade})>. {1.000000 0.193130}
+<(({Director} * ([queue] & expansion)) * {N}) --> have>. {1.000000 0.004732}
+<({Silven} * surname) --> {Movement}>. {1.000000 0.027107}
+<<({$2} * $1) --> have> ==> <({$2} * $1) --> {Movement}>>. {1.000000 0.109854}
+<({Regulatory} * {Trade}) --> ({Dren} * {Temur})>. {1.000000 0.009484}
+<({Director} * ([queue] & expansion)) --> {Shipment}>. {1.000000 0.001243}
+<({Ostrel} * {Trade}) --> ({Movement} * {Trade})>. {1.000000 0.002336}
+<({Silven} * {Trade}) --> (have * {Vensari})>. {1.000000 0.157240}
+<(({Customs} * ([queue] & expansion)) * {S}) --> have>. {1.000000 0.011589}
+<({Director} * ([queue] & expansion)) --> {Movement}>. {1.000000 0.001237}
+<(({Silven} * surname) * {S}) --> have>. {1.000000 0.104331}
+<from <-> work_in>. {1.000000 0.422816}
+<({Regulatory} * {Trade}) --> ({Dren} * hold)>. {1.000000 0.003771}
+<({Regulatory} * {Trade}) --> ({Customs} * hold)>. {1.000000 0.003307}
+<({Regulatory} * {Trade}) --> ({Dren} * {Nareth})>. {1.000000 0.004339}
+<({Ostrel} * {Trade}) --> ({Movement} * {Temur})>. {1.000000 0.139984}
+<<{Silven} --> {$1}> ==> <{Dren} --> {$1}>>. {1.000000 0.223912}
+<({Ostrel} * {Trade}) --> ({Movement} * hold)>. {1.000000 0.069352}
+<(({Director} * ([queue] & expansion)) * {S}) --> have>. {1.000000 0.004759}
+<({Regulatory} * {Trade}) --> ({Movement} * {Temur})>. {1.000000 0.002162}
+<({Shipment} * {Vensari}) --> in>. {1.000000 0.031482}
+<({Dren} * {Trade}) --> ({Silven} * {Trade})>. {1.000000 0.033661}
+<{Movement} <-> [{Temur}]>. {1.000000 0.081271}
+<from <-> ({Customs} * {Vensari})>. {1.000000 0.106386}
+<{Shipment} --> {Director}>. {1.000000 0.105904}
+<({Dren} * {Temur}) --> ({Silven} * {Vensari})>. {1.000000 0.160892}
+<({Regulatory} * {Trade}) --> ([hold] * {Nareth})>. {1.000000 0.103007}
+<({Director} * surname) --> have>. {1.000000 0.006324}
+<{Nareth} <-> {Trade}>. {1.000000 0.128418}
+<<{$1} --> {Vensari}> ==> <{$1} --> {Temur}>>. {1.000000 0.126487}
+<({Shipment} * ([queue] & expansion)) --> {Customs}>. {1.000000 0.008504}
+<({Customs} * {Temur}) --> ({Silven} * {Vensari})>. {1.000000 0.128911}
+<(({Dren} * ([queue] & expansion)) * {Vensari}) --> ({Customs} * {Temur})>. {1.000000 0.050547}
+<({Dren} * {Temur}) --> ({Director} * {Vensari})>. {1.000000 0.140502}
+<({Dren} * hold) --> ({Silven} * {Vensari})>. {1.000000 0.052571}
+<(({Dren} * ([queue] & expansion)) * {Vensari}) --> ({Customs} * {Nareth})>. {1.000000 0.019970}
+<({Customs} * {Temur}) --> ({Director} * {Vensari})>. {1.000000 0.112574}
+<(({Dren} * ([queue] & expansion)) * {Vensari}) --> work_in>. {1.000000 0.111413}
+<(({Dren} * ([queue] & expansion)) * {Vensari}) --> ({Customs} * hold)>. {1.000000 0.017098}
+<({Dren} * hold) --> ({Director} * {Vensari})>. {1.000000 0.045908}
+<({Dren} * {Nareth}) --> ({Silven} * {Vensari})>. {1.000000 0.061580}
+<({Customs} * {Temur}) --> (({Dren} * ([queue] & expansion)) * {Vensari})>. {1.000000 0.049340}
+<({Customs} * {Nareth}) --> ({Silven} * {Vensari})>. {1.000000 0.049340}
+<(({Dren} * ([queue] & expansion)) * {Trade}) --> from>. {1.000000 0.327587}
+<({Customs} * hold) --> ({Silven} * {Vensari})>. {1.000000 0.042121}
+<<{$1} --> [funnel]> ==> <{$1} --> [([manually] & verify)]>>. {1.000000 0.432656}
+<({Customs} * hold) --> ({Director} * {Vensari})>. {1.000000 0.036783}
+<(({Director} * ([queue] & expansion)) * {Trade}) --> from>. {1.000000 0.099963}
+<([funnel] * ([secondary] & lane)) --> funnel_through>. {1.000000 0.186125}
+<(({Customs} * ([queue] & expansion)) * {Trade}) --> from>. {1.000000 0.229401}
+<from <-> ({Customs} * {Temur})>. {1.000000 0.237252}
+<({Customs} * {Trade}) --> ({Silven} * {Trade})>. {1.000000 0.028196}
+<({Customs} * {Nareth}) --> ({Director} * {Vensari})>. {1.000000 0.043087}
+<from --> ({Dren} * hold)>. {1.000000 0.105193}
+<{Temur} --> {Temur}>. {1.000000 0.054818}
+<from <-> ({Dren} * hold)>. {1.000000 0.105193}
+<({Regulatory} * {Trade}) --> ({Director} * {Trade})>. {1.000000 0.012806}
+<({Regulatory} * {Trade}) --> in>. {1.000000 0.006371}
+<({Director} * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.018906}
+<({Shipment} * {Nareth}) --> ({Ostrel} * {Trade})>. {1.000000 0.163710}
+<<({$1} * {$2}) --> from> ==> <({$1} * {$2}) --> ({Dren} * hold)>>. {1.000000 0.105193}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Dren} * hold)>>. {1.000000 0.055188}
+<({Regulatory} * {Trade}) --> ({Movement} * hold)>. {1.000000 0.001080}
+<([hold] * {Nareth}) --> ({Ostrel} * {Trade})>. {1.000000 0.104085}
+<(({ISAW} * chair) * {Trade}) --> ([hold] * {Nareth})>. {1.000000 0.068913}
+<({Customs} * hold) <-> from>. {1.000000 0.092257}
+<({Movement} * hold) --> ({Ostrel} * {Trade})>. {1.000000 0.074521}
+<({Movement} * {Temur}) --> ({Ostrel} * {Trade})>. {1.000000 0.162769}
+<(({ISAW} * chair) * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.088162}
+<({Shipment} * {Nareth}) --> (({ISAW} * chair) * {Trade})>. {1.000000 0.088162}
+<({Dren} * hold) --> from>. {1.000000 0.117559}
+<({Movement} * hold) --> ({Regulatory} * {Trade})>. {1.000000 0.064426}
+<<({$1} * {$2}) --> from> ==> <({$1} * {$2}) --> ({Customs} * hold)>>. {1.000000 0.092257}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Customs} * hold)>>. {1.000000 0.048072}
+<({Movement} * hold) --> (({ISAW} * chair) * {Trade})>. {1.000000 0.032247}
+<({Dren} * {Nareth}) --> from>. {1.000000 0.137706}
+<{Regulatory} <-> {Director}>. {1.000000 0.240826}
+<(({ISAW} * chair) * {Trade}) --> ({Movement} * {Temur})>. {1.000000 0.077570}
+<({Ostrel} * surname) --> {ISAW}>. {1.000000 0.378329}
+<({Dren} * {Nareth}) <-> from>. {1.000000 0.121038}
+<({Customs} * {Trade}) --> ({Director} * {Trade})>. {1.000000 0.025619}
+<<({$1} * {$2}) --> from> ==> <({$1} * {$2}) --> ({Dren} * {Nareth})>>. {1.000000 0.121038}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Dren} * {Nareth})>>. {1.000000 0.064041}
+<({Movement} * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.145474}
+<{ISAW} --> ({Director} * surname)>. {1.000000 0.129416}
+<{ISAW} --> ({Silven} * surname)>. {1.000000 0.130323}
+<({Movement} * {Temur}) --> in>. {1.000000 0.090303}
+<[hold] <-> {Movement}>. {1.000000 0.250509}
+<({Dren} * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.218716}
+<({Customs} * {Trade}) --> ([hold] * {Nareth})>. {1.000000 0.003865}
+<({Movement} * {Temur}) --> (({ISAW} * chair) * {Trade})>. {1.000000 0.084093}
+<({Customs} * {Trade}) --> ({Movement} * {Temur})>. {1.000000 0.004318}
+<from <-> ({Customs} * {Nareth})>. {1.000000 0.106386}
+<({Customs} * {Trade}) --> ({Movement} * hold)>. {1.000000 0.002156}
+<({Dren} * {Vensari}) --> from>. {1.000000 0.121038}
+<({Dren} * {Trade}) --> ({Movement} * hold)>. {1.000000 0.002574}
+<({Shipment} * {Nareth}) --> in>. {1.000000 0.164824}
+<({Dren} * {Trade}) --> ([hold] * {Nareth})>. {1.000000 0.004614}
+<({Director} * surname) --> {Ostrel}>. {1.000000 0.001542}
+<(({Director} * surname) * {S}) --> have>. {1.000000 0.014956}
+<({Dren} * {Vensari}) <-> from>. {1.000000 0.121038}
+<{Movement} <-> [hold]>. {1.000000 0.250509}
+<[hold] --> {Movement}>. {1.000000 0.250509}
+<({Director} * surname) --> {Regulatory}>. {1.000000 0.001379}
+<<({$1} * {$2}) --> from> ==> <({$1} * {$2}) --> ({Customs} * {Nareth})>>. {1.000000 0.106386}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Customs} * {Nareth})>>. {1.000000 0.055850}
+<({Dren} * ([queue] & expansion)) --> {Customs}>. {1.000000 0.125187}
+<<({$1} * {$2}) --> from> ==> <({$1} * {$2}) --> ({Dren} * {Vensari})>>. {1.000000 0.121038}
+<<({$1} * {$2}) --> ({Ostrel} * {Vensari})> ==> <({$1} * {$2}) --> ({Dren} * {Vensari})>>. {1.000000 0.064041}
+<({Customs} * {Temur}) <-> ({Director} * {Trade})>. {1.000000 0.264290}
+<({Customs} * {Vensari}) --> from>. {1.000000 0.106386}
+<({Customs} * {Temur}) --> ({Director} * {Trade})>. {1.000000 0.294123}
+<({Shipment} * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.131683}
+<[{Temur}] <-> {Movement}>. {1.000000 0.081271}
+<{Movement} --> [hold]>. {1.000000 0.334238}
+<{Customs} <-> {Dren}>. {1.000000 0.823719}
+<({Director} * surname) --> [hold]>. {1.000000 0.000618}
+<{Silven} --> {Dren}>. {1.000000 0.560742}
+<{Customs} <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.111259}
+<{Silven} <-> {Dren}>. {1.000000 0.519195}
+<{Movement} --> [{Temur}]>. {1.000000 0.088461}
+<Silven <-> Ostrel>. {1.000000 0.310022}
+<<{$1} --> {Director}> ==> <{$1} --> ({Dren} * ([queue] & expansion))>>. {1.000000 0.250509}
+<<{$1} --> {Ostrel}> ==> <{$1} --> ({Dren} * ([queue] & expansion))>>. {1.000000 0.127775}
+<<{$1} --> {Dren}> ==> <{$1} --> ({Dren} * ([queue] & expansion))>>. {1.000000 0.126487}
+<<{$1} --> {Customs}> ==> <{$1} --> ({Dren} * ([queue] & expansion))>>. {1.000000 0.111259}
+<[([manually] & verify)] <-> [funnel]>. {1.000000 0.432656}
+<{Movement} --> {Ostrel}>. {1.000000 0.382743}
+{Exemption}. {1.000000 0.838859}
+<({Customs} * {Temur}) --> ({Customs} * {Vensari})>. {1.000000 0.030668}
+<(([cross-Hask] & shipment) * {Annex}) --> under>. {1.000000 0.864536}
+<<{$1} --> [hold]> ==> <{$1} --> {Movement}>>. {1.000000 0.250509}
+<<{$1} --> {Regulatory}> ==> <{$1} --> {Movement}>>. {1.000000 0.248626}
+<<{$1} --> {Silven}> ==> <{$1} --> {Movement}>>. {1.000000 0.127775}
+<<{$1} --> ({ISAW} * chair)> ==> <{$1} --> {Movement}>>. {1.000000 0.127131}
+<<{$1} --> [{Temur}]> ==> <{$1} --> {Movement}>>. {1.000000 0.081271}
+<(({Dren} * cross-border) * flow) --> discuss>. {1.000000 0.917358}
+<{Dren} --> ({ISAW} * chair)>. {1.000000 0.071288}
+<({Movement} * {Temur}) --> from>. {1.000000 0.855891}
+<({Customs} * {Nareth}) --> ({Customs} * {Vensari})>. {1.000000 0.011738}
+<({Ostrel} * {Vensari}) --> from>. {1.000000 0.927347}
+<({Customs} * {Vensari}) --> ({Customs} * {Vensari})>. {1.000000 0.011318}
+<4 --> [{Pending}]>. {1.000000 0.830470}
+<[funnel] <-> [([manually] & verify)]>. {1.000000 0.432656}
+<(([{Manifest}] & lack) * metadata) --> consignee>. {1.000000 0.864536}
+<({Dren} * {Trade}) --> work_in>. {1.000000 0.144927}
+<[funnel] --> [([manually] & verify)]>. {1.000000 0.432656}
+<({Customs} * {Trade}) --> work_in>. {1.000000 0.109697}
+<[([manually] & verify)] --> [funnel]>. {1.000000 0.432656}
+<from --> ({Customs} * {Nareth})>. {1.000000 0.106386}
+<({Incident} * review) --> under>. {1.000000 0.932348}
+<({Dren} * creates) --> ({Silven} * correct)>. {1.000000 0.444976}
+{Working}. {1.000000 0.927347}
+<{Dren} --> {Regulatory}>. {1.000000 0.146891}
+{Traffic}. {1.000000 0.855891}
+<{Silven} --> {Regulatory}>. {1.000000 0.340824}
+<({Director} * correct) --> ({Dren} * creates)>. {1.000000 0.382453}
+<({Silven} * correct) --> ({Dren} * creates)>. {1.000000 0.444976}
+<{Silven} --> ({ISAW} * chair)>. {1.000000 0.127131}
+<Director <-> Customs>. {1.000000 0.168660}
+<{Movement} --> {Director}>. {1.000000 0.186754}
+<({Director} * creates) --> {Silven}>. {1.000000 0.047579}
+<({Dren} * creates) --> ({Regulatory} * correct)>. {1.000000 0.190704}
+<surname --> {N}>. {1.000000 0.380534}
+<({Dren} * creates) <-> ({Director} * correct)>. {1.000000 0.382453}
+<{Movement} --> ({Director} * ([queue] & expansion))>. {1.000000 0.012496}
+<({Customs} * correct) --> ({Dren} * creates)>. {1.000000 0.184714}
+<({Liaison} * revision) --> (({Dren} * cross-border) * flow)>. {1.000000 0.359381}
+<<({$1} * ([$3] & $2)) --> {Silven}> ==> <({$1} * ([$3] & $2)) --> say>>. {1.000000 0.248626}
+<creates <-> correct>. {1.000000 0.220438}
+<{Director} --> {Ostrel}>. {1.000000 0.342074}
+<({Movement} * {Nareth}) --> ({Shipment} * {Nareth})>. {1.000000 0.004171}
+<({Dren} * creates) --> ({Ostrel} * correct)>. {1.000000 0.222438}
+<({Dren} * {Trade}) --> ({Dren} * {Temur})>. {1.000000 0.090693}
+<({Dren} * creates) <-> ({Ostrel} * correct)>. {1.000000 0.222438}
+<({Movement} * {Vensari}) --> ([hold] * {Nareth})>. {1.000000 0.044705}
+<({Customs} * correct) <-> ({Dren} * creates)>. {1.000000 0.184714}
+<({Dren} * creates) <-> ({Customs} * correct)>. {1.000000 0.184714}
+<({Dren} * creates) <-> ({Regulatory} * correct)>. {1.000000 0.190704}
+<({Regulatory} * {Vensari}) --> ({Dren} * {Vensari})>. {1.000000 0.086196}
+<({Ostrel} * correct) --> ({Dren} * creates)>. {1.000000 0.222438}
+<({Ostrel} * correct) <-> ({Dren} * creates)>. {1.000000 0.222438}
+<({Movement} * {Trade}) --> work_in>. {1.000000 0.058365}
+<({Dren} * {Temur}) --> ({Customs} * {Temur})>. {1.000000 0.085360}
+<({Customs} * creates) --> ({Silven} * correct)>. {1.000000 0.366536}
+<({Dren} * {Nareth}) --> ({Dren} * {Temur})>. {1.000000 0.036436}
+<({Movement} * {Trade}) --> ({Movement} * {Temur})>. {1.000000 0.034803}
+<({Dren} * {Trade}) --> ({Customs} * {Temur})>. {1.000000 0.081322}
+<({Director} * correct) --> ({Dren} * ([queue] & expansion))>. {1.000000 0.382453}
+<({Dren} * {Vensari}) --> ({Dren} * {Temur})>. {1.000000 0.032026}
+<({Director} * correct) <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.382453}
+<({Shipment} * {Vensari}) --> ({Customs} * {Temur})>. {1.000000 0.001614}
+<({Shipment} * {Trade}) --> ({Silven} * {Trade})>. {1.000000 0.001715}
+<(fact * ([natural] & language)) --> convert>. {1.000000 0.425271}
+<([queue] & expansion) <-> correct>. {1.000000 0.220438}
+<{S} <-> chair>. {1.000000 0.306446}
+<Ostrel <-> Dren>. {1.000000 0.148719}
+<({Customs} * {Trade}) --> ({Customs} * hold)>. {1.000000 0.023936}
+<({Dren} * ([queue] & expansion)) --> ({Customs} * correct)>. {1.000000 0.184714}
+<<({Movement} * $1) --> from> ==> <([$1] * {Nareth}) --> from>>. {1.000000 0.107387}
+<correct <-> ([queue] & expansion)>. {1.000000 0.220438}
+<({Dren} * {Temur}) --> ({Dren} * hold)>. {1.000000 0.037847}
+<({Customs} * correct) --> ({Dren} * ([queue] & expansion))>. {1.000000 0.184714}
+<({Silven} * {Nareth}) --> ({Shipment} * {Nareth})>. {1.000000 0.001126}
+<({Dren} * ([queue] & expansion)) --> ({Ostrel} * correct)>. {1.000000 0.222438}
+<({Dren} * {Trade}) --> ({Dren} * hold)>. {1.000000 0.036056}
+<({Dren} * ([queue] & expansion)) <-> ({Ostrel} * correct)>. {1.000000 0.222438}
+{Liaison}. {1.000000 0.753306}
+<{Manifest} --> {Muric}>. {1.000000 0.778083}
+(<({#1} * infrastructure) --> 's> && <({Cross-border} * {#1}) --> of>). {1.000000 0.564284}
+<({Dren} * ([queue] & expansion)) <-> ({Regulatory} * correct)>. {1.000000 0.190704}
+<({Ostrel} * correct) <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.222438}
+<([queue] & expansion) --> creates>. {1.000000 0.427729}
+<({Customs} * {Nareth}) --> ({Dren} * hold)>. {1.000000 0.011606}
+<({Dren} * ([queue] & expansion)) <-> ({Customs} * correct)>. {1.000000 0.184714}
+<({Shipment} * {Nareth}) <-> (({ISAW} * chair) * {Trade})>. {1.000000 0.088162}
+<({Dren} * ([queue] & expansion)) --> ({Regulatory} * correct)>. {1.000000 0.190704}
+<({Dren} * {Vensari}) --> ({Dren} * hold)>. {1.000000 0.012732}
+<({Regulatory} * correct) --> ({Dren} * ([queue] & expansion))>. {1.000000 0.190704}
+<{Regulatory} --> [{Temur}]>. {1.000000 0.071426}
+<({Dren} * ([queue] & expansion)) --> ({Silven} * creates)>. {1.000000 0.220438}
+<({Dren} * {Trade}) --> ({Customs} * hold)>. {1.000000 0.031623}
+<({Dren} * ([queue] & expansion)) <-> ({Silven} * creates)>. {1.000000 0.220438}
+<creates <-> ([queue] & expansion)>. {1.000000 0.427729}
+<({Silven} * creates) <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.220438}
+<({Customs} * creates) <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.381061}
+<({Dren} * ([queue] & expansion)) <-> ({Director} * creates)>. {1.000000 0.185718}
+<({Dren} * creates) --> {Customs}>. {1.000000 0.050825}
+<Shipment <-> Regulatory>. {1.000000 0.218356}
+<{Vensari} <-> hold>. {1.000000 0.111158}
+<({Silven} * creates) --> ({Dren} * ([queue] & expansion))>. {1.000000 0.220438}
+<(hold * infrastructure) --> 's>. {1.000000 0.274094}
+<({Dren} * ([queue] & expansion)) --> ({Director} * creates)>. {1.000000 0.185718}
+<({Dren} * {Trade}) --> ({Dren} * {Nareth})>. {1.000000 0.041488}
+<({Director} * creates) --> ({Dren} * ([queue] & expansion))>. {1.000000 0.185718}
+<<{Nareth} --> {$1}> ==> <{Trade} --> {$1}>>. {1.000000 0.126487}
+<<hold --> {$1}> ==> <{Trade} --> {$1}>>. {1.000000 0.110017}
+<({Director} * creates) <-> ({Dren} * ([queue] & expansion))>. {1.000000 0.185718}
+<({Customs} * {Vensari}) --> ({Customs} * hold)>. {1.000000 0.009815}
+<{Silven} <-> say>. {1.000000 0.248626}
+<Customs <-> Director>. {1.000000 0.173677}
+<({Cross-border} * {Trade}) --> ({Duration} * hold)>. {1.000000 0.177389}
+<({Cross-border} * twelve) --> over>. {1.000000 0.249176}
+<{Director} --> say>. {1.000000 0.234058}
+<({Customs} * {Temur}) --> ({Dren} * {Nareth})>. {1.000000 0.034892}
+<({Shipment} * {Trade}) --> ({Customs} * {Nareth})>. {1.000000 0.003879}
+<({Dren} * {Nareth}) --> ({Dren} * {Nareth})>. {1.000000 0.016668}
+<([hold] * 12) --> over>. {1.000000 0.409652}
+<([queue] & expansion) <-> creates>. {1.000000 0.427729}
+<{Customs} --> ({Dren} * creates)>. {1.000000 0.047589}
+<({Customs} * {Vensari}) --> ({Dren} * {Nareth})>. {1.000000 0.012877}
+<{Silven} --> ({Customs} * creates)>. {1.000000 0.141534}
+<({Dren} * creates) --> {Silven}>. {1.000000 0.163710}
+<({Customs} * creates) --> {Silven}>. {1.000000 0.102851}
+<({Dren} * {Temur}) --> ({Customs} * {Nareth})>. {1.000000 0.038276}
+<{Director} --> ({Dren} * creates)>. {1.000000 0.115800}
+<correct --> creates>. {1.000000 0.400479}
+<({Dren} * ([queue] & expansion)) --> ({Director} * correct)>. {1.000000 0.414873}
+<{Cross-border} <-> {Duration}>. {1.000000 0.294071}
+<(({Customs} * ([queue] & expansion)) * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.165502}
+<({Director} * {Nareth}) --> in>. {1.000000 0.000638}
+<({Shipment} * {Nareth}) <-> (({Dren} * ([queue] & expansion)) * {Trade})>. {1.000000 0.220705}
+<({Customs} * {Nareth}) --> ({Customs} * {Nareth})>. {1.000000 0.011738}
+<({Shipment} * {Nareth}) <-> (have * {Vensari})>. {1.000000 0.158577}
+<({Regulatory} * {Vensari}) --> ({Movement} * {Trade})>. {1.000000 0.187385}
+<[hold] <-> {Shipment}>. {1.000000 0.271092}
+<({Customs} * {Temur}) --> ({Dren} * {Vensari})>. {1.000000 0.034892}
+<({Dren} * {Temur}) --> ({Shipment} * {Nareth})>. {1.000000 0.237252}
+<(have * {Vensari}) <-> ({Shipment} * {Nareth})>. {1.000000 0.158577}
+<({Shipment} * {Nareth}) <-> ({Dren} * {Temur})>. {1.000000 0.237252}
+<({Dren} * {Temur}) --> ({Dren} * {Vensari})>. {1.000000 0.043548}
+<({Shipment} * {Nareth}) <-> ({Customs} * {Temur})>. {1.000000 0.199500}
+<surname <-> {N}>. {1.000000 0.342481}
+<work_in <-> ({Shipment} * {Nareth})>. {1.000000 0.267689}
+<({Shipment} * {Nareth}) <-> work_in>. {1.000000 0.267689}
+<({Shipment} * {Nareth}) --> ({Customs} * {Trade})>. {1.000000 0.183205}
+<({Dren} * {Temur}) <-> ({Shipment} * {Nareth})>. {1.000000 0.237252}
+<({Shipment} * {Nareth}) <-> ({Customs} * {Trade})>. {1.000000 0.183205}
+<({Customs} * {Nareth}) --> ({Dren} * {Vensari})>. {1.000000 0.013355}
+<({Shipment} * {Nareth}) --> (({Dren} * ([queue] & expansion)) * {Trade})>. {1.000000 0.220705}
+<({Shipment} * {Nareth}) <-> ({Dren} * {Trade})>. {1.000000 0.218716}
+<({Customs} * {Trade}) <-> ({Shipment} * {Nareth})>. {1.000000 0.183205}
+<({Customs} * {Vensari}) --> ({Dren} * {Vensari})>. {1.000000 0.012877}
+<({Shipment} * {Nareth}) --> (({Customs} * ([queue] & expansion)) * {Trade})>. {1.000000 0.165502}
+<(({Dren} * ([queue] & expansion)) * {Trade}) <-> ({Shipment} * {Nareth})>. {1.000000 0.220705}
+<({Shipment} * {Nareth}) <-> (({Customs} * ([queue] & expansion)) * {Trade})>. {1.000000 0.165502}
+<({Dren} * {Trade}) <-> ({Shipment} * {Nareth})>. {1.000000 0.218716}
+<({Shipment} * {Nareth}) --> (({Director} * ([queue] & expansion)) * {Trade})>. {1.000000 0.079547}
+<({Movement} * {Temur}) --> ({Dren} * hold)>. {1.000000 0.023470}
+<{Customs} --> {Ostrel}>. {1.000000 0.116019}
+<(({Director} * ([queue] & expansion)) * {Trade}) --> ({Shipment} * {Nareth})>. {1.000000 0.079547}
+<({Movement} * {Trade}) --> ({Movement} * {Trade})>. {1.000000 0.019398}
+<{Manifest} --> [old]>. {1.000000 0.778083}
+<(({Director} * ([queue] & expansion)) * {Trade}) <-> ({Shipment} * {Nareth})>. {1.000000 0.079547}
+<({Shipment} * {Nareth}) <-> (({Director} * ([queue] & expansion)) * {Trade})>. {1.000000 0.079547}
+<({Shipment} * {Nareth}) <-> ({Customs} * hold)>. {1.000000 0.075300}
+<({Customs} * hold) --> ({Shipment} * {Nareth})>. {1.000000 0.075300}
+(<({Customs} * {#1}) --> work_in> && <({#1} * infrastructure) --> 's>). {1.000000 0.497750}
+<({Shipment} * {Nareth}) <-> ({Dren} * hold)>. {1.000000 0.092257}
+<{Customs} <-> {Shipment}>. {1.000000 0.087081}
+<{Shipment} <-> {Dren}>. {1.000000 0.106386}
+<({Dren} * {Vensari}) <-> ({Shipment} * {Nareth})>. {1.000000 0.094729}
+<({Customs} * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.084228}
+<({Customs} * hold) <-> ({Shipment} * {Nareth})>. {1.000000 0.075300}
+<<({$1} * ([$3] & $2)) --> say> ==> <({$1} * ([$3] & $2)) --> {Silven}>>. {1.000000 0.248626}
+<({Shipment} * {Nareth}) --> ({Movement} * {Vensari})>. {1.000000 0.087035}
+<(({Customs} * ([queue] & expansion)) * {Trade}) <-> ({Shipment} * {Nareth})>. {1.000000 0.165502}
+<({Movement} * {Vensari}) <-> ({Shipment} * {Nareth})>. {1.000000 0.087035}
+<({Shipment} * {Nareth}) <-> ({Dren} * {Vensari})>. {1.000000 0.094729}
+<((({Ostrel} * surname) * {S}) * {Vensari}) <-> ({Shipment} * {Nareth})>. {1.000000 0.138899}
+<(({ISAW} * chair) * {Vensari}) <-> ({Director} * {Trade})>. {1.000000 0.189175}
+<(({ISAW} * chair) * {Trade}) <-> ({Shipment} * {Nareth})>. {1.000000 0.088162}
+<([queue] & expansion) --> correct>. {1.000000 0.400479}
+<({Director} * {Trade}) <-> ({Regulatory} * {Vensari})>. {1.000000 0.335564}
+<([hold] * {Nareth}) --> ({Director} * {Trade})>. {1.000000 0.233766}
+<(({ISAW} * chair) * {Vensari}) <-> ({Movement} * {Trade})>. {1.000000 0.096273}
+<{ISAW} --> ({Regulatory} * surname)>. {1.000000 0.350842}
+<Dren <-> Ostrel>. {1.000000 0.148719}
+<({Shipment} * {Trade}) --> ([hold] * {Nareth})>. {1.000000 0.000235}
+<({Shipment} * {Nareth}) <-> ({Customs} * {Vensari})>. {1.000000 0.084228}
+(<({Customs} * {#1}) --> ({Director} * {Trade})> && <({#1} * infrastructure) --> 's>). {1.000000 0.221702}
+<({Customs} * ([queue] & expansion)) --> ({Silven} * correct)>. {1.000000 0.366536}
+<({Director} * {Trade}) <-> ([hold] * {Nareth})>. {1.000000 0.233766}
+<({Customs} * ([queue] & expansion)) <-> ({Dren} * creates)>. {1.000000 0.277821}
+<({Shipment} * {Trade}) --> ({Movement} * hold)>. {1.000000 0.000131}
+<{Silven} --> ({Director} * creates)>. {1.000000 0.054087}
+<([hold] * {Nareth}) <-> ({Director} * {Trade})>. {1.000000 0.233766}
+<correct --> expansion>. {1.000000 0.360431}
+<({Director} * {Trade}) <-> ({Movement} * {Temur})>. {1.000000 0.377717}
+<{Director} --> {Movement}>. {1.000000 0.186754}
+<({Movement} * {Temur}) <-> ({Director} * {Trade})>. {1.000000 0.377717}
+<({Regulatory} * surname) --> {ISAW}>. {1.000000 0.259721}
+<({Movement} * {Trade}) <-> (({ISAW} * chair) * {Vensari})>. {1.000000 0.096273}
+<({Director} * {Trade}) --> ({Movement} * {Temur})>. {1.000000 0.377717}
+<({Shipment} * {Nareth}) --> ({Director} * {Trade})>. {1.000000 0.380082}
+<Ostrel <-> Director>. {1.000000 0.277080}
+<({Movement} * hold) --> ({Director} * {Trade})>. {1.000000 0.165505}
+<<({Movement} * {$1}) --> from> ==> <({Director} * {$1}) --> from>>. {1.000000 0.186754}
+<([hold] * {Trade}) --> from>. {1.000000 0.009886}
+<({Shipment} * {Trade}) --> ({Dren} * {Nareth})>. {1.000000 0.004414}
+<{Movement} <-> {Director}>. {1.000000 0.186754}
+<({Shipment} * {Trade}) --> ({Dren} * {Vensari})>. {1.000000 0.004414}
+<{Director} <-> {Movement}>. {1.000000 0.186754}
+<({Customs} * ([queue] & expansion)) --> {Customs}>. {1.000000 0.008724}
+<({Director} * {Trade}) --> ({Movement} * hold)>. {1.000000 0.165505}
+<({Shipment} * {Trade}) --> ({Dren} * {Temur})>. {1.000000 0.009648}
+<({Shipment} * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.004114}
+<({Shipment} * {Trade}) --> in>. {1.000000 0.006481}
+<({Director} * {Trade}) <-> ({Movement} * hold)>. {1.000000 0.165505}
+<(({Dren} * cross-border) * flow) --> ({Liaison} * revision)>. {1.000000 0.369232}
+<Muric <-> Manifest>. {1.000000 0.567222}
+<{Manifest} <-> {Muric}>. {1.000000 0.700274}
+<({Director} * {Trade}) --> ({Dren} * hold)>. {1.000000 0.110785}
+<({Regulatory} * {Vensari}) --> ({Movement} * hold)>. {1.000000 0.166079}
+<{Silven} --> {Ostrel}>. {1.000000 0.382743}
+<({Shipment} * {Trade}) --> ({Movement} * {Temur})>. {1.000000 0.000263}
+<({Ostrel} * {Vensari}) <-> ({Movement} * {Trade})>. {1.000000 0.218716}
+<({Customs} * ([queue] & expansion)) --> ({Dren} * creates)>. {1.000000 0.277821}
+<([hold] * {Nareth}) --> ({Movement} * {Trade})>. {1.000000 0.122267}
+<({Movement} * hold) <-> ({Ostrel} * {Vensari})>. {1.000000 0.194701}
+<creates --> [queue]>. {1.000000 0.384956}
+<{Dren} --> {Shipment}>. {1.000000 0.106386}
+<({Robot} * rule) --> [hold]>. {1.000000 0.084546}
+(<({#1} * {Polzari}) --> through> && <({Dren} * {#1}) --> in>). {1.000000 0.569984}
+<{Silven} --> {Shipment}>. {1.000000 0.128418}
+<{ISAW} <-> ({Ostrel} * surname)>. {1.000000 0.306446}
+<({Movement} * hold) <-> ({Regulatory} * {Vensari})>. {1.000000 0.166079}
+<{Trade} --> {Hask}>. {1.000000 0.050655}
+<({Movement} * hold) --> ({Regulatory} * {Vensari})>. {1.000000 0.168326}
+<({Dren} * creates) --> ({Customs} * ([queue] & expansion))>. {1.000000 0.277821}
+<({Customs} * ([queue] & expansion)) <-> ({Silven} * correct)>. {1.000000 0.292109}
+<({Silven} * correct) <-> ({Customs} * ([queue] & expansion))>. {1.000000 0.292109}
+<({Movement} * hold) --> (({ISAW} * chair) * {Vensari})>. {1.000000 0.084252}
+(<({#1} * infrastructure) --> 's> && <({Customs} * {#1}) --> in>). {1.000000 0.532266}
+<{Movement} --> ({Customs} * ([queue] & expansion))>. {1.000000 0.028170}
+<([weight] * overland) --> for>. {1.000000 0.427729}
+<({Regulatory} * {Vensari}) <-> ({Movement} * hold)>. {1.000000 0.166079}
+<({Ruvinia} * {Hask}) <-> ({Shipment} * {Nareth})>. {1.000000 0.444976}
+<{Dren} --> {Ostrel}>. {1.000000 0.144803}
+<{Hask} --> {Nareth}>. {1.000000 0.400479}
+<({Movement} * hold) <-> (({ISAW} * chair) * {Vensari})>. {1.000000 0.084252}
+<(fact * rule) --> follow>. {1.000000 0.425271}
+<{Director} --> ({ISAW} * chair)>. {1.000000 0.078527}
+<(follow * {N}) --> (({Ostrel} * surname) * {S})>. {1.000000 0.113173}
+<{Vensari} --> {Nareth}>. {1.000000 0.400479}
+<({Dren} * hold) --> work_in>. {1.000000 0.276862}
+<([([manually] & verify)] * {Verdan}) --> redirect_through>. {1.000000 0.427729}
+<({Ostrel} * {Vensari}) --> ({Movement} * hold)>. {1.000000 0.194701}
+<(({Regulatory} * surname) * {N}) --> have>. {1.000000 0.251949}
+{Routing}. {1.000000 0.838859}
+<Liaison <-> Aden>. {1.000000 0.777964}
+<([{Cross-Hask}] & shipment) --> ([provisional] & entry)>. {1.000000 0.873269}
+<<([$1] * {Nareth}) --> from> ==> <({Movement} * $1) --> from>>. {1.000000 0.107387}
+<(({ISAW} * chair) * {Vensari}) --> ({Movement} * hold)>. {1.000000 0.084252}
+<Shipment <-> Ostrel>. {1.000000 0.324388}
+<({Aden} * ([{Caldurian}] & {Freight})) --> member_of>. {1.000000 0.855891}
+<({Cross-border} * {Trade}) <-> ({Duration} * hold)>. {1.000000 0.177389}
+<{Regulatory} --> {Movement}>. {1.000000 0.268025}
+<({Movement} * {Nareth}) --> ({Movement} * hold)>. {1.000000 0.013579}
+<({Movement} * {Trade}) --> ({Customs} * {Temur})>. {1.000000 0.029278}
+<({Movement} * {Nareth}) --> ({Customs} * {Temur})>. {1.000000 0.022799}
+<({Movement} * {Temur}) --> ({Customs} * {Temur})>. {1.000000 0.056928}
+<({Movement} * {Trade}) --> ({Dren} * {Temur})>. {1.000000 0.033170}
+<({Movement} * {Nareth}) --> ([hold] * {Nareth})>. {1.000000 0.003715}
+<({Shipment} * {Nareth}) --> ({Movement} * hold)>. {1.000000 0.194701}
+<({Movement} * {Trade}) --> ({Customs} * {Vensari})>. {1.000000 0.012215}
+<({Movement} * {Nareth}) --> ({Dren} * {Temur})>. {1.000000 0.025829}
+<({Movement} * {Nareth}) --> ({Customs} * {Vensari})>. {1.000000 0.009512}
+<({Movement} * {Nareth}) --> in>. {1.000000 0.007171}
+<({Silven} * {Trade}) --> ({Dren} * hold)>. {1.000000 0.137353}
+<({Movement} * {Nareth}) --> ({Movement} * {Trade})>. {1.000000 0.015105}
+<({Movement} * {Trade}) --> ({Dren} * hold)>. {1.000000 0.012071}
+<({Movement} * {Temur}) --> ({Customs} * {Vensari})>. {1.000000 0.023751}
+<({Movement} * {Nareth}) --> ({Dren} * hold)>. {1.000000 0.009399}
+<({Ostrel} * {Vensari}) --> in>. {1.000000 0.112523}
+<({Movement} * {Temur}) --> ({Customs} * hold)>. {1.000000 0.020443}
+<({Shipment} * {Nareth}) <-> ((({Ostrel} * surname) * {S}) * {Vensari})>. {1.000000 0.138899}
+<({Movement} * {Nareth}) --> ({Dren} * {Vensari})>. {1.000000 0.010907}
+<({Director} * {Nareth}) --> ({Dren} * {Vensari})>. {1.000000 0.000434}
+<({Silven} * {Nareth}) --> ({Dren} * {Vensari})>. {1.000000 0.000505}
+<({Movement} * {Trade}) --> ({Customs} * hold)>. {1.000000 0.010514}
+<({Movement} * {Temur}) --> ({Customs} * {Nareth})>. {1.000000 0.023751}
+<({Movement} * {Nareth}) --> ({Customs} * hold)>. {1.000000 0.008187}
+<({Movement} * {Trade}) --> ({Dren} * {Vensari})>. {1.000000 0.014007}
+<({Movement} * {Trade}) --> ({Customs} * {Nareth})>. {1.000000 0.012215}
+<({Movement} * {Temur}) --> ({Dren} * {Nareth})>. {1.000000 0.027235}
+<({Ostrel} * surname) --> {Movement}>. {1.000000 0.094023}
+<({Movement} * {Nareth}) --> ({Dren} * {Nareth})>. {1.000000 0.010907}
+<({Customs} * hold) --> work_in>. {1.000000 0.193880}
+<({Director} * {Nareth}) --> ({Movement} * {Temur})>. {1.000000 0.000064}
+<({Regulatory} * surname) --> {Movement}>. {1.000000 0.065842}
+<({Movement} * {Nareth}) --> from>. {1.000000 0.019216}
+<({Silven} * {Nareth}) --> ({Dren} * {Nareth})>. {1.000000 0.000505}
+<({Movement} * {Nareth}) --> ({Customs} * {Nareth})>. {1.000000 0.009512}
+<({Silven} * {Nareth}) --> work_in>. {1.000000 0.001763}
+<([{Nareth}] * {Nareth}) --> from>. {1.000000 0.002064}
+<({Silven} * {Nareth}) --> ({Dren} * hold)>. {1.000000 0.000439}
+<({Director} * {Nareth}) --> from>. {1.000000 0.003589}
+<({Ostrel} * surname) --> {Shipment}>. {1.000000 0.094507}
+<({Silven} * {Nareth}) --> ({Customs} * hold)>. {1.000000 0.000385}
+<(({Ruvinia} * surname) * {N}) --> have>. {1.000000 0.000838}
+<({Regulatory} * {Vensari}) --> work_in>. {1.000000 0.301102}
+<({Silven} * {Nareth}) --> ({Ostrel} * {Vensari})>. {1.000000 0.000471}
+<({Director} * {Nareth}) --> ({Dren} * {Temur})>. {1.000000 0.000950}
+<({Regulatory} * {Vensari}) --> ({Dren} * {Temur})>. {1.000000 0.203959}
+<({Director} * {Nareth}) --> ({Customs} * {Temur})>. {1.000000 0.000851}
+<({Silven} * {Nareth}) --> ({Movement} * hold)>. {1.000000 0.000038}
+<({Silven} * {Nareth}) --> ([hold] * {Nareth})>. {1.000000 0.000024}
+<({Silven} * {Nareth}) --> ({Movement} * {Trade})>. {1.000000 0.000042}
+<({Dren} * creates) <-> ({Customs} * ([queue] & expansion))>. {1.000000 0.277821}
+<({Silven} * {Nareth}) --> ({Dren} * {Temur})>. {1.000000 0.001103}
+<({Silven} * {Nareth}) --> in>. {1.000000 0.000741}
+<work_in --> ({Ostrel} * {Vensari})>. {1.000000 0.267689}
+<({Director} * {Nareth}) --> ({Dren} * hold)>. {1.000000 0.000378}
+<({Silven} * {Nareth}) --> ({Customs} * {Temur})>. {1.000000 0.000989}
+<({Director} * {Nareth}) --> ({Dren} * {Nareth})>. {1.000000 0.000434}
+<({Regulatory} * {Vensari}) --> ({Customs} * hold)>. {1.000000 0.065700}
+<{Trade} --> hold>. {1.000000 0.123617}
+<({Director} * {Nareth}) --> ({Customs} * {Vensari})>. {1.000000 0.000382}
+<({Silven} * {Nareth}) --> ({Movement} * {Temur})>. {1.000000 0.000075}
+<({Director} * {Nareth}) --> ([hold] * {Nareth})>. {1.000000 0.000020}
+<({Regulatory} * {Vensari}) --> ({Customs} * {Temur})>. {1.000000 0.170322}
+<({Regulatory} * {Vensari}) --> ({Dren} * {Nareth})>. {1.000000 0.089307}
+<({Director} * {Nareth}) --> ({Ostrel} * {Vensari})>. {1.000000 0.000405}
+<hold <-> {Temur}>. {1.000000 0.294071}
+<({Ostrel} * {Vensari}) --> ({Customs} * {Nareth})>. {1.000000 0.098657}
+<({Director} * {Nareth}) --> ({Silven} * {Trade})>. {1.000000 0.000169}
+<({Director} * {Nareth}) --> ({Director} * {Trade})>. {1.000000 0.000152}
+<({Shipment} * {Nareth}) <-> ({Ruvinia} * {Hask})>. {1.000000 0.444976}
+<{Ruvinia} --> {Shipment}>. {1.000000 0.400479}
+<(({ISAW} * chair) * {N}) --> ([hold] * surname)>. {1.000000 0.142138}
+<({Ruvinia} * {Hask}) --> ({Shipment} * {Nareth})>. {1.000000 0.444976}
+<{Regulatory} <-> [hold]>. {1.000000 0.225185}
+<<({Ostrel} * {$1}) --> from> ==> <(({ISAW} * chair) * {$1}) --> from>>. {1.000000 0.221439}
+<<({Regulatory} * {$1}) --> from> ==> <(({ISAW} * chair) * {$1}) --> from>>. {1.000000 0.189813}
+<<({Ostrel} * {$1}) --> from> ==> <(have * {$1}) --> from>>. {1.000000 0.158577}
+<<({Regulatory} * {$1}) --> from> ==> <(have * {$1}) --> from>>. {1.000000 0.134379}
+<{Shipment} --> {Ruvinia}>. {1.000000 0.400479}
+<<{$1} --> {Nareth}> ==> <{$1} --> {Trade}>>. {1.000000 0.128418}
+<<{$1} --> {Vensari}> ==> <{$1} --> {Trade}>>. {1.000000 0.126487}
+<<{$1} --> hold> ==> <{$1} --> {Trade}>>. {1.000000 0.110017}
+{Calduria}. {1.000000 0.739949}
+<({Director} * {Nareth}) --> ({Movement} * {Trade})>. {1.000000 0.000036}
+<({Ruvinia} * {Hask}) --> ({Customs} * {Vensari})>. {1.000000 0.091975}
+<({Dren} * ([queue] & expansion)) <-> ({Silven} * correct)>. {1.000000 0.444976}
+<({Ruvinia} * {Hask}) --> ({Movement} * {Temur})>. {1.000000 0.005501}
+<({Ruvinia} * {Hask}) --> ({Dren} * hold)>. {1.000000 0.090943}
+<({Ruvinia} * {Hask}) --> ({Customs} * hold)>. {1.000000 0.079760}
+<({Ruvinia} * {Hask}) --> ({Dren} * {Vensari})>. {1.000000 0.104642}
+<({Ruvinia} * {Hask}) --> ({Customs} * {Nareth})>. {1.000000 0.091975}
+<({Ruvinia} * {Hask}) --> ({Dren} * {Nareth})>. {1.000000 0.104642}
+<({Ruvinia} * {Hask}) --> ({Silven} * {Trade})>. {1.000000 0.068484}
+<{Temur} <-> {Vensari}>. {1.000000 0.401299}
+<({Customs} * {Temur}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.199500}
+<({Ruvinia} * {Hask}) --> ({Director} * {Trade})>. {1.000000 0.062225}
+<({Ruvinia} * {Hask}) --> in>. {1.000000 0.153660}
+<({Silven} * correct) <-> ({Customs} * creates)>. {1.000000 0.292109}
+<({Ruvinia} * {Hask}) --> ({Movement} * hold)>. {1.000000 0.007777}
+<({Dren} * {Temur}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.237252}
+<({Shipment} * {Nareth}) --> ({Ruvinia} * {Hask})>. {1.000000 0.444976}
+<([hold] * surname) --> (({ISAW} * chair) * {N})>. {1.000000 0.124449}
+<hold --> {Trade}>. {1.000000 0.123617}
+<[hold] <-> {Regulatory}>. {1.000000 0.225185}
+<{Manifest} --> ([old] & {Muric})>. {1.000000 0.864536}
+<({Dren} * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.218716}
+<({Temur} * infrastructure) --> 's>. {1.000000 0.929858}
+<hold <-> {Trade}>. {1.000000 0.110017}
+<({Ruvinia} * {Hask}) --> from>. {1.000000 0.864536}
+<({Director} * {Nareth}) --> ({Customs} * {Nareth})>. {1.000000 0.000382}
+<<{$1} --> {Nareth}> ==> <{$1} --> hold>>. {1.000000 0.111158}
+<<{$1} --> {Vensari}> ==> <{$1} --> hold>>. {1.000000 0.111158}
+<<{$1} --> {Trade}> ==> <{$1} --> hold>>. {1.000000 0.110017}
+<({Customs} * {Trade}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.183205}
+<({Robot} * rule) --> {Movement}>. {1.000000 0.094973}
+<({Customs} * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.183205}
+<({Robot} * rule) --> {Ostrel}>. {1.000000 0.210793}
+<({Liaison} * ([{Caldurian}] & {Freight})) --> member_of>. {1.000000 0.605413}
+<{Ostrel} --> {Regulatory}>. {1.000000 0.927347}
+<({Customs} * hold) --> ({Ostrel} * {Vensari})>. {1.000000 0.075300}
+<{Ruvinia} --> {Silven}>. {1.000000 0.051429}
+<{Ruvinia} --> {Regulatory}>. {1.000000 0.100001}
+<({Ruvinia} * ([queue] & expansion)) --> say>. {1.000000 0.001617}
+<({Ruvinia} * ([queue] & expansion)) --> {Silven}>. {1.000000 0.006505}
+<({Ruvinia} * creates) --> say>. {1.000000 0.000692}
+<{Hask} --> hold>. {1.000000 0.044517}
+<{Ruvinia} --> ({ISAW} * chair)>. {1.000000 0.051170}
+<{Hask} --> {Vensari}>. {1.000000 0.021030}
+<{Ruvinia} --> {Customs}>. {1.000000 0.013927}
+<({Ostrel} * {Vensari}) <-> (({Dren} * ([queue] & expansion)) * {Trade})>. {1.000000 0.220705}
+<({Ruvinia} * ([queue] & expansion)) --> {Customs}>. {1.000000 0.001360}
+<({Ruvinia} * correct) --> say>. {1.000000 0.000357}
+<{Hask} --> {Temur}>. {1.000000 0.002660}
+<(({Customs} * ([queue] & expansion)) * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.165502}
+<{Ruvinia} --> {Movement}>. {1.000000 0.024863}
+<({Ostrel} * surname) <-> {ISAW}>. {1.000000 0.340496}
+<({ISAW} * chair) <-> [hold]>. {1.000000 0.113416}
+<{Ruvinia} --> ({Dren} * ([queue] & expansion))>. {1.000000 0.006033}
+<{Ruvinia} --> [{Temur}]>. {1.000000 0.007143}
+<(({Director} * ([queue] & expansion)) * {Trade}) --> ({Ostrel} * {Vensari})>. {1.000000 0.079547}
+<{Ruvinia} --> ({Customs} * ([queue] & expansion))>. {1.000000 0.005399}
+<(({Director} * ([queue] & expansion)) * {Trade}) <-> ({Ostrel} * {Vensari})>. {1.000000 0.079547}
+<{Nareth} --> {Hask}>. {1.000000 0.400479}
+<({Dren} * hold) <-> ({Ostrel} * {Vensari})>. {1.000000 0.092257}
+<({Ruvinia} * surname) --> have>. {1.000000 0.001994}
+<{Ruvinia} --> [hold]>. {1.000000 0.022519}
+<{Ruvinia} --> ({Director} * ([queue] & expansion))>. {1.000000 0.002395}
+<{Ruvinia} --> {Ostrel}>. {1.000000 0.006334}
+<({Ruvinia} * surname) --> {Regulatory}>. {1.000000 0.000435}
+<hold --> {Hask}>. {1.000000 0.044517}
+<({Ruvinia} * surname) --> [hold]>. {1.000000 0.000195}
+<{Trade} <-> {Vensari}>. {1.000000 0.401299}
+<<({Shipment} * {$1}) --> from> ==> <({Dren} * {$1}) --> from>>. {1.000000 0.106386}
+<<({Ostrel} * {$1}) --> from> ==> <({Dren} * {$1}) --> from>>. {1.000000 0.094729}
+<<({Regulatory} * {$1}) --> from> ==> <({Dren} * {$1}) --> from>>. {1.000000 0.079356}
+<({Ruvinia} * surname) --> {Ostrel}>. {1.000000 0.000486}
+<({Ruvinia} * surname) --> {Movement}>. {1.000000 0.000219}
+<({Director} * {Trade}) --> ({Dren} * {Vensari})>. {1.000000 0.129771}
+<{Regulatory} --> {Ruvinia}>. {1.000000 0.001778}
+<({Ostrel} * {Vensari}) <-> ({Customs} * hold)>. {1.000000 0.075300}
+<follow <-> (have * {S})>. {1.000000 0.153153}
+<({Movement} * surname) --> (({ISAW} * chair) * {N})>. {1.000000 0.139289}
+<have <-> follow>. {1.000000 0.427729}
+<hold <-> {Vensari}>. {1.000000 0.111158}
+<have --> follow>. {1.000000 0.427729}
+<({Dren} * {Nareth}) --> ({Ostrel} * {Vensari})>. {1.000000 0.106386}
+<([{Untrue}] & statement) --> [note]>. {1.000000 0.873269}
+<({Ostrel} * {Vensari}) <-> ({Dren} * {Nareth})>. {1.000000 0.106386}
+<({Ruvinia} * surname) --> follow>. {1.000000 0.000853}
+<<{$1} --> {Regulatory}> ==> <{$1} --> ({ISAW} * chair)>>. {1.000000 0.247546}
+<<{$1} --> {Shipment}> ==> <{$1} --> ({ISAW} * chair)>>. {1.000000 0.127772}
+<<{$1} --> {Movement}> ==> <{$1} --> ({ISAW} * chair)>>. {1.000000 0.127131}
+<<{$1} --> {Silven}> ==> <{$1} --> ({ISAW} * chair)>>. {1.000000 0.127131}
+<<{$1} --> [hold]> ==> <{$1} --> ({ISAW} * chair)>>. {1.000000 0.113416}
+<({Ostrel} * surname) <-> follow>. {1.000000 0.267983}
+<{Ostrel} --> {Dren}>. {1.000000 0.173842}
+<({Regulatory} * surname) --> follow>. {1.000000 0.256363}
+<({Shipment} * surname) --> follow>. {1.000000 0.140928}
+<({Regulatory} * surname) <-> follow>. {1.000000 0.204052}
+<follow --> ({Ostrel} * surname)>. {1.000000 0.267983}
+<follow <-> (({ISAW} * chair) * {N})>. {1.000000 0.267983}
+<({Customs} * {Nareth}) --> ({Ostrel} * {Vensari})>. {1.000000 0.087081}
+<{Vensari} <-> {Trade}>. {1.000000 0.401299}
+<({Customs} * {Vensari}) --> work_in>. {1.000000 0.185075}
+<follow <-> ({Ostrel} * surname)>. {1.000000 0.267983}
+<{Ostrel} --> {Customs}>. {1.000000 0.111259}
+<([hold] * surname) <-> follow>. {1.000000 0.087233}
+<{Dren} <-> {Ostrel}>. {1.000000 0.126487}
+<follow <-> ({Regulatory} * surname)>. {1.000000 0.204052}
+<({Shipment} * {Nareth}) <-> from>. {1.000000 0.269960}
+<follow --> ({Movement} * surname)>. {1.000000 0.095468}
+<({ISAW} * chair) --> follow>. {1.000000 0.362428}
+<follow <-> ({Shipment} * surname)>. {1.000000 0.123521}
+<({Customs} * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.101183}
+<({ISAW} * chair) <-> follow>. {1.000000 0.266016}
+<follow --> ([hold] * surname)>. {1.000000 0.087233}
+<follow <-> ([hold] * surname)>. {1.000000 0.087233}
+<({Regulatory} * surname) --> (follow * {N})>. {1.000000 0.122883}
+<({Movement} * surname) <-> follow>. {1.000000 0.095468}
+<follow --> ({ISAW} * chair)>. {1.000000 0.266016}
+<follow <-> ({Movement} * surname)>. {1.000000 0.095468}
+<follow --> (have * {N})>. {1.000000 0.152400}
+<({Ostrel} * surname) --> (follow * {N})>. {1.000000 0.153240}
+<({Shipment} * {Nareth}) --> ({Customs} * {Vensari})>. {1.000000 0.098657}
+<follow <-> ({ISAW} * chair)>. {1.000000 0.266016}
+<(have * {N}) <-> follow>. {1.000000 0.152400}
+<({Shipment} * {Nareth}) --> ({Dren} * {Temur})>. {1.000000 0.245367}
+<follow <-> {Ostrel}>. {1.000000 0.121201}
+<follow <-> (have * {N})>. {1.000000 0.152400}
+<({Shipment} * {Nareth}) --> ({Dren} * {Vensari})>. {1.000000 0.112245}
+<(follow * {N}) --> ({Ostrel} * surname)>. {1.000000 0.112821}
+<{Ostrel} --> {Silven}>. {1.000000 0.382743}
+<<follow --> $1> ==> <{Ostrel} --> $1>>. {1.000000 0.121201}
+<<{$1} --> {Trade}> ==> <{$1} --> {Vensari}>>. {1.000000 0.126487}
+<<{$1} --> {Temur}> ==> <{$1} --> {Vensari}>>. {1.000000 0.126487}
+<<{$1} --> hold> ==> <{$1} --> {Vensari}>>. {1.000000 0.111158}
+<<{$1} --> {Nareth}> ==> <{$1} --> {Vensari}>>. {1.000000 0.052512}
+<follow <-> {Regulatory}>. {1.000000 0.088073}
+<({Shipment} * {Nareth}) --> ({Customs} * hold)>. {1.000000 0.085555}
+<(follow * {Vensari}) --> from>. {1.000000 0.093242}
+<hold --> {Vensari}>. {1.000000 0.125060}
+<({Shipment} * {Nareth}) --> (follow * {Vensari})>. {1.000000 0.080256}
+<follow --> {Ostrel}>. {1.000000 0.121201}
+<([hold] * {Nareth}) --> (follow * {Vensari})>. {1.000000 0.058728}
+<({Cross-border} * {Vensari}) --> of>. {1.000000 0.222438}
+<{Movement} <-> follow>. {1.000000 0.046988}
+<{Ostrel} --> ({Customs} * ([queue] & expansion))>. {1.000000 0.112411}
+<({Movement} * surname) --> (follow * {N})>. {1.000000 0.050482}
+<(follow * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.067828}
+<follow <-> {Shipment}>. {1.000000 0.050415}
+<<({Shipment} * {$1}) --> from> ==> <({Customs} * {$1}) --> from>>. {1.000000 0.087081}
+<<({Ostrel} * {$1}) --> from> ==> <({Customs} * {$1}) --> from>>. {1.000000 0.084228}
+<<({Regulatory} * {$1}) --> from> ==> <({Customs} * {$1}) --> from>>. {1.000000 0.070426}
+<(follow * {Vensari}) --> ({Movement} * {Temur})>. {1.000000 0.067132}
+<({Movement} * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.162769}
+<({Shipment} * surname) --> (follow * {N})>. {1.000000 0.058991}
+<({Customs} * {Vensari}) --> (({Dren} * ([queue] & expansion)) * {Trade})>. {1.000000 0.047020}
+<follow --> [hold]>. {1.000000 0.045875}
+<<({$1} * {$2}) --> ({Silven} * {Trade})> ==> <({$1} * {$2}) --> ([hold] * {Nareth})>>. {1.000000 0.137074}
+<<({$1} * {$2}) --> ({Director} * {Trade})> ==> <({$1} * {$2}) --> ([hold] * {Nareth})>>. {1.000000 0.124320}
+<<follow --> $1> ==> <{Movement} --> $1>>. {1.000000 0.044879}
+<({Movement} * {Temur}) --> (follow * {Vensari})>. {1.000000 0.079629}
+<({Movement} * {Trade}) --> (follow * {Vensari})>. {1.000000 0.034892}
+<[hold] <-> follow>. {1.000000 0.041829}
+<({Movement} * hold) --> (follow * {Vensari})>. {1.000000 0.030535}
+<([hold] * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.125081}
+<([hold] * surname) --> (follow * {N})>. {1.000000 0.045104}
+<(follow * {Vensari}) --> ({Movement} * {Trade})>. {1.000000 0.032260}
+<<follow --> $1> ==> <{Shipment} --> $1>>. {1.000000 0.050415}
+<(follow * {Vensari}) --> ({Movement} * hold)>. {1.000000 0.028501}
+<follow <-> [hold]>. {1.000000 0.040150}
+<{Ostrel} <-> {Movement}>. {1.000000 0.344469}
+<<follow --> $1> ==> <[hold] --> $1>>. {1.000000 0.040150}
+<(follow * {N}) --> ({Movement} * surname)>. {1.000000 0.051579}
+<(follow * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.067256}
+<(follow * {N}) --> ([hold] * surname)>. {1.000000 0.045977}
+<(follow * {Vensari}) --> ({Director} * {Trade})>. {1.000000 0.057272}
+<({Shipment} * {Vensari}) --> ({Silven} * {Trade})>. {1.000000 0.163710}
+<(({Ostrel} * surname) * {S}) --> follow>. {1.000000 0.366089}
+<{Movement} <-> {Regulatory}>. {1.000000 0.268025}
+<{Regulatory} --> ({Regulatory} * surname)>. {1.000000 0.017972}
+<<({$2} * $1) --> have> ==> <({$2} * $1) --> follow>>. {1.000000 0.427729}
+<(have * {S}) --> follow>. {1.000000 0.180851}
+<(({ISAW} * chair) * {N}) --> ({Movement} * surname)>. {1.000000 0.161830}
+<(have * {S}) <-> follow>. {1.000000 0.153153}
+<({Shipment} * {Vensari}) --> ([hold] * {Nareth})>. {1.000000 0.022440}
+<(follow * {S}) --> have>. {1.000000 0.180851}
+<{Regulatory} <-> {Movement}>. {1.000000 0.248626}
+<[hold] --> {Ruvinia}>. {1.000000 0.000811}
+<({Movement} * {Temur}) --> ({Movement} * {Temur})>. {1.000000 0.067671}
+<({Request} * {Polzari}) --> for>. {1.000000 0.864536}
+<({ISAW} * chair) --> {Movement}>. {1.000000 0.145647}
+<follow --> follow>. {1.000000 0.014690}
+<({Movement} * {Temur}) --> ({Movement} * {Trade})>. {1.000000 0.037718}
+<[hold] --> ({Movement} * surname)>. {1.000000 0.003833}
+<{Vensari} --> hold>. {1.000000 0.111158}
+<[hold] --> (({ISAW} * chair) * {N})>. {1.000000 0.010759}
+<[hold] --> [hold]>. {1.000000 0.001679}
+<[hold] --> ([hold] * surname)>. {1.000000 0.003502}
+<[hold] --> ({Ostrel} * surname)>. {1.000000 0.010759}
+<{Regulatory} --> ({Ostrel} * surname)>. {1.000000 0.023602}
+<[hold] --> ({Shipment} * surname)>. {1.000000 0.004959}
+<{Regulatory} --> ({Movement} * surname)>. {1.000000 0.008408}
+<{Regulatory} --> (({ISAW} * chair) * {N})>. {1.000000 0.023602}
+<{Regulatory} --> (have * {N})>. {1.000000 0.013422}
+<[hold] --> ({Regulatory} * surname)>. {1.000000 0.008193}
+<{Regulatory} --> ([hold] * surname)>. {1.000000 0.007683}
+<[hold] --> (have * {S})>. {1.000000 0.006149}
+<{Regulatory} --> (have * {S})>. {1.000000 0.013489}
+<({Movement} * {Vensari}) --> from>. {1.000000 0.110269}
+<{Ostrel} --> ({Shipment} * surname)>. {1.000000 0.014971}
+<({Movement} * surname) --> ({ISAW} * chair)>. {1.000000 0.172926}
+<(([cross-Hask] & shipment) * {Annex}) <-> ({Incident} * review)>. {1.000000 0.430191}
+<{Shipment} --> (({ISAW} * chair) * {N})>. {1.000000 0.013510}
+<((({Ostrel} * surname) * {S}) * {N}) --> {Shipment}>. {1.000000 0.006940}
+<{Incident} <-> ([cross-Hask] & shipment)>. {1.000000 0.313609}
+<{Ostrel} --> ({Regulatory} * surname)>. {1.000000 0.024731}
+<{Ostrel} --> ({Movement} * surname)>. {1.000000 0.011571}
+<{Ostrel} --> (have * {N})>. {1.000000 0.018471}
+<<({$2} * $1) --> have> ==> <(({$2} * $1) * {S}) --> have>>. {1.000000 0.422816}
+<{Ostrel} --> (have * {S})>. {1.000000 0.018562}
+<{Ostrel} --> ([hold] * surname)>. {1.000000 0.010573}
+<{Ostrel} --> (({Ostrel} * surname) * {S})>. {1.000000 0.032480}
+<({Customs} * surname) --> {Ostrel}>. {1.000000 0.000808}
+<{Shipment} --> (have * {N})>. {1.000000 0.007683}
+<{Shipment} --> ({Ostrel} * surname)>. {1.000000 0.013510}
+<{Shipment} --> ({Shipment} * surname)>. {1.000000 0.006227}
+<(({ISAW} * chair) * {Trade}) --> ({Movement} * hold)>. {1.000000 0.031240}
+<{Shipment} --> (have * {S})>. {1.000000 0.007721}
+<{Shipment} --> ({Regulatory} * surname)>. {1.000000 0.010287}
+<{Shipment} --> ([hold] * surname)>. {1.000000 0.004398}
+<({Incident} * review) --> (([cross-Hask] & shipment) * {Annex})>. {1.000000 0.430191}
+<{Movement} --> (have * {N})>. {1.000000 0.006840}
+<{Movement} --> ({Ostrel} * surname)>. {1.000000 0.012027}
+<{Movement} --> ({Shipment} * surname)>. {1.000000 0.005543}
+<{Movement} --> (({ISAW} * chair) * {N})>. {1.000000 0.012027}
+<{Movement} --> ({Regulatory} * surname)>. {1.000000 0.009158}
+<{Movement} --> ([hold] * surname)>. {1.000000 0.003915}
+<{Movement} --> {Ruvinia}>. {1.000000 0.000906}
+<{Annex} --> review>. {1.000000 0.387172}
+<{Movement} --> (have * {S})>. {1.000000 0.006873}
+<follow --> ((({ISAW} * chair) * {N}) * {S})>. {1.000000 0.134040}
+<<$1 --> follow> ==> <$1 --> {Regulatory}>>. {1.000000 0.085289}
+<Ostrel <-> Silven>. {1.000000 0.310022}
+<((have * {N}) * {S}) --> follow>. {1.000000 0.100378}
+<(fact * rule) --> [hold]>. {1.000000 0.017075}
+<follow --> ((({Ostrel} * surname) * {S}) * {N})>. {1.000000 0.133367}
+<({Director} * {Trade}) --> ((({Ostrel} * surname) * {S}) * {Vensari})>. {1.000000 0.102818}
+<(({Ostrel} * surname) * {S}) --> (follow * {N})>. {1.000000 0.113173}
+<((({Ostrel} * surname) * {S}) * {N}) --> follow>. {1.000000 0.153891}
+<<$1 --> follow> ==> <$1 --> [hold]>>. {1.000000 0.040150}
+<<(({Ostrel} * $1) * {S}) --> have> ==> <({Regulatory} * $1) --> have>>. {1.000000 0.339055}
+<({Movement} * surname) --> [hold]>. {1.000000 0.004238}
+<(have * {S}) --> have>. {1.000000 0.422816}
+<({Shipment} * surname) --> [hold]>. {1.000000 0.005658}
+<{Vensari} <-> {Temur}>. {1.000000 0.401299}
+<(have * {N}) --> [hold]>. {1.000000 0.007219}
+<((({ISAW} * chair) * {N}) * {S}) --> [hold]>. {1.000000 0.006215}
+<(({ISAW} * chair) * {N}) --> [hold]>. {1.000000 0.014698}
+<((have * {N}) * {S}) --> [hold]>. {1.000000 0.004030}
+<((have * {N}) * {S}) --> {Ostrel}>. {1.000000 0.009480}
+<(have * {S}) --> {Ostrel}>. {1.000000 0.017080}
+<(have * {S}) --> [hold]>. {1.000000 0.007261}
+<(have * {N}) <-> (({Ostrel} * surname) * {S})>. {1.000000 0.264591}
+<((({Ostrel} * surname) * {S}) * {N}) --> [hold]>. {1.000000 0.006179}
+<{Regulatory} --> ((have * {N}) * {S})>. {1.000000 0.008034}
+<{Regulatory} --> ((({ISAW} * chair) * {N}) * {S})>. {1.000000 0.011805}
+<({Shipment} * surname) --> {Ostrel}>. {1.000000 0.013309}
+<({Movement} * surname) --> {Ostrel}>. {1.000000 0.009968}
+<(have * {N}) --> {Ostrel}>. {1.000000 0.016981}
+<((({ISAW} * chair) * {N}) * {S}) --> {Ostrel}>. {1.000000 0.014618}
+<(({ISAW} * chair) * {N}) --> {Ostrel}>. {1.000000 0.034574}
+<([hold] * surname) --> {Ostrel}>. {1.000000 0.009026}
+<(fact * rule) --> {Ostrel}>. {1.000000 0.040163}
+<(({Ostrel} * surname) * {S}) --> {Ostrel}>. {1.000000 0.034574}
+<<({Regulatory} * $1) --> have> ==> <(({Ostrel} * $1) * {S}) --> have>>. {1.000000 0.339055}
+<<({Shipment} * $1) --> have> ==> <(({Ostrel} * $1) * {S}) --> have>>. {1.000000 0.219968}
+<<({Movement} * $1) --> have> ==> <(({Ostrel} * $1) * {S}) --> have>>. {1.000000 0.174369}
+<<([hold] * $1) --> have> ==> <(({Ostrel} * $1) * {S}) --> have>>. {1.000000 0.160537}
+<({Shipment} * surname) --> {Movement}>. {1.000000 0.006325}
+<((({Ostrel} * surname) * {S}) * {N}) --> {Movement}>. {1.000000 0.006906}
+<([hold] * surname) --> {Shipment}>. {1.000000 0.004310}
+<([{Cross-Hask}] & shipment) --> entry>. {1.000000 0.785942}
+<((({ISAW} * chair) * {N}) * {S}) --> {Movement}>. {1.000000 0.006947}
+<{Director} <-> {Regulatory}>. {1.000000 0.254164}
+<(fact * rule) --> {Shipment}>. {1.000000 0.019179}
+<(({Ostrel} * surname) * {S}) --> (have * {N})>. {1.000000 0.264591}
+<({Movement} * surname) --> {Movement}>. {1.000000 0.004737}
+<(have * {S}) --> {Movement}>. {1.000000 0.008116}
+<((have * {N}) * {S}) --> {Movement}>. {1.000000 0.004505}
+<((({Ostrel} * surname) * {S}) * {Vensari}) --> ({Shipment} * {Nareth})>. {1.000000 0.138899}
+<follow --> ({Customs} * ([queue] & expansion))>. {1.000000 0.002282}
+<follow --> ({Dren} * ([queue] & expansion))>. {1.000000 0.002594}
+<follow --> ({Director} * ([queue] & expansion))>. {1.000000 0.000937}
+<[hold] --> {Director}>. {1.000000 0.000214}
+<{Movement} --> ((({ISAW} * chair) * {N}) * {S})>. {1.000000 0.006016}
+<{Shipment} --> ((({ISAW} * chair) * {N}) * {S})>. {1.000000 0.006758}
+<{Shipment} --> ((have * {N}) * {S})>. {1.000000 0.004599}
+<{Regulatory} <-> (({Ostrel} * surname) * {S})>. {1.000000 0.161957}
+<[hold] --> ((have * {N}) * {S})>. {1.000000 0.003663}
+<[hold] --> ((({Ostrel} * surname) * {S}) * {N})>. {1.000000 0.005355}
+<[hold] --> ({Director} * ([queue] & expansion))>. {1.000000 0.000038}
+<[hold] --> ((({ISAW} * chair) * {N}) * {S})>. {1.000000 0.005382}
+<[hold] --> ({Dren} * ([queue] & expansion))>. {1.000000 0.000104}
+<{Ostrel} --> ((({ISAW} * chair) * {N}) * {S})>. {1.000000 0.016246}
+<[hold] --> ({Customs} * ([queue] & expansion))>. {1.000000 0.000092}
+<{Movement} --> ((({Ostrel} * surname) * {S}) * {N})>. {1.000000 0.005985}
+<{Ostrel} --> ((({Ostrel} * surname) * {S}) * {N})>. {1.000000 0.016164}
+<{Ostrel} --> ((have * {N}) * {S})>. {1.000000 0.011056}
+<{Movement} --> ((have * {N}) * {S})>. {1.000000 0.004094}
+<({Shipment} * surname) --> {Shipment}>. {1.000000 0.006356}
+<(have * {S}) --> {Regulatory}>. {1.000000 0.015425}
+<(({Dren} * cross-border) * flow) --> ({Aden} * revision)>. {1.000000 0.422816}
+<((have * {N}) * {S}) --> {Regulatory}>. {1.000000 0.008561}
+<({Movement} * surname) --> {Regulatory}>. {1.000000 0.009002}
+<(({ISAW} * chair) * {N}) --> {Shipment}>. {1.000000 0.016510}
+<({Shipment} * surname) --> {Regulatory}>. {1.000000 0.012020}
+<((({ISAW} * chair) * {N}) * {S}) --> {Shipment}>. {1.000000 0.006981}
+<{Shipment} --> ((({Ostrel} * surname) * {S}) * {N})>. {1.000000 0.006724}
+<([hold] * surname) --> {Regulatory}>. {1.000000 0.008151}
+<({Movement} * surname) --> {Shipment}>. {1.000000 0.004760}
+<(have * {N}) --> {Regulatory}>. {1.000000 0.015335}
+<(({ISAW} * chair) * {N}) --> {Regulatory}>. {1.000000 0.031223}
+<(fact * rule) --> {Regulatory}>. {1.000000 0.036271}
+<((({ISAW} * chair) * {N}) * {S}) --> {Regulatory}>. {1.000000 0.013202}
+<((({Ostrel} * surname) * {S}) * {N}) --> {Regulatory}>. {1.000000 0.013125}
+<(({Ostrel} * surname) * {S}) --> {Movement}>. {1.000000 0.094023}
+<({Executive} * issueApril) --> resolve>. {1.000000 0.605413}
+<((have * {N}) * {S}) --> have>. {1.000000 0.234676}
+<<[defer] --> [$1]> ==> <{Veidt} --> [$1]>>. {1.000000 0.273083}
+<<{$1} --> [say]> ==> <{$1} --> [defer]>>. {1.000000 0.446305}
+<<{$1} --> {Executive}> ==> <{$1} --> [defer]>>. {1.000000 0.427729}
+<<{$1} --> {Veidt}> ==> <{$1} --> [defer]>>. {1.000000 0.166562}
+<defer --> {Director}>. {1.000000 0.076184}
+<{Nareth} <-> {Vensari}>. {1.000000 0.360431}
+<({Shipment} * exemption) --> request>. {1.000000 0.346229}
+<(({Dren} * ([queue] & expansion)) * occurs) --> ({Silven} * correct)>. {1.000000 0.425271}
+<{Hask} <-> {Nareth}>. {1.000000 0.360431}
+<{Nareth} <-> {Hask}>. {1.000000 0.360431}
+<{Ruvinia} <-> {Shipment}>. {1.000000 0.360431}
+<defer <-> say>. {1.000000 0.401675}
+<[defer] <-> [say]>. {1.000000 0.446305}
+<{Executive} --> [defer]>. {1.000000 0.605413}
+<({ISAW} * chair) --> have>. {1.000000 0.847332}
+<{Shipment} --> {Regulatory}>. {1.000000 0.332808}
+<{Vensari} <-> {Nareth}>. {1.000000 0.360431}
+<defer <-> {Silven}>. {1.000000 0.099867}
+<({Dren} * correct) --> defer>. {1.000000 0.131379}
+<({Aden} * revision) <-> (({Dren} * cross-border) * flow)>. {1.000000 0.422816}
+<defer --> {Silven}>. {1.000000 0.099867}
+<(([{Cross-Hask}] & shipment) * {Annex}) --> ([provisional] & entry)>. {1.000000 0.855891}
+<({Regulatory} * correct) --> defer>. {1.000000 0.109482}
+(<({#1} * infrastructure) --> 's> && <({Movement} * {#1}) --> from>). {1.000000 0.646175}
+<(say * occurs) --> defer>. {1.000000 0.170820}
+<({Customs} * creates) --> defer>. {1.000000 0.286047}
+<({Silven} * creates) --> defer>. {1.000000 0.131379}
+<({Silven} * correct) --> (defer * occurs)>. {1.000000 0.147680}
+<({Customs} * ([queue] & expansion)) --> defer>. {1.000000 0.286047}
+<({Silven} * ([queue] & expansion)) --> defer>. {1.000000 0.139071}
+<({Director} * ([queue] & expansion)) --> defer>. {1.000000 0.105967}
+<{Movement} <-> {Shipment}>. {1.000000 0.344469}
+[say]. {1.000000 0.283622}
+<({Director} * correct) --> (defer * occurs)>. {1.000000 0.119310}
+<(defer * occurs) --> ({Director} * correct)>. {1.000000 0.097622}
+<(({Dren} * ([queue] & expansion)) * occurs) --> ({Director} * correct)>. {1.000000 0.371376}
+<({Customs} * correct) --> (defer * occurs)>. {1.000000 0.056918}
+<(defer * occurs) --> ({Customs} * correct)>. {1.000000 0.049854}
+<{Executive} <-> [defer]>. {1.000000 0.427729}

@@ -1,354 +1,117 @@
-<{Key} --> {Key}>. {1.000000 0.057678}
-2. {1.000000 0.951701}
-<{Silence} --> [hear]>. {1.000000 0.762599}
-<([ride] * horn-key) --> carry>. {1.000000 0.397334}
-<{Crawn-beast} --> {Crawn-beast}>. {1.000000 0.060785}
-<([ride] * horn-key) <-> ([mount] * shard)>. {1.000000 0.145978}
-<([ride] * shard) --> carry>. {1.000000 0.397334}
-<([mount] * shard) --> ([have] * horn-key)>. {1.000000 0.190773}
-(<({#1} * home) --> walk> && <({Silence} * {#1}) --> by>). {1.000000 0.593365}
-3. {1.000000 0.935291}
-<{Edran} --> [return]>. {1.000000 0.873269}
-<mount <-> have>. {1.000000 0.387172}
-<({He} * shard) --> carry>. {1.000000 0.864536}
-<({Edran} * glimroot) --> toss>. {1.000000 0.864536}
-<({Silence} * {Edran}) --> by>. {1.000000 0.762599}
-<([return] * groleplate) --> 's>. {1.000000 0.430191}
-<({Person} * dome) --> drive>. {1.000000 0.312912}
-<<{$1} --> [turn]> ==> <{$1} --> {Crawn-beast}>>. {1.000000 0.218020}
-<<({$1} * horn-key) --> carry> ==> <({$1} * shard) --> carry>>. {1.000000 0.427729}
-<({He} * shard) --> ([ride] * horn-key)>. {1.000000 0.255681}
-<([ride] * horn-key) --> ({He} * shard)>. {1.000000 0.255681}
-<([mount] * shard) --> ({He} * horn-key)>. {1.000000 0.271092}
-<([mount] * shard) <-> ([ride] * horn-key)>. {1.000000 0.145978}
-<<({$1} * shard) --> carry> ==> <({$1} * horn-key) --> carry>>. {1.000000 0.427729}
-<[mount] --> {He}>. {1.000000 0.243983}
-<([ride] * shard) <-> ([mount] * horn-key)>. {1.000000 0.145978}
-(<({#1} * crawn-hide) --> ride> && <({Silence} * {#1}) --> by>). {1.000000 0.212188}
-<frosthide <-> crawn-hide>. {1.000000 0.427729}
-<frosthide --> crawn-hide>. {1.000000 0.427729}
-<horn-key <-> shard>. {1.000000 0.427729}
-<({Crawn-beast} * dome) --> ({Key} * car)>. {1.000000 0.402157}
-<([return] * frosthide) <-> ({Edran} * crawn-hide)>. {1.000000 0.271092}
-<(2 * hill) <-> (3 * fissure)>. {1.000000 0.372397}
-<([have] * shard) <-> ([mount] * horn-key)>. {1.000000 0.155409}
-<([ride] * shard) --> ([have] * horn-key)>. {1.000000 0.170724}
-<([have] * shard) --> ([mount] * horn-key)>. {1.000000 0.235747}
-<([return] * vessel) --> ({Edran} * flame)>. {1.000000 0.271092}
-<([have] * horn-key) --> ({He} * shard)>. {1.000000 0.269960}
-<([mount] * horn-key) --> ([have] * shard)>. {1.000000 0.190773}
-<({Edran} * crawn-hide) --> ride>. {1.000000 0.309159}
-<([have] * groleplate) --> wear>. {1.000000 0.427729}
-<({Drayvern} * ([east] & wind)) --> from>. {1.000000 0.762599}
-<({Water} * home) --> separate>. {1.000000 0.855891}
-<({He} * horn-key) --> carry>. {1.000000 0.864536}
-<{Crawn-steel} --> [forbidden]>. {1.000000 0.882090}
-<({Edran} * flame) --> feed>. {1.000000 0.864536}
-<(({Edran} * glowlord) * sap) --> pour>. {1.000000 0.855891}
-<([coil] * dome) --> in>. {1.000000 0.432656}
-(<({#1} * crawn-hide) --> have> && <([hear] * {#1}) --> by>). {1.000000 0.286110}
-<[have] --> {He}>. {1.000000 0.242964}
-<ride <-> have>. {1.000000 0.357601}
-<({Edran} * {Shard}) --> strike_with>. {1.000000 0.747423}
-(<([hear] * {#1}) --> by> && <({#1} * crawn-hide) --> have>). {1.000000 0.317900}
-<([have] * horn-key) <-> ([mount] * shard)>. {1.000000 0.155409}
-<[have] <-> {He}>. {1.000000 0.218667}
-<({Edran} * duskflint) --> strike_with>. {1.000000 0.855891}
-<{Oil} --> glowroot>. {1.000000 0.873269}
-<(([{Crawn-beast}] & feed) * bone) --> on>. {1.000000 0.873269}
-{Beast}. {1.000000 0.937352}
-<([have] * shard) --> ([ride] * horn-key)>. {1.000000 0.205871}
-<[mount] <-> [have]>. {1.000000 0.430191}
-<({Edran} * frosthide) --> have>. {1.000000 0.864536}
-<({Key} * car) --> in>. {1.000000 0.770302}
-<([return] * crawn-hide) --> ride>. {1.000000 0.212585}
-<([ride] * shard) <-> ({He} * horn-key)>. {1.000000 0.255681}
-<([turn] * car) --> ({Crawn-beast} * dome)>. {1.000000 0.245399}
-<({Crawn-beast} * dome) --> ([turn] * car)>. {1.000000 0.309783}
-<[turn] --> {Crawn-beast}>. {1.000000 0.220859}
-<[mount] <-> [ride]>. {1.000000 0.399743}
-<({Key} * car) <-> ([suppose] * sun)>. {1.000000 0.220728}
-<([return] * {Shard}) --> strike_with>. {1.000000 0.394930}
-<[coil] <-> {Key}>. {1.000000 0.240163}
-<([ride] * shard) --> ([mount] * horn-key)>. {1.000000 0.171317}
-<([ride] * horn-key) --> ([mount] * shard)>. {1.000000 0.171317}
-<ride <-> mount>. {1.000000 0.359769}
-<Crawn-beast <-> Key>. {1.000000 0.293173}
-<<{$1} --> [coil]> ==> <{$1} --> {Key}>>. {1.000000 0.240163}
-<([mount] * shard) --> carry>. {1.000000 0.430191}
-<([mount] * horn-key) --> carry>. {1.000000 0.430191}
-<{Crawn-beast} --> {Key}>. {1.000000 0.361942}
-<([return] * glimroot) --> toss>. {1.000000 0.430191}
-<([return] * duskflint) --> strike_with>. {1.000000 0.427729}
-<([coil] * dome) <-> ([turn] * car)>. {1.000000 0.138763}
-<([ride] * horn-key) <-> ({He} * shard)>. {1.000000 0.255681}
-<({He} * horn-key) --> ([mount] * shard)>. {1.000000 0.271092}
-<([mount] * horn-key) --> ({He} * shard)>. {1.000000 0.271092}
-<({He} * shard) <-> ([mount] * horn-key)>. {1.000000 0.271092}
-<({He} * horn-key) <-> ([ride] * shard)>. {1.000000 0.255681}
-<([mount] * horn-key) <-> ({He} * shard)>. {1.000000 0.271092}
-<({He} * shard) --> ([have] * horn-key)>. {1.000000 0.269960}
-<{Key} --> {Crawn-beast}>. {1.000000 0.361942}
-<([mount] * shard) --> ([ride] * horn-key)>. {1.000000 0.206735}
-<({He} * horn-key) --> ([ride] * shard)>. {1.000000 0.255681}
-<([ride] * shard) --> ({He} * horn-key)>. {1.000000 0.255681}
-<([have] * horn-key) <-> ([ride] * shard)>. {1.000000 0.145264}
-(<({#1} * frosthide) --> have> && <({Silence} * {#1}) --> by>). {1.000000 0.593365}
-(<({#1} * duskflint) --> strike_with> && <({Silence} * {#1}) --> by>). {1.000000 0.587431}
-(<({#1} * groleplate) --> 's> && <({Silence} * {#1}) --> by>). {1.000000 0.593365}
-(<({#1} * groleplate) --> 's> && <([hear] * {#1}) --> by>). {1.000000 0.286110}
-(<({#1} * frosthide) --> have> && <([hear] * {#1}) --> by>). {1.000000 0.286110}
-<([hear] * {Edran}) --> by>. {1.000000 0.367712}
-<({Silence} * [return]) --> by>. {1.000000 0.399743}
-(<({Silence} * {#1}) --> by> && <({#1} * crawn-hide) --> mount>). {1.000000 0.255260}
-<[ride] --> {He}>. {1.000000 0.230113}
-<({He} * horn-key) <-> ([mount] * shard)>. {1.000000 0.271092}
-<([mount] * horn-key) <-> ([ride] * shard)>. {1.000000 0.145978}
-<({Key} * car) --> ([coil] * dome)>. {1.000000 0.351192}
-(<({#1} * crawn-hide) --> mount> && <({Silence} * {#1}) --> by>). {1.000000 0.229734}
-(<({#1} * glimroot) --> toss> && <([hear] * {#1}) --> by>). {1.000000 0.286110}
-(<({#1} * crawn-hide) --> mount> && <([hear] * {#1}) --> by>). {1.000000 0.110774}
-(<({#1} * crawn-hide) --> ride> && <([hear] * {#1}) --> by>). {1.000000 0.102313}
-<[have] <-> [mount]>. {1.000000 0.430191}
-<[have] <-> [ride]>. {1.000000 0.397334}
-<[ride] <-> [have]>. {1.000000 0.397334}
-<{He} --> [mount]>. {1.000000 0.873269}
-<[ride] --> [have]>. {1.000000 0.397334}
-<{Car} --> [drive]>. {1.000000 0.873269}
-<({Edran} * frosthide) --> mount>. {1.000000 0.334724}
-<crawn-hide --> frosthide>. {1.000000 0.427729}
-<({Key} * car) <-> ({Crawn-beast} * dome)>. {1.000000 0.402157}
-<<({$1} * crawn-hide) --> have> ==> <({$1} * frosthide) --> have>>. {1.000000 0.427729}
-<<{$1} --> [mount]> ==> <{$1} --> [ride]>>. {1.000000 0.399743}
-<<{$1} --> [have]> ==> <{$1} --> [ride]>>. {1.000000 0.397334}
-<({Crawn-beast} * dome) <-> ({Key} * car)>. {1.000000 0.402157}
-<([coil] * dome) <-> ({Key} * car)>. {1.000000 0.249968}
-<([coil] * dome) --> ({Key} * car)>. {1.000000 0.259912}
-<shard <-> horn-key>. {1.000000 0.427729}
-<({Key} * car) --> ({Crawn-beast} * dome)>. {1.000000 0.402157}
-<([turn] * car) <-> ([suppose] * sun)>. {1.000000 0.120442}
-<([east] & wind) --> hill>. {1.000000 0.333046}
-<[ride] <-> {He}>. {1.000000 0.207102}
-<(2 * hill) <-> ([come] * ([east] & wind))>. {1.000000 0.220728}
-<([return] * crawn-hide) --> have>. {1.000000 0.430191}
-<({Frosthide} * sun) <-> ([coil] * dome)>. {1.000000 0.248088}
-<[ride] --> [mount]>. {1.000000 0.399743}
-<hill --> ([east] & wind)>. {1.000000 0.333046}
-<([turn] * car) --> in>. {1.000000 0.372397}
-<([suppose] * sun) <-> ({Crawn-beast} * dome)>. {1.000000 0.243062}
-<([suppose] * sun) --> ({Crawn-beast} * dome)>. {1.000000 0.243062}
-<({Crawn-beast} * dome) <-> ([suppose] * sun)>. {1.000000 0.243062}
-<car --> dome>. {1.000000 0.361942}
-(<([hear] * {#1}) --> by> && <({#1} * vessel) --> feed>). {1.000000 0.317900}
-<({Key} * car) --> ([suppose] * sun)>. {1.000000 0.220728}
-<([come] * ([east] & wind)) --> from>. {1.000000 0.367712}
-(<([hear] * {#1}) --> by> && <({#1} * flame) --> feed>). {1.000000 0.317900}
-<({Drayvern} * ([east] & wind)) <-> (2 * hill)>. {1.000000 0.370052}
-(<({#1} * flame) --> feed> && <({Silence} * {#1}) --> by>). {1.000000 0.593365}
-(<({Silence} * {#1}) --> by> && <({#1} * vessel) --> feed>). {1.000000 0.659295}
-<([ride] * groleplate) --> wear>. {1.000000 0.397334}
-<flame <-> vessel>. {1.000000 0.427729}
-<([return] * vessel) <-> ({Edran} * flame)>. {1.000000 0.271092}
-<([return] * flame) --> feed>. {1.000000 0.430191}
-<({Edran} * flame) <-> ([return] * vessel)>. {1.000000 0.271092}
-<{He} <-> [have]>. {1.000000 0.196801}
-<([have] * horn-key) --> ([ride] * shard)>. {1.000000 0.205871}
-<([have] * shard) --> ({He} * horn-key)>. {1.000000 0.269960}
-(<([hear] * {#1}) --> by> && <({#1} * home) --> walk>). {1.000000 0.317900}
-<([return] * frosthide) --> ({Edran} * crawn-hide)>. {1.000000 0.271092}
-<fissure --> hill>. {1.000000 0.335158}
-<([come] * ([east] & wind)) --> (2 * hill)>. {1.000000 0.220728}
-<{Drayvern} --> 2>. {1.000000 0.333046}
-<(2 * hill) <-> ({Drayvern} * ([east] & wind))>. {1.000000 0.370052}
-(<({Silence} * {#1}) --> by> && <({#1} * home) --> walk>). {1.000000 0.659295}
-<([have] * shard) <-> ({He} * horn-key)>. {1.000000 0.269960}
-<([have] * horn-key) --> ([mount] * shard)>. {1.000000 0.235747}
-<3 --> 2>. {1.000000 0.335158}
-<(2 * hill) --> ([come] * ([east] & wind))>. {1.000000 0.282201}
-<(3 * fissure) --> ({Drayvern} * ([east] & wind))>. {1.000000 0.370052}
-<({Edran} * crawn-hide) --> mount>. {1.000000 0.334724}
-<(3 * fissure) <-> (2 * hill)>. {1.000000 0.372397}
-<{Drayvern} --> [come]>. {1.000000 0.762599}
-<(2 * hill) --> from>. {1.000000 0.770302}
-<({He} * horn-key) --> ([have] * shard)>. {1.000000 0.269960}
-<({Edran} * crawn-hide) --> have>. {1.000000 0.864536}
-{Edran}. {1.000000 0.979725}
-<([have] * shard) --> carry>. {1.000000 0.427729}
-<([have] * shard) <-> ([ride] * horn-key)>. {1.000000 0.145264}
-<[coil] <-> [turn]>. {1.000000 0.195800}
-<[turn] --> [coil]>. {1.000000 0.195800}
-<({He} * horn-key) <-> ([have] * shard)>. {1.000000 0.269960}
-{Turning}. {1.000000 0.873269}
-{Air}. {1.000000 0.873269}
-<{Dusk} --> [imply]>. {1.000000 0.864536}
+<{Brynmar} --> {Brynmar}>. {1.000000 0.163682}
+{Edran}. {1.000000 0.953858}
+<({Horn-key} * hook) --> on>. {1.000000 0.873269}
+<(([{Glaive}] & hang) * [have]) --> from>. {1.000000 0.402157}
+<{Brynmar} --> ([used_at] & {Brynmar})>. {1.000000 0.174045}
+<{Brynmar} --> [used_at]>. {1.000000 0.163682}
+<([used_at] & {Brynmar}) --> [tear]>. {1.000000 0.430191}
+<({Chain} * bell) --> brynlight>. {1.000000 0.864536}
+<({He} * greave) --> wear>. {1.000000 0.696647}
 {Sir}. {1.000000 0.922351}
-<({Glaive} * crawn-steel) --> of>. {1.000000 0.873269}
-<({He} * groleplate) --> wear>. {1.000000 0.864536}
-4. {1.000000 0.914936}
-<({He} * fen) --> across>. {1.000000 0.762599}
-{Vial}. {1.000000 0.864536}
-<({Edran} * vessel) --> feed>. {1.000000 0.864536}
-<{Shard} --> duskflint>. {1.000000 0.873269}
-{Glowlord}. {1.000000 0.950816}
-(<({Silence} * {#1}) --> by> && <({#1} * groleplate) --> 's>). {1.000000 0.659295}
-(<([hear] * {#1}) --> by> && <({#1} * groleplate) --> 's>). {1.000000 0.317900}
-<turn <-> coil>. {1.000000 0.176220}
-<coil <-> turn>. {1.000000 0.176220}
-(<({#1} * glimroot) --> toss> && <({Silence} * {#1}) --> by>). {1.000000 0.593365}
-(<([hear] * {#1}) --> by> && <({#1} * frosthide) --> have>). {1.000000 0.317900}
-(<({#1} * crawn-hide) --> have> && <({Silence} * {#1}) --> by>). {1.000000 0.593365}
-(<({Silence} * {#1}) --> by> && <({#1} * duskflint) --> strike_with>). {1.000000 0.652702}
-(<({Silence} * {#1}) --> by> && <({#1} * glimroot) --> toss>). {1.000000 0.659295}
-<({Crawn-beast} * dome) <-> ({Frosthide} * sun)>. {1.000000 0.399743}
-<([mount] * shard) <-> ([have] * horn-key)>. {1.000000 0.155409}
-<([ride] * shard) <-> ([have] * horn-key)>. {1.000000 0.145264}
-(<({Silence} * {#1}) --> by> && <({#1} * crawn-hide) --> have>). {1.000000 0.659295}
-<([mount] * shard) <-> ({He} * horn-key)>. {1.000000 0.271092}
-(<({Silence} * {#1}) --> by> && <({#1} * {Shard}) --> strike_with>). {1.000000 0.569984}
-<([ride] * horn-key) --> ([have] * shard)>. {1.000000 0.170724}
-(<({#1} * duskflint) --> strike_with> && <([hear] * {#1}) --> by>). {1.000000 0.283249}
-(<([hear] * {#1}) --> by> && <({#1} * crawn-hide) --> ride>). {1.000000 0.113681}
-<have <-> ride>. {1.000000 0.357601}
-(<([hear] * {#1}) --> by> && <({#1} * glimroot) --> toss>). {1.000000 0.317900}
-<[mount] <-> {He}>. {1.000000 0.219585}
-(<([hear] * {#1}) --> by> && <({#1} * duskflint) --> strike_with>). {1.000000 0.314721}
-<([hear] * [return]) --> by>. {1.000000 0.243062}
-(<([hear] * {#1}) --> by> && <({#1} * {Shard}) --> strike_with>). {1.000000 0.274836}
-(<({Silence} * {#1}) --> by> && <({#1} * crawn-hide) --> ride>). {1.000000 0.235764}
-(<([hear] * {#1}) --> by> && <({#1} * crawn-hide) --> mount>). {1.000000 0.123082}
-(<({#1} * {Shard}) --> strike_with> && <({Silence} * {#1}) --> by>). {1.000000 0.512986}
-<horn-key --> shard>. {1.000000 0.427729}
-(<({#1} * {Shard}) --> strike_with> && <([hear] * {#1}) --> by>). {1.000000 0.247353}
-<have <-> mount>. {1.000000 0.387172}
-<([have] * horn-key) <-> ({He} * shard)>. {1.000000 0.269960}
-<({He} * shard) <-> ([have] * horn-key)>. {1.000000 0.269960}
-<[have] --> [mount]>. {1.000000 0.430191}
-5. {1.000000 0.838859}
-6. {1.000000 0.838859}
-<{Key} --> [turn]>. {1.000000 0.770302}
-<({Person} * car) --> drive>. {1.000000 0.864536}
-{Shard-beast}. {1.000000 0.882090}
-{Chain}. {1.000000 0.855891}
-<bell --> [tune]>. {1.000000 0.864536}
-<{Crawn-beast} --> [coil]>. {1.000000 0.873269}
-<({Ground} * oil) --> cross_with>. {1.000000 0.864536}
-<{Subject} --> [glimroot]>. {1.000000 0.873269}
-{Glowroot}. {1.000000 0.864536}
-<{He} --> [ride]>. {1.000000 0.762599}
-<[have] --> [ride]>. {1.000000 0.397334}
-<({Edran} * frosthide) --> ride>. {1.000000 0.309159}
-<[mount] --> [have]>. {1.000000 0.430191}
-<({Frosthide} * sun) --> ({Crawn-beast} * dome)>. {1.000000 0.399743}
-<crawn-hide <-> frosthide>. {1.000000 0.427729}
-<([mount] * horn-key) <-> ([have] * shard)>. {1.000000 0.155409}
-(<({Silence} * {#1}) --> by> && <({#1} * frosthide) --> have>). {1.000000 0.659295}
-<({Edran} * frosthide) --> ([return] * crawn-hide)>. {1.000000 0.271092}
-<([return] * crawn-hide) <-> ({Edran} * frosthide)>. {1.000000 0.271092}
-<({Edran} * frosthide) <-> ([return] * crawn-hide)>. {1.000000 0.271092}
-<([return] * crawn-hide) --> ({Edran} * frosthide)>. {1.000000 0.271092}
-<([ride] * fen) --> across>. {1.000000 0.367712}
-<([return] * frosthide) --> have>. {1.000000 0.430191}
-<({Crawn-beast} * dome) --> in>. {1.000000 0.873269}
-<{He} --> [have]>. {1.000000 0.864536}
-<<({$1} * frosthide) --> have> ==> <({$1} * crawn-hide) --> have>>. {1.000000 0.427729}
-<({Crawn-beast} * dome) --> ({Frosthide} * sun)>. {1.000000 0.399743}
-<{Frosthide} --> [suppose]>. {1.000000 0.762599}
-<({Frosthide} * sun) --> in>. {1.000000 0.762599}
-<([mount] * fen) --> across>. {1.000000 0.399743}
-<([coil] * dome) <-> ({Frosthide} * sun)>. {1.000000 0.248088}
-<([turn] * car) <-> ([coil] * dome)>. {1.000000 0.138763}
-<({Frosthide} * sun) <-> ({Crawn-beast} * dome)>. {1.000000 0.399743}
-<([coil] * dome) --> ({Frosthide} * sun)>. {1.000000 0.248088}
-<({Key} * car) --> ({Frosthide} * sun)>. {1.000000 0.370052}
-<({Frosthide} * sun) --> ([coil] * dome)>. {1.000000 0.248088}
-<({Key} * car) <-> ({Frosthide} * sun)>. {1.000000 0.370052}
-<({Frosthide} * sun) <-> ({Key} * car)>. {1.000000 0.370052}
-<([turn] * car) --> ({Frosthide} * sun)>. {1.000000 0.221178}
-<mount <-> ride>. {1.000000 0.359769}
-<([turn] * car) <-> ({Frosthide} * sun)>. {1.000000 0.221178}
-<({Frosthide} * sun) --> ({Key} * car)>. {1.000000 0.370052}
-<([suppose] * sun) --> in>. {1.000000 0.367712}
-<({Crawn-beast} * dome) <-> ([turn] * car)>. {1.000000 0.245399}
-(<({#1} * vessel) --> feed> && <([hear] * {#1}) --> by>). {1.000000 0.286110}
-<({Crawn-beast} * dome) --> ([suppose] * sun)>. {1.000000 0.243062}
-<([coil] * dome) --> ([suppose] * sun)>. {1.000000 0.137256}
-<({Frosthide} * sun) <-> ([turn] * car)>. {1.000000 0.221178}
-<([suppose] * sun) --> ([coil] * dome)>. {1.000000 0.137256}
-<([turn] * car) --> ([coil] * dome)>. {1.000000 0.214299}
-<([suppose] * sun) <-> ([coil] * dome)>. {1.000000 0.137256}
-<([coil] * dome) --> ([turn] * car)>. {1.000000 0.212923}
-<([suppose] * sun) --> ({Key} * car)>. {1.000000 0.220728}
-<<{$1} --> {Crawn-beast}> ==> <{$1} --> [turn]>>. {1.000000 0.218020}
-<<{$1} --> [coil]> ==> <{$1} --> [turn]>>. {1.000000 0.195800}
-<([suppose] * sun) <-> ({Key} * car)>. {1.000000 0.220728}
-<([coil] * dome) <-> ([suppose] * sun)>. {1.000000 0.137256}
-<([suppose] * sun) --> ([turn] * car)>. {1.000000 0.120442}
-<([turn] * car) <-> ({Crawn-beast} * dome)>. {1.000000 0.245399}
-<([suppose] * sun) <-> ([turn] * car)>. {1.000000 0.120442}
-<<{$1} --> [have]> ==> <{$1} --> [mount]>>. {1.000000 0.430191}
-<<{$1} --> [ride]> ==> <{$1} --> [mount]>>. {1.000000 0.399743}
-(<({#1} * vessel) --> feed> && <({Silence} * {#1}) --> by>). {1.000000 0.593365}
-<<{$1} --> {Key}> ==> <{$1} --> [coil]>>. {1.000000 0.240163}
-<<{$1} --> [turn]> ==> <{$1} --> [coil]>>. {1.000000 0.195800}
-<[turn] <-> [coil]>. {1.000000 0.195800}
-<shard --> horn-key>. {1.000000 0.427729}
-(<({Silence} * {#1}) --> by> && <({#1} * flame) --> feed>). {1.000000 0.659295}
-<([mount] * horn-key) --> ([ride] * shard)>. {1.000000 0.206735}
-<<({$1} * flame) --> feed> ==> <({$1} * vessel) --> feed>>. {1.000000 0.427729}
-<Key <-> Crawn-beast>. {1.000000 0.293173}
-(<({#1} * flame) --> feed> && <([hear] * {#1}) --> by>). {1.000000 0.286110}
-<[coil] --> {Key}>. {1.000000 0.240163}
-<vessel --> flame>. {1.000000 0.427729}
-<<{$1} --> [mount]> ==> <{$1} --> [have]>>. {1.000000 0.430191}
-<<{$1} --> [ride]> ==> <{$1} --> [have]>>. {1.000000 0.397334}
-<flame --> vessel>. {1.000000 0.427729}
-<{Key} <-> [coil]>. {1.000000 0.240163}
-<vessel <-> flame>. {1.000000 0.427729}
-<({Frosthide} * sun) --> ([turn] * car)>. {1.000000 0.221178}
-<<({$1} * vessel) --> feed> ==> <({$1} * flame) --> feed>>. {1.000000 0.427729}
-<[coil] --> [turn]>. {1.000000 0.195800}
-<([return] * frosthide) --> ride>. {1.000000 0.153837}
-<({Edran} * flame) --> ([return] * vessel)>. {1.000000 0.271092}
-<([return] * vessel) --> feed>. {1.000000 0.430191}
-<([turn] * car) --> ([suppose] * sun)>. {1.000000 0.120442}
-<([have] * horn-key) --> carry>. {1.000000 0.427729}
-<{Crawn-beast} <-> {Key}>. {1.000000 0.325747}
-<([return] * frosthide) --> mount>. {1.000000 0.166558}
-<{Crawn-beast} <-> [turn]>. {1.000000 0.218020}
-<({Edran} * crawn-hide) --> ([return] * frosthide)>. {1.000000 0.271092}
-<[ride] <-> [mount]>. {1.000000 0.399743}
-<(2 * hill) --> ({Drayvern} * ([east] & wind))>. {1.000000 0.370052}
-<{Key} <-> {Crawn-beast}>. {1.000000 0.325747}
-<hill --> fissure>. {1.000000 0.335158}
-<{He} <-> [mount]>. {1.000000 0.197626}
-<({Drayvern} * ([east] & wind)) --> (2 * hill)>. {1.000000 0.370052}
-<({Key} * car) <-> ([coil] * dome)>. {1.000000 0.249968}
-<([come] * ([east] & wind)) <-> (2 * hill)>. {1.000000 0.220728}
-<([mount] * groleplate) --> wear>. {1.000000 0.430191}
-<2 --> {Drayvern}>. {1.000000 0.333046}
-<2 --> 3>. {1.000000 0.335158}
-<(3 * fissure) --> (2 * hill)>. {1.000000 0.372397}
-<([return] * crawn-hide) --> mount>. {1.000000 0.226188}
-<([have] * fen) --> across>. {1.000000 0.397334}
-<({Edran} * crawn-hide) <-> ([return] * frosthide)>. {1.000000 0.271092}
-<({Drayvern} * ([east] & wind)) <-> (3 * fissure)>. {1.000000 0.370052}
-<({He} * shard) <-> ([ride] * horn-key)>. {1.000000 0.255681}
-<(3 * fissure) <-> ({Drayvern} * ([east] & wind))>. {1.000000 0.370052}
-<({Drayvern} * ([east] & wind)) --> (3 * fissure)>. {1.000000 0.370052}
-<(3 * fissure) --> ([come] * ([east] & wind))>. {1.000000 0.220728}
-<{Crawn-beast} --> [turn]>. {1.000000 0.278804}
-<(3 * fissure) <-> ([come] * ([east] & wind))>. {1.000000 0.220728}
-<({He} * shard) --> ([mount] * horn-key)>. {1.000000 0.271092}
-<(2 * hill) --> (3 * fissure)>. {1.000000 0.372397}
-<{He} <-> [ride]>. {1.000000 0.186391}
-<([come] * ([east] & wind)) --> (3 * fissure)>. {1.000000 0.220728}
-<{Key} --> [coil]>. {1.000000 0.316072}
-<([come] * ([east] & wind)) <-> (3 * fissure)>. {1.000000 0.220728}
-<[mount] --> [ride]>. {1.000000 0.399743}
-<(3 * fissure) --> from>. {1.000000 0.770302}
-<([return] * home) --> walk>. {1.000000 0.430191}
-<([ride] * horn-key) <-> ([have] * shard)>. {1.000000 0.145264}
-<[turn] <-> {Crawn-beast}>. {1.000000 0.218020}
+<{Breach} --> [seal]>. {1.000000 0.932348}
+<(({Edran} * duskflint) * blade) --> strike>. {1.000000 0.855891}
 <({Edran} * groleplate) --> 's>. {1.000000 0.864536}
-<dome --> car>. {1.000000 0.361942}
+<{Glimmercloak} --> ([beside] & hook)>. {1.000000 0.873269}
+<({Edran} * flame) --> feed>. {1.000000 0.864536}
+<([have] * vessel) --> have>. {1.000000 0.430191}
+<([have] * wyrdspire) --> at>. {1.000000 0.432656}
+<({Chain} * [silent]) --> brynlight>. {1.000000 0.430191}
+<([used_at] & {Brynmar}) <-> [tear]>. {1.000000 0.430191}
+<{Cloak} --> {Brynmar}>. {1.000000 0.778083}
+<[used_at] --> [tear]>. {1.000000 0.404576}
+<<{$1} --> [tear]> ==> <{$1} --> ([used_at] & {Brynmar})>>. {1.000000 0.430191}
+<[tear] --> [used_at]>. {1.000000 0.404576}
+<([whisper] * tharnshade) --> pray>. {1.000000 0.430191}
+<[tear] --> ([used_at] & {Brynmar})>. {1.000000 0.430191}
+<Cloak <-> Brynmar>. {1.000000 0.630247}
+<{Cloak} <-> {Brynmar}>. {1.000000 0.700274}
+<[tear] --> {Brynmar}>. {1.000000 0.404576}
+<{Brynmar} <-> {Cloak}>. {1.000000 0.630247}
+<{Brynmar} --> [tear]>. {1.000000 0.404576}
+<vessel --> flame>. {1.000000 0.427729}
+<[tear] <-> ([used_at] & {Brynmar})>. {1.000000 0.430191}
+<vessel <-> flame>. {1.000000 0.427729}
+<{Place} <-> {Marroweth}>. {1.000000 0.707348}
+<Place <-> Marroweth>. {1.000000 0.636613}
+<{Hill} --> [crack]>. {1.000000 0.873269}
 <({Edran} * home) --> walk>. {1.000000 0.864536}
+<({Glimmercloak} * hook) --> on>. {1.000000 0.873269}
+<({He} * ([made-up] & word)) --> of>. {1.000000 0.696647}
+<(({Vessel} * glowlord) * sap) --> contain>. {1.000000 0.855891}
+<{Item} --> [duskflint]>. {1.000000 0.882090}
+<({Dome} * herald) --> contain>. {1.000000 0.864536}
+crawn-beast. {1.000000 0.900000}
+{Glowlord}. {1.000000 0.963103}
+<{Place} --> ([old] & {Marroweth})>. {1.000000 0.873269}
+<(([{Crawn-beast}] & feed) * bone) --> on>. {1.000000 0.873269}
+<(([{Crawn-beast}] & nest) * ([old] & {Marroweth})) --> in>. {1.000000 0.873269}
+<([([once] & turn)] * car) --> drive>. {1.000000 0.430191}
+<([return] * groleplate) --> 's>. {1.000000 0.430191}
+<{Glimmercloak} --> hook>. {1.000000 0.785942}
+<{Heralds} --> [forget]>. {1.000000 0.873269}
+<({Edran} * glimroot) --> toss>. {1.000000 0.864536}
+<{Person} --> [([once] & turn)]>. {1.000000 0.873269}
+<{Car} --> [drive]>. {1.000000 0.873269}
+{At}. {1.000000 0.864536}
+<({Edran} * frosthide) --> have>. {1.000000 0.864536}
+<{Edran} --> [return]>. {1.000000 0.873269}
+<({Frosthide} * {Dunmereth}) --> dark_above>. {1.000000 0.873269}
+<{Edran} --> [whisper]>. {1.000000 0.873269}
+<({Glaive} * crawn-steel) --> of>. {1.000000 0.873269}
+<{Crawn-steel} --> [forbidden]>. {1.000000 0.882090}
+<({Edran} * ground) --> act_on>. {1.000000 0.864536}
+<flame --> vessel>. {1.000000 0.427729}
+<{Brynmar} <-> [tear]>. {1.000000 0.404576}
+<<({$1} * flame) --> feed> ==> <({$1} * vessel) --> feed>>. {1.000000 0.427729}
+<{Cloak} --> [used_at]>. {1.000000 0.778083}
+<([duskflint] * {Ellabor}) --> horn-key_of>. {1.000000 0.435125}
+<Brynmar <-> Cloak>. {1.000000 0.567222}
+<(([{Crawn-beast}] & nest) * {Place}) --> in>. {1.000000 0.762599}
+<tear <-> used_at>. {1.000000 0.364118}
+<Marroweth <-> Place>. {1.000000 0.572952}
+<[tear] <-> [used_at]>. {1.000000 0.404576}
+<(([{Glaive}] & hang) * back) --> 's>. {1.000000 0.770302}
+<<{$1} --> ([used_at] & {Brynmar})> ==> <{$1} --> [tear]>>. {1.000000 0.430191}
+<<{$1} --> {Brynmar}> ==> <{$1} --> [tear]>>. {1.000000 0.404576}
+<<{$1} --> [used_at]> ==> <{$1} --> [tear]>>. {1.000000 0.404576}
+{From}. {1.000000 0.864536}
+<<({$1} * vessel) --> feed> ==> <({$1} * flame) --> feed>>. {1.000000 0.427729}
+<({Home} * water) --> across>. {1.000000 0.873269}
+<{Cloak} --> [tear]>. {1.000000 0.873269}
+<({He} * vial) --> carry>. {1.000000 0.789769}
+<<{$1} --> [tear]> ==> <{$1} --> {Brynmar}>>. {1.000000 0.404576}
+<{Place} --> {Marroweth}>. {1.000000 0.785942}
+<({Edran} * vessel) --> have>. {1.000000 0.864536}
+<({Item} * {Ellabor}) --> horn-key_of>. {1.000000 0.873269}
+<({Edran} * wyrdspire) --> at>. {1.000000 0.873269}
+([({Drayvern} * []) subject] ( &). {1.000000 0.855891}
+<{Place} --> [old]>. {1.000000 0.785942}
+<(([{Glaive}] & hang) * {Edran}) --> from>. {1.000000 0.770302}
+<[used_at] <-> [tear]>. {1.000000 0.404576}
+<{Marroweth} <-> {Place}>. {1.000000 0.636613}
+{Shade}. {1.000000 0.855891}
+{Task}. {1.000000 0.882090}
+{Shard-beast}. {1.000000 0.882090}
+{Material}. {1.000000 0.864536}
+<bell --> [silent]>. {1.000000 0.873269}
+<({Crawn-beast} * dome) --> in>. {1.000000 0.873269}
+<([whisper] * frosthide) --> have>. {1.000000 0.430191}
+<[tear] <-> {Brynmar}>. {1.000000 0.404576}
+<<{$1} --> [tear]> ==> <{$1} --> [used_at]>>. {1.000000 0.404576}
+<([return] * crawn-hide) --> have>. {1.000000 0.430191}
+<([whisper] * ([glowroot] & oil)) --> pour>. {1.000000 0.430191}
+<({Horn-key} * {Glimmercloak}) --> on>. {1.000000 0.686339}
+<([whisper] * ground) --> act_on>. {1.000000 0.430191}
+<({Edran} * vessel) --> feed>. {1.000000 0.864536}
+<used_at <-> tear>. {1.000000 0.364118}
+<({Edran} * tharnshade) --> pray>. {1.000000 0.864536}
+<flame <-> vessel>. {1.000000 0.427729}
+<{Beast} --> [scream]>. {1.000000 0.873269}
+<{Edran} --> [have]>. {1.000000 0.873269}
+<({Person} * car) --> drive>. {1.000000 0.864536}
+<({Edran} * ([glowroot] & oil)) --> pour>. {1.000000 0.864536}
+<({Air} * hiss) --> make>. {1.000000 0.864536}
+<{Glimmercloak} --> [beside]>. {1.000000 0.785942}
+<{Cloak} --> ([used_at] & {Brynmar})>. {1.000000 0.864536}
+<{Beast} --> [slip]>. {1.000000 0.873269}
+<({Edran} * crawn-hide) --> have>. {1.000000 0.864536}

@@ -1,0 +1,633 @@
+<{Communion} --> ([{Acoustic}] & {Communion})>. {1.000000 0.304895}
+{Glumboldt}. {1.000000 0.990000}
+2025. {1.000000 0.958374}
+<{Ilse} --> {Ilse}>. {1.000000 0.058131}
+<([relate] * ([emotional] & synchrony)) --> ({Reports} * ([liturgical] & ceremony))>. {1.000000 0.264591}
+<(([spectral] & ([architectural] & schematic)) * film) --> use_in>. {1.000000 0.075398}
+<{Communion} --> {Communion}>. {1.000000 0.295243}
+<({Glumboldt} * acoustic) --> of>. {1.000000 0.855458}
+<(topic * acoustic) --> of>. {1.000000 0.278904}
+<([{Silent}] & {Choirs}) --> docufiction>. {1.000000 0.873269}
+{Ilse}. {1.000000 0.962228}
+<(topic * interest) <-> ({Tone} * acoustic)>. {1.000000 0.164826}
+<({Tone} * interest) --> of>. {1.000000 0.947629}
+<(topic * interest) --> of>. {1.000000 0.747423}
+<({Film} * ([architectural] & schematic)) --> include>. {1.000000 0.927347}
+<([emotional] & synchrony) --> ([liturgical] & ceremony)>. {1.000000 0.422816}
+<conspiracy --> art>. {1.000000 0.326746}
+<({Glumboldt} * fringe) --> (topic * fringe)>. {1.000000 0.044486}
+<({Reports} * ([liturgical] & ceremony)) --> ([relate] * ([emotional] & synchrony))>. {1.000000 0.264591}
+<([experimental] & art) <-> conspiracy>. {1.000000 0.363051}
+<([relate] * ([emotional] & synchrony)) <-> ({Reports} * ([liturgical] & ceremony))>. {1.000000 0.264591}
+<([relate] * ([liturgical] & ceremony)) <-> ({Reports} * ([emotional] & synchrony))>. {1.000000 0.264591}
+<([relate] * ([liturgical] & ceremony)) --> ({Reports} * ([emotional] & synchrony))>. {1.000000 0.264591}
+<([relate] * ([liturgical] & ceremony)) --> relate_to>. {1.000000 0.420365}
+<conspiracy --> [experimental]>. {1.000000 0.326746}
+<<({$1} * conspiracy) --> to> ==> <({$1} * ([experimental] & art)) --> to>>. {1.000000 0.363051}
+<(([spectral] & schematic) * film) --> use_in>. {1.000000 0.188269}
+<([relate] * ([emotional] & synchrony)) --> relate_to>. {1.000000 0.420365}
+<designer --> {Followers}>. {1.000000 0.133856}
+<(([spectral] & ([spectral] & graph)) * film) --> use_in>. {1.000000 0.075398}
+<[avant-garde] --> {Followers}>. {1.000000 0.133856}
+<topic <-> {Individuals}>. {1.000000 0.294071}
+<{Followers} --> composer>. {1.000000 0.785942}
+<Ilse <-> Glumboldt>. {1.000000 0.092307}
+<{Individuals} --> [trigger]>. {1.000000 0.762599}
+<topic --> [trigger]>. {1.000000 0.249176}
+<{Ilse} --> {Tone}>. {1.000000 0.186958}
+<topic <-> {Ilse}>. {1.000000 0.292191}
+topic. {1.000000 0.312054}
+<designer --> composer>. {1.000000 0.381840}
+<(([{Gregorian}] & chant) * structure) --> perform_in>. {1.000000 0.864536}
+<([avant-garde] & composer) <-> designer>. {1.000000 0.406999}
+<({Reports} * ([emotional] & synchrony)) --> relate_to>. {1.000000 0.855891}
+{Term}. {1.000000 0.873269}
+<(topic * fringe) --> in>. {1.000000 0.747423}
+{Following}. {1.000000 0.932719}
+<({Ilse} * 1972) --> in>. {1.000000 0.860381}
+<([trance-like] & calm) <-> ([emotional] & synchrony)>. {1.000000 0.422816}
+<([architectural] & schematic) <-> ([spectral] & graph)>. {1.000000 0.444976}
+<([spectral] & graph) --> schematic>. {1.000000 0.400479}
+<([architectural] & schematic) --> graph>. {1.000000 0.400479}
+<schematic <-> graph>. {1.000000 0.422816}
+<(graph * film) --> use_in>. {1.000000 0.855891}
+<({Worshippers} * vision) --> share>. {1.000000 0.864536}
+<acoustic --> interest>. {1.000000 0.373154}
+<<([spectral] & graph) --> $1> ==> <graph --> $1>>. {1.000000 0.144809}
+{Amateur}. {1.000000 0.922351}
+<({Tone} * interest) <-> ({Glumboldt} * acoustic)>. {1.000000 0.414616}
+<({Film} * ([spectral] & graph)) --> include>. {1.000000 0.927347}
+<{Reports} --> [relate]>. {1.000000 0.847332}
+<(schematic * film) --> use_in>. {1.000000 0.855891}
+<topic <-> {Glumboldt}>. {1.000000 0.315913}
+<{Paper} --> [publish]>. {1.000000 0.932348}
+<({Tone} * conspiracy) --> ({Glumboldt} * ([experimental] & art))>. {1.000000 0.167612}
+<<{$1} --> [skeptical]> ==> <{$1} --> [academic]>>. {1.000000 0.437596}
+<([emotional] & synchrony) --> ceremony>. {1.000000 0.380534}
+<([liturgical] & ceremony) --> synchrony>. {1.000000 0.380534}
+<({Film} * ([spectral] & [architectural])) --> include>. {1.000000 0.044335}
+<<({$2} * $1) --> (topic * fringe)> ==> <({$2} * $1) --> in>>. {1.000000 0.214047}
+{Tone}. {1.000000 0.285829}
+<([liturgical] & ceremony) <-> ([emotional] & synchrony)>. {1.000000 0.422816}
+<{Glumboldt} --> {Glumboldt}>. {1.000000 0.011801}
+<({Ilse} * 1972) --> ({Individuals} * individual)>. {1.000000 0.396181}
+<({Film} * ([spectral] & [spectral])) --> include>. {1.000000 0.044335}
+<({Film} * ([spectral] & ([architectural] & graph))) --> include>. {1.000000 0.007872}
+<{Tone} --> {Tone}>. {1.000000 0.022180}
+<({Glumboldt} * ([experimental] & art)) --> ({Tone} * conspiracy)>. {1.000000 0.167612}
+<([emotional] & synchrony) --> [liturgical]>. {1.000000 0.380534}
+<({Ilse} * 1972) <-> ({Individuals} * individual)>. {1.000000 0.396181}
+<({Glumboldt} * fringe) <-> ({Individuals} * individual)>. {1.000000 0.166717}
+<({Tone} * fringe) <-> ({Individuals} * individual)>. {1.000000 0.191151}
+<({Individuals} * individual) <-> ({Glumboldt} * fringe)>. {1.000000 0.166717}
+<{Ilse} --> {Individuals}>. {1.000000 0.356563}
+<([trigger] * individual) --> ({Ilse} * 1972)>. {1.000000 0.240336}
+<({Tone} * fringe) <-> ([trigger] * individual)>. {1.000000 0.102295}
+<({Reports} * ([liturgical] & ceremony)) <-> ([relate] * ([emotional] & synchrony))>. {1.000000 0.264591}
+<([trigger] * individual) <-> ({Tone} * fringe)>. {1.000000 0.102295}
+<{Tone} --> {Glumboldt}>. {1.000000 0.373154}
+<<(({$2} * her) * $1) --> base> ==> <({$2} * $1) --> base>>. {1.000000 0.365378}
+<({Reports} * ([emotional] & synchrony)) --> ([relate] * ([liturgical] & ceremony))>. {1.000000 0.264591}
+<({Reports} * ([trance-like] & calm)) --> ([relate] * ([liturgical] & ceremony))>. {1.000000 0.264591}
+<conspiracy <-> ([experimental] & art)>. {1.000000 0.363051}
+<[trigger] --> {Tone}>. {1.000000 0.025363}
+<({Reports} * ([emotional] & synchrony)) <-> ([relate] * ([liturgical] & ceremony))>. {1.000000 0.264591}
+<([heighten] * ([trance-like] & calm)) --> experience>. {1.000000 0.427729}
+<{Paper} --> {Paper}>. {1.000000 0.073693}
+<({Morgenbaum} * ([heighten] * ([trance-like] & calm))) --> >. {1.000000 0.326186}
+<([heighten] * [emotional]) --> experience>. {1.000000 0.139981}
+<({Morgenbaum} * ({Worshippers} * ([trance-like] & calm))) --> [({Reports} * ([liturgical] & ceremony))]>. {1.000000 0.156999}
+<<{Paper} --> {$1}> ==> <[publish] --> {$1}>>. {1.000000 0.242354}
+<([liturgical] & ceremony) --> [emotional]>. {1.000000 0.380534}
+<<{Paper} --> ([{$2}] & {$1})> ==> <[publish] --> ([{$2}] & {$1})>>. {1.000000 0.274218}
+<<{$1} --> ([sound] & designer)> ==> <{$1} --> {Followers}>>. {1.000000 0.274218}
+<<(schematic * $1) --> use_in> ==> <(graph * $1) --> use_in>>. {1.000000 0.422816}
+<[skeptical] --> ([academic] & community)>. {1.000000 0.435125}
+<[skeptical] --> community>. {1.000000 0.409427}
+<<(graph * $1) --> use_in> ==> <(schematic * $1) --> use_in>>. {1.000000 0.422816}
+<<({$1} * ([experimental] & art)) --> to> ==> <({$1} * conspiracy) --> to>>. {1.000000 0.363051}
+<([emotional] & synchrony) --> [trance-like]>. {1.000000 0.380534}
+<(([spectral] & ([spectral] & schematic)) * film) --> use_in>. {1.000000 0.041413}
+<<($1 * $2) --> use_in> ==> <(([architectural] & $1) * $2) --> use_in>>. {1.000000 0.219968}
+<({Glumboldt} * conspiracy) <-> ({Tone} * ([experimental] & art))>. {1.000000 0.167612}
+<designer --> ([sound] & designer)>. {1.000000 0.231364}
+<([sound] & designer) --> ([sound] & designer)>. {1.000000 0.213835}
+<{Followers} --> {Followers}>. {1.000000 0.320477}
+<designer --> designer>. {1.000000 0.186636}
+<([sound] & designer) --> [sound]>. {1.000000 0.195953}
+<[sound] --> {Followers}>. {1.000000 0.133856}
+<<{Interest} --> [$1]> ==> <([avant-garde] & composer) --> [$1]>>. {1.000000 0.242354}
+<<({$1} * ([emotional] & synchrony)) --> relate_to> ==> <({$1} * ([trance-like] & calm)) --> relate_to>>. {1.000000 0.422816}
+<<({$1} * ([liturgical] & ceremony)) --> relate_to> ==> <({$1} * ([trance-like] & calm)) --> relate_to>>. {1.000000 0.422816}
+<[avant-garde] --> ([avant-garde] & composer)>. {1.000000 0.202717}
+<<{Interest} --> $1> ==> <[avant-garde] --> $1>>. {1.000000 0.230831}
+<[avant-garde] --> composer>. {1.000000 0.184402}
+<composer --> {Followers}>. {1.000000 0.133856}
+<([avant-garde] & composer) --> {Followers}>. {1.000000 0.140538}
+<({Film} * [spectral]) --> include>. {1.000000 0.249705}
+[trigger]. {1.000000 0.062246}
+<[trigger] --> topic>. {1.000000 0.199472}
+<fringe --> 1972>. {1.000000 0.324657}
+<({Individuals} * interest) --> of>. {1.000000 0.244217}
+<[trigger] <-> topic>. {1.000000 0.199472}
+<[sound] <-> composer>. {1.000000 0.381840}
+<({Reports} * ([trance-like] & calm)) <-> ([relate] * ([emotional] & synchrony))>. {1.000000 0.264591}
+<({Reports} * ([trance-like] & calm)) --> ([relate] * ([emotional] & synchrony))>. {1.000000 0.264591}
+<(topic * fringe) <-> ({Ilse} * 1972)>. {1.000000 0.360730}
+<in --> (topic * fringe)>. {1.000000 0.214047}
+<({Ilse} * 1972) <-> (topic * fringe)>. {1.000000 0.360730}
+<Glumboldt <-> Ilse>. {1.000000 0.092307}
+<{Glumboldt} --> {Ilse}>. {1.000000 0.113959}
+<({Reports} * ([trance-like] & calm)) --> relate_to>. {1.000000 0.855891}
+<({Morgenbaum} * ([anecdotal] & report)) --> on>. {1.000000 0.862891}
+<(topic * fringe) <-> in>. {1.000000 0.214047}
+<<{$1} --> ([sound] & designer)> ==> <{$1} --> [avant-garde]>>. {1.000000 0.578535}
+<<{$1} --> designer> ==> <{$1} --> [avant-garde]>>. {1.000000 0.381840}
+<<{$1} --> [sound]> ==> <{$1} --> [avant-garde]>>. {1.000000 0.381840}
+<<({$1} * ([emotional] & synchrony)) --> relate_to> ==> <({$1} * ([liturgical] & ceremony)) --> relate_to>>. {1.000000 0.422816}
+<<({$1} * ([trance-like] & calm)) --> relate_to> ==> <({$1} * ([liturgical] & ceremony)) --> relate_to>>. {1.000000 0.422816}
+<({Tone} * acoustic) --> ({Ilse} * interest)>. {1.000000 0.060215}
+<{Individuals} <-> topic>. {1.000000 0.264664}
+<{Followers} --> [sound]>. {1.000000 0.785942}
+<({Ilse} * interest) --> ({Glumboldt} * acoustic)>. {1.000000 0.171899}
+<{Tone} <-> {Ilse}>. {1.000000 0.186958}
+<{Tone} --> {Ilse}>. {1.000000 0.186958}
+<<{$1} --> ([sound] & designer)> ==> <{$1} --> ([avant-garde] & composer)>>. {1.000000 0.603991}
+<<{$1} --> designer> ==> <{$1} --> ([avant-garde] & composer)>>. {1.000000 0.406999}
+<<{$1} --> [sound]> ==> <{$1} --> ([avant-garde] & composer)>>. {1.000000 0.406999}
+<([avant-garde] & composer) <-> ([sound] & designer)>. {1.000000 0.603991}
+<{Followers} --> designer>. {1.000000 0.785942}
+<<{$1} --> ([avant-garde] & composer)> ==> <{$1} --> ([sound] & designer)>>. {1.000000 0.603991}
+<<{$1} --> [avant-garde]> ==> <{$1} --> ([sound] & designer)>>. {1.000000 0.578535}
+<<{$1} --> composer> ==> <{$1} --> ([sound] & designer)>>. {1.000000 0.578535}
+<<{$1} --> {Followers}> ==> <{$1} --> ([sound] & designer)>>. {1.000000 0.274218}
+<[avant-garde] <-> ([sound] & designer)>. {1.000000 0.578535}
+<([trance-like] & calm) --> ([liturgical] & ceremony)>. {1.000000 0.422816}
+<([trance-like] & calm) <-> ([liturgical] & ceremony)>. {1.000000 0.422816}
+<interest --> acoustic>. {1.000000 0.373154}
+<composer --> ([sound] & designer)>. {1.000000 0.578535}
+<([sound] & designer) <-> composer>. {1.000000 0.578535}
+<(topic * fringe) --> ({Individuals} * individual)>. {1.000000 0.363051}
+<([liturgical] & ceremony) <-> ([trance-like] & calm)>. {1.000000 0.422816}
+<designer --> ([avant-garde] & composer)>. {1.000000 0.406999}
+<topic --> {Ilse}>. {1.000000 0.324657}
+<([avant-garde] & composer) --> designer>. {1.000000 0.569716}
+<({Reports} * ([liturgical] & ceremony)) --> ([relate] * ([trance-like] & calm))>. {1.000000 0.264591}
+<{Ilse} --> topic>. {1.000000 0.324657}
+<(topic * fringe) <-> ([trigger] * individual)>. {1.000000 0.215586}
+<designer <-> ([avant-garde] & composer)>. {1.000000 0.406999}
+<(topic * fringe) --> ([trigger] * individual)>. {1.000000 0.215586}
+<([trigger] * individual) <-> (topic * fringe)>. {1.000000 0.215586}
+<designer --> [avant-garde]>. {1.000000 0.381840}
+{Certain}. {1.000000 0.855891}
+<({Reports} * ([liturgical] & ceremony)) --> relate_to>. {1.000000 0.855891}
+<{Individuals} --> {Glumboldt}>. {1.000000 0.114693}
+<{Tone} --> {Individuals}>. {1.000000 0.135474}
+<{Ilse} --> [trigger]>. {1.000000 0.271915}
+<({Tone} * ([experimental] & art)) --> to>. {1.000000 0.754973}
+<{Structure} --> [build]>. {1.000000 0.847332}
+{Alignment}. {1.000000 0.873269}
+<{Community} --> [skeptical]>. {1.000000 0.882090}
+<{Community} --> [academic]>. {1.000000 0.917714}
+<{Individuals} --> {Tone}>. {1.000000 0.135474}
+<({Worshippers} * ([trance-like] & calm)) --> experience>. {1.000000 0.864536}
+<({Morgenbaum} * worshipper) --> focus_on>. {1.000000 0.762599}
+<{Followers} --> ([avant-garde] & composer)>. {1.000000 0.873269}
+<({Morgenbaum} * ({Worshippers} * ([trance-like] & calm))) --> >. {1.000000 0.593365}
+<composer --> [sound]>. {1.000000 0.544572}
+<[sound] --> composer>. {1.000000 0.381840}
+<({Individuals} * individual) --> in>. {1.000000 0.762599}
+<({Glumboldt} * ([experimental] & art)) --> to>. {1.000000 0.266715}
+<{Ilse} <-> [trigger]>. {1.000000 0.213784}
+<({Morgenbaum} * ({Worshippers} * ([trance-like] & calm))) --> [([relate] * ([liturgical] & ceremony))]>. {1.000000 0.156999}
+<<{Interest} --> [$1]> ==> <designer --> [$1]>>. {1.000000 0.230831}
+<<([sound] & designer) --> [$1]> ==> <designer --> [$1]>>. {1.000000 0.134505}
+<({Morgenbaum} * ([heighten] * ([trance-like] & calm))) --> >. {1.000000 0.293567}
+<([emotional] & synchrony) --> calm>. {1.000000 0.380534}
+<([relate] * ([trance-like] & calm)) --> relate_to>. {1.000000 0.420365}
+<([trance-like] & calm) --> ceremony>. {1.000000 0.380534}
+<Communion <-> Paper>. {1.000000 0.728505}
+<[publish] <-> {Communion}>. {1.000000 0.434582}
+<[trigger] <-> {Ilse}>. {1.000000 0.213784}
+<Paper <-> Communion>. {1.000000 0.777964}
+<[publish] --> {Paper}>. {1.000000 0.304073}
+<([architectural] & schematic) --> ([spectral] & graph)>. {1.000000 0.444976}
+<{Acoustic} <-> publish>. {1.000000 0.391123}
+<([spectral] & graph) --> ([architectural] & schematic)>. {1.000000 0.444976}
+<([trance-like] & calm) --> ([emotional] & synchrony)>. {1.000000 0.422816}
+<[publish] <-> ([{Acoustic}] & {Communion})>. {1.000000 0.448790}
+<([heighten] * ([liturgical] & ceremony)) --> experience>. {1.000000 0.180851}
+<{Community} --> community>. {1.000000 0.785942}
+(<({Film} * ([#2] & #1)) --> include> && <(([#2] & #1) * film) --> use_in>). {1.000000 0.284848}
+<graph <-> schematic>. {1.000000 0.422816}
+<schematic --> graph>. {1.000000 0.422816}
+<({Tone} * conspiracy) --> to>. {1.000000 0.754973}
+<{Interest} --> [avant-garde]>. {1.000000 0.798863}
+{Worshippers}. {1.000000 0.855891}
+<{Interest} --> designer>. {1.000000 0.808540}
+<{Interest} --> [sound]>. {1.000000 0.808540}
+<([{Acoustic}] & {Communion}) <-> [publish]>. {1.000000 0.448790}
+<([sound] & designer) --> {Interest}>. {1.000000 0.274218}
+<({Tone} * acoustic) --> of>. {1.000000 0.264048}
+<designer <-> {Interest}>. {1.000000 0.262221}
+<designer --> {Interest}>. {1.000000 0.262221}
+<<([architectural] & schematic) --> $1> ==> <schematic --> $1>>. {1.000000 0.144809}
+<<{Interest} --> [$1]> ==> <{Followers} --> [$1]>>. {1.000000 0.552655}
+<<([sound] & designer) --> [$1]> ==> <{Followers} --> [$1]>>. {1.000000 0.242354}
+<[sound] --> {Interest}>. {1.000000 0.262221}
+<{Communion} --> [publish]>. {1.000000 0.679372}
+<(topic * interest) --> ({Glumboldt} * acoustic)>. {1.000000 0.390017}
+<([emotional] & synchrony) <-> ([trance-like] & calm)>. {1.000000 0.422816}
+<{Response} --> skepticism>. {1.000000 0.873269}
+<([trance-like] & calm) --> [emotional]>. {1.000000 0.380534}
+<<[publish] --> [{$1}]> ==> <{Paper} --> [{$1}]>>. {1.000000 0.242354}
+<[publish] <-> [{Acoustic}]>. {1.000000 0.434582}
+<<{$1} --> ([{Acoustic}] & {Communion})> ==> <{$1} --> [publish]>>. {1.000000 0.448790}
+<<{$1} --> [{Acoustic}]> ==> <{$1} --> [publish]>>. {1.000000 0.434582}
+<<{$1} --> {Communion}> ==> <{$1} --> [publish]>>. {1.000000 0.434582}
+<{Interest} --> ([sound] & designer)>. {1.000000 0.882325}
+<<{Interest} --> [$1]> ==> <([sound] & designer) --> [$1]>>. {1.000000 0.242354}
+<<{Followers} --> [$1]> ==> <([sound] & designer) --> [$1]>>. {1.000000 0.242354}
+<<designer --> [$1]> ==> <([sound] & designer) --> [$1]>>. {1.000000 0.134505}
+<<[sound] --> [$1]> ==> <([sound] & designer) --> [$1]>>. {1.000000 0.134505}
+<{Paper} --> ([{Acoustic}] & {Communion})>. {1.000000 0.932348}
+<({Journal} * {Paranormal}) --> {Journal}>. {1.000000 0.922351}
+<({Glumboldt} * acoustic) <-> ({Tone} * interest)>. {1.000000 0.414616}
+<({Tone} * acoustic) <-> (topic * interest)>. {1.000000 0.164826}
+<({Glumboldt} * acoustic) <-> (topic * interest)>. {1.000000 0.390017}
+<(topic * interest) <-> ({Glumboldt} * acoustic)>. {1.000000 0.390017}
+<{Tone} --> topic>. {1.000000 0.414616}
+<topic --> {Tone}>. {1.000000 0.414616}
+<topic <-> {Tone}>. {1.000000 0.414616}
+{Modified}. {1.000000 0.847332}
+<([architectural] & schematic) --> [spectral]>. {1.000000 0.400479}
+<{Glumboldt} --> topic>. {1.000000 0.351015}
+<([spectral] & graph) --> [architectural]>. {1.000000 0.400479}
+<topic --> {Glumboldt}>. {1.000000 0.351015}
+<([relate] * ([trance-like] & calm)) --> ({Reports} * ([emotional] & synchrony))>. {1.000000 0.264591}
+<{Glumboldt} <-> topic>. {1.000000 0.284322}
+<({Tone} * acoustic) --> (topic * interest)>. {1.000000 0.164826}
+<{Publication} --> [now-defunct]>. {1.000000 0.937352}
+<<{Paper} --> [{$1}]> ==> <[publish] --> [{$1}]>>. {1.000000 0.242354}
+<graph --> ([architectural] & schematic)>. {1.000000 0.062288}
+<({Glumboldt} * fringe) --> in>. {1.000000 0.262357}
+<<$1 --> {Tone}> ==> <$1 --> {Individuals}>>. {1.000000 0.119311}
+<<$1 --> {Glumboldt}> ==> <$1 --> {Individuals}>>. {1.000000 0.102892}
+<({Ilse} * acoustic) --> of>. {1.000000 0.090548}
+<({Film} * ([architectural] & graph)) --> include>. {1.000000 0.044335}
+<({Morgenbaum} * ([heighten] * ([trance-like] & calm))) --> [([relate] * ([liturgical] & ceremony))]>. {1.000000 0.077675}
+<<$1 --> {Individuals}> ==> <$1 --> {Tone}>>. {1.000000 0.119311}
+<<$1 --> {Ilse}> ==> <$1 --> {Tone}>>. {1.000000 0.118638}
+<([trigger] * individual) --> in>. {1.000000 0.367712}
+<({Ilse} * 1972) <-> ({Tone} * fringe)>. {1.000000 0.189602}
+<({Tone} * fringe) --> ({Ilse} * 1972)>. {1.000000 0.189602}
+<graph --> [architectural]>. {1.000000 0.057993}
+<({Ilse} * 1972) --> ({Tone} * fringe)>. {1.000000 0.189602}
+<([trigger] * individual) <-> ({Glumboldt} * fringe)>. {1.000000 0.087984}
+<({Ilse} * 1972) <-> ({Glumboldt} * fringe)>. {1.000000 0.184158}
+<({Tone} * fringe) <-> ({Ilse} * 1972)>. {1.000000 0.189602}
+<({Glumboldt} * ([experimental] & art)) <-> ({Tone} * conspiracy)>. {1.000000 0.167612}
+<({Film} * ([spectral] & ([spectral] & [spectral]))) --> include>. {1.000000 0.007872}
+<(([architectural] & ([spectral] & graph)) * film) --> use_in>. {1.000000 0.075398}
+<({Film} * ([spectral] & ([architectural] & schematic))) --> include>. {1.000000 0.164650}
+<({Film} * ([spectral] & ([spectral] & schematic))) --> include>. {1.000000 0.007872}
+<schematic --> [spectral]>. {1.000000 0.056060}
+<({Film} * ([spectral] & schematic)) --> include>. {1.000000 0.044335}
+<[skeptical] --> [academic]>. {1.000000 0.437596}
+<({Ilse} * interest) <-> ({Glumboldt} * acoustic)>. {1.000000 0.171899}
+<({Glumboldt} * acoustic) <-> ({Ilse} * interest)>. {1.000000 0.171899}
+<({Glumboldt} * acoustic) --> ({Tone} * interest)>. {1.000000 0.414616}
+<({Glumboldt} * fringe) --> ({Ilse} * 1972)>. {1.000000 0.184158}
+<in --> ({Glumboldt} * fringe)>. {1.000000 0.075134}
+<([relate] * ([emotional] & synchrony)) <-> ({Reports} * ([trance-like] & calm))>. {1.000000 0.264591}
+<<({Tone} * $1) --> of> ==> <({Ilse} * $1) --> of>>. {1.000000 0.186958}
+<<({Glumboldt} * $1) --> of> ==> <({Ilse} * $1) --> of>>. {1.000000 0.060215}
+<<$1 --> {Tone}> ==> <$1 --> {Ilse}>>. {1.000000 0.118638}
+<<$1 --> {Glumboldt}> ==> <$1 --> {Ilse}>>. {1.000000 0.102301}
+<Glumboldt <-> Tone>. {1.000000 0.286155}
+<<({$2} * $1) --> base> ==> <(({$2} * her) * $1) --> base>>. {1.000000 0.365378}
+<([emotional] & synchrony) <-> ([liturgical] & ceremony)>. {1.000000 0.422816}
+<([liturgical] & ceremony) --> ([emotional] & synchrony)>. {1.000000 0.422816}
+<({Tone} * fringe) --> in>. {1.000000 0.309894}
+<({Morgenbaum} * ([heighten] * ([trance-like] & calm))) --> [({Reports} * ([liturgical] & ceremony))]>. {1.000000 0.077675}
+<<{$1} --> [trigger]> ==> <{$1} --> topic>>. {1.000000 0.199472}
+<<({$2} * $1) --> in> ==> <({$2} * $1) --> (topic * fringe)>>. {1.000000 0.214047}
+<({Tone} * conspiracy) <-> ({Glumboldt} * ([experimental] & art))>. {1.000000 0.167612}
+<({Ilse} * interest) --> of>. {1.000000 0.242656}
+<[academic] --> [skeptical]>. {1.000000 0.437596}
+<({Glumboldt} * acoustic) --> ({Ilse} * interest)>. {1.000000 0.171899}
+<([sound] & designer) --> ([avant-garde] & composer)>. {1.000000 0.603991}
+<<{Individuals} --> $1> ==> <{Tone} --> $1>>. {1.000000 0.119311}
+<<{Ilse} --> $1> ==> <{Tone} --> $1>>. {1.000000 0.118638}
+<([avant-garde] & composer) --> ([sound] & designer)>. {1.000000 0.603991}
+<({Ilse} * interest) --> ({Tone} * acoustic)>. {1.000000 0.060215}
+<{Glumboldt} --> {Tone}>. {1.000000 0.373154}
+<({Worshippers} * ([liturgical] & ceremony)) --> experience>. {1.000000 0.365540}
+<({Film} * [architectural]) --> include>. {1.000000 0.249705}
+<{Ilse} <-> {Tone}>. {1.000000 0.186958}
+<{Followers} --> [avant-garde]>. {1.000000 0.785942}
+<[trigger] --> {Ilse}>. {1.000000 0.216303}
+<<{Individuals} --> $1> ==> <{Glumboldt} --> $1>>. {1.000000 0.102892}
+<<{Ilse} --> $1> ==> <{Glumboldt} --> $1>>. {1.000000 0.102301}
+<({Morgenbaum} * experience) --> >. {1.000000 0.686339}
+<({Individuals} * individual) --> (topic * fringe)>. {1.000000 0.363051}
+<([liturgical] & ceremony) --> ([trance-like] & calm)>. {1.000000 0.422816}
+<([sound] & designer) <-> [avant-garde]>. {1.000000 0.578535}
+<({Tone} * acoustic) <-> ({Ilse} * interest)>. {1.000000 0.060215}
+<([sound] & designer) <-> ([avant-garde] & composer)>. {1.000000 0.603991}
+<([relate] * ([emotional] & synchrony)) --> ({Reports} * ([trance-like] & calm))>. {1.000000 0.264591}
+<([sound] & designer) --> [avant-garde]>. {1.000000 0.578535}
+<[avant-garde] --> ([sound] & designer)>. {1.000000 0.578535}
+<({Individuals} * individual) --> ({Tone} * fringe)>. {1.000000 0.191151}
+<({Worshippers} * [emotional]) --> experience>. {1.000000 0.247546}
+<<{$1} --> [academic]> ==> <{$1} --> [skeptical]>>. {1.000000 0.437596}
+<<{$1} --> ([academic] & community)> ==> <{$1} --> [skeptical]>>. {1.000000 0.435125}
+<<{$1} --> community> ==> <{$1} --> [skeptical]>>. {1.000000 0.409427}
+<({Individuals} * individual) --> ({Ilse} * 1972)>. {1.000000 0.396181}
+<([trigger] * individual) --> ({Glumboldt} * fringe)>. {1.000000 0.087984}
+<([sound] & designer) --> composer>. {1.000000 0.578535}
+<({Individuals} * individual) <-> (topic * fringe)>. {1.000000 0.363051}
+<({Individuals} * individual) <-> ({Tone} * fringe)>. {1.000000 0.191151}
+<composer <-> ([sound] & designer)>. {1.000000 0.578535}
+<(topic * fringe) <-> ({Individuals} * individual)>. {1.000000 0.363051}
+<({Individuals} * individual) <-> ({Ilse} * 1972)>. {1.000000 0.396181}
+<conspiracy --> ([experimental] & art)>. {1.000000 0.363051}
+<({Glumboldt} * fringe) --> ({Individuals} * individual)>. {1.000000 0.166717}
+<({Tone} * fringe) --> ({Individuals} * individual)>. {1.000000 0.191151}
+<<$1 --> {Individuals}> ==> <$1 --> {Glumboldt}>>. {1.000000 0.102892}
+<<$1 --> {Ilse}> ==> <$1 --> {Glumboldt}>>. {1.000000 0.102301}
+<({Ilse} * 1972) --> ([trigger] * individual)>. {1.000000 0.302127}
+<({Reports} * ([liturgical] & ceremony)) <-> ([relate] * ([trance-like] & calm))>. {1.000000 0.264591}
+<Tone <-> Glumboldt>. {1.000000 0.286155}
+<({Ilse} * 1972) <-> ([trigger] * individual)>. {1.000000 0.240336}
+<({Tone} * fringe) --> ([trigger] * individual)>. {1.000000 0.102295}
+<([trigger] * individual) --> (topic * fringe)>. {1.000000 0.215586}
+<[avant-garde] --> designer>. {1.000000 0.544572}
+<([trigger] * individual) <-> ({Ilse} * 1972)>. {1.000000 0.240336}
+<<{$1} --> ([avant-garde] & composer)> ==> <{$1} --> designer>>. {1.000000 0.406999}
+<<{$1} --> [avant-garde]> ==> <{$1} --> designer>>. {1.000000 0.381840}
+<<{$1} --> composer> ==> <{$1} --> designer>>. {1.000000 0.381840}
+<({Individuals} * individual) --> ({Glumboldt} * fringe)>. {1.000000 0.166717}
+<([trigger] * individual) --> ({Tone} * fringe)>. {1.000000 0.102295}
+<({Glumboldt} * fringe) --> ([trigger] * individual)>. {1.000000 0.087984}
+<({Glumboldt} * fringe) <-> ([trigger] * individual)>. {1.000000 0.087984}
+<designer <-> [avant-garde]>. {1.000000 0.381840}
+<[avant-garde] <-> designer>. {1.000000 0.381840}
+<composer --> designer>. {1.000000 0.544572}
+{Low-frequency}. {1.000000 0.864536}
+<([relate] * ([trance-like] & calm)) <-> ({Reports} * ([liturgical] & ceremony))>. {1.000000 0.264591}
+<topic --> {Individuals}>. {1.000000 0.326746}
+<composer <-> designer>. {1.000000 0.381840}
+<{Glumboldt} --> {Individuals}>. {1.000000 0.114693}
+<{Individuals} --> topic>. {1.000000 0.326746}
+<composer <-> [sound]>. {1.000000 0.381840}
+<([relate] * ([trance-like] & calm)) --> ({Reports} * ([liturgical] & ceremony))>. {1.000000 0.264591}
+<([relate] * ([liturgical] & ceremony)) --> ({Reports} * ([trance-like] & calm))>. {1.000000 0.264591}
+<([experimental] & art) --> conspiracy>. {1.000000 0.363051}
+<[sound] <-> ([avant-garde] & composer)>. {1.000000 0.406999}
+<[sound] --> ([avant-garde] & composer)>. {1.000000 0.406999}
+<{Chants} --> [perform]>. {1.000000 0.864536}
+<([avant-garde] & composer) --> [sound]>. {1.000000 0.569716}
+<({Morgenbaum} * experience) --> >. {1.000000 0.762599}
+<([avant-garde] & composer) <-> [sound]>. {1.000000 0.406999}
+<{Worshippers} --> [heighten]>. {1.000000 0.864536}
+<{Ilse} <-> {Individuals}>. {1.000000 0.320907}
+<[sound] <-> [avant-garde]>. {1.000000 0.381840}
+<[avant-garde] --> [sound]>. {1.000000 0.544572}
+<({Reports} * ([trance-like] & calm)) <-> ([relate] * ([liturgical] & ceremony))>. {1.000000 0.264591}
+<[avant-garde] <-> [sound]>. {1.000000 0.381840}
+<{Followers} --> ([sound] & designer)>. {1.000000 0.882325}
+<[sound] --> [avant-garde]>. {1.000000 0.381840}
+<[trigger] --> {Glumboldt}>. {1.000000 0.021870}
+<<{$1} --> ([avant-garde] & composer)> ==> <{$1} --> [sound]>>. {1.000000 0.406999}
+<<{$1} --> [avant-garde]> ==> <{$1} --> [sound]>>. {1.000000 0.381840}
+<<{$1} --> composer> ==> <{$1} --> [sound]>>. {1.000000 0.381840}
+<{Glumboldt} --> [trigger]>. {1.000000 0.027817}
+<({Worshippers} * ([emotional] & synchrony)) --> experience>. {1.000000 0.365540}
+<{Tone} --> [trigger]>. {1.000000 0.032259}
+<({Worshippers} * synchrony) --> experience>. {1.000000 0.247546}
+<{Individuals} --> {Ilse}>. {1.000000 0.356563}
+<({Morgenbaum} * ({Worshippers} * ([trance-like] & calm))) --> >. {1.000000 0.659295}
+<({Worshippers} * [liturgical]) --> experience>. {1.000000 0.247546}
+<({Tone} * ([experimental] & art)) --> ({Glumboldt} * conspiracy)>. {1.000000 0.167612}
+<([heighten] * ceremony) --> experience>. {1.000000 0.139981}
+<([heighten] * vision) --> share>. {1.000000 0.427729}
+<schematic --> ([spectral] & graph)>. {1.000000 0.062288}
+<([heighten] * synchrony) --> experience>. {1.000000 0.139981}
+<({Worshippers} * ceremony) --> experience>. {1.000000 0.247546}
+<([heighten] * [liturgical]) --> experience>. {1.000000 0.139981}
+<({Glumboldt} * conspiracy) --> to>. {1.000000 0.266715}
+<({Morgenbaum} * ({Worshippers} * ([trance-like] & calm))) --> [({Reports} * ([emotional] & synchrony))]>. {1.000000 0.156999}
+<({Morgenbaum} * ({Worshippers} * ([trance-like] & calm))) --> [([emotional] & synchrony)]>. {1.000000 0.250884}
+<([liturgical] & ceremony) --> calm>. {1.000000 0.380534}
+<<graph --> $1> ==> <([spectral] & graph) --> $1>>. {1.000000 0.144809}
+<<schematic --> $1> ==> <([architectural] & schematic) --> $1>>. {1.000000 0.144809}
+<(([spectral] & graph) * film) --> use_in>. {1.000000 0.342766}
+<({Morgenbaum} * ({Worshippers} * ([trance-like] & calm))) --> [([relate] * ([emotional] & synchrony))]>. {1.000000 0.156999}
+<{Individuals} <-> {Ilse}>. {1.000000 0.320907}
+<{Paper} <-> [publish]>. {1.000000 0.287890}
+<{Paper} <-> {Communion}>. {1.000000 0.828593}
+<<{$1} --> [skeptical]> ==> <{$1} --> ([academic] & community)>>. {1.000000 0.435125}
+<(([architectural] & schematic) * film) --> use_in>. {1.000000 0.342766}
+<<{$1} --> {Ilse}> ==> <{$1} --> [trigger]>>. {1.000000 0.213784}
+<<{$1} --> topic> ==> <{$1} --> [trigger]>>. {1.000000 0.199472}
+<community <-> [skeptical]>. {1.000000 0.409427}
+<publish <-> {Acoustic}>. {1.000000 0.391123}
+<<{Interest} --> $1> ==> <designer --> $1>>. {1.000000 0.230831}
+<<([sound] & designer) --> $1> ==> <designer --> $1>>. {1.000000 0.134505}
+<[publish] <-> {Paper}>. {1.000000 0.274218}
+<{Paper} --> {Communion}>. {1.000000 0.880143}
+<([heighten] * ([emotional] & synchrony)) --> experience>. {1.000000 0.180851}
+<<({$1} * ([spectral] & graph)) --> include> ==> <({$1} * ([architectural] & schematic)) --> include>>. {1.000000 0.444976}
+<<{Interest} --> [$1]> ==> <[avant-garde] --> [$1]>>. {1.000000 0.230831}
+<{Interest} <-> [sound]>. {1.000000 0.262221}
+<<{Interest} --> $1> ==> <composer --> $1>>. {1.000000 0.230831}
+<<[publish] --> {$1}> ==> <{Paper} --> {$1}>>. {1.000000 0.242354}
+<{Communion} --> [{Acoustic}]>. {1.000000 0.500341}
+<{Interest} <-> ([sound] & designer)>. {1.000000 0.274218}
+<[skeptical] <-> ([academic] & community)>. {1.000000 0.435125}
+<[skeptical] <-> community>. {1.000000 0.409427}
+<([academic] & community) --> [skeptical]>. {1.000000 0.435125}
+<<({$1} * ([trance-like] & calm)) --> relate_to> ==> <({$1} * ([emotional] & synchrony)) --> relate_to>>. {1.000000 0.422816}
+<<({$1} * ([liturgical] & ceremony)) --> relate_to> ==> <({$1} * ([emotional] & synchrony)) --> relate_to>>. {1.000000 0.422816}
+<([academic] & community) <-> [skeptical]>. {1.000000 0.435125}
+<([{Acoustic}] & {Communion}) --> [publish]>. {1.000000 0.448790}
+<{Tone} <-> {Glumboldt}>. {1.000000 0.317950}
+<({Morgenbaum} * ({Worshippers} * ([trance-like] & calm))) --> [([liturgical] & ceremony)]>. {1.000000 0.250884}
+<community --> [skeptical]>. {1.000000 0.409427}
+<<({$1} * ([architectural] & schematic)) --> include> ==> <({$1} * ([spectral] & graph)) --> include>>. {1.000000 0.444976}
+<<{$1} --> [skeptical]> ==> <{$1} --> community>>. {1.000000 0.409427}
+<graph --> schematic>. {1.000000 0.422816}
+<([spectral] & graph) <-> ([architectural] & schematic)>. {1.000000 0.444976}
+<<{$1} --> [trigger]> ==> <{$1} --> {Ilse}>>. {1.000000 0.213784}
+<<{$1} --> [publish]> ==> <{$1} --> ([{Acoustic}] & {Communion})>>. {1.000000 0.448790}
+<<(([spectral] & $2) * $1) --> use_in> ==> <($2 * $1) --> use_in>>. {1.000000 0.219968}
+<<(([architectural] & $2) * $1) --> use_in> ==> <($2 * $1) --> use_in>>. {1.000000 0.219968}
+<{Interest} --> composer>. {1.000000 0.798863}
+<{Interest} --> {Followers}>. {1.000000 0.579886}
+<<($1 * $2) --> use_in> ==> <(([spectral] & $1) * $2) --> use_in>>. {1.000000 0.219968}
+<{Interest} <-> {Followers}>. {1.000000 0.579886}
+<[publish] --> ([{Acoustic}] & {Communion})>. {1.000000 0.448790}
+<{Followers} --> {Interest}>. {1.000000 0.579886}
+<{Followers} <-> {Interest}>. {1.000000 0.579886}
+<([sound] & designer) <-> {Interest}>. {1.000000 0.274218}
+<<{Interest} --> ([$2] & $1)> ==> <([sound] & designer) --> ([$2] & $1)>>. {1.000000 0.274218}
+<<{Followers} --> ([$2] & $1)> ==> <([sound] & designer) --> ([$2] & $1)>>. {1.000000 0.274218}
+<<designer --> ([$2] & $1)> ==> <([sound] & designer) --> ([$2] & $1)>>. {1.000000 0.149725}
+<<[sound] --> ([$2] & $1)> ==> <([sound] & designer) --> ([$2] & $1)>>. {1.000000 0.149725}
+<<{Followers} --> ([$2] & $1)> ==> <{Interest} --> ([$2] & $1)>>. {1.000000 0.432656}
+<<([sound] & designer) --> ([$2] & $1)> ==> <{Interest} --> ([$2] & $1)>>. {1.000000 0.274218}
+<<designer --> ([$2] & $1)> ==> <{Interest} --> ([$2] & $1)>>. {1.000000 0.262221}
+<<[sound] --> ([$2] & $1)> ==> <{Interest} --> ([$2] & $1)>>. {1.000000 0.262221}
+<[publish] --> [{Acoustic}]>. {1.000000 0.434582}
+<<{Interest} --> ([$2] & $1)> ==> <{Followers} --> ([$2] & $1)>>. {1.000000 0.432656}
+<<([sound] & designer) --> ([$2] & $1)> ==> <{Followers} --> ([$2] & $1)>>. {1.000000 0.274218}
+<([liturgical] & ceremony) --> [trance-like]>. {1.000000 0.380534}
+<<{$1} --> [publish]> ==> <{$1} --> [{Acoustic}]>>. {1.000000 0.434582}
+<<{Interest} --> $1> ==> <{Followers} --> $1>>. {1.000000 0.552655}
+<<([sound] & designer) --> $1> ==> <{Followers} --> $1>>. {1.000000 0.242354}
+<{Followers} <-> ([sound] & designer)>. {1.000000 0.274218}
+<[sound] <-> {Interest}>. {1.000000 0.262221}
+<<{Interest} --> ([$2] & $1)> ==> <[sound] --> ([$2] & $1)>>. {1.000000 0.262221}
+<<([sound] & designer) --> ([$2] & $1)> ==> <[sound] --> ([$2] & $1)>>. {1.000000 0.149725}
+<[{Acoustic}] --> [publish]>. {1.000000 0.434582}
+<{Interest} <-> designer>. {1.000000 0.262221}
+<<{$1} --> [publish]> ==> <{$1} --> {Communion}>>. {1.000000 0.434582}
+<({Tone} * ([experimental] & art)) <-> ({Glumboldt} * conspiracy)>. {1.000000 0.167612}
+<<{Interest} --> $1> ==> <([sound] & designer) --> $1>>. {1.000000 0.242354}
+<<{Followers} --> $1> ==> <([sound] & designer) --> $1>>. {1.000000 0.242354}
+<<designer --> $1> ==> <([sound] & designer) --> $1>>. {1.000000 0.134505}
+<<[sound] --> $1> ==> <([sound] & designer) --> $1>>. {1.000000 0.134505}
+<[sound] --> ([sound] & designer)>. {1.000000 0.203668}
+<<{Interest} --> $1> ==> <[sound] --> $1>>. {1.000000 0.230831}
+<<([sound] & designer) --> $1> ==> <[sound] --> $1>>. {1.000000 0.134505}
+<({Glumboldt} * interest) --> of>. {1.000000 0.264048}
+<([trance-like] & calm) --> synchrony>. {1.000000 0.380534}
+<<{Followers} --> $1> ==> <{Interest} --> $1>>. {1.000000 0.552655}
+<<([sound] & designer) --> $1> ==> <{Interest} --> $1>>. {1.000000 0.242354}
+<<([avant-garde] & composer) --> $1> ==> <{Interest} --> $1>>. {1.000000 0.242354}
+<<designer --> $1> ==> <{Interest} --> $1>>. {1.000000 0.230831}
+<<[sound] --> $1> ==> <{Interest} --> $1>>. {1.000000 0.230831}
+<<[avant-garde] --> $1> ==> <{Interest} --> $1>>. {1.000000 0.230831}
+<<composer --> $1> ==> <{Interest} --> $1>>. {1.000000 0.230831}
+<designer --> [sound]>. {1.000000 0.206091}
+<<[publish] --> ([{$2}] & {$1})> ==> <{Paper} --> ([{$2}] & {$1})>>. {1.000000 0.274218}
+<{Interest} --> {Interest}>. {1.000000 0.320477}
+<([sound] & designer) --> designer>. {1.000000 0.195953}
+<([sound] & designer) --> {Followers}>. {1.000000 0.274218}
+<[{Acoustic}] <-> [publish]>. {1.000000 0.434582}
+<<{Interest} --> ([$2] & $1)> ==> <designer --> ([$2] & $1)>>. {1.000000 0.262221}
+<<([sound] & designer) --> ([$2] & $1)> ==> <designer --> ([$2] & $1)>>. {1.000000 0.149725}
+<[sound] --> [sound]>. {1.000000 0.186636}
+<[publish] --> {Communion}>. {1.000000 0.434582}
+<({Glumboldt} * acoustic) --> (topic * interest)>. {1.000000 0.390017}
+<{Communion} <-> [publish]>. {1.000000 0.434582}
+<[sound] --> designer>. {1.000000 0.206091}
+<([relate] * ([trance-like] & calm)) <-> ({Reports} * ([emotional] & synchrony))>. {1.000000 0.264591}
+<<{Interest} --> [$1]> ==> <[sound] --> [$1]>>. {1.000000 0.230831}
+<<([sound] & designer) --> [$1]> ==> <[sound] --> [$1]>>. {1.000000 0.134505}
+<<{Followers} --> [$1]> ==> <{Interest} --> [$1]>>. {1.000000 0.552655}
+<<([sound] & designer) --> [$1]> ==> <{Interest} --> [$1]>>. {1.000000 0.242354}
+<<([avant-garde] & composer) --> [$1]> ==> <{Interest} --> [$1]>>. {1.000000 0.242354}
+<<designer --> [$1]> ==> <{Interest} --> [$1]>>. {1.000000 0.230831}
+<<[sound] --> [$1]> ==> <{Interest} --> [$1]>>. {1.000000 0.230831}
+<<[avant-garde] --> [$1]> ==> <{Interest} --> [$1]>>. {1.000000 0.230831}
+<<composer --> [$1]> ==> <{Interest} --> [$1]>>. {1.000000 0.230831}
+<{Community} --> ([academic] & community)>. {1.000000 0.873269}
+<([sound] & designer) <-> {Followers}>. {1.000000 0.274218}
+<{Paper} --> [{Acoustic}]>. {1.000000 0.880143}
+<({Film} * graph) --> include>. {1.000000 0.249705}
+<composer <-> {Interest}>. {1.000000 0.230831}
+<([avant-garde] & composer) --> {Interest}>. {1.000000 0.242354}
+<[avant-garde] --> {Interest}>. {1.000000 0.230831}
+<([avant-garde] & composer) <-> {Interest}>. {1.000000 0.242354}
+<{Interest} <-> [avant-garde]>. {1.000000 0.230831}
+<({Glumboldt} * conspiracy) --> ({Tone} * ([experimental] & art))>. {1.000000 0.167612}
+<{Communion} <-> {Paper}>. {1.000000 0.777964}
+<{Interest} <-> ([avant-garde] & composer)>. {1.000000 0.242354}
+<{Interest} <-> composer>. {1.000000 0.230831}
+<({Reports} * ([emotional] & synchrony)) <-> ([relate] * ([trance-like] & calm))>. {1.000000 0.264591}
+<<{Interest} --> $1> ==> <([avant-garde] & composer) --> $1>>. {1.000000 0.242354}
+<{Tone} <-> topic>. {1.000000 0.414616}
+<[avant-garde] <-> {Interest}>. {1.000000 0.230831}
+<<(topic * $1) --> of> ==> <({Tone} * $1) --> of>>. {1.000000 0.414616}
+<<({Ilse} * $1) --> of> ==> <({Tone} * $1) --> of>>. {1.000000 0.186958}
+<({Reports} * ([emotional] & synchrony)) --> ([relate] * ([trance-like] & calm))>. {1.000000 0.264591}
+<composer --> [avant-garde]>. {1.000000 0.184402}
+<composer --> ([avant-garde] & composer)>. {1.000000 0.202717}
+<{Glumboldt} <-> {Tone}>. {1.000000 0.317950}
+<([avant-garde] & composer) --> [avant-garde]>. {1.000000 0.193608}
+<[avant-garde] --> [avant-garde]>. {1.000000 0.184402}
+<([avant-garde] & composer) --> ([avant-garde] & composer)>. {1.000000 0.212837}
+<<({Tone} * $1) --> of> ==> <(topic * $1) --> of>>. {1.000000 0.414616}
+<<({Glumboldt} * $1) --> of> ==> <(topic * $1) --> of>>. {1.000000 0.164826}
+<([avant-garde] & composer) --> composer>. {1.000000 0.193608}
+<<{Interest} --> [$1]> ==> <composer --> [$1]>>. {1.000000 0.230831}
+<composer --> composer>. {1.000000 0.184402}
+<<(topic * $1) --> of> ==> <({Glumboldt} * $1) --> of>>. {1.000000 0.164826}
+<<({Ilse} * $1) --> of> ==> <({Glumboldt} * $1) --> of>>. {1.000000 0.060215}
+<composer --> {Interest}>. {1.000000 0.230831}
+<(topic * interest) --> ({Tone} * acoustic)>. {1.000000 0.164826}
+<{Interest} --> ([avant-garde] & composer)>. {1.000000 0.878206}
+<individual --> 1972>. {1.000000 0.356563}
+<topic <-> [trigger]>. {1.000000 0.199472}
+<skeptical <-> academic>. {1.000000 0.393837}
+<({Film} * ([spectral] & ([spectral] & [architectural]))) --> include>. {1.000000 0.007872}
+<{Glumboldt} <-> {Individuals}>. {1.000000 0.102892}
+<Ilse <-> Individuals>. {1.000000 0.288816}
+<{Individuals} <-> {Glumboldt}>. {1.000000 0.102892}
+<({Glumboldt} * acoustic) --> ({Individuals} * interest)>. {1.000000 0.127436}
+<({Individuals} * interest) --> ({Tone} * acoustic)>. {1.000000 0.053856}
+<{Individuals} <-> {Tone}>. {1.000000 0.119311}
+<{Ilse} <-> topic>. {1.000000 0.262972}
+<{Tone} <-> {Individuals}>. {1.000000 0.121927}
+<<{Tone} --> $1> ==> <{Ilse} --> $1>>. {1.000000 0.118638}
+<<{Glumboldt} --> $1> ==> <{Ilse} --> $1>>. {1.000000 0.102301}
+<({Tone} * acoustic) --> ({Individuals} * interest)>. {1.000000 0.053856}
+<Individuals <-> Ilse>. {1.000000 0.288816}
+<({Individuals} * interest) --> ({Glumboldt} * acoustic)>. {1.000000 0.127436}
+<({Film} * schematic) --> include>. {1.000000 0.249705}
+<({Morgenbaum} * ([heighten] * ([trance-like] & calm))) --> [([liturgical] & ceremony)]>. {1.000000 0.124125}
+<individual --> fringe>. {1.000000 0.326746}
+<{Individuals} --> {Individuals}>. {1.000000 0.014235}
+<academic <-> skeptical>. {1.000000 0.393837}
+<({Morgenbaum} * ([heighten] * ([trance-like] & calm))) --> [([emotional] & synchrony)]>. {1.000000 0.124125}
+<([trance-like] & calm) --> [liturgical]>. {1.000000 0.380534}
+<<({$2} * ([spectral] & $1)) --> include> ==> <({$2} * $1) --> include>>. {1.000000 0.177550}
+<({Morgenbaum} * ([heighten] * ([trance-like] & calm))) --> [([relate] * ([emotional] & synchrony))]>. {1.000000 0.077675}
+<({Morgenbaum} * ([heighten] * ([trance-like] & calm))) --> [({Reports} * ([emotional] & synchrony))]>. {1.000000 0.077675}
+<1972 --> individual>. {1.000000 0.356563}
+<(([architectural] & ([architectural] & schematic)) * film) --> use_in>. {1.000000 0.075398}
+<<{Tone} --> $1> ==> <{Individuals} --> $1>>. {1.000000 0.119311}
+<<{Glumboldt} --> $1> ==> <{Individuals} --> $1>>. {1.000000 0.102892}
+<<({$2} * $1) --> include> ==> <({$2} * ([spectral] & $1)) --> include>>. {1.000000 0.177550}
+<<({$1} * [$2]) --> include> ==> <({$1} * ([$2] & graph)) --> include>>. {1.000000 0.177550}
+<<({$1} * ([$2] & graph)) --> include> ==> <({$1} * [$2]) --> include>>. {1.000000 0.177550}
+<[academic] <-> [skeptical]>. {1.000000 0.437596}
+<([emotional] & synchrony) --> ([trance-like] & calm)>. {1.000000 0.422816}
+<({Ilse} * 1972) --> ({Glumboldt} * fringe)>. {1.000000 0.184158}
+<([relate] * ([liturgical] & ceremony)) <-> ({Reports} * ([trance-like] & calm))>. {1.000000 0.264591}
+<({Individuals} * acoustic) --> of>. {1.000000 0.091131}
+<designer <-> composer>. {1.000000 0.381840}
+<in --> ({Tone} * fringe)>. {1.000000 0.088747}
+<({Film} * ([spectral] & ([spectral] & graph))) --> include>. {1.000000 0.164650}
+<({Tone} * interest) --> ({Glumboldt} * acoustic)>. {1.000000 0.414616}
+<({Ilse} * 1972) --> (topic * fringe)>. {1.000000 0.360730}
+<({Ilse} * interest) <-> ({Tone} * acoustic)>. {1.000000 0.060215}
+<({Glumboldt} * fringe) <-> ({Ilse} * 1972)>. {1.000000 0.184158}
+<[skeptical] <-> [academic]>. {1.000000 0.437596}
+<{Ilse} <-> {Glumboldt}>. {1.000000 0.102564}
+<1972 --> fringe>. {1.000000 0.324657}
+{Individuals}. {1.000000 0.091766}
+<<{$1} --> ([sound] & designer)> ==> <{$1} --> composer>>. {1.000000 0.578535}
+<<{$1} --> designer> ==> <{$1} --> composer>>. {1.000000 0.381840}
+<<{$1} --> [sound]> ==> <{$1} --> composer>>. {1.000000 0.381840}
+<fringe --> individual>. {1.000000 0.326746}
+<{Ilse} --> {Glumboldt}>. {1.000000 0.113959}
+<in <-> (topic * fringe)>. {1.000000 0.214047}
+<(topic * fringe) --> ({Ilse} * 1972)>. {1.000000 0.360730}
+<(({Morgenbaum} * her) * theory) --> base>. {1.000000 0.754973}
+{Morgenbaum}. {1.000000 0.855891}
+<({Morgenbaum} * theory) --> base>. {1.000000 0.762599}
+<{Glumboldt} <-> {Ilse}>. {1.000000 0.102564}
+1998. {1.000000 0.922674}

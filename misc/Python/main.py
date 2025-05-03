@@ -153,7 +153,7 @@ def main():
             else:
                 # Process regular input
                 response = pipeline.process_input(user_input)
-                print(f"\nNARS: {response}")
+                print(f"\n{response}")
             
         except KeyboardInterrupt:
             print("\nExiting...")
